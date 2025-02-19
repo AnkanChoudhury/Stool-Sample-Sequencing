@@ -2,7 +2,9 @@
 title: "Processing Stool Sample Whole Genome Sequencing Data"
 author: "Ankan Choudhury"
 date: "2025-02-19"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -24,17 +26,32 @@ When you click the **Knit** button a document will be generated that includes bo
 library(biomformat)
 library(tidyverse)
 library(data.table)
+library(fs)
+library(writexl)
 ######################Kaiju data transformation##################################################################################
-reads<-read_biom("Kaiju Taxonomy Abundance/kaiju_feature-table-trimmed.biom")
-OTUtable<-as.data.frame(as.matrix(biom_data(reads)))%>%
-  rownames_to_column("Feature.ID")
-taxa<-read.table("Kaiju Taxonomy Abundance/kaiju_taxonomy-trimmed.tsv",sep='\t',header = TRUE)
-OTUtable2<-inner_join(OTUtable,taxa)%>%
-  select(-"Feature.ID")%>%
-  relocate(Taxon)%>%
-  mutate(Taxon=str_replace_all(Taxon,".__",""))%>%
-  separate(Taxon,c("Domain","Phylum","Class","Order","Family","Genus","Species"),sep=";")
-write_tsv(OTUtable2,"Kaiju Taxonomy Abundance/kaiju_abun-trimmed.tsv")
+Kaijubioms<-dir("Kaiju Taxonomy Abundance",pattern="*biom")
+Kaijutaxa<-dir("Kaiju Taxonomy Abundance",pattern="kaiju_taxonomy*")
+for (biom in Kaijubioms){
+  for(taxa in Kaijutaxa){
+    if(substring(biom,21,nchar(biom)-5)==substring(taxa,16,nchar(taxa)-4))
+      name=substring(biom,21,nchar(biom)-5)
+      OTUtable<-as.data.frame(as.matrix(biom_data(read_biom(paste("Kaiju Taxonomy Abundance",biom,sep="/")))))%>%
+        rownames_to_column("Feature.ID")
+      taxatable<-read.table(paste("Kaiju Taxonomy Abundance",taxa,sep="/"),sep='\t',header = TRUE)
+      Abundance<-inner_join(OTUtable,taxatable)%>%
+        select(-"Feature.ID")%>%
+        relocate(Taxon)%>%
+        mutate(Taxon=str_replace_all(Taxon,".__",""))%>%
+        separate(Taxon,c("Domain","Phylum","Class","Order","Family","Genus","Species"),sep=";")%>%
+        mutate(Phylum=if_else(is.na(Phylum),Domain,Phylum),
+               Class=if_else(is.na(Class),Phylum,Class),
+               Order=if_else(is.na(Order),Class,Order),
+               Family=if_else(is.na(Family),Order,Family),
+               Genus=if_else(is.na(Genus),Family,Genus),
+               Species=if_else(is.na(Species),Genus,Species))
+      write_xlsx(Abundance,paste("Kaiju Taxonomy Abundance/kaiju_abun-",name,".xlsx",sep=""))
+  }
+}
 
 ##################################Creating Bracken Taxonomic abundance Table##################################################### 
 
@@ -45,7 +62,7 @@ brackentaxonomy<-dir(path="Bracken Outputs",pattern="taxonomy-bracken*")
 brackentaxonomy<-dir_info("BrackenOutputs",regexp = "taxonomy-bracken*")$path[dir_info("BrackenOutputs",regexp = "taxonomy-bracken*")$modification_time>as.POSIXct("2025-02-06")]
 
 
-library(xlsx)
+
 dir.create("Kraken-Bracken Taxonomy Abundance")
 for(each in brackentables){
   name<-substring(each,30)
