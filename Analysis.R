@@ -1,8 +1,13 @@
+###############################################Required packages####################################################################
 library(biomformat)
 library(tidyverse)
 library(data.table)
 library(fs)
+library(phyloseq)
 library(writexl)
+library(phylostratr)
+library(ape)  # For phylogenetic trees
+library(taxize)  # To fetch taxonomic names from NCBI
 ######################Kaiju data transformation##################################################################################
 Kaijubioms<-dir("Kaiju Taxonomy Abundance",pattern="*biom")
 Kaijutaxa<-dir("Kaiju Taxonomy Abundance",pattern="kaiju_taxonomy*")
@@ -10,23 +15,50 @@ for (biom in Kaijubioms){
   for(taxa in Kaijutaxa){
     if(substring(biom,21,nchar(biom)-5)==substring(taxa,16,nchar(taxa)-4))
       name=substring(biom,21,nchar(biom)-5)
-      OTUtable<-as.data.frame(as.matrix(biom_data(read_biom(paste("Kaiju Taxonomy Abundance",biom,sep="/")))))%>%
-        rownames_to_column("Feature.ID")
-      taxatable<-read.table(paste("Kaiju Taxonomy Abundance",taxa,sep="/"),sep='\t',header = TRUE)
-      Abundance<-inner_join(OTUtable,taxatable)%>%
-        select(-"Feature.ID")%>%
-        relocate(Taxon)%>%
-        mutate(Taxon=str_replace_all(Taxon,".__",""))%>%
-        separate(Taxon,c("Domain","Phylum","Class","Order","Family","Genus","Species"),sep=";")%>%
-        mutate(Phylum=if_else(is.na(Phylum),Domain,Phylum),
-               Class=if_else(is.na(Class),Phylum,Class),
-               Order=if_else(is.na(Order),Class,Order),
-               Family=if_else(is.na(Family),Order,Family),
-               Genus=if_else(is.na(Genus),Family,Genus),
-               Species=if_else(is.na(Species),Genus,Species))
-      write_xlsx(Abundance,paste("Kaiju Taxonomy Abundance/kaiju_abun-",name,".xlsx",sep=""))
+    OTUtable<-as.data.frame(as.matrix(biom_data(read_biom(paste("Kaiju Taxonomy Abundance",biom,sep="/")))))%>%
+      rownames_to_column("Feature.ID")
+    taxatable<-read.table(paste("Kaiju Taxonomy Abundance",taxa,sep="/"),sep='\t',header = TRUE)
+    Abundance<-inner_join(OTUtable,taxatable)%>%
+      select(-"Feature.ID")%>%
+      relocate(Taxon)%>%
+      mutate(Taxon=str_replace_all(Taxon,".__",""))%>%
+      separate(Taxon,c("Domain","Phylum","Class","Order","Family","Genus","Species"),sep=";")%>%
+      mutate(Phylum=if_else(is.na(Phylum),Domain,Phylum),
+             Class=if_else(is.na(Class),Phylum,Class),
+             Order=if_else(is.na(Order),Class,Order),
+             Family=if_else(is.na(Family),Order,Family),
+             Genus=if_else(is.na(Genus),Family,Genus),
+             Species=if_else(is.na(Species),Genus,Species))
+    write_xlsx(Abundance,paste("Kaiju Taxonomy Abundance/kaiju_abun-",name,".xlsx",sep=""))
   }
 }
+
+######################Kaiju phyloseq object##################################################################################
+
+Kaijubioms<-dir("Kaiju Taxonomy Abundance",pattern="*biom")
+Kaijutaxa<-dir("Kaiju Taxonomy Abundance",pattern="kaiju_taxonomy*")
+for (biom in Kaijubioms){
+  for(taxa in Kaijutaxa){
+    if(substring(biom,21,nchar(biom)-5)==substring(taxa,16,nchar(taxa)-4))
+      name=substring(biom,21,nchar(biom)-5)
+    OTUtable<-as.matrix(biom_data(read_biom(paste("Kaiju Taxonomy Abundance",biom,sep="/"))))
+    taxatable<-read.table(paste("Kaiju Taxonomy Abundance",taxa,sep="/"),sep='\t',header = TRUE)%>%
+      mutate(Taxon=str_replace_all(Taxon,".__",""))%>%
+      separate(Taxon,c("Domain","Phylum","Class","Order","Family","Genus","Species"),sep=";")%>%
+      mutate(Phylum=if_else(is.na(Phylum),Domain,Phylum),
+             Class=if_else(is.na(Class),Phylum,Class),
+             Order=if_else(is.na(Order),Class,Order),
+             Family=if_else(is.na(Family),Order,Family),
+             Genus=if_else(is.na(Genus),Family,Genus),
+             Species=if_else(is.na(Species),Genus,Species))%>%
+      column_to_rownames("Feature.ID")%>%
+      as.matrix()
+    physeq <- phyloseq(otu_table(OTUtable, taxa_are_rows = TRUE), tax_table(taxatable))
+    saveRDS(physeq,paste("Kaiju Taxonomy Abundance/phyloseq_kaiju-",name,".rds",sep=""))
+  }
+}
+
+
 
 ##################################Creating Bracken Taxonomic abundance Table##################################################### 
 
@@ -51,10 +83,10 @@ for(each in brackentables){
       relocate(Taxon)%>%
       mutate(Taxon=str_replace_all(Taxon,".__",""))%>%
       separate(Taxon,c("Domain","Kingdom","Phylum","Class","Order","Family","Genus","Species"),sep=";")
-    write_tsv(taxatable,paste("Kraken-Bracken Taxonomy Abundance/Kraken-Bracken_abun-",name,".tsv",sep=""))
+    #write_tsv(taxatable,paste("Kraken-Bracken Taxonomy Abundance/Kraken-Bracken_abun-",name,".tsv",sep=""))
     }
   }
-  }
+}
 
 Allfiles<-NULL
 path<-"Kraken Outputs/New/kraken_reports-demux-paired"
@@ -63,16 +95,16 @@ folder<-"Raw"
 for(each in filenames){
   file<-substring(each,1,(nchar(each)-11))
   file1<-read.table(paste(path,each,sep="/"),sep='\t',header = FALSE)%>%
-  as.data.frame()%>%
-  setNames(c("percent","clade_reads", "direct_reads", "rank_code", "tax_id", "name"))%>%
-  mutate(name=trimws(name),
-         sample=file,
-         datatype=folder)%>%
-  filter(name %in% c("unclassified","cellular organisms","Bacteria","Viruses","Eukaryota"))%>%
-  select(-c(3,4,5))%>%
+    as.data.frame()%>%
+    setNames(c("percent","clade_reads", "direct_reads", "rank_code", "tax_id", "name"))%>%
+    mutate(name=trimws(name),
+           sample=file,
+           datatype=folder)%>%
+    filter(name %in% c("unclassified","cellular organisms","Bacteria","Viruses","Eukaryota"))%>%
+    select(-c(3,4,5))%>%
     relocate(datatype,sample,name)
   Allfiles<-Allfiles%>%
-  rbind(file1)
+    rbind(file1)
 }
 write_tsv(Allfiles,paste(folder,"report.tsv"))
 
@@ -95,6 +127,44 @@ for(each in filenames){
     rbind(file1)
 }
 write_tsv(Allfiles,paste(folder,"report_Mahmud.tsv"))
+
+
+##################################Creating Bracken Phyloseq##################################################### 
+
+brackentables<-dir(path="BrackenOutputs",pattern="table-bracken*")
+brackentables<-dir_info("BrackenOutputs",regexp = "table-bracken*")$path[dir_info("BrackenOutputs",regexp = "table-bracken*")$modification_time>as.POSIXct("2025-02-06")]
+
+brackentaxonomy<-dir(path="Bracken Outputs",pattern="taxonomy-bracken*")
+brackentaxonomy<-dir_info("BrackenOutputs",regexp = "taxonomy-bracken*")$path[dir_info("BrackenOutputs",regexp = "taxonomy-bracken*")$modification_time>as.POSIXct("2025-02-06")]
+
+brackentree<-dir(path="BrackenOutputs",pattern="bracken-reports*")
+brackentree<-dir_info("BrackenOutputs",regexp = "bracken-reports*")$path[dir_info("BrackenOutputs",regexp = "bracken-reports*")$modification_time>as.POSIXct("2025-02-06")]
+
+
+dir.create("BrackenOutputs/BrackenPhyloseq")
+counter=0
+for(each in brackentables){
+  name<-substring(each,30)
+  table<-as.matrix(biom_data(read_biom(paste(each,"feature-table.biom",sep='/'))))
+  taxonomy<-read.table(paste("BrackenOutputs/taxonomy-bracken-",name,"/taxonomy.tsv",sep=''),sep="\t",header = TRUE)%>%
+    mutate(Taxon=str_replace_all(Taxon,".__",""))%>%
+    separate(Taxon,c("Domain","Phylum","Class","Order","Family","Genus","Species"),sep=";")%>%
+    mutate(Phylum=if_else(is.na(Phylum),Domain,Phylum),
+           Class=if_else(is.na(Class),Phylum,Class),
+           Order=if_else(is.na(Order),Class,Order),
+           Family=if_else(is.na(Family),Order,Family),
+           Genus=if_else(is.na(Genus),Family,Genus),
+           Species=if_else(is.na(Species),Genus,Species))%>%
+    column_to_rownames("Feature.ID")%>%
+    as.matrix()
+  tree<-read_tree(paste("BrackenOutputs/bracken-reports-",name,"/output.tree",sep=''))
+  counter=counter+1
+  print(counter)
+  physeqBracken<-phyloseq(otu_table(table,taxa_are_rows = TRUE),tax_table(taxonomy))
+  physeqBracken<-merge_phyloseq(physeqBracken,tree)
+  saveRDS(physeqBracken,paste("BrackenOutputs/BrackenPhyloseq/phyloseq_bracken-",name,".rds",sep=""))
+  print(name)
+}
 
 #######################################Creating Phylum level abundance data from bracken reports (Mahmud)##########################
 #Folder names and data-types for Mahmud, will switch the path and folder variable accordingly: bc_bracken_results=Raw,bracken_results=Trimmed-filtered,A_bracken_results=Trimmed-filtered-contigs
@@ -136,14 +206,14 @@ for(each in filenames){
   print(paste("Processing:",each))
   file<-substring(each,1,(nchar(each)-11))
   file1<-tryCatch({read.table(paste(path,each,sep="/"),sep='\t',header = FALSE)%>%
-    as.data.frame()%>%
-    setNames(c("percent","clade_reads", "direct_reads", "rank_code", "tax_id", "name"))%>%
-    mutate(name=trimws(name),
-           sample=file,
-           datatype=folder)%>%
-    filter(rank_code=="P")%>%
-    select(-c(3,4,5))%>%
-    relocate(datatype,sample,name)
+      as.data.frame()%>%
+      setNames(c("percent","clade_reads", "direct_reads", "rank_code", "tax_id", "name"))%>%
+      mutate(name=trimws(name),
+             sample=file,
+             datatype=folder)%>%
+      filter(rank_code=="P")%>%
+      select(-c(3,4,5))%>%
+      relocate(datatype,sample,name)
   }, warning = function(w) {
     message("Warning in file: ", each, "\n", w)  # Print file name if warning occurs
     return(NULL)  # Return NULL so the loop continues
@@ -323,7 +393,7 @@ for(each in filenames){
     filter(rank_code %in% c("U","P"))%>%
     select(-c(3,4,5))%>%
     relocate(datatype,sample,name)
-    PhylumDataKraken_Ankan<-PhylumDataKraken_Ankan%>%
+  PhylumDataKraken_Ankan<-PhylumDataKraken_Ankan%>%
     rbind(file1)
 }
 PhylumDataKraken_Ankan_summary<-PhylumDataKraken_Ankan%>%
@@ -508,7 +578,7 @@ for(each in filenames){
 }
 
 
-  
+
 SpeciesData_Ankan_summary<-SpeciesData_Ankan%>%
   group_by(datatype,sample)%>%
   mutate(percent=direct_reads/sum(direct_reads)*100,
@@ -524,7 +594,7 @@ SpeciesData_Ankan_summary<-SpeciesData_Ankan%>%
   summarize(mean_percent=mean(percent))
 
 SpeciesData_Ankan_summary%>%
-ggplot(aes(x=datatype,y=mean_percent,fill=reorder(name,-mean_percent)))+
+  ggplot(aes(x=datatype,y=mean_percent,fill=reorder(name,-mean_percent)))+
   geom_bar(position="fill",stat="identity",color="black",width=1)+
   scale_y_continuous(labels = scales::percent_format())+
   labs(y="Relative Abundance",x="Data Type",fill="Species",title="Species Relative abundances: Ankan's Bracken Data")+
@@ -931,3 +1001,130 @@ SpeciesMetaphlan%>%
   coord_equal(0.01,expand = FALSE)+
   theme_classic()+
   theme(axis.text.y=element_blank())
+
+
+##############################################################################Metaphlan Phyloseq######################################################################################
+MetaphlanOutputs<-dir("MetaphlanOutput")
+dir.create("MetaphlanPhyloseq")
+MetaphlanTree<-read_tree("20201013_mpav30_speciesMod.nwk")
+new_names <- MetaphlanTree$tip.label
+new_names<-new_names%>%
+  str_replace_all("s__","")
+MetaphlanTree$tip.label<-new_names
+for(folder in MetaphlanOutputs){
+  Alltaxonomy<-NULL
+  AllOTU<-NULL
+  for(file in list.files(paste("MetaphlanOutput",folder,sep="/"))){
+    content<-readLines(paste("MetaphlanOutput",folder,file,sep="/"))[-c(1:4)]
+    id<-substring(basename(file),1,nchar(basename(file))-11)
+    totalreads<-readLines(paste("MetaphlanOutput",folder,file,sep="/"))[3]
+    totalreads<-as.numeric(gsub("^#(\\d+).*", "\\1", totalreads))
+    table<-read.table(text=content,header=FALSE,sep="\t")%>%
+      select(-4)%>%
+      mutate(V1=str_replace_all(V1,".__",""),
+             V1 = str_replace_all(V1, "\\|", ";"),
+             reads=round(V3/100*totalreads)) %>%
+      separate(V1,c("Kingdom","Phylum","Class","Order","Family","Genus","Species"),sep=";")%>%
+      separate(V2,c("KID","PID","CID","OID","FID","GID","SID"),sep="\\|")%>%
+      unique()%>%
+      filter(!(is.na(Species)))%>%
+      mutate(PID=if_else(PID==""|is.na(PID),KID,PID),
+             CID=if_else(CID==""|is.na(CID),PID,CID),
+             OID=if_else(OID==""|is.na(OID),CID,OID),
+             FID=if_else(FID==""|is.na(FID),OID,FID),
+             GID=if_else(GID==""|is.na(GID),FID,GID),
+             SID=if_else(SID==""|is.na(SID),GID,SID))
+    taxonomy<-table[,c(1:7)]
+    OTU<-table[,c(7,16)]%>%
+      unique()%>%
+      mutate(Sample=id)
+    Alltaxonomy<-rbind(Alltaxonomy,taxonomy)
+    AllOTU<-rbind(AllOTU,OTU)
+    print(paste("Processed: MetaphlanOutput",folder,file,sep="/"))
+  }
+  
+  taxa_table<-Alltaxonomy%>%
+    arrange("Species")%>%
+    unique()
+  rownames(taxa_table)<-taxa_table$Species
+  otu_table<-AllOTU%>%
+    group_by(Sample,Species)%>%
+    summarize(reads=sum(reads))%>%
+    pivot_wider(id_cols = "Species",values_from = "reads",names_from = "Sample",values_fill = 0)%>%
+    column_to_rownames("Species")
+  physeqMetaphlan<-phyloseq(otu_table(as.matrix(otu_table),taxa_are_rows = TRUE),tax_table(as.matrix(taxa_table)))
+  physeqMetaphlan<-merge_phyloseq(physeqMetaphlan,phy_tree(MetaphlanTree))
+  saveRDS(physeqMetaphlan,paste("MetaphlanPhyloseq/",folder,".rds",sep=""))
+}
+
+#######################################Humann Phyloseq###############################################################################
+HumannOutput<-dir("HumannOutput")
+for (folder in HumannOutput){
+  AllCoverage<-data.frame()
+  AllAbundance<-data.frame()
+  counter=1
+  for(file in list.files(paste("HumannOutput",folder,sep="/"),pattern="*_pathabundance.tsv")){
+    id<-substring(basename(file),1,nchar(basename(file))-18)
+    abundance<-read.delim(paste("HumannOutput",folder,file,sep="/"),sep='\t',header = TRUE,comment.char = "")
+    df<-colnames(abundance)%>%
+      str_replace_all("X\\.\\.","")%>%
+      str_replace_all("X","")%>%
+      str_replace_all("\\.","_")%>%
+      str_replace_all("_Abundance","")
+    colnames(abundance)<-df
+    coverage<-read.delim(paste("HumannOutput/",folder,"/",id,"_pathcoverage.tsv",sep=""),sep='\t',header = TRUE,comment.char = "")
+    df<-colnames(coverage)%>%
+  str_replace_all("X\\.\\.","")%>%
+  str_replace_all("X","")%>%
+  str_replace_all("\\.","-")%>%
+  str_replace_all("_Coverage","")
+    colnames(coverage)<-df
+    if (counter==1){
+      AllAbundance<-abundance}
+    else{AllAbundance<-left_join(AllAbundance,abundance)}
+    if(counter==1){
+    AllCoverage<-coverage}
+    else{AllCoverage<-left_join(AllCoverage,coverage)}
+    counter=counter+1
+      print(paste("Processed",folder,":",id))
+  }
+  
+  AllAbundance<-AllAbundance%>%
+    column_to_rownames("Pathway")%>%
+    as.matrix()
+  AllCoverage<-AllCoverage%>%
+    column_to_rownames("Pathway")%>%
+    as.matrix()
+  physeqcoverage<-phyloseq(otu_table(AllCoverage,taxa_are_rows=TRUE))
+  physeqabundance<-phyloseq(otu_table(AllAbundance,taxa_are_rows=TRUE))
+  saveRDS(physeqabundance,paste("HumannPhyloseq/",folder,"_pathwayabundance.rds",sep=""))
+  saveRDS(physeqcoverage,paste("HumannPhyloseq/",folder,"_pathwaycoverage.rds",sep=""))
+}
+
+for (folder in HumannOutput){
+  AllRPK<-data.frame()
+  counter=1
+  for(file in list.files(paste("HumannOutput",folder,sep="/"),pattern="*_genefamilies.tsv")){
+    id<-substring(basename(file),1,nchar(basename(file))-17)
+    RPK<-read.delim(paste("HumannOutput",folder,file,sep="/"),sep='\t',header = TRUE,comment.char = "")
+    df<-colnames(RPK)%>%
+      str_replace_all("X\\.\\.","")%>%
+      str_replace_all("X","")%>%
+      str_replace_all("\\.","-")%>%
+      str_replace_all("_Abundance-RPKs","")
+    colnames(RPK)<-df
+    if (counter==1){
+      AllRPK<-RPK}
+    else{AllRPK<-left_join(AllRPK,RPK)}
+    counter=counter+1
+    print(paste("Processed",folder,":",id))
+  }
+  
+  AllRPK<-AllRPK%>%
+    column_to_rownames("Gene-Family")%>%
+    as.matrix()
+  physeqRPK<-phyloseq(otu_table(AllRPK,taxa_are_rows=TRUE))
+  saveRDS(physeqRPK,paste("HumannPhyloseq/",folder,"_genefamilies.rds",sep=""))
+  rm(AllRPK)
+}
+
