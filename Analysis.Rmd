@@ -3,6 +3,7 @@ title: "Processing Stool Sample Whole Genome Sequencing Data"
 author: "Ankan Choudhury"
 date: "2025-03-05"
 output:
+  pdf_document: default
   html_document:
     df_print: paged
 header-includes:
