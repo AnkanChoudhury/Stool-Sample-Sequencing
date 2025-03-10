@@ -131,8 +131,8 @@ write_tsv(Allfiles,paste(folder,"report_Mahmud.tsv"))
 
 ##################################Creating Bracken Phyloseq##################################################### 
 
-brackentables<-dir(path="BrackenOutputs",pattern="table-bracken*")
-brackentables<-dir_info("BrackenOutputs",regexp = "table-bracken*")$path[dir_info("BrackenOutputs",regexp = "table-bracken*")$modification_time>as.POSIXct("2025-02-06")]
+brackentables<-dir(path="BrackenOutputs/Do",pattern="table-bracken*")
+brackentables<-dir_info("BrackenOutputs/Do",regexp = "table-bracken*")$path[dir_info("BrackenOutputs",regexp = "table-bracken*")$modification_time>as.POSIXct("2025-02-06")]
 
 brackentaxonomy<-dir(path="Bracken Outputs",pattern="taxonomy-bracken*")
 brackentaxonomy<-dir_info("BrackenOutputs",regexp = "taxonomy-bracken*")$path[dir_info("BrackenOutputs",regexp = "taxonomy-bracken*")$modification_time>as.POSIXct("2025-02-06")]
@@ -377,7 +377,7 @@ PhylumData_Ankan %>%
 #######################################Creating Phylum level abundance data from kraken reports (Ankan)##########################
 #Folder names and data-types for Ankan, will switch the path and folder variable accordingly: kraken_reports-demux-paired=Raw,kraken_reports-trimmed-filtered=Trimmed-filtered,kraken_reports-trimmed-filtered-contigs=Trimmed-filtered-contigs
 
-
+kraken<-read.table("Kraken Outputs/New/kraken_reports_trimmed-filtered/1-MDcol002-5-2.report.txt",sep='\t',header = FALSE)
 PhylumDataKraken_Ankan<-NULL
 path<-"Kraken Outputs/New/kraken_reports-trimmed-filtered-contigs"
 filenames<-list.files(path)
@@ -1127,4 +1127,5 @@ for (folder in HumannOutput){
   saveRDS(physeqRPK,paste("HumannPhyloseq/",folder,"_genefamilies.rds",sep=""))
   rm(AllRPK)
 }
+
 
