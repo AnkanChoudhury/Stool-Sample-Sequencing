@@ -1,0 +1,832 @@
+Domain	Kingdom	Phylum	Class	Order	Family	Genus	Species	1-MDcol002-5-2	11-MDCol002-label-12-on-bottle	14-MDCOL003-Stool-1B-Baseline-BSB-2-4-1-4	15-MDcol004-3-1-pretreat	17-MDCOL006-3-1A	19-MDCOL006-3-2A	21-MDCOL006-2-pre-chemo-A	23-MDcol033-1A	25-MDcol036-1A	27-MDcol025-1B	28-7A-1-1	29-7A	3-MDcol002-5-1	30-8B	31-8B	33-6-2	36-40-1B	38-S-Swanson	40-MDCol002-7-43	42-51-1B	45-MDCOL005-1B	46-MDCOL015-1a	48-MDCOL039-1a	5-MDCOL055-Stool-1A-Baseline-BSB-2-4-1-2	50-MDCOL027-1a	52-MDCOL021-1b	54-MDCOL028-1b	60-MDcol006-4-1A	63-MDcol003-3-2	65-MDCOL003-Post-Chemo-Collection-Cycle-1-A	66-MDCOL004-1A	68-MDCOL003-3-1-Before-Chemo-2-3A	7-MDCOL058-Stool-1A-Baseline-BSB-2-4-1-3	70-MDCOL004-3-2-Post-Chemo-A	72-MDCOL003-4-1-4A-Before-Chemo-6	75-MDCOL053-1-1-1-Unknown	9-MDCOL062-Stool-1A-Baseline-BSB-2-4-1-3
+Bacteria	Bacteria	Bacillota	Erysipelotrichia	Erysipelotrichales	Coprobacillaceae	Catenibacterium	Catenibacterium mitsuokai	3	5	0	1	10	4	14	1	1	2	11	7	4	4	9	4	8	7	3	0	0	3	3	3	60	4	0	3	0	2	0	2	3	1	0	29	19
+Bacteria	Bacteria	Bacillota	Erysipelotrichia	Erysipelotrichales	Erysipelotrichaceae	Solobacterium	Solobacterium moorei	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	43	0	2	0	0	0	0	3	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus infantarius	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	2	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Clostridiaceae	Clostridium	Clostridium sp. SY8519	0	0	0	3	0	0	1	3	0	5	1	0	0	0	1	0	0	0	2	0	0	0	5	1	6	9	0	0	0	6	0	16	0	0	19	9	5
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Vibrionales	Vibrionaceae	Vibrio	Vibrio penaeicida	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0
+Viruses	Heunggongvirae	Uroviricota	Caudoviricetes	containing Aliceevansviridae	Aliceevansviridae	containing Streptococcus phage YMC-2011	Streptococcus phage YMC-2011	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	2	0	0	0	0	0	0	0	0	6	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Anaerostipes	Anaerostipes caccae	1	4	1	3	4	2	111	179	64	1	1	0	3	0	3	3	4	7	1	2	80	140	1	0	2	3282	0	92	0	0	0	1	2	0	66	1	12
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Barnesiellaceae	Coprobacter	Coprobacter fastidiosus	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	3006	0	29	0	813	0	0	0	0	0	0	0	0	0	0	15	2
+Bacteria	Bacteria	Bacillota	Clostridia	Peptostreptococcales	Peptostreptococcaceae	Romboutsia	Romboutsia ilealis	1	0	7	10	190	182	210	23	0	3	0	0	0	0	0	94	0	0	0	0	58	1028	1276	0	1760	58	0	6	0	6	0	0	0	0	0	6	0
+Bacteria	Bacteria	Bacteroidota	Flavobacteriia	Flavobacteriales	Weeksellaceae	Cruoricaptor	Cruoricaptor ignavus	0	0	0	0	0	0	0	0	0	0	4	2	4	0	2	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus australis	0	0	7	0	0	0	0	0	19	36	0	0	0	0	0	0	0	0	6	0	0	2	13	0	0	79	0	0	0	18	0	5	0	0	2	94	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Klebsiella	Klebsiella michiganensis	0	0	6	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	35	0	8	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Lactobacillaceae	Pediococcus	Pediococcus inopinatus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Peptostreptococcales	Anaerovoracaceae	Mogibacterium	Mogibacterium diversum	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	1	0	0	52	1	0	0	354	0	0	0	1	0	0	0	0	0	1	0
+Bacteria	Bacteria	Bacillota	Clostridia	Peptostreptococcales	Anaerovoracaceae	Mogibacterium	Mogibacterium neglectum	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	7	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Clostridiaceae	Clostridium	Clostridium sp. C1	26	5	0	2	241	81	599	0	2	4	3	1	16	2	3	75	7	2027	29	34	3	528	1	19	122	3	21	548	0	0	0	1	15	0	0	0	2
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus ilei	0	0	2	0	0	0	0	0	5	26	0	0	0	0	0	0	0	5	6	0	2	0	8	0	0	26	0	0	0	2	0	0	0	0	0	29	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Lactobacillaceae	Leuconostoc	Leuconostoc gasicomitatum	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Oscillospiraceae	Ruminococcus	Ruminococcus bicirculans (ex Wegman et al. 2014)	1279	2492	0	3	1	0	0	3	0	2448	1894	2684	1796	981	1734	1586	950	134	2652	366	2	2	12	13	2547	0	0	15	0	0	0	0	1961	0	2	8	2
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Coprococcus	Coprococcus catus	682	733	2172	2457	2	21	3	33	7	364	252	113	434	103	2927	621	1203	35	1145	118	13	28	1835	225	972	17	2	10	11	505	4	296	64	3	859	342	58
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Oscillospiraceae	Ruminococcus	Ruminococcus champanellensis	39	47	0	27	0	0	0	0	0	16	36	37	36	18	41	32	29	9	43	17	0	1	19	7	35	8	0	5	0	0	7	0	30	0	0	4	3
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	Prevotella jejuni	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Synergistota	Synergistia	Synergistales	Synergistaceae	Cloacibacillus	Cloacibacillus porcorum	1	0	0	1	0	0	0	0	0	1	1	1	2	1	1	1	1	2	2	6	0	0	1	4	4	0	0	0	0	0	0	0	3	0	0	114	0
+Viruses	Heunggongvirae	Uroviricota	Caudoviricetes	containing Rockefellervirus	containing Rockefellervirus	Rockefellervirus	Rockefellervirus IPLA5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Clostridiaceae	Clostridium	Clostridium bornimense	0	0	0	0	0	1	2	0	0	0	0	0	0	0	0	1	1	0	0	0	1	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Tannerellaceae	Parabacteroides	Parabacteroides faecis	1	1	0	0	0	0	0	1	0	1	0	0	1	0	0	0	1	1	0	1	4	0	15	1	0	0	0	0	0	0	0	0	1	0	0	13	3
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Anaerostipes	Anaerostipes rhamnosivorans	0	0	0	0	0	0	0	0	12	0	0	0	1	0	0	0	0	4	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Negativicutes	Veillonellales	Veillonellaceae	Megasphaera	Megasphaera massiliensis	0	0	0	0	0	0	0	0	107	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	282	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus rubneri	0	0	0	0	0	0	0	0	2	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	27	0	0	0	0	0	0	0	0	0	15	0
+Bacteria	Bacteria	Campylobacterota	Epsilonproteobacteria	Campylobacterales	Helicobacteraceae	Helicobacter	Helicobacter canadensis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Lactobacillaceae	Leuconostoc	Leuconostoc gelidum	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Lactobacillaceae	Leuconostoc	Leuconostoc mesenteroides	0	3	0	0	0	0	0	0	0	6	0	0	0	0	0	1	6	0	0	1	0	0	0	0	0	0	41	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Lactobacillaceae	Leuconostoc	Leuconostoc carnosum	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Lactobacillaceae	Pediococcus	Pediococcus acidilactici	0	0	0	0	590	569	57	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Lactobacillaceae	Pediococcus	Pediococcus pentosaceus	0	0	0	0	6	7	0	0	0	0	0	0	0	0	0	8	0	0	0	0	1	0	0	0	0	42	0	1	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Klebsiella	Klebsiella electrica	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Tissierellia	Tissierellales	Peptoniphilaceae	Finegoldia	Finegoldia magna	0	0	0	0	0	0	23	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1066	0	0	0	0	0	3	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Roseburia	Roseburia sp. 499	13	1	27	19	0	1	11	4	1	17	4	16	9	20	15	9	2	14	2	16	5	3	21	7	4	0	0	3	0	24	1	13	8	0	3	7	5
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Roseburia	Roseburia sp. 831b	5	3	30	19	1	1	19	3	5	8	7	3	4	6	10	1	5	9	3	4	12	3	8	3	23	2	0	10	0	29	0	35	3	0	4	11	1
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Oscillospiraceae	Ruminococcus	Ruminococcus albus	5	5	0	0	0	0	0	0	0	7	4	4	4	0	4	4	2	1	3	0	0	0	1	0	7	0	0	0	0	0	0	0	2	0	0	1	0
+Bacteria	Bacteria	Bacillota	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus	Staphylococcus aureus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	41	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Lactococcus	Lactococcus formosensis	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus	Staphylococcus epidermidis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1806	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Tissierellia	Tissierellales	Peptoniphilaceae	Anaerococcus	Anaerococcus obesiensis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	23	0	0	0	496	0	0	0	0	0	4	0	0	0	0	0
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Rikenellaceae	Alistipes	Alistipes senegalensis	5	4	0	16	0	0	0	7	0	17	13	11	6	11	13	17	12	8	0	35	8	0	70	97	43	0	0	0	0	0	6	0	5	0	4	1089	75
+Bacteria	Bacteria	Bacillota	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus	Staphylococcus hominis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	52	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus	Staphylococcus warneri	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	containing Intestinimonas	Intestinimonas	Intestinimonas butyriciproducens	106	114	6	215	13	25	23	63	12	59	122	110	124	64	60	65	104	73	59	53	14	33	163	88	236	4	0	512	1	17	50	5	68	13	0	78	107
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus gordonii	0	0	10	0	0	0	0	0	0	10	0	0	0	0	0	1	0	1	0	0	1	0	2	0	12	292	0	0	1	6	0	6	0	0	1	17	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus oralis	0	0	30	0	0	0	0	0	1	10	0	0	1	0	0	0	1	0	1	0	14	1	0	0	0	3	0	0	1	4	0	6	0	0	0	9	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus salivarius	36	4	1885	2	0	8	39	752	2	1842	0	0	6	0	25	183	3	64	184	2	135	36	1118	0	688	1066	0	3	261	2233	0	1834	0	0	104	961	1
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus sanguinis	0	0	6	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	18	0	0	0	3	0	2	0	0	1	46	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus suis	8	10	16	2	0	0	14	19	38	39	0	2	7	1	27	10	12	1	28	1	3	33	62	19	8	1	7	6	0	33	1	31	4	0	46	1	4
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus thermophilus	636	894	91	9	317	1811	531	18	15	92	29	2	326	2	266	40	957	73	251	10	487	219	1445	13	13	1826	17	1026	10	1502	0	1583	12	0	59	360	3
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus mutans	28	7	384	0	51	527	342	0	0	0	0	1	12	0	9	21	6	1	0	0	4	0	1	0	0	32	0	7	0	40	0	0	1	0	2	13	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus sobrinus	0	0	274	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	115	0	5	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus agalactiae	0	9	67	0	0	0	0	0	0	10	0	0	0	0	17	0	0	0	0	10	30	0	19	0	0	191	0	0	0	35	0	47	0	0	0	11	0
+Bacteria	Bacteria	Actinomycetota	Actinomycetes	Actinomycetales	Actinomycetaceae	Schaalia	Schaalia turicensis	1	1	0	0	0	0	10	0	0	0	2	1	1	1	1	0	1	1	1	0	0	0	2	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus pneumoniae	14	14	1	1	1	2	3	0	0	4	24	11	17	9	18	26	11	25	17	7	20	4	0	6	3	14	0	0	0	1	0	1	5	0	0	9	14
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus pyogenes	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus sp. HSISS2	0	0	204	0	0	2	0	2	0	22	0	0	0	0	0	0	0	0	4	0	4	0	10	0	256	2	0	0	0	114	0	43	0	0	75	13	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus sp. HSISS3	0	0	196	0	0	0	0	0	0	30	0	0	0	0	0	4	1	0	4	0	7	6	10	0	445	2	0	0	5	69	0	52	0	0	140	17	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus parasanguinis	3	10	763	0	0	13	0	3	5	1473	0	0	1	0	21	45	3	10	29	0	2	25	350	2	40	875	0	2	1	932	0	809	0	0	113	1672	0
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Blautia	Blautia hansenii	5	4	9	17	0	1	1	52	97	14	2	2	6	2	6	7	5	32	14	2	14	1475	3304	7	28	102	0	4	25	18	4	35	8	0	24	20	8
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus acidominimus	0	0	0	5	0	0	0	1	0	17	0	0	2	0	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	1	0	2	0	0	0	4
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus anginosus	4	0	56	2	0	0	1	4	0	7	0	0	0	0	0	0	1	0	3	3	74	0	1	0	6	1179	0	0	0	6	0	0	0	0	0	6	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus canis	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	2
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus dysgalactiae	0	0	0	0	5	2	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	22	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Citrobacter	Citrobacter youngae	0	0	21	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10	0	0	0	0	0	0	0	0	30	0	32	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus equinus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0
+Bacteria	Bacteria	Actinomycetota	Coriobacteriia	Eggerthellales	Eggerthellaceae	Gordonibacter	Gordonibacter urolithinfaciens	29	164	0	7	0	14	1	0	0	30	2	0	94	0	5	35	77	62	143	7	55	6	12	36	54	309	0	0	0	0	0	0	60	0	0	3	62
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus equi	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	3	1	2	0	0	1	0	0	0	0	0	2	0	0	0	1	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus intermedius	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	36	0	1	0	0	9	0	0	0	0	0	0	0	0	0	1	0
+Bacteria	Bacteria	Actinomycetota	Coriobacteriia	Coriobacteriales	Atopobiaceae	Olsenella	Olsenella uli	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus porcinus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus vestibularis	20	24	1471	0	0	2	2	2	0	3	2	0	8	1	57	122	17	16	47	6	1227	0	1	11	31	2231	0	0	0	1576	0	37	6	0	8	5	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus parauberis	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus uberis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus	Enterococcus faecalis	3	1	12	0	832	1226	2027	0	2	0	1	0	6	0	0	0	3	0	0	3	0	2	0	4	1	363	1665	11	0	39	0	1	4	0	0	347	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus	Enterococcus faecium	10	16	1461	28	265	245	21	25	5	13	15	23	21	10	21	27	36	19	13	5	13	17	19	11	11	566	39	25	15	2704	14	1630	25	14	45	27	47
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus	Enterococcus gallinarum	0	0	79	0	80	11	327	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	167	1177	0	27	0	0	4	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus	Enterococcus hirae	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	337	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Lactococcus	Lactococcus lactis	1	48	1984	4	12	15	184	0	10	0	111	22	6	0	2	55	3	43	16	0	2679	4	10	0	0	5	3	3	1198	13	0	0	3	0	1762	1	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Lactococcus	Lactococcus cremoris	0	8	49	2	0	0	0	0	4	17	39	26	16	8	24	38	9	55	6	7	15	2	23	16	0	18	0	0	65	0	0	0	8	0	568	15	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Lactococcus	Lactococcus garvieae	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Lactococcus	Lactococcus piscium	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Lactococcus	Lactococcus raffinolactis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Lactobacillaceae	Weissella	Weissella cibaria	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	19	0	7	0	0	3	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Aerococcaceae	Aerococcus	Aerococcus viridans	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Carnobacteriaceae	Granulicatella	Granulicatella elegans	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Bacillales	Gemellaceae	Gemella	Gemella haemolysans	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Actinomycetota	Coriobacteriia	Coriobacteriales	Atopobiaceae	Lancefieldella	Lancefieldella parvula	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0	0	0	0	2	0	0	0	0	0	0	0	0	0	3	0
+Bacteria	Bacteria	Bacillota	Bacilli	Bacillales	Bacillaceae	Bacillus	Bacillus cereus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	2	0	0
+Viruses	Heunggongvirae	Uroviricota	Caudoviricetes	containing Lactobacillus prophage Lj771	containing Lactobacillus prophage Lj771	containing Lactobacillus prophage Lj771	Lactobacillus prophage Lj771	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus gwangjuense	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Peptostreptococcales	Filifactoraceae	Filifactor	Filifactor alocis	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	1	0
+Bacteria	Bacteria	Bacillota	Bacilli	Bacillales	Bacillaceae	Amphibacillus	Amphibacillus xylanus	0	0	0	0	0	0	12	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Actinomycetota	Actinomycetes	Bifidobacteriales	Bifidobacteriaceae	Bifidobacterium	Bifidobacterium faecale	0	0	0	28	0	0	0	14	0	56	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0	0	0	0	0	0	0	0	94	5
+Bacteria	Bacteria	Bacillota	Clostridia	Peptostreptococcales	Peptostreptococcaceae	Terrisporobacter	Terrisporobacter petrolearius	1	0	508	0	0	0	0	0	1	0	0	0	0	0	0	1	3	3	0	0	215	50	0	0	0	0	0	88	0	360	0	114	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Klebsiella	Klebsiella quasipneumoniae	0	0	11	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	5	0	0	11	35	0	24	0	0	0	0	0
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Rikenellaceae	Alistipes	Alistipes ihumii	0	0	0	645	0	0	0	0	0	0	1	2	1	0	0	1	0	0	0	0	0	0	51	0	1261	0	0	0	0	0	2	0	0	0	0	42	611
+Bacteria	Bacteria	Actinomycetota	Coriobacteriia	Coriobacteriales	Coriobacteriaceae	Collinsella	Collinsella stercoris	3	2	0	0	0	0	0	1511	0	0	3	1	1	0	1	1	1	0	1	0	0	0	0	1	3	11	0	0	0	0	0	0	3	0	0	1	1
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Odoribacteraceae	Butyricimonas	Butyricimonas faecihominis	0	0	0	15	0	0	0	19	0	1	0	0	0	0	0	0	0	0	0	0	12	0	1	0	36	0	0	0	0	0	3	0	0	0	0	3926	277
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Odoribacteraceae	Butyricimonas	Butyricimonas paravirosa	0	0	0	31	0	1	0	37	0	2	0	0	0	0	0	1	0	0	0	0	5	0	87	0	3	0	0	0	0	0	1	0	0	0	0	18	99
+Bacteria	Bacteria	Bacillota	Clostridia	Peptostreptococcales	Peptostreptococcaceae	Paraclostridium	Paraclostridium bifermentans	0	0	2	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	3	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Clostridiaceae	Clostridium	Clostridium botulinum	0	0	1	0	6	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Clostridiaceae	Clostridium	Clostridium butyricum	0	0	7	0	0	0	2584	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	11	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Clostridiaceae	Clostridium	Clostridium cellulovorans	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	4	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Clostridiaceae	Clostridium	Clostridium cochlearium	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Peptostreptococcales	Peptostreptococcaceae	Clostridioides	Clostridioides difficile	61	68	55	68	49	52	53	50	89	152	43	37	63	13	43	44	75	101	75	31	34	3215	159	32	159	159	344	80	33	90	19	132	26	11	42	183	117
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Escherichia	Escherichia marmotae	0	0	12	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	11	0	7	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus lutetiensis	0	3	0	0	0	0	0	0	3	1	0	0	0	0	5	3	0	1	1	1	1	2	2	1	3	0	0	0	0	0	0	0	2	0	0	1	0
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Barnesiellaceae	Coprobacter	Coprobacter secundus	0	0	0	1	0	0	0	1	0	6	0	0	0	0	0	0	0	0	0	0	21	0	1	0	0	0	0	0	0	0	0	0	0	4	2	3	1
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus parasuis	1	0	2	3	0	0	0	1	1	1	0	0	0	1	0	0	0	2	0	0	0	0	0	0	2	0	0	0	0	1	0	1	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Clostridiaceae	Clostridium	Clostridium perfringens	15	6	2591	3	143	3	1	8	3	17	9	9	6	2	8	36	6	7	5	1	304	110	35	7	158	39	0	8	0	143	4	7	3	1	4	11	18
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Clostridiaceae	Clostridium	Clostridium septicum	0	1	5	0	14	1	4	0	0	0	0	1	0	0	1	3	0	0	0	0	33	4	1	0	21	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Peptostreptococcales	Peptostreptococcaceae	Paraclostridium	Paraclostridium sordellii	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	2	9	0	1	5	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Peptostreptococcales	Peptostreptococcaceae	Romboutsia	Romboutsia hominis	0	0	8	0	2	1	2	0	0	0	0	0	0	0	0	1	0	0	0	0	1	6	1	0	3	2	0	0	0	7	0	1	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Clostridiaceae	Clostridium	Clostridium sporogenes	0	0	0	0	236	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Lachnoclostridium	[Clostridium] symbiosum	89	465	28	5	4	66	80	21	831	32	28	13	170	5	81	27	191	2876	1454	4378	268	573	4	288	2	10	3612	5347	0	11	25	17	105	16	15	3	87
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Clostridiaceae	Clostridium	Clostridium tetani	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Clostridiaceae	Clostridium	Clostridium tyrobutyricum	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Clostridiaceae	Clostridium	Clostridium beijerinckii	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10	0	0	0	0	0	0	0	0	0	38	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Lactobacillaceae	Lentilactobacillus	Lentilactobacillus parabuchneri	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Actinomycetota	Actinomycetes	Mycobacteriales	Lawsonellaceae	Lawsonella	Lawsonella clevelandensis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Clostridiaceae	Clostridium	Clostridium cadaveris	6	6	0	2	0	0	3	8	3	6	7	2	5	0	4	4	5	5	5	3	2	4	30	1	15	1	0	9	1	0	0	1	4	0	0	11	1
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Enterocloster	Enterocloster clostridioformis	2333	3105	1283	14	4	42	29	621	2968	21	687	297	5217	113	2223	2009	4476	1589	1743	3212	46	2728	20	3968	14	4	685	123	2	588	1	662	1286	0	533	17	21
+Bacteria	Bacteria	Actinomycetota	Coriobacteriia	Eggerthellales	Eggerthellaceae	Berryella	Berryella intestinalis	2	4	0	0	0	0	0	0	0	0	1	4	1	2	0	2	2	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Blautia	Blautia coccoides	63	257	48	33	379	112	3456	289	122	124	36	24	203	28	70	86	133	88	473	99	68	150	20	105	67	167	10	4085	88	106	0	342	63	0	213	204	141
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Clostridiaceae	Clostridium	Clostridium kluyveri	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Hungatella	Hungatella hathewayi	19	55	7	182	21	16	5	45	477	62	20	14	352	6	37	19	45	379	91	502	36	390	51	22	73	23	1	617	1	5	10	5	15	4	641	15	107
+Bacteria	Bacteria	Bacillota	Clostridia	Peptostreptococcales	Peptostreptococcaceae	Terrisporobacter	Terrisporobacter mayombei	0	0	259	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	68	38	0	0	165	0	0	38	0	202	0	42	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Erysipelotrichia	Erysipelotrichales	Turicibacteraceae	Turicibacter	Turicibacter sanguinis	2	21	0	0	115	1	10	0	0	0	237	101	2	3	88	13	3	0	5	3	47	2550	0	0	0	37	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Erysipelotrichia	Erysipelotrichales	Coprobacillaceae	Thomasclavelia	Thomasclavelia ramosa	1	2	1	15	3312	2444	3309	1535	3196	5	4	3	14	3	4	0	7	61	2	789	764	3790	17	0	20	3482	2776	30	0	5	3	14	3	0	2072	13	3135
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Oscillospiraceae	Ruthenibacterium	Ruthenibacterium lactatiformans	130	3392	0	2295	206	252	2254	67	434	65	208	120	331	105	467	128	201	1395	2326	235	167	3665	280	120	310	141	0	3404	0	0	77	3	281	16	0	138	689
+Bacteria	Bacteria	Fusobacteriota	Fusobacteriia	Fusobacteriales	Fusobacteriaceae	Fusobacterium	Fusobacterium vincentii	0	0	4	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Clostridiaceae	Clostridium	Clostridium baratii	0	0	4	0	4	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	7	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Citrobacter	Citrobacter pasteurii	0	0	7	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	49	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Spirochaetota	Spirochaetia	Spirochaetales	Treponemataceae	Treponema	Treponema denticola	4	0	0	0	0	2	0	0	0	0	1	7	0	4	2	0	0	0	0	2	6	0	2	0	4	0	0	0	0	0	0	0	1	0	0	3	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Lactobacillaceae	Levilactobacillus	Levilactobacillus brevis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	1	0	0	0	0	0	0	11	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Lactobacillaceae	Lentilactobacillus	Lentilactobacillus buchneri	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Lactobacillaceae	Lactobacillus	Lactobacillus delbrueckii	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2316	0	0	0	0	0	0	0	0	3	0	10	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Lactobacillaceae	Lactobacillus	Lactobacillus helveticus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Actinomycetota	Actinomycetes	Bifidobacteriales	Bifidobacteriaceae	Bifidobacterium	Bifidobacterium scardovii	0	0	955	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2130	0	0	0	1	95	0	0	0	48	0	10	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Cedecea	Cedecea neteri	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Enterobacter	Enterobacter hormaechei	0	0	10	0	0	0	21	0	0	0	0	0	0	0	0	0	0	0	0	367	49	0	0	0	0	0	368	0	0	19	0	12	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Negativicutes	Selenomonadales	Selenomonadaceae	Megamonas	Megamonas hypermegale	0	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	1	3	0	0	2	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Yokenella	Yokenella regensburgei	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Lactobacillaceae	Lactiplantibacillus	Lactiplantibacillus pentosus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Lactobacillaceae	Lactiplantibacillus	Lactiplantibacillus plantarum	0	12	22	0	2	2	0	0	0	0	1	0	14	0	7	29	11	0	8	1	4	2	0	0	0	1	0	1	0	21	0	7	0	0	3	9	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Lactobacillaceae	Lactobacillus	Lactobacillus gasseri	0	0	243	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	9	1599	0	0	0	2400	0	38	0	0	9	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Lactobacillaceae	Lacticaseibacillus	Lacticaseibacillus paracasei	0	6	1	0	3123	1004	189	0	0	0	0	0	0	0	0	1	21	0	1521	0	67	131	94	0	2	393	0	2	0	21	0	0	0	0	0	24	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Lactobacillaceae	Limosilactobacillus	Limosilactobacillus reuteri	0	0	6	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	8	0	1	0	0	3	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Lactobacillaceae	Latilactobacillus	Latilactobacillus sakei	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Lactobacillaceae	Lactobacillus	Lactobacillus amylovorus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus	Enterococcus gilvus	0	0	0	0	6	13	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Archaea	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanobacteriaceae	Methanobrevibacter	Methanobrevibacter sp. YE315	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Lactobacillaceae	Limosilactobacillus	Limosilactobacillus fermentum	0	0	1946	0	0	0	0	0	0	0	0	0	0	0	0	0	0	34	1	9	530	0	0	0	105	0	0	0	0	1363	0	23	0	0	3	0	0
+Bacteria	Bacteria	Spirochaetota	Spirochaetia	Spirochaetales	Treponemataceae	Treponema	Treponema phagedenis	0	0	0	1	0	1	0	5	0	0	0	0	0	0	0	0	0	2	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	uncultured Bacteroides sp.	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Lactobacillaceae	Ligilactobacillus	Ligilactobacillus murinus	0	0	2	3	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	3	23	8	0	0	3	1	0	5	0	3	0	0	0	0	3
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Lactobacillaceae	Ligilactobacillus	Ligilactobacillus ruminis	5	2	1	1581	0	0	0	1	3	6	4	6	4	3	3	7	5	0	1	1	9	0	6	1	8	1	0	4	0	2	0	9	1	0	0	2	2
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Lactobacillaceae	Ligilactobacillus	Ligilactobacillus salivarius	0	1	1918	0	0	0	1	0	0	0	0	0	1	0	3	0	0	0	1	0	4	0	0	0	7	1	0	0	0	1926	0	100	0	0	5	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Lactobacillaceae	Limosilactobacillus	Limosilactobacillus oris	0	0	26	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	131	0	1	0	0	3	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Lactobacillaceae	Limosilactobacillus	Limosilactobacillus vaginalis	0	0	20	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	48	0	0	0	0	0	0	0	0	36	0	3	0	0	2	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Bacillales	Listeriaceae	Listeria	Listeria monocytogenes	0	0	0	0	5	7	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Citrobacter	Citrobacter portucalensis	0	0	222	0	0	0	39	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	102	0	204	0	0	0	0	0
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Dysgonomonadaceae	Petrimonas	Petrimonas mucosa	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6
+Bacteria	Bacteria	Bacillota	Bacilli	Bacillales	Bacillaceae	Bacillus	Bacillus paralicheniformis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Segatella	Segatella copri	0	0	0	108	0	0	0	5	0	16	0	0	0	0	0	0	0	0	0	0	1	0	5	0	25	0	0	0	0	0	99	0	0	0	0	266	938
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Sellimonas	Sellimonas intestinalis	593	1820	1	24	2	4	5	297	5	7	4	6	53	5	4	2	36	2	102	217	34	101	66	101	3	28	0	99	3115	1499	0	2998	169	0	714	1	4
+Bacteria	Bacteria	Actinomycetota	Actinomycetes	Actinomycetales	Actinomycetaceae	Actinomyces	Actinomyces naeslundii	0	0	0	1	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	11	0	0	0	0	0	0	0	0	0	1	0
+Bacteria	Bacteria	Actinomycetota	Actinomycetes	Actinomycetales	Actinomycetaceae	Actinomyces	Actinomyces viscosus	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	1	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Actinomycetota	Actinomycetes	Actinomycetales	Actinomycetaceae	Actinomyces	Actinomyces israelii	0	0	2	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Actinomycetota	Actinomycetes	Actinomycetales	Actinomycetaceae	Schaalia	Schaalia odontolytica	0	0	1	0	0	870	2	67	0	30	0	0	0	0	2	0	0	8	1	4	0	156	39	0	3	289	0	0	0	0	0	0	0	0	4	203	0
+Bacteria	Bacteria	Actinomycetota	Actinomycetes	Actinomycetales	Actinomycetaceae	Trueperella	Trueperella pyogenes	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Roseburia	Roseburia intestinalis	345	174	47	319	15	41	42	3553	844	2290	276	170	218	249	442	301	193	3517	1538	263	119	185	3052	330	864	5	1	282	10	53	17	3451	102	0	226	465	195
+Bacteria	Bacteria	Bacillota	Negativicutes	Veillonellales	Veillonellaceae	Megasphaera	Megasphaera hexanoica	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Herbinix	Herbinix luporum	0	0	0	0	2	2	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Actinomycetota	Actinomycetes	Bifidobacteriales	Bifidobacteriaceae	Bifidobacterium	Bifidobacterium adolescentis	0	0	0	1267	0	0	0	1984	0	843	0	2	0	2	2	0	0	9	1	0	4	0	4	0	855	0	5	0	0	2	0	0	1	0	0	1255	27
+Bacteria	Bacteria	Actinomycetota	Actinomycetes	Bifidobacteriales	Bifidobacteriaceae	Bifidobacterium	Bifidobacterium bifidum	1	1	0	0	0	0	0	5	0	466	0	1	0	0	0	0	0	0	0	0	0	0	10	0	86	0	6	0	0	0	5	0	0	0	0	3	0
+Bacteria	Bacteria	Actinomycetota	Actinomycetes	Bifidobacteriales	Bifidobacteriaceae	Bifidobacterium	Bifidobacterium angulatum	0	0	0	0	0	0	0	7	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	7	0
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Marvinbryantia	Marvinbryantia formatexigens	2	4	5	2	1	2	0	1	4	6	5	5	13	2	8	4	10	11	2	5	7	1519	2	1	2	16	0	6	2	15	3	8	10	0	2	12	9
+Bacteria	Bacteria	Actinomycetota	Actinomycetes	Bifidobacteriales	Bifidobacteriaceae	Bifidobacterium	Bifidobacterium breve	3	0	1	1	242	119	115	5	0	24	0	1	2	0	0	0	4	9	3	0	8	7	6	2	62	6	13	6	1	1	0	2	0	0	1	32	2
+Bacteria	Bacteria	Actinomycetota	Actinomycetes	Bifidobacteriales	Bifidobacteriaceae	Bifidobacterium	Bifidobacterium catenulatum	1	1	1	3	0	1	0	1	0	22	3	0	1	1	0	0	0	1	0	0	1	0	0	0	5	4	62	3	0	1	0	0	0	0	1	23	21
+Bacteria	Bacteria	Actinomycetota	Actinomycetes	Bifidobacteriales	Bifidobacteriaceae	Bifidobacterium	Bifidobacterium dentium	0	0	589	0	0	2	0	114	0	0	0	0	0	0	0	0	0	0	0	0	1	0	4	0	128	1050	2	0	0	2085	0	184	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Oscillospiraceae	Anaerotruncus	Anaerotruncus colihominis	151	282	4	696	5	95	29	170	452	113	196	144	548	95	89	184	288	121	723	111	6	136	106	167	103	9	0	3313	8	7	125	8	85	0	21	262	737
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Clostridiaceae	Clostridium	Clostridium saccharobutylicum	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Citrobacter	Citrobacter sp. FDAARGOS_156	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Erysipelotrichia	Erysipelotrichales	Erysipelotrichaceae	Faecalibaculum	Faecalibaculum rodentium	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	4	0	0	1	0	3	0	0	0	0	0	0	0	0	0	0	1	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Citrobacter	Citrobacter sp. CRE-46	0	0	89	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	78	0	94	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Erysipelotrichia	Erysipelotrichales	Turicibacteraceae	Turicibacter	Turicibacter sp. H121	0	0	0	6	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	98	0	0	0	117	0	0	0	1	0	2	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Clostridiaceae	Clostridium	Clostridium thermarum	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Eubacteriaceae	Eubacterium	Eubacterium limosum	0	1	0	1	0	0	46	5	1	2	0	0	1	0	1	0	1	10	1	0	2	61	0	0	3	0	0	43	0	0	0	0	0	0	0	1	2
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Blautia	Blautia massiliensis (ex Durand et al. 2017)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2483	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Actinomycetota	Actinomycetes	Propionibacteriales	Propionibacteriaceae	Propionibacterium	Propionibacterium freudenreichii	0	0	0	0	1613	197	142	0	0	0	0	0	0	0	0	0	26	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Citrobacter	Citrobacter cronae	0	0	46	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	36	45	0	53	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Tissierellia	Tissierellales	Peptoniphilaceae	Anaerococcus	Anaerococcus nagyae	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus sp. A12	0	0	4	0	0	0	0	0	25	106	0	0	0	0	0	0	0	1	8	0	0	1	6	0	0	200	0	0	0	4	0	2	0	0	1	74	0
+Bacteria	Bacteria	Actinomycetota	Actinomycetes	Bifidobacteriales	Bifidobacteriaceae	Bifidobacterium	Bifidobacterium eulemuris	0	0	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Peptostreptococcales	Anaerovoracaceae	Emergencia	Emergencia timonensis	14	7	0	2	0	1	0	17	4136	10	4	2	189	2	10	9	326	11	2888	46	0	219	12	7	31	4	0	4	0	1	1	1	24	0	0	214	13
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Aerococcaceae	Facklamia	Facklamia hominis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Actinomycetota	Actinomycetes	Actinomycetales	Actinomycetaceae	Pauljensenia	Pauljensenia hongkongensis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Bacillales	Gemellaceae	Gemella	Gemella sp. oral taxon 928	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides caecimuris	1	3	0	1	0	0	0	6	0	40	0	0	2	0	1	1	0	0	18	0	11	0	4	1	44	3	0	0	0	0	3	0	0	1	17	10	16
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Blautia	Blautia pseudococcoides	1	4	1	6	2005	182	3395	7	44	1	3	1	6	1	4	1	8	6	6	3	9	73	3	2	2	70	7	1430	0	64	0	112	2	2	147	1	1096
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Acutalibacteraceae	Acutalibacter	Acutalibacter muris	5	4	0	2	1	1	1	6	7	0	2	0	7	1	2	2	5	9	3	3	2	20	3	4	2	1	0	2	1	0	5	0	2	0	0	2	0
+Bacteria	Bacteria	Bacillota	Erysipelotrichia	Erysipelotrichales	Erysipelotrichaceae	Longicatena	Longicatena caecimuris	11	3	11	862	8	29	16	231	3	15	14	2	20	2	18	9	26	45	30	4	3	536	2	11	9	888	15	14	5	11	7	8	7	0	1	28	3
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Muribaculaceae	Muribaculum	Muribaculum intestinale	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+Bacteria	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Sutterellaceae	Turicimonas	Turicimonas muris	22	20	0	0	0	0	0	25	0	8	33	32	19	7	4	7	15	0	0	20	0	0	23	13	9	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus	Enterococcus saigonensis	0	0	0	1	21	19	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	3	0	1	0	0	0	0	0	0	0	0	0	0	1	0
+Bacteria	Bacteria	Actinomycetota	Coriobacteriia	Coriobacteriales	Atopobiaceae	Olsenella	Olsenella timonensis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	117	0	0	0	0	0	0	0	0	0	0	12	0
+Bacteria	Bacteria	Bacillota	Clostridia	Christensenellales	Christensenellaceae	Christensenella	Christensenella massiliensis	14	27	0	13	9	1	4	5	15	4	9	8	12	14	5	19	19	11	18	9	11	15	14	4	28	0	0	26	0	1	0	0	3	0	0	7	10
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Enterobacter	Enterobacter roggenkampii	0	0	7	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7	0	0	0	0	0	384	0	0	2	0	5	0	0	0	0	0
+Bacteria	Bacteria	Thermodesulfobacteriota	Desulfovibrionia	Desulfovibrionales	Desulfovibrionaceae	Pseudodesulfovibrio	Pseudodesulfovibrio aespoeensis	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Enterobacter	Enterobacter sp. ODB01	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	31	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Clostridiaceae	Clostridium	Clostridium isatidis	0	0	2	0	4	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus sp. FDAARGOS_192	0	0	54	0	0	0	0	19	0	37	0	0	0	0	0	21	0	4	3	0	13	3	68	0	11	57	0	0	12	44	0	42	0	0	4	132	1
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Pseudobutyrivibrio	Pseudobutyrivibrio xylanivorans	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Tissierellia	Tissierellales	Peptoniphilaceae	Murdochiella	Murdochiella vaginalis	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	1	1	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	1	4
+Bacteria	Bacteria	Bacillota	Tissierellia	containing Ezakiella	containing Ezakiella	Ezakiella	Ezakiella massiliensis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Actinomycetota	Actinomycetes	Actinomycetales	Actinomycetaceae	Actinomyces	Actinomyces pacaensis	0	0	0	0	0	1	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Sutterellaceae	Duodenibacillus	Duodenibacillus massiliensis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	8
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Carnobacteriaceae	Jeotgalibaca	Jeotgalibaca arthritidis	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Tissierellia	Tissierellales	Peptoniphilaceae	Anaerococcus	Anaerococcus mediterraneensis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Actinomycetota	Coriobacteriia	Eggerthellales	Eggerthellaceae	Arabiibacter	Arabiibacter massiliensis	2	3	0	0	2	1	1	0	0	0	2	0	1	1	1	5	4	0	3	0	1	0	0	0	0	0	0	1	0	0	0	0	1	0	2	1	1
+Bacteria	Bacteria	Actinomycetota	Coriobacteriia	Coriobacteriales	Coriobacteriaceae	Enorma	Enorma phocaeensis	0	0	0	1	0	0	0	11	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	41	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Lachnoclostridium	Lachnoclostridium phocaeense	82	153	0	35	5	19	4	34	15	1	1	2	106	0	18	10	132	152	162	122	17	17	3	34	57	32	0	62	4	1	3	4	55	0	4	18	5
+Bacteria	Bacteria	Actinomycetota	Coriobacteriia	Coriobacteriales	Atopobiaceae	Parolsenella	Parolsenella massiliensis	0	0	0	1	0	0	0	2	0	0	0	0	0	0	0	0	0	2	0	0	4	0	1	1	1	0	0	0	0	0	0	0	0	0	0	1	0
+Bacteria	Bacteria	Bacillota	containing Ndongobacter	containing Ndongobacter	containing Ndongobacter	Ndongobacter	Ndongobacter massiliensis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Actinomycetota	Coriobacteriia	Coriobacteriales	Atopobiaceae	Thermophilibacter	Thermophilibacter mediterraneus	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	149	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Actinomycetota	Actinomycetes	Propionibacteriales	Propionibacteriaceae	Vaginimicrobium	Vaginimicrobium propionicum	0	0	0	0	0	0	0	0	1	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Viruses	Heunggongvirae	Uroviricota	Caudoviricetes	containing Lactococcus phage 98201	containing Lactococcus phage 98201	containing Lactococcus phage 98201	Lactococcus phage 98201	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Negativicutes	Acidaminococcales	Acidaminococcaceae	Acidaminococcus	Acidaminococcus intestini	0	0	0	8	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	1853	0	0	43	0	0	0	0	0	0	0	0	0	16	1
+Bacteria	Bacteria	Actinomycetota	Actinomycetes	Actinomycetales	Actinomycetaceae	Actinotignum	Actinotignum urinale	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus sp. NPS 308	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Bacteria	Bacteria	Actinomycetota	Coriobacteriia	Eggerthellales	Eggerthellaceae	Raoultibacter	Raoultibacter timonensis	0	0	0	0	5	16	5	0	0	0	0	1	0	0	3	0	1	0	0	0	1	0	5	0	8	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Blautia	Blautia argi	3	8	28	28	2	6	9	30	26	31	6	12	8	2	8	6	7	15	18	8	15	108	39	5	14	87	0	41	18	22	3	27	6	0	22	7	5
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Citrobacter	Citrobacter europaeus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	8	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus ruminantium	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Citrobacter	Citrobacter sp. CFNIH10	0	0	14	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10	0	23	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Lactococcus	Lactococcus petauri	0	0	10	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	3	0	0	0	15	4	0	1	0	0	13	4	0
+Bacteria	Bacteria	Actinomycetota	Coriobacteriia	Eggerthellales	Eggerthellaceae	Phoenicibacter	Phoenicibacter congonensis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0
+Bacteria	Bacteria	Campylobacterota	Epsilonproteobacteria	Campylobacterales	Campylobacteraceae	Campylobacter	Campylobacter coli	0	0	0	0	0	0	0	0	0	4	0	0	1	0	1	4	0	4	0	0	0	2	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Erysipelotrichia	Erysipelotrichales	Coprobacillaceae	Thomasclavelia	Erysipelatoclostridium sp. An173	0	0	0	4	2	0	6	0	0	0	0	1	0	0	1	0	2	7	5	0	1	18	3	1	0	0	10	8	0	0	0	0	0	0	0	2	0
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Barnesiellaceae	Barnesiella	Barnesiella sp. An22	1	0	0	3	7	6	4	2	0	0	0	2	1	2	0	1	0	0	0	1	9	0	21	0	70	0	0	9	0	0	2	0	0	2	0	55	6
+Bacteria	Bacteria	Campylobacterota	Epsilonproteobacteria	Campylobacterales	Campylobacteraceae	Campylobacter	Campylobacter jejuni	0	0	8	8	0	0	2	0	0	8	0	1	2	2	0	0	0	0	0	0	0	1	5	0	21	0	0	0	3	7	0	0	0	0	1	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus pasteurianus	0	6	7	0	0	0	11	0	0	7	0	8	6	6	0	0	5	0	7	0	21	70	6	0	52	8	0	4	12	0	0	15	0	0	0	0	10
+Bacteria	Bacteria	Thermodesulfobacteriota	Desulfovibrionia	Desulfovibrionales	Desulfovibrionaceae	Mailhella	uncultured Mailhella sp.	0	0	0	6	0	0	0	0	0	9	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	12
+Bacteria	Bacteria	Bacillota	Clostridia	Monoglobales	Monoglobaceae	Monoglobus	Monoglobus pectinilyticus	4	6	0	3	8	23	0	137	1	10	227	42	54	22	638	121	21	41	20	3	1	2	1	4	4	1847	0	2893	0	0	0	3	7	1	5	3	1
+Bacteria	Bacteria	Bacillota	Erysipelotrichia	Erysipelotrichales	Coprobacillaceae	Faecalibacillus	Faecalibacillus intestinalis	0	2	657	1318	0	0	1	1	0	970	1	0	2	1	0	1	1	3	1	0	5	1	2544	1	1219	1	1	0	0	545	0	793	0	0	0	2317	1
+Viruses	Heunggongvirae	Uroviricota	Caudoviricetes	containing Suspvirus	containing Suspvirus	Suspvirus	Suspvirus SUSP2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Thermodesulfobacteriota	Desulfobulbia	Desulfobulbales	Desulfobulbaceae	Desulfobulbus	Desulfobulbus oralis	0	0	0	3	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Campylobacterota	Epsilonproteobacteria	Campylobacterales	Campylobacteraceae	Campylobacter	Campylobacter concisus	0	0	58	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	324	0	31	0	0	0	0	0
+Bacteria	Bacteria	Actinomycetota	Coriobacteriia	Coriobacteriales	Atopobiaceae	Parolsenella	Parolsenella catena	0	0	0	0	0	0	12	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	8	0	0	0	0	0	0	1	0	0
+Bacteria	Bacteria	Campylobacterota	Epsilonproteobacteria	Campylobacterales	Campylobacteraceae	Campylobacter	Campylobacter lari	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+Viruses	Heunggongvirae	Uroviricota	Caudoviricetes	containing Sandinevirus	containing Sandinevirus	Sandinevirus	Lactococcus phage 4268	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Tannerellaceae	Parabacteroides	Parabacteroides sp. CT06	0	17	0	0	0	0	0	94	14	2877	0	0	0	13	0	0	0	0	0	0	0	0	4216	0	139	0	224	0	0	0	0	0	0	0	0	142	104
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Klebsiella	Klebsiella quasivariicola	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Bacteria	Bacteria	Campylobacterota	Epsilonproteobacteria	Campylobacterales	Campylobacteraceae	Campylobacter	Campylobacter rectus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+Bacteria	Bacteria	Campylobacterota	Epsilonproteobacteria	Campylobacterales	Campylobacteraceae	Campylobacter	Campylobacter showae	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Pectobacteriaceae	Dickeya	Dickeya dianthicola	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Eubacteriaceae	Eubacterium	Eubacterium maltosivorans	6	6	5	4	1	1	2	2	16	1	0	3	13	0	6	3	10	19	16	10	11	14	1	1	27	12	0	5	0	0	0	7	3	0	0	0	2
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Escherichia	Escherichia sp. E4742	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Actinomycetota	Actinomycetes	Micrococcales	Micrococcaceae	Rothia	Rothia dentocariosa	0	0	7	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus	Enterococcus sp. CR-Ec1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Klebsiella	Klebsiella grimontii	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	22	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus	Enterococcus sp. FDAARGOS_375	0	0	0	0	58	7	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Citrobacter	Citrobacter freundii complex sp. CFNIH2	0	0	2	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0	4	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Clostridiaceae	Clostridium	Clostridium fermenticellae	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Novisyntrophococcus	Novisyntrophococcus fermenticellae	0	0	2	1	2005	1513	2297	4	0	0	2	0	1	0	0	0	0	1	3	0	0	0	6	0	2	1	0	7	0	0	0	0	0	0	0	4	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Enterobacter	Enterobacter cloacae complex sp. FDA-CDC-AR_0164	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	831	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Kosakonia	Kosakonia cowanii	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Enterobacter	Enterobacter kobei	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1181	0	0	0	0	0	12	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Enterocloster	Enterocloster bolteae	1324	1525	416	121	11	4980	175	6300	4409	157	1366	581	2848	303	4527	1115	3896	4894	1606	5653	56	226	120	668	62	521	214	5932	1	45	2	102	284	0	313	68	221
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	containing Massilistercora	Massilistercora	Massilistercora timonensis	35	51	0	145	14	12	16	6	6	57	28	15	41	10	69	46	65	111	20	28	30	27	22	23	362	2	0	88	11	6	9	10	48	0	19	52	126
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Maliibacteriaceae	Maliibacterium	Maliibacterium massiliense	8	11	1	38	4	17	14	4	0	5	10	4	22	3	22	12	14	7	5	0	6	16	4	3	43	1	0	29	0	0	2	2	2	0	1	10	8
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Escherichia	Escherichia albertii	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Odoribacteraceae	Butyricimonas	Butyricimonas faecalis	0	0	0	8	0	1	0	16	0	10	0	0	0	3	1	0	0	0	0	0	3	0	2	0	1	0	5	0	0	0	2	0	1	0	1	49	9
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Oscillospiraceae	Dysosmobacter	Dysosmobacter welbionis	635	234	7	506	0	17	0	151	871	806	470	400	477	706	277	184	611	336	319	210	119	385	1453	118	1454	35	43	365	0	48	166	51	204	21	32	797	627
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Muribaculaceae	Paramuribaculum	Paramuribaculum intestinale	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10	1	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Lactobacillaceae	Lactobacillus	Lactobacillus paragasseri	0	0	10	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	20	0	0	0	117	0	5	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Oscillospiraceae	Lawsonibacter	Lawsonibacter asaccharolyticus	736	979	0	1222	1	1	2	277	18	1401	490	245	1223	35	62	75	804	15	7	84	114	794	211	359	739	1	1	30	0	1	20	0	103	0	1	690	186
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Butyricicoccaceae	Butyricicoccus	Butyricicoccus sp. GAM44	0	0	0	2	0	0	0	0	0	6	23	12	24	4	13	2	9	0	6	0	0	0	12	4	8	0	0	0	0	0	0	0	2	0	2	10	4
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Oscillospiraceae	Oscillibacter	Oscillibacter sp. PEA192	709	389	7	811	0	0	21	216	857	1293	824	573	513	513	261	353	527	308	194	80	0	622	1364	202	1138	24	0	317	0	38	81	36	171	43	0	808	610
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Pseudoprevotella	Pseudoprevotella muciniphila	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0
+Bacteria	Bacteria	Bacillota	Negativicutes	Veillonellales	Veillonellaceae	Megasphaera	Megasphaera stantonii	0	0	0	0	1	1	0	0	0	2	1	1	0	1	1	0	2	0	1	1	0	0	0	1	0	0	0	8	0	0	0	0	1	0	0	0	1
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Oscillospiraceae	Subdoligranulum	Subdoligranulum variabile	70	30	0	60	11	8	9	41	11	55	51	70	57	54	62	63	56	74	53	42	44	72	107	31	156	1	0	25	0	0	0	3	50	0	0	130	60
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Rikenellaceae	Alistipes	Alistipes finegoldii	6	0	0	16	0	2	1	1161	0	1957	2207	2681	460	3348	2666	3268	0	0	0	63	189	0	38	0	2205	0	0	0	0	0	8	0	0	0	0	1070	331
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Klebsiella	Klebsiella huaxiensis	0	0	5	0	1	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	8	0	5	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Lelliottia	Lelliottia sp. WB101	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Actinomycetota	Actinomycetes	Bifidobacteriales	Bifidobacteriaceae	Bifidobacterium	Bifidobacterium longum	10	8	2	40	19	17	21	194	1416	1819	19	6	7	4	10	15	6	16	4	6	8	0	1424	3	1154	1247	9	1	0	0	0	2	3	0	15	2768	37
+Archaea	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanobacteriaceae	Methanobrevibacter	Methanobrevibacter smithii	0	0	0	450	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1097	0	75	0	0	0	0	0	240	0	0	14	0	29	137
+Bacteria	Bacteria	Bacillota	Bacilli	Bacillales	Bacillaceae	Neobacillus	Neobacillus novalis	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Spirochaetota	Spirochaetia	Spirochaetales	Treponemataceae	Treponema	Treponema putidum	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Raoultella	Raoultella sp. X13	0	829	0	0	0	0	0	0	0	0	0	0	0	0	0	0	77	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Lactobacillaceae	Limosilactobacillus	Limosilactobacillus gastricus	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7	0	0	0	1	0	4	0	0	1	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Lactobacillaceae	Ligilactobacillus	Ligilactobacillus saerimneri	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Lactobacillaceae	Furfurilactobacillus	Furfurilactobacillus rossiae	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Archaea	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanobacteriaceae	Methanosphaera	Methanosphaera stadtmanae	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1049	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Yersiniaceae	Serratia	Serratia inhibens	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	containing unidentified bacterial endosymbiont	containing unidentified bacterial endosymbiont	containing unidentified bacterial endosymbiont	containing unidentified bacterial endosymbiont	containing unidentified bacterial endosymbiont	unidentified bacterial endosymbiont	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Rikenellaceae	Alistipes	Alistipes megaguti	0	0	0	1	0	3	2	0	0	0	0	0	0	0	4	0	0	0	0	8	0	0	1	0	4	0	0	8	0	0	0	0	0	0	0	5	4
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Oscillospiraceae	Fastidiosipila	Fastidiosipila sanguinis	1	0	0	2	0	0	0	0	0	1	1	0	0	0	0	0	1	0	1	0	0	0	0	1	0	0	0	0	0	0	0	1	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus koreensis	0	0	19	0	0	0	0	0	0	12	0	0	0	0	0	0	0	0	0	0	0	0	12	0	0	24	0	0	0	11	0	11	0	0	0	14	0
+Bacteria	Bacteria	Verrucomicrobiota	Verrucomicrobiia	Verrucomicrobiales	Akkermansiaceae	Akkermansia	Akkermansia muciniphila	0	0	0	2241	0	0	0	2	3	1	0	0	4	2	1	0	0	3	3	1	0	2	160	0	482	0	0	4	0	0	1487	0	0	322	0	346	2813
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus sp. FDAARGOS_522	0	0	87	0	0	0	0	0	0	79	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	100	0	0	67	183	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus	Enterococcus sp. FDAARGOS_553	0	0	49	0	48	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	75	318	0	19	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Klebsiella	Klebsiella variicola	0	0	0	25	0	0	5	0	0	0	0	0	11	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	13	44	0	38	0	0	0	0	0
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides cellulosilyticus	3	3	0	1	0	0	0	4461	0	7512	14	16	13	0	5	0	4	0	2	2	21	0	30	1	96	1	0	0	0	0	0	0	1	0	0	524	162
+Bacteria	Bacteria	Bacillota	Erysipelotrichia	Erysipelotrichales	Coprobacillaceae	Catenibacterium	Catenibacterium sp. co_0103	1	1	3	5	0	1	1	0	2	14	0	0	0	1	1	1	1	0	0	0	0	1	5	0	1527	0	0	3	0	3	0	1	0	0	1	5	1
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Buttiauxella	Buttiauxella sp. 3AFRM03	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Vibrionales	Vibrionaceae	Vibrio	Vibrio zhugei	0	0	11	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Blautia	Blautia sp. SC05B48	254	151	1	349	9	13	3	147	16	286	169	293	169	369	177	216	116	100	160	194	73	36	626	327	453	22	3	3	2	6	0	3	369	0	6	294	381
+Bacteria	Bacteria	Bacillota	Negativicutes	Veillonellales	Veillonellaceae	Veillonella	Veillonella rodentium	0	0	6	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7	0	0	0	1	0	0	0	0	0	4	0	0	6	0	0
+Bacteria	Bacteria	Bacillota	Erysipelotrichia	Erysipelotrichales	Erysipelotrichaceae	Intestinibaculum	Intestinibaculum porci	0	1	0	1	0	0	0	1	0	2	1	0	0	0	1	0	0	0	0	0	0	0	3	0	3	0	0	0	0	0	0	1	1	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Oscillospiraceae	Ruminiclostridium	Ruminiclostridium herbifermentans	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus periodonticum	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	30	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Lachnoanaerobaculum	Lachnoanaerobaculum gingivalis	0	0	0	2	0	3	0	3	1	3	2	0	1	1	1	1	2	10	0	0	1	8	4	1	4	0	0	1	0	1	0	2	2	0	1	3	5
+Bacteria	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Sutterellaceae	Sutterella	Sutterella megalosphaeroides	0	0	0	6	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0	0	0	0	0	0	0	0	0	0	0	84
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Enterobacter	Enterobacter huaxiensis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Cellulosilyticaceae	Cellulosilyticum	Cellulosilyticum sp. WCF-2	0	0	7	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	25	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Enterobacter	Enterobacter chuandaensis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Peptostreptococcales	Anaerovoracaceae	Aminipila	Aminipila luticellarii	0	0	0	0	0	0	22	1	2	0	0	0	1	0	1	0	1	1	0	0	0	0	0	0	5	1	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Tissierellia	Tissierellales	Acidilutibacteraceae	Acidilutibacter	Acidilutibacter cellobiosedens	0	0	0	0	3	6	4	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Acutalibacteraceae	Caproiciproducens	Caproiciproducens sp. NJN-50	0	0	0	0	0	0	10	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Segatella	Segatella hominis	0	0	0	11	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	7	0	0	0	0	6	23
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Muribaculaceae	Duncaniella	Duncaniella dubosii	0	0	0	1	0	0	0	4	0	1	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	1	0	0	0	0	0	0	3	0	1	1	1
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Cellvibrionales	Halieaceae	Aequoribacter	Aequoribacter fuscus	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides sp. A1C1	0	0	0	10	0	0	0	14	0	478	0	0	0	0	0	0	0	0	0	0	144	0	0	0	62	16	0	0	0	0	86	0	77	0	6	73	152
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Muribaculaceae	Muribaculum	Muribaculum gordoncarteri	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	3	2
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Citrobacter	Citrobacter arsenatis	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Atlantibacter	Atlantibacter subterranea	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Lactobacillaceae	Weissella	Weissella sagaensis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Citrobacter	Citrobacter tructae	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	50	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Spirochaetota	Spirochaetia	Spirochaetales	Treponemataceae	Treponema	Treponema sp. OMZ 788	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Oscillospiraceae	Ruminococcus	Ruminococcus bovis	0	3	0	3	0	0	2	0	0	0	0	0	1	0	2	0	3	1	2	1	4	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Citrobacter	Citrobacter sp. CF971	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	60	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus sp. 1643	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Acutalibacteraceae	Caproicibacter	Caproicibacter fermentans	0	0	0	2	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus pseudopneumoniae	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus	Enterococcus sp. M190262	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	8	8	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Erysipelotrichia	Erysipelotrichales	Erysipelotrichaceae	Amedibacterium	Amedibacterium intestinale	11	15	5	8	2	6	1	6	3	15	8	8	5	4	15	12	14	18	13	0	11	16	21	0	20	3	0	2	9	9	0	11	3	0	13	3	3
+Bacteria	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Sutterellaceae	Sutterella	Sutterella faecalis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Rikenellaceae	Alistipes	Alistipes communis	679	2	0	1776	0	0	0	51	0	22	3038	2358	3011	1514	1195	1681	5	0	0	5	34	0	287	0	27	4	0	0	0	0	2	0	0	0	0	174	2443
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Rikenellaceae	Alistipes	Alistipes dispar	0	0	0	9	0	0	0	0	0	0	0	0	0	1	2	1	0	0	0	13	31	0	53	0	0	0	0	0	0	0	0	0	0	0	0	5	53
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Klebsiella	Klebsiella pasteurii	0	0	13	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	17	0	23	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus sp. 116-D4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus sp. KS 6	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	172	0	0	0	0	101	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus	Enterococcus sp. DA9	0	0	0	0	0	29	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	46	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Muribaculaceae	Sodaliphilus	Sodaliphilus pleomorphus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	containing Flintibacter	Flintibacter	Flintibacter sp. KGMB00164	6	2	1	17	2	1	8	1700	4	12	5	5	9	6	10	3	2	6	2	5	5	1	227	3	17	2	0	19	1	3	1	3	3	0	2	5	8
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus sp. LPB0220	0	0	165	0	0	2	0	0	0	114	0	0	0	0	6	10	0	4	4	0	10	1	49	0	9	55	0	0	1	235	0	220	0	0	24	259	0
+Bacteria	Bacteria	Bacillota	Clostridia	Peptostreptococcales	Peptostreptococcaceae	Intestinibacter	Intestinibacter bartlettii	94	1124	186	1	303	0	1651	646	0	3	189	73	138	21	116	268	186	2190	545	45	3066	2965	1	83	891	16	2010	2012	0	101	0	15	44	0	2257	3	2
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides zhangwenhongii	7	26	0	5	0	1	0	2	3	80	5	1	12	0	0	0	3	0	55	2	2	0	213	14	13	5	0	0	0	0	59	0	0	13	0	1	1
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides luhongzhouii	1	2	0	1	0	0	0	2	1	45	1	0	0	2	0	1	1	1	8	0	0	0	28	1	2	0	0	0	0	0	3	0	0	0	12	22	1
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Rikenellaceae	Alistipes	Alistipes sp. dk3624	1	0	0	5	0	0	0	0	0	725	1	1	0	0	0	0	1	0	0	0	0	0	41	0	2	0	0	0	0	0	1	0	0	0	0	7	1
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Klebsiella	Klebsiella sp. WP4-W18-ESBL-05	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0	0	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Citrobacter	Citrobacter sp. On28M	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Clostridiaceae	Clostridium	Clostridium sp. 16K-1-R1	0	0	23	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Sporofaciens	Sporofaciens musculi	0	1	0	0	0	0	0	0	0	0	1	1	1	0	0	0	3	0	0	1	0	1	0	1	0	0	0	0	0	0	0	0	0	0	1	0	0
+Bacteria	Bacteria	Bacillota	Negativicutes	Veillonellales	Veillonellaceae	Veillonella	Veillonella sp. S12025-13	0	0	18	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	21	0	0	29	0	0
+Bacteria	Bacteria	Bacillota	Negativicutes	Veillonellales	Veillonellaceae	Veillonella	Veillonella nakazawae	0	0	57	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	12	0	4	0	0	0	0	0	0	39	0	0	69	0	0
+Bacteria	Bacteria	Actinomycetota	Coriobacteriia	Eggerthellales	Eggerthellaceae	Xiamenia	Xiamenia xianingshaonis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Tannerellaceae	Parabacteroides	Parabacteroides chongii	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	3	0	6	0	0	1	0	0	0	0	0	0	0	0	0	3	2
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus ruminicola	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	2	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Lactobacillaceae	Lactobacillus	Lactobacillus sp. JM1	0	0	9	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	97	0	0	0	44	0	0	0	0	0	0	0
+Bacteria	Bacteria	Actinomycetota	Coriobacteriia	Eggerthellales	Eggerthellaceae	Eggerthella	Eggerthella guodeyinii	10	21	0	1	1	0	4	4	0	1	8	2	10	1	14	17	10	2	2	0	8	0	1	10	2	1	0	1	0	0	0	0	6	0	0	0	0
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	Prevotella sp. Rep29	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Lactobacillaceae	Lactobacillus	Lactobacillus sp. 3B(2020)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Enterobacter	Enterobacter sp. T2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	121	0	0	0	0	0	28	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Actinomycetota	Coriobacteriia	Eggerthellales	Eggerthellaceae	Adlercreutzia	Adlercreutzia hattorii	2526	1318	0	635	170	178	121	0	0	1122	2586	2047	2369	713	2329	2201	2518	2197	1521	452	1281	0	462	2448	166	1	0	2055	0	0	2	1	2434	0	0	19	55
+Bacteria	Bacteria	Bacillota	Clostridia	Peptostreptococcales	Peptostreptococcaceae	Romboutsia	Romboutsia sp. 13368	0	0	3	0	5	4	8	1	0	0	0	0	0	0	0	5	0	0	0	0	14	66	80	0	78	5	0	0	0	0	0	1	0	0	0	0	0
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides sp. ZJ-18	6	15	0	12	0	5	0	3	0	0	8	8	8	0	0	0	15	0	0	0	14	0	0	0	12	0	0	0	0	0	0	0	0	0	6	0	8
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Chordicoccus	Chordicoccus furentiruminis	3	2	1	4	0	1	4	4	0	0	6	5	5	3	0	1	2	3	3	2	0	1	4	2	3	0	0	6	0	2	1	2	2	0	0	7	0
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Oscillospiraceae	Vescimonas	Vescimonas fastidiosa	78	102	0	141	6	1	1	27	6	82	119	113	99	125	77	101	104	54	54	75	0	10	647	59	201	5	0	1	0	0	129	1	100	82	1	74	130
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Oscillospiraceae	Vescimonas	Vescimonas coprocola	338	223	10	134	0	5	1	25	9	805	1189	2183	294	2551	2536	1304	260	362	275	412	6	31	2394	487	306	243	0	7	2	1	65	17	1420	34	8	855	215
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Oscillospiraceae	Pusillibacter	Pusillibacter faecalis	256	191	1	67	2	1	5	32	34	249	153	98	488	42	35	13	296	372	19	40	5	33	128	25	98	4	0	123	0	3	49	1	40	0	1	71	106
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Dysgonomonadaceae	Dysgonomonas	Dysgonomonas sp. HDW5A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides faecium	63	257	0	0	1	0	0	0	1	55	40	17	103	0	0	0	36	8	751	70	0	0	23	102	173	0	0	0	0	0	4	0	14	0	26	20	6
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Citrobacter	Citrobacter sp. Y3	0	0	176	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	125	0	142	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Lactobacillaceae	Lactiplantibacillus	Lactiplantibacillus argentoratensis	0	0	9	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Peptostreptococcales	Peptostreptococcaceae	Romboutsia	Romboutsia sp. CE17	0	0	31	3	47	41	68	4	0	0	0	0	0	0	0	7	1	0	0	0	124	23	14	0	71	412	0	0	0	5	0	3	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Kluyvera	Kluyvera sichuanensis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0	0	0	0	0	1	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Clostridiaceae	Sarcina	Sarcina sp. JB2	0	0	0	0	36	0	0	0	0	0	0	0	0	0	0	6	0	0	0	0	48	0	0	0	13	0	0	0	0	0	0	0	0	0	0	0	158
+Bacteria	Bacteria	Bacillota	Clostridia	Peptostreptococcales	Natronincolaceae	Alkaliphilus	Alkaliphilus sp. B6464	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Viruses	Heunggongvirae	Uroviricota	Caudoviricetes	containing Brigitvirus	containing Brigitvirus	Brigitvirus	Brigitvirus brigit	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	15	0	0	0	0	0	0	0	0	0	0	0	13
+Viruses	Heunggongvirae	Uroviricota	Caudoviricetes	containing Eponavirus	containing Eponavirus	Eponavirus	Eponavirus epona	1	0	0	0	0	0	0	0	0	0	15	11	18	16	16	0	7	0	0	12	0	0	0	5	0	0	0	0	0	0	0	0	1	0	0	0	4
+Viruses	Heunggongvirae	Uroviricota	Caudoviricetes	containing Taranisvirus	containing Taranisvirus	Taranisvirus	Taranisvirus taranis	0	0	0	2	0	0	0	0	0	14	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	1	0	0	0	0	4	16
+Viruses	Heunggongvirae	Uroviricota	Caudoviricetes	containing Toutatisvirus	containing Toutatisvirus	Toutatisvirus	Toutatisvirus toutatis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	3	12	0	0	0	0	0	0	0	0	0	0	0	0
+Viruses	Heunggongvirae	Uroviricota	Caudoviricetes	containing Lentavirus	containing Lentavirus	Lentavirus	Lentavirus PMBT5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+Viruses	Heunggongvirae	Uroviricota	Caudoviricetes	containing Lughvirus	containing Lughvirus	Lughvirus	Lughvirus lugh	3	1	0	0	0	0	0	0	0	0	3	5	2	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	2
+Viruses	Heunggongvirae	Uroviricota	Caudoviricetes	containing Oengusvirus	containing Oengusvirus	Oengusvirus	Oengusvirus oengus	4	0	0	2	0	0	0	0	0	60	12	14	15	14	13	0	15	0	1	10	0	0	0	7	36	0	0	0	0	0	0	0	0	0	0	1	0
+Bacteria	Bacteria	Bacillota	Erysipelotrichia	Erysipelotrichales	Turicibacteraceae	Turicibacter	Turicibacter bilis	2	3	0	53	23	71	5	0	0	0	2	0	0	0	0	4	1	9	5	0	6	1547	2	1	10	615	0	0	0	0	0	0	0	0	0	0	1
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Enterococcaceae	Vagococcus	Vagococcus fluvialis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Lactobacillaceae	Limosilactobacillus	Limosilactobacillus portuensis	0	0	205	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	240	0	27	0	0	50	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Citrobacter	Citrobacter sp. RHB25-C09	0	0	1	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Citrobacter	Citrobacter sp. RHB35-C17	0	0	12	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	18	0	0	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Enterobacter	Enterobacter sp. RHBSTW-00593	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	54	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Citrobacter	Citrobacter sp. RHBSTW-01044	0	0	0	0	0	0	81	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Lactococcus	Lactococcus carnosus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides sp. CACC 737	0	0	0	49	0	3	0	61	0	156	0	0	0	0	0	0	0	0	0	0	84	0	78	0	4	12	0	3	0	0	50	0	0	0	0	88	112
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus sp. Marseille-Q3533	0	0	0	0	0	0	0	0	0	8	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides sp. M10	6	14	0	3	0	1	0	2	0	54	1	0	7	3	5	7	0	2	54	4	2	0	69	11	20	113	0	0	0	0	1	0	0	0	0	89	41
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Oscillospiraceae	Oscillibacter	Oscillibacter hominis	79	71	0	87	10	14	20	54	3	66	63	68	90	46	45	50	108	47	55	34	41	111	167	42	98	8	0	9	0	3	18	1	19	1	0	101	53
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Roseburia	Roseburia rectibacter	23	22	2	32	0	8	4	85	12	59	23	17	15	17	38	19	17	74	33	29	10	5	101	23	58	8	0	25	1	0	0	38	14	0	25	36	15
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus sp. NSJ-72	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0	0	0	0	0	0	0	0	0	20	0
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Wansuia	Wansuia hejianensis	10	108	2	34	81	37	2228	47	22	11	16	7	45	1	53	60	78	51	91	6	10	41	21	27	18	13	0	251	3	4	0	5	60	0	6	1	55
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Qiania	Qiania dongpingensis	2	0	0	1	0	0	0	4	1	3	0	1	1	1	1	0	0	3	1	2	0	0	1	0	3	0	0	4	0	0	0	4	0	0	3	3	3
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Wujia	Wujia chipingensis	5	3	2	5	1	0	3	1	2	14	7	8	5	12	16	6	2	16	2	6	2	2	19	3	144	0	0	0	0	0	1	2	5	0	2	17	7
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Simiaoa	Simiaoa sunii	20	16	274	1603	12	16	1	27	4	64	31	25	18	14	36	29	14	503	30	20	15	4	2418	15	989	5	0	1230	0	46	11	14	11	3	21	3453	29
+Bacteria	Bacteria	Fusobacteriota	Fusobacteriia	Fusobacteriales	Fusobacteriaceae	Fusobacterium	Fusobacterium hominis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Oscillospiraceae	Caproicibacterium	Caproicibacterium amylolyticum	0	0	0	0	0	0	10	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Peptostreptococcales	Peptostreptococcaceae	Clostridioides	Clostridioides sp. ES-S-0107-01	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Blautia	Blautia liquoris	0	0	0	1	15	18	19	0	0	1	0	0	0	0	0	1	0	1	1	0	0	2	3	0	1	2	0	14	0	0	0	0	0	0	1	1	0
+Bacteria	Bacteria	Actinomycetota	Coriobacteriia	Coriobacteriales	Atopobiaceae	Thermophilibacter	Thermophilibacter immobilis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Oscillospiraceae	Solibaculum	Solibaculum mannosilyticum	18	24	2	57	6	7	6	5	9	21	7	1	23	0	3	10	19	41	13	17	6	53	17	6	64	79	1	12	0	9	6	1	5	2	1	24	46
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides sp. HF-162	0	0	0	14	0	20	7	9	0	238	0	0	11	0	0	0	0	0	0	0	106	0	17	0	0	22	0	0	0	0	67	0	65	14	0	99	43
+Bacteria	Bacteria	Spirochaetota	Spirochaetia	Spirochaetales	Treponemataceae	Treponema	Treponema peruense	4	2	0	2	0	0	0	2	0	4	6	4	4	3	1	4	8	0	4	3	0	0	0	0	5	0	0	0	0	0	3	1	1	0	0	0	1
+Bacteria	Bacteria	Actinomycetota	Actinomycetes	Actinomycetales	Actinomycetaceae	Actinomyces	Actinomyces sp. HMT 175	0	0	0	0	0	4	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	39	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides humanifaecis	0	0	0	0	0	0	0	23	0	344	0	0	0	0	6	0	0	0	0	0	163	0	21	0	75	36	0	0	0	0	118	0	65	0	0	263	120
+Bacteria	Bacteria	Actinomycetota	Actinomycetes	Bifidobacteriales	Bifidobacteriaceae	Gardnerella	Gardnerella swidsinskii	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Raoultella	Raoultella sp. XY-1	0	87	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	Prevotella herbatica	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2
+Bacteria	Bacteria	Actinomycetota	Actinomycetes	Bifidobacteriales	Bifidobacteriaceae	Bifidobacterium	Bifidobacterium animalis	0	3	0	0	0	0	231	0	0	0	4	0	0	0	0	0	4	0	0	0	97	0	27	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Actinomycetota	Actinomycetes	Bifidobacteriales	Bifidobacteriaceae	Bifidobacterium	Bifidobacterium pseudocatenulatum	0	3	0	8	0	0	1	16	1	203	4	2	3	2	1	2	3	5	5	1	0	0	1	0	15	5	626	0	0	0	2	0	0	2	0	248	330
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus mitis	0	0	4	0	0	0	0	0	0	11	0	0	0	0	0	0	0	0	0	0	18	0	0	0	0	4	0	0	0	2	0	4	0	0	0	5	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Lactobacillaceae	Latilactobacillus	Latilactobacillus curvatus	0	4	0	0	0	0	0	0	0	10	0	0	0	0	0	5	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	7	0	0	0	0
+Bacteria	Bacteria	Bacillota	Erysipelotrichia	Erysipelotrichales	Turicibacteraceae	Turicibacter	Turicibacter sp. TJ11	0	0	0	0	0	11	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	14	0	0	1	2	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Erysipelotrichia	Erysipelotrichales	Erysipelotrichaceae	Bulleidia	Bulleidia sp. zg-1006	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides eggerthii	1	2	0	1549	1	1	0	0	1	15	12	11	11	7	4	2	4	9	1	6	84	0	53	2	1582	1	0	0	0	0	2372	0	7	55	1	20	15
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Tannerellaceae	Tannerella	Tannerella forsythia	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	2	0
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides heparinolyticus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	9	0
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides ovatus	163	208	0	1000	173	1558	216	235	20	2618	196	193	209	527	666	5116	164	96	1028	445	35	3	5681	194	1945	3672	0	244	0	0	145	0	675	63	462	5442	4759
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	containing Fenollaria	Fenollaria	Fenollaria sporofastidiosus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Odoribacteraceae	Odoribacter	Odoribacter splanchnicus	3	6	0	2851	0	3	0	2634	0	3823	2773	2667	2818	443	401	134	10	20	20	7	1451	0	4084	5	2627	0	0	0	0	0	125	0	1	5	2	2414	1420
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides zoogleoformans	0	0	0	1	0	0	0	1	0	1	0	0	0	0	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Porphyromonadaceae	Porphyromonas	Porphyromonas asaccharolytica	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	Prevotella bivia	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	1	2
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Hoylesella	Hoylesella buccalis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	8	4	0	0	0	0	0
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	Prevotella corporis	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	1	0	0	0	0	5
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	Prevotella denticola	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	7
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	Prevotella intermedia	0	0	23	0	0	0	0	3	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	2	2
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	Prevotella melaninogenica	0	0	4	4	0	0	0	0	0	0	1	1	0	1	1	0	0	0	0	0	1	0	2	0	0	0	0	0	0	0	3	1	0	0	0	0	4
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	Prevotella nigrescens	0	0	8	3	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6
+Bacteria	Bacteria	Bacillota	Clostridia	Peptostreptococcales	Peptostreptococcaceae	Terrisporobacter	Terrisporobacter hibernicus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	87	0	0	0	0	0	0	0	0	0	0	42	0	0	0	0	0
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Segatella	Segatella oris	0	0	9	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	Prevotella veroralis	0	0	12	2	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus toyakuensis	0	0	1	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	7	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Negativicutes	Acidaminococcales	Acidaminococcaceae	Phascolarctobacterium	Phascolarctobacterium sp. Marseille-Q4147	10	6	0	62	0	2	0	1	0	1	3	6	7	4	2	2	3	0	1	1	0	0	0	3	4	0	0	2	0	0	6	0	0	0	0	344	1000
+Bacteria	Bacteria	Actinomycetota	Actinomycetes	Actinomycetales	Actinomycetaceae	Arcanobacterium	Arcanobacterium haemolyticum	0	0	0	0	1	0	0	0	0	0	0	0	1	0	0	0	0	1	2	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	1	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Eubacteriaceae	Eubacterium	Eubacterium sp. MSJ-33	2	1	7	2	1	0	0	0	2	0	1	1	1	2	6	3	4	3	3	3	0	2	6	3	26	1	0	0	2	5	0	5	1	0	0	5	1
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Anaerotignaceae	Anaerotignum	Anaerotignum propionicum	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	2	0	0	0	0	0	0
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides sp. DH3716P	0	0	0	51	0	0	0	0	97	210	0	0	0	0	7	54	0	0	0	0	20	0	122	0	62	72	0	0	0	0	51	0	0	0	147	197	182
+Archaea	Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanobacteriaceae	Methanobrevibacter	Methanobrevibacter sp. TLL-48-HuF1	0	0	0	8	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	18	0	7	0	0	0	0	0	6	0	0	0	0	214	5
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Blautia	Blautia parvula	0	1	0	5	40	0	70	219	1817	19	1	2	6	1	1	0	2	13	44	3	477	2810	32	2	45	4781	0	175	3	1814	4	3963	2	0	5223	2	12
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Lactococcus	Lactococcus sp. NH2-7C	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Salmonella	Salmonella enterica	0	0	119	0	0	0	120	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	9	0	43	117	0	116	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Pseudocitrobacter	Pseudocitrobacter corydidari	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	3	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Citrobacter	Citrobacter meridianamericanus	14	3	9	0	0	0	2	0	0	0	0	0	151	0	0	0	0	37	7	101	0	0	0	6	0	0	0	0	0	2	0	9	0	0	0	0	0
+Bacteria	Bacteria	Candidatus Saccharibacteria	Candidatus Saccharimonadia	Candidatus Nanosynbacterales	Candidatus Nanosynbacteraceae	Candidatus Nanosynbacter	Candidatus Nanosynbacter sp. HMT-352	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides helcogenes	0	0	0	0	1	0	2	1	0	0	0	0	0	0	0	0	0	0	0	0	5	0	9	0	3	2	0	0	0	0	0	0	0	0	0	0	2
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Desulfitobacteriaceae	Dehalobacter	Dehalobacter sp. DCM	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Enterobacter	Enterobacter cloacae complex sp. ECL414	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	49	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	Prevotella communis	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	Prevotella sp. E13-17	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	Prevotella sp. E9-3	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	4
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides salyersiae	4	6	0	14	0	0	0	4	0	3708	7	9	9	9	7	2	9	3	0	5	11	0	16	3	2	4	0	0	1	0	30	0	5	6	2	41	127
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides nordii	0	4	0	2	0	0	0	0	1	33	2	2	3	0	0	0	1	8	3	4	1	0	50	0	1	0	0	0	0	0	0	0	0	0	0	14	7
+Bacteria	Bacteria	Bacillota	Bacilli	Bacillales	Bacillaceae	Siminovitchia	Siminovitchia sp. FSL H7-0308	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Verrucomicrobiota	Verrucomicrobiia	Verrucomicrobiales	Akkermansiaceae	Akkermansia	Akkermansia massiliensis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Oscillospiraceae	Flavonifractor	Flavonifractor plautii	717	400	2893	519	160	2139	1040	2589	3047	2130	185	121	719	76	57	51	738	3213	371	458	202	1568	899	117	398	83	3	1687	753	3123	18	790	127	10	56	123	327
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Oscillospiraceae	Faecalibacterium	Faecalibacterium sp. IP-1-18	346	160	7	411	9	0	28	267	48	363	282	195	254	283	148	26	92	171	86	200	0	8	1422	179	428	43	0	9	0	6	208	0	36	13	10	455	158
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Oscillospiraceae	Faecalibacterium	Faecalibacterium sp. IP-3-29	362	251	1	130	0	3	1	56	28	157	451	470	192	152	266	56	145	72	134	156	11	6	269	65	478	16	13	24	0	1	6	2	78	0	17	263	1407
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Oscillospiraceae	Faecalibacterium	Faecalibacterium sp. I2-3-92	152	123	0	107	0	3	0	0	7	238	233	216	100	45	144	24	141	66	124	38	9	10	211	111	535	0	3	32	0	0	15	0	39	0	13	267	154
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Oscillospiraceae	Faecalibacterium	Faecalibacterium sp. HTF-F	61	44	0	53	0	1	0	26	7	107	110	94	65	68	71	25	41	16	16	62	1	0	63	16	521	0	1	0	0	0	0	4	13	0	3	119	44
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Oscillospiraceae	Faecalibacterium	Faecalibacterium sp. I3-3-33	108	43	0	23	0	1	1	3	1	41	88	69	39	56	45	10	27	12	61	35	10	0	79	25	78	1	1	7	0	0	5	1	8	0	0	77	26
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Oscillospiraceae	Faecalibacterium	Faecalibacterium sp. I3-3-89	83	49	0	40	0	1	1	17	2	120	81	83	79	65	65	29	67	27	22	45	0	9	136	68	173	0	0	9	0	3	9	12	21	0	3	145	22
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Oscillospiraceae	Faecalibacterium	Faecalibacterium sp. I4-1-79	1270	419	0	56	0	1	1	12	11	91	644	567	86	527	197	43	137	27	603	73	12	5	114	263	189	20	0	2	1	0	12	0	34	0	0	187	45
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Oscillospiraceae	Faecalibacterium	Faecalibacterium sp. I4-3-84	286	141	0	60	0	0	3	63	22	301	364	294	254	212	350	116	235	108	108	179	28	67	207	204	534	2	5	6	0	0	25	0	111	19	6	337	143
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Clostridiaceae	Clostridium	Clostridium sp. BJN0001	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Clostridiaceae	Clostridium	Clostridium argentinense	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Anaeropeptidivorans	Anaeropeptidivorans aminofermentans	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Lachnoclostridium	[Clostridium] scindens	99	169	22	3209	469	4670	145	308	872	203	95	111	142	85	101	81	130	259	111	108	60	3292	202	98	183	2287	23	3650	10	32	155	2819	101	12	4009	173	202
+Bacteria	Bacteria	Bacillota	Erysipelotrichia	Erysipelotrichales	Coprobacillaceae	Thomasclavelia	Thomasclavelia spiroformis	0	4	0	0	3	7	34	0	251	75	0	0	0	0	0	0	0	344	4	33	0	85	22	0	0	2	1290	8	0	0	0	0	0	0	0	149	1
+Bacteria	Bacteria	Bacillota	Clostridia	Peptostreptococcales	Peptostreptococcaceae	Paraclostridium	Paraclostridium ghonii	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Lacrimispora	Lacrimispora sphenoides	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Lacrimispora	Lacrimispora xylanolytica	0	0	10	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus alactolyticus	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	8	0	8	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Bacillales	Gemellaceae	Gemella	Gemella morbillorum	0	0	0	0	0	0	0	0	0	6	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Erysipelotrichia	Erysipelotrichales	Erysipelotrichaceae	Allocoprobacillus	Allocoprobacillus halotolerans	0	1	0	3	21	9	94	2	3	3	0	0	1	0	0	1	3	3	2	1	1	79	3	0	8	3	7	94	0	0	0	0	0	0	3	0	0
+Bacteria	Bacteria	Verrucomicrobiota	Verrucomicrobiia	Verrucomicrobiales	Akkermansiaceae	Akkermansia	Akkermansia biwaensis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	12	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Oxalobacteraceae	Oxalobacter	Oxalobacter aliiformigenes	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	2	0	2	0	0	0	11	0	6	0	0	0	0	0	0	0	1	1	0	0	0
+Bacteria	Bacteria	Bacillota	Negativicutes	Veillonellales	Veillonellaceae	Veillonella	Veillonella parvula	0	0	1092	0	1	0	1	0	0	1	0	0	0	0	0	0	0	1	0	0	0	5	0	0	68	0	0	1	0	97	0	475	0	0	2310	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Klebsiella	Klebsiella sp. ZYC-1	0	0	15	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Tannerellaceae	Parabacteroides	Parabacteroides sp. AD58	0	0	0	0	0	5	1	54	0	1	0	0	0	0	0	0	0	0	0	0	4	0	2	0	5	1	0	0	0	0	0	0	0	0	0	7	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus sp. FSL K6-1323	0	0	8	0	0	0	0	77	0	593	0	0	0	0	0	0	0	0	7	0	0	6	0	0	16	18	0	0	0	26	0	18	0	0	0	17	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus sp. FSL W7-1342	0	0	32	0	0	0	0	256	0	223	0	0	0	0	0	16	0	0	0	0	0	0	9	0	952	12	0	0	8	23	0	58	0	0	0	0	0
+Viruses	Heunggongvirae	Uroviricota	Caudoviricetes	Crassvirales	Suoliviridae	Afonbuvirus	Afonbuvirus coli	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7	0	0	0	0	0	0	0	0	0	0	1	0
+Viruses	Heunggongvirae	Uroviricota	Caudoviricetes	Crassvirales	Suoliviridae	Afonbuvirus	Afonbuvirus faecalis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+Viruses	Heunggongvirae	Uroviricota	Caudoviricetes	Crassvirales	Suoliviridae	Besingivirus	Besingivirus coli	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Viruses	Heunggongvirae	Uroviricota	Caudoviricetes	Crassvirales	Suoliviridae	Blohavirus	Blohavirus americanus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	10	0	0	0	0	0	0	0	0	0	0	0	0
+Viruses	Heunggongvirae	Uroviricota	Caudoviricetes	Crassvirales	Suoliviridae	Blohavirus	Blohavirus faecalis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+Viruses	Heunggongvirae	Uroviricota	Caudoviricetes	Crassvirales	Suoliviridae	Buchavirus	Buchavirus faecalis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0
+Viruses	Heunggongvirae	Uroviricota	Caudoviricetes	Crassvirales	Suoliviridae	Buchavirus	Buchavirus hiberniae	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0
+Viruses	Heunggongvirae	Uroviricota	Caudoviricetes	Crassvirales	Suoliviridae	Burzaovirus	Burzaovirus intestinihominis	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Viruses	Heunggongvirae	Uroviricota	Caudoviricetes	Crassvirales	Suoliviridae	Canhaevirus	Canhaevirus faecalis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	15	0	0	0	0	0	0	0	0	0	0	0	0
+Viruses	Heunggongvirae	Uroviricota	Caudoviricetes	Crassvirales	Suoliviridae	Canhaevirus	Canhaevirus hiberniae	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	70	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0
+Viruses	Heunggongvirae	Uroviricota	Caudoviricetes	Crassvirales	Intestiviridae	Carjivirus	Carjivirus communis	0	0	0	1	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	95	0	0	101	0	0	0
+Viruses	Heunggongvirae	Uroviricota	Caudoviricetes	Crassvirales	Intestiviridae	Carjivirus	Carjivirus hominis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	11	0	0	12	0	0	0
+Viruses	Heunggongvirae	Uroviricota	Caudoviricetes	Crassvirales	Suoliviridae	Cohcovirus	Cohcovirus hiberniae	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0
+Viruses	Heunggongvirae	Uroviricota	Caudoviricetes	Crassvirales	Suoliviridae	Cohcovirus	Cohcovirus splanchnicus	0	0	0	0	0	0	0	9	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	44	0
+Viruses	Heunggongvirae	Uroviricota	Caudoviricetes	Crassvirales	Suoliviridae	Culoivirus	Culoivirus intestinalis	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3
+Viruses	Heunggongvirae	Uroviricota	Caudoviricetes	Crassvirales	Intestiviridae	Dabirmavirus	Dabirmavirus hominis	0	0	0	0	0	0	0	78	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Viruses	Heunggongvirae	Uroviricota	Caudoviricetes	Crassvirales	Intestiviridae	Delmidovirus	Delmidovirus splanchnicus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Viruses	Heunggongvirae	Uroviricota	Caudoviricetes	Crassvirales	Intestiviridae	Drivevirus	Drivevirus gastrointestinalis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Viruses	Heunggongvirae	Uroviricota	Caudoviricetes	Crassvirales	Intestiviridae	Jahgtovirus	Jahgtovirus gastrointestinalis	0	0	0	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0
+Viruses	Heunggongvirae	Uroviricota	Caudoviricetes	Crassvirales	Intestiviridae	Jahgtovirus	Jahgtovirus intestinalis	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Viruses	Heunggongvirae	Uroviricota	Caudoviricetes	Crassvirales	Intestiviridae	Jahgtovirus	Jahgtovirus intestinihominis	0	0	0	20	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+Viruses	Heunggongvirae	Uroviricota	Caudoviricetes	Crassvirales	Intestiviridae	Jahgtovirus	Jahgtovirus secundus	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0
+Viruses	Heunggongvirae	Uroviricota	Caudoviricetes	Crassvirales	Steigviridae	Kahnovirus	Kahnovirus copri	0	0	0	0	0	0	0	0	0	21	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	18	0
+Viruses	Heunggongvirae	Uroviricota	Caudoviricetes	Crassvirales	Steigviridae	Kahnovirus	Kahnovirus oralis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0
+Viruses	Heunggongvirae	Uroviricota	Caudoviricetes	Crassvirales	Steigviridae	Kehishuvirus	Kehishuvirus primarius	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	29	0	0	0	0	0	0	0	0	0	0	0
+Viruses	Heunggongvirae	Uroviricota	Caudoviricetes	Crassvirales	Steigviridae	Kehishuvirus	Kehishuvirus splanchnicus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	24	0	0	0	0	0	0	0	0	0	0	0
+Viruses	Heunggongvirae	Uroviricota	Caudoviricetes	Crassvirales	Crevaviridae	Kingevirus	Kingevirus communis	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	26	0	0	0	0	0	0
+Viruses	Heunggongvirae	Uroviricota	Caudoviricetes	Crassvirales	Steigviridae	Kolpuevirus	Kolpuevirus coli	0	0	0	44	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	11	0	0	0	0	0	0
+Viruses	Heunggongvirae	Uroviricota	Caudoviricetes	Crassvirales	Steigviridae	Kolpuevirus	Kolpuevirus hominis	0	0	0	35	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0
+Viruses	Heunggongvirae	Uroviricota	Caudoviricetes	Crassvirales	Steigviridae	Mahlunavirus	Mahlunavirus rarus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0
+Viruses	Heunggongvirae	Uroviricota	Caudoviricetes	Crassvirales	Steigviridae	Mahstovirus	Mahstovirus faecalis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Mycoplasmatota	containing Mycoplasmoidales	Mycoplasmoidales	Metamycoplasmataceae	Mesomycoplasma	Mesomycoplasma ovipneumoniae	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Viruses	Heunggongvirae	Uroviricota	Caudoviricetes	Crassvirales	Steigviridae	Pamirivirus	Pamirivirus faecium	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0
+Viruses	Heunggongvirae	Uroviricota	Caudoviricetes	Crassvirales	Steigviridae	Paundivirus	Paundivirus hollandii	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Lactobacillaceae	Pediococcus	Pediococcus sp. AC40	0	0	0	0	21	12	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Oscillospiraceae	Thermocaproicibacter	Thermocaproicibacter melissae	0	0	0	0	0	0	7	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Thermodesulfobacteriota	Desulfovibrionia	Desulfovibrionales	Desulfovibrionaceae	Solidesulfovibrio	Solidesulfovibrio carbinolicus	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides sp. BFG-257	0	0	0	0	0	0	0	0	0	48	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus sp. Marseille-Q6470	0	0	0	0	0	0	0	0	1	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	1	0	0	0	0	0	2	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus sp. FSL R7-0248	0	0	187	0	0	0	0	10	4	26	0	0	0	0	0	11	0	18	34	0	3	0	48	0	12	21	0	0	32	179	0	184	0	0	4	4	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Aerococcaceae	Aerococcus	Aerococcus loyolae	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Clostridiaceae	Clostridium	Clostridium sp. LQ25	0	0	0	0	0	0	77	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Oscillospiraceae	Caproicibacterium	Caproicibacterium sp. BJN0003	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Enterobacter	Enterobacter ludwigii	0	0	0	0	0	0	3	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	197	0	1072	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Roseburia	Roseburia hominis	159	172	7	1002	22	53	75	100	2598	778	114	100	175	86	199	159	155	3102	133	81	171	91	3153	82	316	3	5	205	0	24	14	55	85	0	40	1584	155
+Bacteria	Bacteria	Bacillota	Tissierellia	Tissierellales	Peptoniphilaceae	Peptoniphilus	Peptoniphilus equinus	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Bacillales	Bacillaceae	Lysinibacillus	Lysinibacillus sp. G01H	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Claveliimonas	Claveliimonas bilis	2352	3141	10	19	1	15	15	12	14	10	22	10	2959	4	50	33	3043	818	2166	164	852	23	5	1368	32	6	1	85	1	16	0	17	1661	0	8	12	3
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Oscillospiraceae	Amygdalobacter	Amygdalobacter nucleatus	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Oscillospiraceae	Caproicibacterium	Caproicibacterium argilliputei	0	2	0	2	4	0	0	1	0	4	0	0	0	1	1	0	2	3	2	0	1	3	6	0	11	1	0	3	0	0	0	1	1	0	0	5	1
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Acutalibacteraceae	Caproiciproducens	Caproiciproducens sp. CPB-2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Oscillospiraceae	Faecalibacterium	Faecalibacterium taiwanense	1830	884	1	110	0	8	3	64	8	810	1721	1674	1343	1537	1928	323	1700	265	249	1072	17	46	860	1386	1122	0	0	16	0	1	54	2	652	13	0	778	135
+Bacteria	Bacteria	Bacillota	Tissierellia	Tissierellales	Peptoniphilaceae	Anaerococcus	Anaerococcus sp. Marseille-Q7828	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Actinomycetota	Actinomycetes	Actinomycetales	Actinomycetaceae	Mobiluncus	Mobiluncus massiliensis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Tissierellia	Tissierellales	Peptoniphilaceae	Peptoniphilus	Peptoniphilus genitalis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	13	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Anaerostipes	Anaerostipes sp. PC18	0	0	0	0	0	4	134	4	906	0	1	1	1	1	0	0	3	2	3	1	4	8	2	1	4	18	0	115	0	1	0	2	0	0	5	5	1
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Clostridiaceae	Proteiniclasticum	Proteiniclasticum sp. QWL-01	0	0	0	0	1	2	18	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	1	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus	Enterococcus sp. ZQ21	0	0	0	0	0	0	49	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	112	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Aristaeellaceae	Aristaeella	Aristaeella lactis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+Bacteria	Bacteria	Bacillota	Bacilli	Bacillales	Planococcaceae	Kurthia	Kurthia sp. YJT4	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	containing Proteiniborus	Proteiniborus	Proteiniborus sp. MB09-C3	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Negativicutes	Selenomonadales	Selenomonadaceae	Selenobaculum	Selenobaculum gibii	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	611	0	0	290	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Peptostreptococcales	Peptostreptococcaceae	Terrisporobacter	Terrisporobacter vanillatitrophus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	9	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Actinomycetota	Actinomycetes	Actinomycetales	Actinomycetaceae	Schaalia	Schaalia sp. HMT-172	0	0	0	0	0	60	0	8	1	11	0	0	0	0	0	0	0	0	1	0	0	6	33	0	0	2105	1	0	0	0	0	0	0	0	0	29	0
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Stomatobaculum	Stomatobaculum sp. F0698	0	0	0	0	0	0	1	0	2	0	0	0	1	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0
+Viruses	Heunggongvirae	Uroviricota	Caudoviricetes	containing Aliceevansviridae	Aliceevansviridae	Brussowvirus	Brussowvirus CHPC869	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	19	0	0	0	0	0
+Viruses	Heunggongvirae	Uroviricota	Caudoviricetes	containing Aliceevansviridae	Aliceevansviridae	Brussowvirus	Brussowvirus CHPC952	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0
+Viruses	Heunggongvirae	Uroviricota	Caudoviricetes	containing Aliceevansviridae	Aliceevansviridae	Brussowvirus	Brussowvirus P7951	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0
+Viruses	Heunggongvirae	Uroviricota	Caudoviricetes	containing Aliceevansviridae	Aliceevansviridae	Moineauvirus	Moineauvirus CHPC879	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Viruses	Heunggongvirae	Uroviricota	Caudoviricetes	containing Aliceevansviridae	Aliceevansviridae	Moineauvirus	Moineauvirus P7152	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Alphaproteobacteria	Hyphomicrobiales	Boseaceae	Bosea	Bosea beijingensis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Synergistota	Synergistia	Synergistales	Dethiosulfovibrionaceae	Pyramidobacter	Pyramidobacter sp. YE332	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	121	0	4	0	0	2	0	50
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Kineothrix	Kineothrix sp. MB12-C1	0	0	0	0	2	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Oscillospiraceae	Paludihabitans	Paludicola sp. MB14-C6	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Anaerotignaceae	Anaerotignum	Anaerotignum sp. MB30-C6	0	0	0	0	3	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Tissierellia	containing Sedimentibacter	containing Sedimentibacter	Sedimentibacter	Sedimentibacter sp. MB35-C1	0	0	0	0	0	0	6	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Anaerocolumna	Anaerocolumna sp. MB42-C2	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Tissierellia	Tissierellales	Tissierellaceae	Tissierella	Tissierella sp. MB52-C2	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus sp. SN-1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus sp. DTU_2020_1001019_1_SI_AUS_MUR_006	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus sp. DTU_2020_1000888_1_SI_GRL_NUU_041A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	2	0	0	0	0	0	0	0	0	0	5	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Enterobacter	Enterobacter sp. DTU_2021_1002640_1_SI_PRY_ASU_LCPMC_013	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Aerococcaceae	Aerococcus	Aerococcus tenax	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Butyricicoccaceae	Agathobaculum	Agathobaculum sp. NTUH-O15-33	0	0	0	1	0	0	0	25	0	11	0	0	4	0	9	0	1	8	1	11	23	1	29	1	2	0	0	3	0	0	0	0	0	0	4	21	45
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Butyricicoccaceae	Intestinibacillus	Intestinibacillus sp. NTUH-41-i26	2	4	0	12	0	4	0	27	4	248	7	11	7	2	14	2	6	5	1	0	41	29	27	1	40	1	0	29	0	0	1	0	1	0	20	27	36
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus sp. S1	0	0	99	0	0	2	0	0	0	83	0	0	0	0	0	0	0	4	0	0	0	0	52	0	0	170	0	0	0	114	0	107	0	0	11	57	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus sp. S5	2	7	139	0	0	4	0	0	0	159	0	0	0	0	2	11	0	11	2	0	5	0	60	0	7	22	0	0	0	187	0	185	0	0	15	234	0
+Bacteria	Bacteria	Bacillota	Tissierellia	containing Sedimentibacter	containing Sedimentibacter	Sedimentibacter	Sedimentibacter sp. MB31-C6	0	0	0	0	0	0	11	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Lelliottia	Lelliottia sp. JS-SCA-14	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Acutalibacteraceae	Caproicibacter	Caproicibacter sp. BJN0012	0	0	0	0	0	0	7	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Eubacteriales Family XIII. Incertae Sedis	Sinanaerobacter	Sinanaerobacter sp. ZZT-01	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	1
+Bacteria	Bacteria	Bacillota	Clostridia	Peptostreptococcales	Anaerovoracaceae	Emergencia	Emergencia sp. JLR.KK010	0	0	13	7	2	0	3	2	0	0	0	1	1	1	1	3	0	0	1	0	0	5	6	0	7	1	7	3	0	6	0	6	0	0	0	0	0
+Bacteria	Bacteria	Verrucomicrobiota	Verrucomicrobiia	Verrucomicrobiales	Akkermansiaceae	Akkermansia	Akkermansia sp. AE01SA01	2	9	0	0	0	0	0	0	0	0	0	4	14	0	1	0	16	9	3	2110	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Verrucomicrobiota	Verrucomicrobiia	Verrucomicrobiales	Akkermansiaceae	Akkermansia	Akkermansia sp. RCC_12PD	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides sp. MSB163	0	0	0	0	0	1	0	27	0	111	0	0	0	0	0	0	0	0	0	1	0	0	475	1	70	0	0	0	0	0	10	0	0	1	0	17	128
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Kineothrix	Kineothrix sp. IPX-CK	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Lactobacillaceae	Limosilactobacillus	Limosilactobacillus sp. WILCCON 0051	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	9	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Lacrimispora	Lacrimispora sp. BS-2	0	0	6	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus gallolyticus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	9	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus sp. KHUD_010	0	0	35	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1489	0	0	0	0	69	0	0	0	0	0	0	0	0	0	45	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Stutzerimonas	Stutzerimonas stutzeri	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus sp. ZY19097	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	0	0	0	0	0	0	2	0	1	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus sp. ZY1909104	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	8	3	0	0	0	6	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Desulfitobacteriaceae	Dehalobacter	Dehalobacter sp. TBBPA1	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus sp. CP1998	4	5	56	0	0	2	0	0	0	82	0	0	0	0	0	0	2	0	0	0	0	3	30	0	6	134	0	0	0	57	0	65	0	0	6	87	0
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Tannerellaceae	Parabacteroides	Parabacteroides goldsteinii	2	1	0	318	0	12	1	1	0	5	8	10	14	4	0	0	12	6	5	4	5	0	19	3	13	0	0	0	0	0	8	0	0	1	0	486	310
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Rikenellaceae	Alistipes	Alistipes onderdonkii	27	0	0	510	0	0	0	3349	0	765	59	47	42	65	44	71	0	0	0	85	2836	0	202	0	79	0	0	0	0	0	2558	0	6	80	0	596	1314
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Rikenellaceae	Alistipes	Alistipes shahii	1	0	0	851	0	0	0	3	0	2814	15	18	7	15	12	16	0	0	0	291	35	0	1951	77	1710	28	0	0	0	0	9	0	0	0	0	897	1311
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides intestinalis	0	0	0	1	0	0	0	10	0	27	0	0	0	0	0	0	0	0	0	0	0	0	19	0	2004	0	0	0	0	0	2	0	1	0	0	15	28
+Bacteria	Bacteria	Bacillota	Negativicutes	Acidaminococcales	Acidaminococcaceae	Phascolarctobacterium	Phascolarctobacterium faecium	0	0	0	0	0	0	0	2145	0	0	3	2	3	10	7	6	2	4	2	0	0	0	1334	2	0	0	0	0	0	0	0	0	7	0	0	0	0
+Bacteria	Bacteria	Bacillota	Tissierellia	Tissierellales	Peptoniphilaceae	Parvimonas	Parvimonas micra	0	0	0	9	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	2	1	0	0	5	0	0	0	0	25	1	0	0	0	4	0
+Bacteria	Bacteria	Bacillota	Tissierellia	Tissierellales	Peptoniphilaceae	Anaerococcus	Anaerococcus prevotii	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Blautia	Blautia producta	104	87	92	22	143	29	752	210	90	56	52	47	84	53	69	63	128	65	1253	98	49	147	38	95	49	191	29	907	16	141	0	198	43	0	271	107	237
+Bacteria	Bacteria	Bacillota	Tissierellia	Tissierellales	Peptoniphilaceae	Anaerococcus	Anaerococcus vaginalis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0	0	0	251	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Mediterraneibacter	Mediterraneibacter gnavus	160	227	899	128	31	116	77	100	485	1044	360	176	990	127	1143	777	229	348	292	56	345	2703	3690	97	163	1044	4	3732	55	3020	18	2894	58	0	1831	299	136
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Mediterraneibacter	[Ruminococcus] torques	2779	2854	7	1009	237	1523	20	4550	286	3488	2803	3477	610	1968	4326	4685	2759	2991	856	2781	344	3013	1819	3508	4726	87	0	380	21	11	902	31	1560	2	58	2427	952
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus milleri	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	106	0	0	0	4	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Coprococcus	Coprococcus eutactus	6	10	5	15	0	0	0	1	1	16	16	3	1	6	14	12	12	25	13	4	9	5	17	5	100	1	0	9	3	10	2	8	4	0	5	17	13
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Enterocloster	Enterocloster asparagiformis	213	644	5	27	1	42	261	99	713	33	117	60	623	22	108	196	243	1714	1435	176	11	15	157	326	66	4	80	709	4	2	51	13	87	23	4	46	227
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides finegoldii	1	1	0	6	0	1	0	2	0	1289	8	2	7	20	19	5	1	0	14	0	28	0	3202	3	226	12	0	0	0	0	4	0	1	1	9	38	22
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus	Enterococcus avium	0	0	3	0	4874	5281	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	2	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Lactobacillaceae	Lactobacillus	Lactobacillus johnsonii	0	0	7	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	186	0	0	0	0	1	0	0	0	10	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Lactobacillaceae	Leuconostoc	Leuconostoc pseudomesenteroides	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Alphaproteobacteria	Hyphomicrobiales	Rhizobiaceae	Liberibacter	Candidatus Liberibacter africanus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Citrobacter	Citrobacter amalonaticus	0	0	249	0	10	0	50	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	89	232	0	254	0	0	0	0	0
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Bacteroidaceae	Phocaeicola	Phocaeicola dorei	17	11	0	84	0	21	0	208	11	1476	15	18	13	14	23	41	13	2	0	12	1523	0	143	8	348	43	170	0	0	0	143	0	16	81	20	168	2490
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus	Enterococcus lactis	0	0	0	0	239	168	62	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	276	28	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus pseudoporcinus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Clostridiaceae	Clostridium	Clostridium saccharoperbutylacetonicum	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Peptostreptococcales	Peptostreptococcaceae	Terrisporobacter	Terrisporobacter glycolicus	0	0	579	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	177	16	0	0	84	0	0	38	0	330	0	80	0	0	0	0	0
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides xylanisolvens	6	15	0	147	0	10	0	3472	456	4649	7	9	7	18	9	53	2	4	25	32	68	0	988	7	176	113	0	0	0	0	130	0	12	110	4624	475	593
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Bacteroidaceae	Phocaeicola	Phocaeicola salanitronis	0	0	0	2	0	0	0	0	0	25	6	6	5	3	1	0	0	0	0	0	1	0	11	0	289	3	0	0	0	0	7	0	0	1	0	5	6
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus	Enterococcus casseliflavus	0	0	8	0	35	19	41	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	18	63	0	5	0	0	0	3	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Trabulsiella	Trabulsiella odontotermitis	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	2	0	0	0	0	0
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Bacteroidaceae	Phocaeicola	Phocaeicola coprophilus	1	1	0	1	5	2	5	1	1	5	1	1	1	2	4	5	1	1	1	1	19	0	5	1	7	5	0	1	13	0	0	2	1	0	3	23	0
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Tannerellaceae	Parabacteroides	Parabacteroides johnsonii	116	153	0	15	0	0	0	6	0	8	163	153	197	51	1	5	218	0	0	3	19	0	13	12	17	0	0	0	0	0	0	0	26	0	0	33	2
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Lachnospira	Lachnospira eligens	2025	2170	2	346	3	1	0	4	0	45	2296	2301	1593	2272	2239	649	2223	2252	578	959	9	14	1139	1854	350	3	0	11	0	2	0	4	1000	0	2	913	13
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Dorea	Dorea formicigenerans	21	25	1	1700	12	13	2724	16	20	2834	40	18	20	26	51	34	18	26	28	19	1355	9	2857	26	868	11	10	24	0	3	6	12	31	4	1	3477	991
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Anaerobutyricum	Anaerobutyricum hallii	3336	3108	31	5148	19	36	14	97	16	1150	3430	2895	2399	2603	662	2014	1450	135	1160	1496	3344	1013	3554	2193	3023	289	6	52	6	35	31	90	1373	5	29	3054	1266
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Agathobacter	Agathobacter rectalis	2150	2926	1275	3312	17	37	54	409	31	2443	3355	2126	3017	2173	3370	2288	2612	2231	1176	551	143	69	1006	180	3676	93	7	187	30	542	12	426	189	5	233	2605	238
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Clostridiaceae	Clostridium	Clostridium taeniosporum	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Eubacteriaceae	Eubacterium	Eubacterium ventriosum	27	8	0	75	1	5	1	8	0	58	44	32	46	14	44	36	78	187	15	7	8	15	149	22	2801	4	0	3	0	1	4	4	18	0	12	80	11
+Bacteria	Bacteria	Bacillota	Negativicutes	Veillonellales	Veillonellaceae	Veillonella	Veillonella atypica	0	0	1704	0	0	0	0	0	0	9	0	0	0	0	0	0	0	0	0	0	0	0	3	0	5	0	0	0	0	71	0	1618	0	0	1136	0	0
+Bacteria	Bacteria	Bacillota	Negativicutes	Veillonellales	Veillonellaceae	Veillonella	Veillonella dispar	0	0	39	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	3	0	0	0	0	0	0	53	0	0	119	0	0
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Barnesiellaceae	Barnesiella	Barnesiella viscericola	0	0	0	0	0	3	0	7	0	1	2	1	0	3	3	5	0	0	0	0	29	0	19	0	11	0	0	0	0	0	1	0	0	0	0	3	6
+Bacteria	Bacteria	Bacillota	Negativicutes	Veillonellales	Veillonellaceae	Dialister	Dialister pneumosintes	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	109	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Thermoanaerobacterales	Thermoanaerobacteraceae	Thermoanaerobacter	Thermoanaerobacter sp. X514	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+Bacteria	Bacteria	Bacillota	Tissierellia	Tissierellales	Peptoniphilaceae	Helcococcus	Helcococcus kunzii	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Lysobacterales	Lysobacteraceae	Stenotrophomonas	Stenotrophomonas maltophilia	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Blautia	Blautia obeum	1762	3415	6	4656	4	51	11	191	52	3364	3747	2923	3675	722	3757	1766	3658	3039	1894	1936	891	293	880	1969	2110	2680	2	46	21	9	5	31	2710	0	78	1716	4386
+Bacteria	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Sutterellaceae	Sutterella	Sutterella wadsworthensis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	25	20
+Bacteria	Bacteria	Spirochaetota	Spirochaetia	Spirochaetales	Treponemataceae	Treponema	Treponema pedis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Coprococcus	Coprococcus comes	46	46	10	2527	13	978	2	53	17	3419	75	56	45	43	67	59	45	46	30	31	47	33	146	40	3570	17	3	286	6	8	8	18	28	0	26	2484	2545
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Oscillospiraceae	Faecalibacterium	Faecalibacterium duncaniae	671	531	5	570	0	0	1	22	7	393	960	871	304	192	269	99	265	183	91	126	72	60	433	138	950	5	6	3	0	1	18	22	72	8	40	368	433
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Clostridiaceae	Clostridium	Clostridium sp. M62/1	53	64	2	80	0	9	20	1208	38	156	91	59	79	44	95	65	69	150	63	27	53	99	93	65	173	13	1	116	0	6	20	12	32	0	16	103	71
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus	Enterococcus thailandicus	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Blautia	Blautia wexlerae	1542	3274	120	2950	2159	2522	298	123	2069	6503	2852	4333	1017	3663	4034	3691	2047	1720	1001	1329	872	1362	4970	2383	5585	1216	6	178	55	525	9	804	2823	0	682	4734	945
+Bacteria	Bacteria	Bacillota	Negativicutes	Veillonellales	Veillonellaceae	Veillonella	Veillonella rogosae	0	0	22	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	5	0	0	0	1	0	17	0	0	38	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Carnobacteriaceae	Alkalibacterium	Alkalibacterium putridalgicola	0	0	0	0	1	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Anaerocolumna	Anaerocolumna cellulosilytica	0	0	0	1	1	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Actinomycetota	Actinomycetes	Micrococcales	Micrococcaceae	Rothia	Rothia mucilaginosa	0	0	1	0	0	5	0	2	0	4	0	0	0	0	0	0	0	0	0	0	13	1	4	0	0	9	2	0	0	0	0	0	0	0	1	46	0
+Bacteria	Bacteria	Actinomycetota	Actinomycetes	Mycobacteriales	Corynebacteriaceae	Corynebacterium	Corynebacterium striatum	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Negativicutes	Selenomonadales	Selenomonadaceae	Megamonas	Megamonas funiformis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Oscillospiraceae	Ruminococcus	Ruminococcus gauvreauii	0	0	0	0	3	2	3	0	3	0	1	0	0	0	2	3	1	0	0	0	0	23	2	1	0	0	0	6	0	4	0	9	1	0	67	1	15
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus	Enterococcus cecorum	0	1	1	1	0	0	2	1	0	0	0	0	3	0	1	0	3	5	6	2	2	1	2	2	1	2	0	0	0	0	0	1	0	0	0	1	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Lactococcus	Lactococcus sp.	0	41	76	0	0	4	0	0	0	8	0	0	0	0	5	11	9	69	7	4	19	0	0	0	6	0	0	0	87	0	0	0	0	0	139	0	3
+Bacteria	Bacteria	Actinomycetota	Coriobacteriia	Eggerthellales	Eggerthellaceae	Adlercreutzia	Adlercreutzia equolifaciens	284	150	0	745	1	6	8	0	0	406	255	224	242	61	251	235	248	242	149	44	402	0	266	261	267	0	0	47	0	0	0	0	250	0	0	8	49
+Bacteria	Bacteria	Thermodesulfobacteriota	Desulfovibrionia	Desulfovibrionales	Desulfovibrionaceae	Desulfovibrio	Desulfovibrio fairfieldensis	17	5	0	526	0	0	0	0	0	0	1	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	44	0	0	0	1	0	1
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Dysgonomonadaceae	Dysgonomonas	Dysgonomonas capnocytophagoides	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	112	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Paraprevotella	Paraprevotella clara	0	0	0	1	0	0	0	47	8	0	0	0	0	0	0	0	0	0	0	0	3	0	14	0	5	0	0	0	0	0	0	0	0	0	0	55	1153
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Paraprevotella	Paraprevotella xylaniphila	0	0	0	0	0	0	0	0	0	0	2	1	1	4	1	5	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	4	7	163
+Bacteria	Bacteria	Bacillota	Tissierellia	Tissierellales	Tepidimicrobiaceae	Schnuerera	Schnuerera ultunensis	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus cristatus	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Butyrivibrio	Butyrivibrio crossotus	20	36	2	25	1	0	1	16	2	23	16	16	25	14	27	22	43	33	38	20	8	7	35	15	57	0	0	11	1	1	2	9	8	0	8	24	12
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Carnobacteriaceae	Granulicatella	Granulicatella adiacens	0	0	1	0	0	0	0	1	0	3	0	0	0	0	1	0	0	0	0	0	1	0	0	0	0	12	0	0	1	0	0	2	0	0	1	5	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Aerococcaceae	Abiotrophia	Abiotrophia defectiva	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Actinomycetota	Actinomycetes	Actinomycetales	Actinomycetaceae	Actinomyces	Actinomyces massiliensis	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Mediterraneibacter	[Ruminococcus] lactaris	18	20	11	33	2	10	2	2371	8	42	22	27	18	22	27	20	20	28	9	22	36	18	987	17	61	7	3	17	23	24	8	44	19	0	12	43	42
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Tannerellaceae	Parabacteroides	Parabacteroides merdae	2041	2601	0	3883	0	2	0	1405	2	606	2665	2480	3216	945	28	95	3321	2	0	0	3219	0	2665	195	4373	50	0	0	0	0	14	0	372	0	0	4113	259
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides stercoris	0	0	0	10	0	2	0	0	120	262	1	0	0	1	1	0	2	0	0	0	1471	0	625	0	3176	21	0	0	0	0	18	0	3	6	1	2409	5
+Bacteria	Bacteria	Bacillota	Tissierellia	containing Ezakiella	containing Ezakiella	Ezakiella	Ezakiella coagulans	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	1	0
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Clostridiaceae	Clostridium	Clostridium chauvoei	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Actinomycetota	Coriobacteriia	Eggerthellales	Eggerthellaceae	Gordonibacter	Gordonibacter pamelaeae	136	522	0	68	9	22	83	3	0	107	72	36	302	22	50	113	292	225	401	39	8	0	68	150	428	41	0	0	0	0	0	0	197	0	53	19	143
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Lactobacillaceae	Limosilactobacillus	Limosilactobacillus panis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides caccae	0	3	0	202	0	1	0	36	304	4227	3	4	4	10	4	5	2	0	6	0	467	0	4079	0	4237	4	0	0	1	0	838	0	0	79	7	1873	222
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Lactobacillaceae	Lacticaseibacillus	Lacticaseibacillus rhamnosus	0	1	9	0	1891	1058	1598	0	0	0	0	0	0	0	0	0	2	0	1854	0	3130	16	0	0	0	2993	0	96	0	8	0	0	0	0	0	0	0
+Bacteria	Bacteria	Actinomycetota	Actinomycetes	Kitasatosporales	Streptomycetaceae	Streptomyces	Streptomyces sp. T12	0	0	0	2	0	0	0	0	0	3	1	0	0	0	0	4	2	0	2	2	0	0	1	0	5	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Lactobacillaceae	Lactobacillus	Lactobacillus crispatus	0	0	6	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	69	0	0	0	9	0	1	0	0	1	0	0
+Bacteria	Bacteria	Bacillota	Negativicutes	Veillonellales	Veillonellaceae	Dialister	Dialister succinatiphilus	0	0	0	0	0	0	11	0	0	0	0	0	5	12	14	0	0	0	0	2	0	0	0	6	0	0	0	0	0	13	2	12	0	0	0	0	0
+Bacteria	Bacteria	Actinomycetota	Coriobacteriia	Eggerthellales	Eggerthellaceae	Eggerthella	Eggerthella sp. YY7918	0	0	11	4	7	19	11	0	0	12	1	1	0	0	4	1	0	0	0	0	3	0	21	0	0	0	0	2	0	8	0	3	0	0	19	69	2
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Pasteurellales	Pasteurellaceae	Gallibacterium	Gallibacterium salpingitidis	0	0	0	4	2	5	4	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	14	0	0	2	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Lactobacillaceae	Lactobacillus	Lactobacillus taiwanensis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Desulfitobacteriaceae	Syntrophobotulus	Syntrophobotulus glycolicus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Oscillospiraceae	Subdoligranulum	uncultured Subdoligranulum sp.	51	53	0	45	7	4	8	39	0	26	34	47	36	78	121	79	77	29	51	32	46	117	55	27	70	0	0	22	0	1	0	0	35	0	0	90	16
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Kluyvera	Kluyvera ascorbata	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	51	0	0	0	0	0	0	2	0	3	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Peptococcaceae	Dehalobacterium	Dehalobacterium formicoaceticum	0	0	0	0	0	0	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Lactobacillaceae	Lapidilactobacillus	Lapidilactobacillus dextrinicus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	11	0	0	14	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Aerococcaceae	Aerococcus	Aerococcus urinaeequi	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	Prevotella dentalis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Eubacteriaceae	Acetobacterium	Acetobacterium wieringae	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Actinomycetota	Actinomycetes	Actinomycetales	Actinomycetaceae	Schaalia	Schaalia meyeri	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus	Enterococcus durans	0	0	1	0	0	2	68	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus	Enterococcus mundtii	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	1	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Eubacteriaceae	Eubacterium	Eubacterium callanderi	59	23	6	38	24	13	26	53	35	17	46	18	15	25	46	56	22	41	53	6	24	76	55	6	56	67	0	47	0	4	0	2	5	0	2	68	38
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Blautia	Blautia hydrogenotrophica	10	7	0	948	2573	3244	714	29	2	233	11	6	4	4	11	10	4	8	1	10	5	1379	2865	4	13	1608	0	2257	0	0	8	0	5	2	1	1136	9
+Viruses	Heunggongvirae	Uroviricota	Caudoviricetes	containing Aliceevansviridae	Aliceevansviridae	containing Streptococcus phage PH15	Streptococcus phage PH15	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Rikenellaceae	Alistipes	uncultured Alistipes sp.	1	1	0	4	0	0	0	15	0	0	3	2	2	5	8	4	3	0	0	25	1	0	7	7	118	0	0	0	0	0	5	0	2	1	0	46	22
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Enterobacter	Enterobacter mori	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	24	0	0	1	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Tissierellia	Tissierellales	Peptoniphilaceae	Peptoniphilus	Peptoniphilus harei	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	1	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Raoultella	Raoultella ornithinolytica	0	1558	10	0	0	0	0	0	0	0	0	0	0	0	0	0	212	0	0	0	0	0	0	0	0	0	0	0	0	4	0	3	0	0	0	0	0
+Bacteria	Bacteria	Actinomycetota	Actinomycetes	Actinomycetales	Actinomycetaceae	Actinomyces	Actinomyces oris	0	3	13	0	0	7	35	0	0	0	0	0	1	0	2	0	5	3	3	0	1	0	1	0	0	108	0	0	2	1	0	0	7	0	2	0	1
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Odoribacteraceae	Butyricimonas	Butyricimonas virosa	0	0	0	514	0	0	0	538	2	7	0	0	1	0	0	0	0	0	0	0	0	0	25	0	5	4	0	0	0	0	10	0	0	0	0	398	314
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Citrobacter	Citrobacter koseri	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	4	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Citrobacter	Citrobacter freundii	0	5	457	0	9	0	18	0	0	0	0	0	7	0	0	0	0	201	0	7	20	0	0	0	0	0	0	0	0	377	0	513	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Salmonella	Salmonella bongori	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	4	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Klebsiella	Klebsiella aerogenes	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Erwiniaceae	Pantoea	Pantoea agglomerans	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Enterobacter	Enterobacter cloacae	0	0	0	0	1	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	4	6	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Erwiniaceae	Pantoea	Pantoea ananatis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides sp. D2	10	16	0	15	0	0	0	0	0	51	0	0	5	0	0	2	0	0	50	0	0	0	130	10	23	89	0	0	0	0	0	0	0	0	5	235	48
+Bacteria	Bacteria	Actinomycetota	Actinomycetes	Propionibacteriales	Propionibacteriaceae	Propionibacterium	Propionibacterium acidifaciens	0	0	7	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Escherichia	Escherichia coli	0	0	2055	3365	5436	785	4616	370	2502	40	0	0	0	0	0	0	0	221	10	0	705	6295	28	0	403	2468	834	0	2178	1083	1586	693	0	190	593	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Escherichia	Escherichia fergusonii	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Atlantibacter	Atlantibacter hermannii	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Klebsiella	Klebsiella oxytoca	0	0	140	4	2	0	33	0	0	0	0	0	0	0	0	0	0	6	0	0	0	0	0	0	0	0	0	0	399	42	0	42	0	0	3	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Klebsiella	Klebsiella pneumoniae	0	0	110	0	4	0	12	261	0	0	0	0	1647	0	0	0	0	0	0	0	1927	0	54	0	0	0	229	0	951	5642	0	3463	0	0	0	15	0
+Bacteria	Bacteria	Thermodesulfobacteriota	Desulfovibrionia	Desulfovibrionales	Desulfovibrionaceae	Pseudodesulfovibrio	Pseudodesulfovibrio profundus	0	0	0	0	0	0	0	0	0	0	2	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Raoultella	Raoultella planticola	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Citrobacter	Citrobacter braakii	0	0	40	0	0	0	10	0	0	0	0	0	0	0	0	0	0	148	0	0	0	0	0	0	0	0	0	0	9	19	0	22	0	0	1	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Morganellaceae	Morganella	Morganella morganii	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	428	0	0
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	Prevotella fusca	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	13	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	Prevotella scopos	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Actinomycetota	Actinomycetes	Mycobacteriales	Corynebacteriaceae	Corynebacterium	Corynebacterium pyruviciproducens	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Actinomycetota	Coriobacteriia	Coriobacteriales	Atopobiaceae	Parafannyhessea	Parafannyhessea umbonata	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+Bacteria	Bacteria	Chloroflexota	Dehalococcoidia	Dehalococcoidales	Dehalococcoidaceae	Dehalococcoides	Dehalococcoides mccartyi	1	1	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	1	1	0	0	1	0	0	0	0	0	0	0	0	0	1	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Yersiniaceae	Serratia	Serratia marcescens	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	433	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Actinomycetota	Actinomycetes	Mycobacteriales	Corynebacteriaceae	Corynebacterium	Corynebacterium durum	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Enterobacter	Enterobacter asburiae	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7	4025	0	0	0	0	0	6	0	0	0	0	3	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Lachnoanaerobaculum	Lachnoanaerobaculum umeaense	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Shigella	Shigella dysenteriae	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Rikenellaceae	Alistipes	Alistipes indistinctus	0	0	0	2	0	0	0	1	0	9	0	0	0	0	0	0	0	0	0	0	0	0	2	0	9	0	0	0	0	0	0	0	0	0	0	2	63
+Bacteria	Bacteria	Bacillota	Clostridia	Christensenellales	Christensenellaceae	Christensenella	Christensenella minuta	4	1	0	11	0	0	0	6	4	1	5	1	2	0	1	0	2	6	7	0	0	0	14	0	7	0	0	1	0	0	3	0	0	0	1	5	10
+Bacteria	Bacteria	Bacillota	Negativicutes	Acidaminococcales	Acidaminococcaceae	Phascolarctobacterium	Phascolarctobacterium succinatutens	4	0	0	2254	0	1	0	0	5	3	0	1	2	0	0	0	3	0	0	0	0	0	2	4	8	0	0	2	0	4	133	0	4	0	0	411	1172
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Yersiniaceae	Yersinia	Yersinia enterocolitica	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Yersiniaceae	Yersinia	Yersinia intermedia	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	2	0	1	0	0	0	0	0
+Bacteria	Bacteria	Thermodesulfobacteriota	Desulfovibrionia	Desulfovibrionales	Desulfovibrionaceae	Desulfovibrio	Desulfovibrio sp. G11	0	0	0	0	0	0	0	16	0	0	2	5	7	1	3	4	0	0	0	0	0	1012	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Synergistota	Synergistia	Synergistales	Dethiosulfovibrionaceae	Pyramidobacter	Pyramidobacter piscolens	0	0	3	0	1	1	1	0	0	0	0	1	0	2	0	0	0	0	0	1	0	0	0	2	1	0	0	2	0	2280	0	136	0	0	2	0	1076
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Aeromonadales	Aeromonadaceae	Aeromonas	Aeromonas hydrophila	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Aeromonadales	Aeromonadaceae	Aeromonas	Aeromonas salmonicida	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	5	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Anaerostipes	Anaerostipes hadrus	1920	661	1	2391	7	127	2	18	2	1586	3053	1320	3077	1991	695	1451	2088	301	2785	52	28	2872	2157	787	3741	58	2	3174	12	12	9	14	40	4	2	3269	2843
+Bacteria	Bacteria	Synergistota	Synergistia	Synergistales	Aminobacteriaceae	Fretibacterium	Fretibacterium fastidiosum	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Aeromonadales	Aeromonadaceae	Aeromonas	Aeromonas allosaccharophila	0	0	48	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	53	32	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Oscillospiraceae	Ruminococcus	Ruminococcus sp. SR1/5	403	157	10	1369	13	16	0	515	7	1113	161	404	170	464	169	127	95	53	90	303	134	74	1641	504	1212	96	0	60	28	22	37	43	529	0	8	897	1899
+Bacteria	Bacteria	Pseudomonadota	Alphaproteobacteria	Rhodospirillales	Acetobacteraceae	Komagataeibacter	Komagataeibacter oboediens	35	10	0	1	0	8	1	15	0	23	11	28	5	25	13	13	8	22	8	8	0	0	10	25	29	1	0	0	0	0	0	0	18	0	13	16	79
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Erwiniaceae	Pantoea	Pantoea stewartii	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Vibrionales	Vibrionaceae	Vibrio	Vibrio alginolyticus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	18	0	8	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Vibrionales	Vibrionaceae	Vibrio	Vibrio parahaemolyticus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Viruses	Heunggongvirae	Uroviricota	Caudoviricetes	containing Enterococcus phage phiFL4A	containing Enterococcus phage phiFL4A	containing Enterococcus phage phiFL4A	Enterococcus phage phiFL4A	0	0	0	0	0	0	19	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides faecis	5	5	3	69	1	23	1	282	7	1747	2	4	6	49	45	2	5	0	7	3	2415	0	2702	7	39	4	0	1	0	0	33	0	2	10	2	64	46
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Citrobacter	Citrobacter farmeri	0	0	3595	0	158	0	4374	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	478	4840	0	3996	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Citrobacter	Citrobacter rodentium	0	0	0	0	0	0	6	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Citrobacter	Citrobacter werkmanii	0	0	3373	0	0	0	11	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	31	1598	0	3191	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus lactarius	0	0	37	0	0	0	0	0	2	8	0	0	0	0	0	2	0	2	0	0	4	0	8	0	0	10	0	0	1	38	0	27	0	0	1	20	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus infantis	0	0	0	0	0	0	0	1	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	1	3	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Enterobacter	Enterobacter cancerogenus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	6	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Spirochaetota	Spirochaetia	Spirochaetales	Treponemataceae	Treponema	Treponema vincentii	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Negativicutes	Selenomonadales	Selenomonadaceae	Selenomonas	Selenomonas sputigena	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	1	0	0	1	0	0	0	0	0	0	0	0	1
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Clostridiaceae	Clostridium	Clostridium gelidum	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+Bacteria	Bacteria	Actinomycetota	Actinomycetes	Actinomycetales	Actinomycetaceae	Actinomyces	Actinomyces sp. oral taxon 171	0	0	0	0	0	2	6	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0
+Bacteria	Bacteria	Actinomycetota	Actinomycetes	Actinomycetales	Actinomycetaceae	Actinomyces	Actinomyces sp. oral taxon 169	0	0	4	0	0	0	4	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	54	0	0	0	0	0	0	0	0	2	0	0
+Bacteria	Bacteria	Actinomycetota	Actinomycetes	Actinomycetales	Actinomycetaceae	Actinomyces	Actinomyces sp. oral taxon 414	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+Bacteria	Bacteria	Actinomycetota	Coriobacteriia	Coriobacteriales	Atopobiaceae	Atopobium	Atopobium sp. oral taxon 416	0	0	1	0	0	0	0	12	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus sp. oral taxon 061	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	1	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus sp. oral taxon 431	0	0	2	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	1	0	1	0	0	0	8	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus	Enterococcus raffinosus	0	0	0	0	16	14	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Pasteurellales	Pasteurellaceae	Haemophilus	Haemophilus parainfluenzae	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Actinomycetota	Coriobacteriia	Coriobacteriales	Coriobacteriaceae	Collinsella	Collinsella aerofaciens	0	0	0	139	0	0	3	42	118	80	0	1	0	0	0	0	1	0	0	0	0	205	1046	0	2027	0	0	1	0	0	356	0	0	33	2213	2389	1328
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Coprococcus	Coprococcus sp. ART55/1	10	6	5	31	0	2	5	5	4	31	25	15	7	12	17	7	9	23	15	12	16	9	43	12	660	10	0	12	0	1	0	3	13	0	5	18	13
+Bacteria	Bacteria	Fusobacteriota	Fusobacteriia	Fusobacteriales	Fusobacteriaceae	Fusobacterium	Fusobacterium polymorphum	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10	0	7	0	0	2	0	0
+Bacteria	Bacteria	Fusobacteriota	Fusobacteriia	Fusobacteriales	Fusobacteriaceae	Fusobacterium	Fusobacterium animalis	0	0	901	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1727	0	1300	0	0	884	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus constellatus	0	10	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	7	0	0	0	0	3	0	0	0	0	0	0	0	0	0	3	0
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Segatella	Segatella bryantii	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0
+Bacteria	Bacteria	Actinomycetota	Actinomycetes	Bifidobacteriales	Bifidobacteriaceae	Parascardovia	Parascardovia denticolens	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Actinomycetota	Actinomycetes	Bifidobacteriales	Bifidobacteriaceae	Scardovia	Scardovia inopinata	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Bacteria	Bacteria	Actinomycetota	Actinomycetes	Bifidobacteriales	Bifidobacteriaceae	Bifidobacterium	Bifidobacterium pullorum	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Actinomycetota	Coriobacteriia	Eggerthellales	Eggerthellaceae	Denitrobacterium	Denitrobacterium detoxificans	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Comamonadaceae	Paracidovorax	Paracidovorax avenae	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	24	0	0	0	0	0	0	0	0	0	0	15	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides fragilis	11	14	0	45	4	72	4	2825	432	96	18	20	25	203	237	20	21	94	28	39	3684	148	90	20	108	55	0	4	0	0	59	0	28	13	7	80	1216
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides thetaiotaomicron	13	10	2	2093	6	33	8	146	16	363	72	69	43	4958	5831	25	14	8	6	12	185	0	138	10	1558	72	9	9	225	0	1947	15	20	816	5280	413	2603
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides uniformis	209	413	0	376	209	544	217	517	2	3476	294	302	263	355	256	287	244	40	25	394	3880	0	398	256	4172	1035	0	324	0	0	2822	0	4151	126	92	875	4375
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Bacteroidaceae	Phocaeicola	Phocaeicola vulgatus	242	216	0	804	0	20	0	58	389	1456	329	333	254	239	3227	3312	280	363	257	310	405	1	1835	236	4065	1052	27	0	0	0	4819	0	155	2456	2	4262	2313
+Bacteria	Bacteria	Actinomycetota	Coriobacteriia	Coriobacteriales	Atopobiaceae	Fannyhessea	Fannyhessea vaginae	0	1	1	0	0	4	0	0	0	1	1	0	1	0	2	0	0	0	0	0	0	0	2	0	1	1	0	0	0	0	0	1	0	0	0	4	1
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Tannerellaceae	Parabacteroides	Parabacteroides distasonis	21	28	0	753	245	5252	304	539	191	506	32	24	39	10	0	6	40	45	20	52	547	0	855	13	3108	80	692	286	8	0	1163	2	17	40	26	5536	319
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus pluranimalium	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Campylobacterota	Epsilonproteobacteria	Campylobacterales	Campylobacteraceae	Campylobacter	Campylobacter gracilis	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	15	0	27	0	0	3	0	0
+Bacteria	Bacteria	Campylobacterota	Epsilonproteobacteria	Campylobacterales	Campylobacteraceae	Campylobacter	Campylobacter ureolyticus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Carnobacteriaceae	Trichococcus	Trichococcus flocculiformis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Hafniaceae	Obesumbacterium	Obesumbacterium proteus	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Butyrivibrio	Butyrivibrio fibrisolvens	0	4	0	2	3	1	4	1	1	0	0	0	2	2	0	3	3	1	3	0	2	6	0	0	2	0	0	1	0	1	0	0	0	0	0	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Leclercia	Leclercia adecarboxylata	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	19	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Porphyromonadaceae	Porphyromonas	Porphyromonas gingivalis	0	0	0	0	0	0	0	2	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	8	4
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Lacrimispora	Lacrimispora saccharolytica	2	1	5	0	0	0	0	0	7	2	2	1	4	5	8	0	2	1	0	3	1	4	6	2	7	0	0	3	0	23	2	0	1	0	0	1	0
+Bacteria	Bacteria	Actinomycetota	Coriobacteriia	Eggerthellales	Eggerthellaceae	Eggerthella	Eggerthella lenta	2984	3152	0	234	110	235	1418	113	2	71	2566	996	3661	305	3566	3682	3236	1364	3350	256	3242	40	66	1902	159	2923	2	99	0	0	3	1	1820	1	168	133	273
+Bacteria	Bacteria	Bacillota	Bacilli	Bacillales	Gemellaceae	Gemella	Gemella sanguinis	0	0	0	0	0	0	0	1	5	4	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	1	0
+Bacteria	Bacteria	Pseudomonadota	Betaproteobacteria	Burkholderiales	Oxalobacteraceae	Oxalobacter	Oxalobacter formigenes	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	17	0
+Bacteria	Bacteria	Fusobacteriota	Fusobacteriia	Fusobacteriales	Fusobacteriaceae	Fusobacterium	Fusobacterium mortiferum	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	24
+Bacteria	Bacteria	Fusobacteriota	Fusobacteriia	Fusobacteriales	Fusobacteriaceae	Fusobacterium	Fusobacterium nucleatum	0	0	40	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	59	0	59	0	0	34	0	0
+Viruses	Heunggongvirae	Uroviricota	Caudoviricetes	containing Aliceevansviridae	Aliceevansviridae	Brussowvirus	Brussowvirus bvO1205	0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Oscillospiraceae	Faecalibacterium	Faecalibacterium prausnitzii	2160	3252	11	1622	2	17	30	323	88	3853	2559	2478	1515	1592	1854	545	1642	845	746	1677	88	117	6427	1157	9403	27	3	134	14	9	581	34	622	23	29	7931	3872
+Bacteria	Bacteria	Fusobacteriota	Fusobacteriia	Fusobacteriales	Fusobacteriaceae	Fusobacterium	Fusobacterium necrophorum	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Peptostreptococcales	Anaerovoracaceae	Mogibacterium	Mogibacterium pumilum	0	0	1	0	0	1	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	3	0	0	0	13	0	0	0	0	0	1	0	0	3	0	0
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Cardiobacteriales	Cardiobacteriaceae	Dichelobacter	Dichelobacter nodosus	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Thermodesulfobacteriota	Desulfovibrionia	Desulfovibrionales	Desulfovibrionaceae	Desulfovibrio	Desulfovibrio desulfuricans	0	0	0	0	0	0	0	0	0	0	425	266	2683	57	892	170	0	0	0	0	0	1	12	0	0	0	0	0	0	0	0	0	0	0	1	0	1
+Bacteria	Bacteria	Thermodesulfobacteriota	Desulfovibrionia	Desulfovibrionales	Desulfovibrionaceae	Megalodesulfovibrio	Megalodesulfovibrio gigas	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Defluviitaleaceae	Defluviitalea	Defluviitalea saccharophila	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0
+Bacteria	Bacteria	Thermodesulfobacteriota	Desulfovibrionia	Desulfovibrionales	Desulfovibrionaceae	Nitratidesulfovibrio	Nitratidesulfovibrio vulgaris	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2
+Bacteria	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Enterobacter	Enterobacter bugandensis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Dorea	Dorea longicatena	126	78	25	3260	10	40	31	438	37	3028	732	2505	514	2899	381	550	92	83	70	52	233	68	755	76	5365	43	894	60	8	42	9	40	50	0	67	4836	2698
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Oscillospiraceae	Mageeibacillus	Mageeibacillus indolicus	0	1	0	1	0	0	1	0	0	2	0	0	0	1	2	0	1	0	0	1	0	0	4	1	4	1	0	0	0	6	0	1	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Blautia	Blautia luti	233	237	20	173	109	155	16	79	192	684	330	311	147	309	488	393	243	248	207	123	66	73	565	242	571	101	1	23	13	253	3	289	286	0	116	298	147
+Bacteria	Bacteria	Bacillota	Clostridia	Peptostreptococcales	Peptostreptococcaceae	Peptacetobacter	Peptacetobacter hiranonis	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Lachnospirales	Lachnospiraceae	Lachnoclostridium	[Clostridium] hylemonae	6	7	0	5	2	3	0	5	2	2	11	11	8	4	2	8	3	7	0	7	9	290	6	5	8	3	0	5	0	0	1	0	1	0	1	6	25
+Bacteria	Bacteria	Thermodesulfobacteriota	Desulfobacteria	Desulfobacterales	Desulfococcaceae	Desulfococcus	Desulfococcus multivorans	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Thermodesulfobacteriota	Desulfovibrionia	Desulfovibrionales	Desulfovibrionaceae	Desulfovibrio	Desulfovibrio piger	0	31	0	24	0	1	0	34	0	30	2	1	2	0	0	0	36	0	1	4	0	0	8	22	0	0	0	71	0	0	0	0	0	0	48	2503	2168
+Bacteria	Bacteria	Bacillota	Negativicutes	Acidaminococcales	Acidaminococcaceae	Acidaminococcus	Acidaminococcus fermentans	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0
+Bacteria	Bacteria	Bacillota	Negativicutes	Veillonellales	Veillonellaceae	Megasphaera	Megasphaera elsdenii	0	0	0	0	0	0	0	0	3	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Lactobacillaceae	Companilactobacillus	Companilactobacillus futsaii	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Clostridiaceae	Clostridium	Clostridium gasigenes	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	8	7	4	9	1	4	5	5	16	14	25	15	23	7	6	13	21	9	17	29	16	12	21	4	25	4	4	35	2	1	18	2	5	25	5	4	3
+Bacteria	Bacteria	Bacillota	Clostridia	Eubacteriales	Clostridiaceae	Clostridium	Clostridium sp. MD294	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	1	1	0	0	0	2	0	0	0	0	0	0	0	0	0	1	0	5
+Bacteria	Bacteria	Bacillota	Bacilli	Lactobacillales	Lactobacillaceae	Limosilactobacillus	Limosilactobacillus mucosae	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	505	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria	Bacteria	Bacillota	Bacilli	Bacillales	Bacillaceae	Caldifermentibacillus	Caldifermentibacillus hisashii	0	0	0	0	0	0	17	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unclassified	NA	NA	NA	NA	NA	NA	NA	49547	58951	26623	89254	24958	23216	34746	39411	27385	56122	50222	43266	72368	33814	53713	45181	71310	92437	72738	54233	40161	74428	91131	44128	120031	26727	3080	70633	4388	25607	11199	29995	37281	1209	31750	76258	66186
