@@ -1,0 +1,1811 @@
+# Pathway	63-MDcol003-3-2_Abundance
+UNMAPPED	552487.6442296442
+UNINTEGRATED	3076573.7057820046
+UNINTEGRATED|g__Klebsiella.s__Klebsiella_oxytoca	1078383.4036253281
+UNINTEGRATED|g__Klebsiella.s__Klebsiella_pneumoniae	484621.3285999624
+UNINTEGRATED|g__Bacteroides.s__Bacteroides_thetaiotaomicron	412337.6613859456
+UNINTEGRATED|g__Escherichia.s__Escherichia_coli	248332.7184359611
+UNINTEGRATED|unclassified	199483.9202616882
+UNINTEGRATED|g__Klebsiella.s__Klebsiella_aerogenes	49068.0383516617
+UNINTEGRATED|g__Escherichia.s__Escherichia_fergusonii	22911.3519189273
+UNINTEGRATED|g__Sellimonas.s__Sellimonas_intestinalis	12196.3336942287
+UNINTEGRATED|g__Erysipelatoclostridium.s__Clostridium_innocuum	8708.5829727837
+UNINTEGRATED|g__Blautia.s__Blautia_sp_CAG_257	8424.7215179656
+UNINTEGRATED|g__Lactococcus.s__Lactococcus_lactis	5817.7614912114
+UNINTEGRATED|g__Flavonifractor.s__Flavonifractor_plautii	5767.2213550045
+UNINTEGRATED|g__Streptococcus.s__Streptococcus_salivarius	1582.4579842719
+UNINTEGRATED|g__Enterococcus.s__Enterococcus_gallinarum	680.3653824184
+UNINTEGRATED|g__Enterococcus.s__Enterococcus_saccharolyticus	604.8980829471
+NONOXIPENT-PWY: pentose phosphate pathway (non-oxidative branch) I	2757.9865843295
+NONOXIPENT-PWY: pentose phosphate pathway (non-oxidative branch) I|g__Klebsiella.s__Klebsiella_oxytoca	1961.5296850728
+NONOXIPENT-PWY: pentose phosphate pathway (non-oxidative branch) I|unclassified	161.0293363465
+NONOXIPENT-PWY: pentose phosphate pathway (non-oxidative branch) I|g__Escherichia.s__Escherichia_coli	153.4160371451
+NONOXIPENT-PWY: pentose phosphate pathway (non-oxidative branch) I|g__Klebsiella.s__Klebsiella_pneumoniae	138.7799057668
+NONOXIPENT-PWY: pentose phosphate pathway (non-oxidative branch) I|g__Blautia.s__Blautia_sp_CAG_257	14.4656552537
+NONOXIPENT-PWY: pentose phosphate pathway (non-oxidative branch) I|g__Escherichia.s__Escherichia_fergusonii	7.1306092275
+NONOXIPENT-PWY: pentose phosphate pathway (non-oxidative branch) I|g__Klebsiella.s__Klebsiella_aerogenes	2.9604137723
+PWY0-1586: peptidoglycan maturation (meso-diaminopimelate containing)	2355.4209640438
+PWY0-1586: peptidoglycan maturation (meso-diaminopimelate containing)|g__Klebsiella.s__Klebsiella_oxytoca	1149.2511083143
+PWY0-1586: peptidoglycan maturation (meso-diaminopimelate containing)|unclassified	483.7450183322
+PWY0-1586: peptidoglycan maturation (meso-diaminopimelate containing)|g__Klebsiella.s__Klebsiella_pneumoniae	287.9025842288
+PWY0-1586: peptidoglycan maturation (meso-diaminopimelate containing)|g__Bacteroides.s__Bacteroides_thetaiotaomicron	111.8163134177
+PWY0-1586: peptidoglycan maturation (meso-diaminopimelate containing)|g__Escherichia.s__Escherichia_coli	77.0774025019
+PWY0-1586: peptidoglycan maturation (meso-diaminopimelate containing)|g__Escherichia.s__Escherichia_fergusonii	26.5495165856
+PWY0-1586: peptidoglycan maturation (meso-diaminopimelate containing)|g__Klebsiella.s__Klebsiella_aerogenes	10.3767759202
+PWY-7013: (S)-propane-1,2-diol degradation	2061.0262609477
+PWY-7013: (S)-propane-1,2-diol degradation|g__Klebsiella.s__Klebsiella_oxytoca	1278.9240211382
+PWY-7013: (S)-propane-1,2-diol degradation|g__Klebsiella.s__Klebsiella_pneumoniae	300.4141504437
+PWY-7013: (S)-propane-1,2-diol degradation|g__Escherichia.s__Escherichia_coli	114.7268168908
+PWY-7013: (S)-propane-1,2-diol degradation|unclassified	104.7914999887
+PWY-7013: (S)-propane-1,2-diol degradation|g__Klebsiella.s__Klebsiella_aerogenes	21.6356122783
+PWY-7013: (S)-propane-1,2-diol degradation|g__Flavonifractor.s__Flavonifractor_plautii	9.3891383921
+PWY-7013: (S)-propane-1,2-diol degradation|g__Escherichia.s__Escherichia_fergusonii	3.0195746738
+PWY-8178: pentose phosphate pathway (non-oxidative branch) II	2002.6437515312
+PWY-8178: pentose phosphate pathway (non-oxidative branch) II|g__Klebsiella.s__Klebsiella_oxytoca	1344.8817668445
+PWY-8178: pentose phosphate pathway (non-oxidative branch) II|unclassified	173.2272685779
+PWY-8178: pentose phosphate pathway (non-oxidative branch) II|g__Klebsiella.s__Klebsiella_pneumoniae	110.0828995175
+PWY-8178: pentose phosphate pathway (non-oxidative branch) II|g__Escherichia.s__Escherichia_coli	74.1427686812
+PWY-8178: pentose phosphate pathway (non-oxidative branch) II|g__Blautia.s__Blautia_sp_CAG_257	15.5314876886
+PWY-1042: glycolysis IV	1974.6596747330
+PWY-1042: glycolysis IV|g__Klebsiella.s__Klebsiella_oxytoca	1413.7064358858
+PWY-1042: glycolysis IV|g__Klebsiella.s__Klebsiella_pneumoniae	195.6064671109
+PWY-1042: glycolysis IV|unclassified	91.7127762994
+PWY-1042: glycolysis IV|g__Escherichia.s__Escherichia_coli	80.0764353119
+PWY-1042: glycolysis IV|g__Klebsiella.s__Klebsiella_aerogenes	16.9064685861
+PWY-1042: glycolysis IV|g__Escherichia.s__Escherichia_fergusonii	14.5617986774
+PWY0-1477: ethanolamine utilization	1861.1218221017
+PWY0-1477: ethanolamine utilization|g__Klebsiella.s__Klebsiella_oxytoca	1274.6455791386
+PWY0-1477: ethanolamine utilization|g__Klebsiella.s__Klebsiella_pneumoniae	322.7944153159
+PWY0-1477: ethanolamine utilization|unclassified	127.9891852110
+PWY0-1477: ethanolamine utilization|g__Escherichia.s__Escherichia_coli	107.8667786951
+PWY0-1477: ethanolamine utilization|g__Klebsiella.s__Klebsiella_aerogenes	24.0380093481
+PWY0-1477: ethanolamine utilization|g__Flavonifractor.s__Flavonifractor_plautii	4.8880632133
+PWY0-1477: ethanolamine utilization|g__Escherichia.s__Escherichia_fergusonii	4.6185420050
+CALVIN-PWY: Calvin-Benson-Bassham cycle	1677.1450465217
+CALVIN-PWY: Calvin-Benson-Bassham cycle|g__Klebsiella.s__Klebsiella_oxytoca	1137.8381532994
+CALVIN-PWY: Calvin-Benson-Bassham cycle|g__Klebsiella.s__Klebsiella_pneumoniae	186.7256582560
+CALVIN-PWY: Calvin-Benson-Bassham cycle|unclassified	67.6215002081
+CALVIN-PWY: Calvin-Benson-Bassham cycle|g__Escherichia.s__Escherichia_coli	26.0099940559
+CALVIN-PWY: Calvin-Benson-Bassham cycle|g__Klebsiella.s__Klebsiella_aerogenes	14.6620108035
+CALVIN-PWY: Calvin-Benson-Bassham cycle|g__Blautia.s__Blautia_sp_CAG_257	11.2955882642
+CALVIN-PWY: Calvin-Benson-Bassham cycle|g__Escherichia.s__Escherichia_fergusonii	2.1706821275
+PWY-7663: gondoate biosynthesis (anaerobic)	1624.8145325759
+PWY-7663: gondoate biosynthesis (anaerobic)|g__Klebsiella.s__Klebsiella_oxytoca	1095.0523832334
+PWY-7663: gondoate biosynthesis (anaerobic)|g__Klebsiella.s__Klebsiella_pneumoniae	150.8996200414
+PWY-7663: gondoate biosynthesis (anaerobic)|g__Escherichia.s__Escherichia_coli	116.3828499918
+PWY-7663: gondoate biosynthesis (anaerobic)|g__Bacteroides.s__Bacteroides_thetaiotaomicron	89.5977580784
+PWY-7663: gondoate biosynthesis (anaerobic)|unclassified	82.2414149998
+PWY-7663: gondoate biosynthesis (anaerobic)|g__Klebsiella.s__Klebsiella_aerogenes	42.0746322485
+PWY-7663: gondoate biosynthesis (anaerobic)|g__Escherichia.s__Escherichia_fergusonii	14.2581826346
+PWY-7663: gondoate biosynthesis (anaerobic)|g__Lactococcus.s__Lactococcus_lactis	5.7919924073
+PWY-7237: myo-, chiro- and scyllo-inositol degradation	1513.4822418379
+PWY-7237: myo-, chiro- and scyllo-inositol degradation|g__Klebsiella.s__Klebsiella_oxytoca	993.1514256516
+PWY-7237: myo-, chiro- and scyllo-inositol degradation|g__Klebsiella.s__Klebsiella_pneumoniae	122.0648858047
+PWY-7237: myo-, chiro- and scyllo-inositol degradation|unclassified	38.8612865905
+PWY-7237: myo-, chiro- and scyllo-inositol degradation|g__Klebsiella.s__Klebsiella_aerogenes	25.7985309049
+PWY-7237: myo-, chiro- and scyllo-inositol degradation|g__Escherichia.s__Escherichia_coli	24.5772434705
+PWY-7237: myo-, chiro- and scyllo-inositol degradation|g__Flavonifractor.s__Flavonifractor_plautii	3.6079405033
+PWY-7237: myo-, chiro- and scyllo-inositol degradation|g__Erysipelatoclostridium.s__Clostridium_innocuum	2.9090995713
+PENTOSE-P-PWY: pentose phosphate pathway	1492.2097874440
+PENTOSE-P-PWY: pentose phosphate pathway|g__Klebsiella.s__Klebsiella_oxytoca	775.1113142993
+PENTOSE-P-PWY: pentose phosphate pathway|unclassified	158.1341245240
+PENTOSE-P-PWY: pentose phosphate pathway|g__Klebsiella.s__Klebsiella_pneumoniae	111.6269650335
+PENTOSE-P-PWY: pentose phosphate pathway|g__Escherichia.s__Escherichia_coli	99.6205471865
+PWY-7977: L-methionine biosynthesis IV	1392.7213941138
+PWY-7977: L-methionine biosynthesis IV|g__Klebsiella.s__Klebsiella_oxytoca	876.6721799584
+PWY-7977: L-methionine biosynthesis IV|g__Klebsiella.s__Klebsiella_pneumoniae	135.6992831048
+PWY-7977: L-methionine biosynthesis IV|unclassified	114.8501418981
+PWY-7977: L-methionine biosynthesis IV|g__Bacteroides.s__Bacteroides_thetaiotaomicron	89.4647300601
+PWY-7977: L-methionine biosynthesis IV|g__Escherichia.s__Escherichia_coli	13.2240186507
+PWY-7977: L-methionine biosynthesis IV|g__Klebsiella.s__Klebsiella_aerogenes	11.4122073966
+PWY-7977: L-methionine biosynthesis IV|g__Escherichia.s__Escherichia_fergusonii	3.0259731284
+FASYN-ELONG-PWY: fatty acid elongation -- saturated	1385.2584066841
+FASYN-ELONG-PWY: fatty acid elongation -- saturated|g__Klebsiella.s__Klebsiella_oxytoca	861.0388296927
+FASYN-ELONG-PWY: fatty acid elongation -- saturated|g__Klebsiella.s__Klebsiella_pneumoniae	140.3127190493
+FASYN-ELONG-PWY: fatty acid elongation -- saturated|g__Escherichia.s__Escherichia_coli	86.7008170159
+FASYN-ELONG-PWY: fatty acid elongation -- saturated|unclassified	77.0144683835
+FASYN-ELONG-PWY: fatty acid elongation -- saturated|g__Klebsiella.s__Klebsiella_aerogenes	29.9292260019
+PWY-5136: fatty acid &beta;-oxidation II (plant peroxisome)	1367.4230697132
+PWY-5136: fatty acid &beta;-oxidation II (plant peroxisome)|g__Klebsiella.s__Klebsiella_oxytoca	817.5683549996
+PWY-5136: fatty acid &beta;-oxidation II (plant peroxisome)|unclassified	119.2763618778
+PWY-5136: fatty acid &beta;-oxidation II (plant peroxisome)|g__Escherichia.s__Escherichia_coli	108.4517277164
+PWY-5136: fatty acid &beta;-oxidation II (plant peroxisome)|g__Klebsiella.s__Klebsiella_pneumoniae	88.7241024386
+PWY-5136: fatty acid &beta;-oxidation II (plant peroxisome)|g__Escherichia.s__Escherichia_fergusonii	5.1844910255
+PWY-5136: fatty acid &beta;-oxidation II (plant peroxisome)|g__Klebsiella.s__Klebsiella_aerogenes	4.5087851876
+PWY66-429: fatty acid biosynthesis initiation (mitochondria)	1362.2812225775
+PWY66-429: fatty acid biosynthesis initiation (mitochondria)|g__Klebsiella.s__Klebsiella_oxytoca	761.6817472338
+PWY66-429: fatty acid biosynthesis initiation (mitochondria)|g__Klebsiella.s__Klebsiella_pneumoniae	98.1659353385
+PWY66-429: fatty acid biosynthesis initiation (mitochondria)|unclassified	91.7435206768
+PWY66-429: fatty acid biosynthesis initiation (mitochondria)|g__Bacteroides.s__Bacteroides_thetaiotaomicron	84.1249497793
+PWY66-429: fatty acid biosynthesis initiation (mitochondria)|g__Klebsiella.s__Klebsiella_aerogenes	11.8020468009
+PWY66-429: fatty acid biosynthesis initiation (mitochondria)|g__Sellimonas.s__Sellimonas_intestinalis	9.7346714512
+PWY66-429: fatty acid biosynthesis initiation (mitochondria)|g__Blautia.s__Blautia_sp_CAG_257	9.6232338548
+PWY66-429: fatty acid biosynthesis initiation (mitochondria)|g__Escherichia.s__Escherichia_coli	5.3287919895
+PWY-5384: sucrose degradation IV (sucrose phosphorylase)	1327.3389744687
+PWY-5384: sucrose degradation IV (sucrose phosphorylase)|g__Klebsiella.s__Klebsiella_oxytoca	669.3261167679
+PWY-5384: sucrose degradation IV (sucrose phosphorylase)|g__Klebsiella.s__Klebsiella_pneumoniae	132.2275525543
+PWY-5384: sucrose degradation IV (sucrose phosphorylase)|g__Bacteroides.s__Bacteroides_thetaiotaomicron	87.2023088390
+PWY-5384: sucrose degradation IV (sucrose phosphorylase)|unclassified	45.7532788162
+PWY-5384: sucrose degradation IV (sucrose phosphorylase)|g__Escherichia.s__Escherichia_coli	42.9743444450
+PWY-5384: sucrose degradation IV (sucrose phosphorylase)|g__Klebsiella.s__Klebsiella_aerogenes	15.3258244377
+PWY-7664: oleate biosynthesis IV (anaerobic)	1327.1857587942
+PWY-7664: oleate biosynthesis IV (anaerobic)|g__Klebsiella.s__Klebsiella_oxytoca	828.0257141993
+PWY-7664: oleate biosynthesis IV (anaerobic)|g__Klebsiella.s__Klebsiella_pneumoniae	132.3353949992
+PWY-7664: oleate biosynthesis IV (anaerobic)|g__Escherichia.s__Escherichia_coli	84.6741727324
+PWY-7664: oleate biosynthesis IV (anaerobic)|unclassified	71.7233262335
+PWY-7664: oleate biosynthesis IV (anaerobic)|g__Klebsiella.s__Klebsiella_aerogenes	26.0885403269
+P461-PWY: hexitol fermentation to lactate, formate, ethanol and acetate	1320.6842621259
+P461-PWY: hexitol fermentation to lactate, formate, ethanol and acetate|g__Klebsiella.s__Klebsiella_oxytoca	858.6278989024
+P461-PWY: hexitol fermentation to lactate, formate, ethanol and acetate|unclassified	135.4284508867
+P461-PWY: hexitol fermentation to lactate, formate, ethanol and acetate|g__Klebsiella.s__Klebsiella_pneumoniae	128.1190671128
+P461-PWY: hexitol fermentation to lactate, formate, ethanol and acetate|g__Escherichia.s__Escherichia_coli	39.5052911565
+P461-PWY: hexitol fermentation to lactate, formate, ethanol and acetate|g__Klebsiella.s__Klebsiella_aerogenes	14.0238351712
+PWY-5723: Rubisco shunt	1315.0585531150
+PWY-5723: Rubisco shunt|g__Klebsiella.s__Klebsiella_oxytoca	838.1076052178
+PWY-5723: Rubisco shunt|g__Klebsiella.s__Klebsiella_pneumoniae	107.6265038091
+PWY-5723: Rubisco shunt|unclassified	79.5482312020
+PWY-5723: Rubisco shunt|g__Escherichia.s__Escherichia_coli	26.5620877698
+FAO-PWY: fatty acid &beta;-oxidation I (generic)	1299.5904603136
+FAO-PWY: fatty acid &beta;-oxidation I (generic)|g__Klebsiella.s__Klebsiella_oxytoca	829.9828069334
+FAO-PWY: fatty acid &beta;-oxidation I (generic)|unclassified	121.7924464418
+FAO-PWY: fatty acid &beta;-oxidation I (generic)|g__Escherichia.s__Escherichia_coli	110.5872394159
+FAO-PWY: fatty acid &beta;-oxidation I (generic)|g__Klebsiella.s__Klebsiella_pneumoniae	75.5450797108
+FAO-PWY: fatty acid &beta;-oxidation I (generic)|g__Klebsiella.s__Klebsiella_aerogenes	11.8235064509
+FAO-PWY: fatty acid &beta;-oxidation I (generic)|g__Escherichia.s__Escherichia_fergusonii	5.5900520934
+PWY-6282: palmitoleate biosynthesis I (from (5Z)-dodec-5-enoate)	1280.7561942136
+PWY-6282: palmitoleate biosynthesis I (from (5Z)-dodec-5-enoate)|g__Klebsiella.s__Klebsiella_oxytoca	783.2220711601
+PWY-6282: palmitoleate biosynthesis I (from (5Z)-dodec-5-enoate)|g__Klebsiella.s__Klebsiella_pneumoniae	132.0620006074
+PWY-6282: palmitoleate biosynthesis I (from (5Z)-dodec-5-enoate)|g__Escherichia.s__Escherichia_coli	78.2308295080
+PWY-6282: palmitoleate biosynthesis I (from (5Z)-dodec-5-enoate)|unclassified	72.8353311119
+PWY-6282: palmitoleate biosynthesis I (from (5Z)-dodec-5-enoate)|g__Klebsiella.s__Klebsiella_aerogenes	26.8543401319
+P161-PWY: acetylene degradation (anaerobic)	1269.8245712089
+P161-PWY: acetylene degradation (anaerobic)|g__Klebsiella.s__Klebsiella_oxytoca	907.4730666235
+P161-PWY: acetylene degradation (anaerobic)|g__Klebsiella.s__Klebsiella_pneumoniae	113.8671565208
+P161-PWY: acetylene degradation (anaerobic)|unclassified	61.7453099139
+P161-PWY: acetylene degradation (anaerobic)|g__Escherichia.s__Escherichia_coli	60.0289769607
+P161-PWY: acetylene degradation (anaerobic)|g__Klebsiella.s__Klebsiella_aerogenes	6.5106602310
+P161-PWY: acetylene degradation (anaerobic)|g__Escherichia.s__Escherichia_fergusonii	4.6185420050
+PWY-5973: cis-vaccenate biosynthesis	1265.4178829836
+PWY-5973: cis-vaccenate biosynthesis|g__Klebsiella.s__Klebsiella_oxytoca	761.4609759571
+PWY-5973: cis-vaccenate biosynthesis|g__Klebsiella.s__Klebsiella_pneumoniae	124.8099382546
+PWY-5973: cis-vaccenate biosynthesis|g__Bacteroides.s__Bacteroides_thetaiotaomicron	86.7325761901
+PWY-5973: cis-vaccenate biosynthesis|unclassified	74.8255610959
+PWY-5973: cis-vaccenate biosynthesis|g__Escherichia.s__Escherichia_coli	73.7816601257
+PWY-5973: cis-vaccenate biosynthesis|g__Klebsiella.s__Klebsiella_aerogenes	17.9194072985
+PWY-5973: cis-vaccenate biosynthesis|g__Escherichia.s__Escherichia_fergusonii	4.0801705393
+PWY0-862: (5Z)-dodecenoate biosynthesis I	1256.9286618736
+PWY0-862: (5Z)-dodecenoate biosynthesis I|g__Klebsiella.s__Klebsiella_oxytoca	814.8447189556
+PWY0-862: (5Z)-dodecenoate biosynthesis I|g__Klebsiella.s__Klebsiella_pneumoniae	123.0105566113
+PWY0-862: (5Z)-dodecenoate biosynthesis I|g__Escherichia.s__Escherichia_coli	82.1149087241
+PWY0-862: (5Z)-dodecenoate biosynthesis I|unclassified	65.7045107468
+PWY0-862: (5Z)-dodecenoate biosynthesis I|g__Klebsiella.s__Klebsiella_aerogenes	22.2769385305
+PWY0-862: (5Z)-dodecenoate biosynthesis I|g__Escherichia.s__Escherichia_fergusonii	17.2244436531
+PWY-7117: C4 photosynthetic carbon assimilation cycle, PEPCK type	1248.7402076572
+PWY-7117: C4 photosynthetic carbon assimilation cycle, PEPCK type|g__Klebsiella.s__Klebsiella_oxytoca	708.1390748679
+PWY-7117: C4 photosynthetic carbon assimilation cycle, PEPCK type|unclassified	172.1217618758
+PWY-7117: C4 photosynthetic carbon assimilation cycle, PEPCK type|g__Klebsiella.s__Klebsiella_pneumoniae	153.5233831695
+PWY-7117: C4 photosynthetic carbon assimilation cycle, PEPCK type|g__Escherichia.s__Escherichia_coli	37.9831399570
+PWY-7117: C4 photosynthetic carbon assimilation cycle, PEPCK type|g__Klebsiella.s__Klebsiella_aerogenes	0.0905018599
+PWY-6902: chitin degradation II (Vibrio)	1216.6927639831
+PWY-6902: chitin degradation II (Vibrio)|g__Klebsiella.s__Klebsiella_oxytoca	506.1431025378
+PWY-6902: chitin degradation II (Vibrio)|g__Bacteroides.s__Bacteroides_thetaiotaomicron	156.5822748446
+PWY-6902: chitin degradation II (Vibrio)|unclassified	73.6667161700
+PWY-6902: chitin degradation II (Vibrio)|g__Klebsiella.s__Klebsiella_pneumoniae	31.1007919177
+PWY-6902: chitin degradation II (Vibrio)|g__Escherichia.s__Escherichia_coli	4.7218432779
+THRESYN-PWY: superpathway of L-threonine biosynthesis	1215.7698998963
+THRESYN-PWY: superpathway of L-threonine biosynthesis|g__Klebsiella.s__Klebsiella_oxytoca	752.0597566727
+THRESYN-PWY: superpathway of L-threonine biosynthesis|unclassified	164.7033374028
+THRESYN-PWY: superpathway of L-threonine biosynthesis|g__Klebsiella.s__Klebsiella_pneumoniae	87.1511551652
+THRESYN-PWY: superpathway of L-threonine biosynthesis|g__Escherichia.s__Escherichia_coli	6.8155801809
+THRESYN-PWY: superpathway of L-threonine biosynthesis|g__Escherichia.s__Escherichia_fergusonii	1.5323492788
+PWY-7111: pyruvate fermentation to isobutanol (engineered)	1207.7003522084
+PWY-7111: pyruvate fermentation to isobutanol (engineered)|g__Klebsiella.s__Klebsiella_oxytoca	759.3802723498
+PWY-7111: pyruvate fermentation to isobutanol (engineered)|g__Klebsiella.s__Klebsiella_pneumoniae	169.1971410474
+PWY-7111: pyruvate fermentation to isobutanol (engineered)|g__Escherichia.s__Escherichia_coli	61.2356338138
+PWY-7111: pyruvate fermentation to isobutanol (engineered)|unclassified	11.7951595587
+PWY-7111: pyruvate fermentation to isobutanol (engineered)|g__Klebsiella.s__Klebsiella_aerogenes	11.1244718212
+PWY-7111: pyruvate fermentation to isobutanol (engineered)|g__Sellimonas.s__Sellimonas_intestinalis	8.2606144575
+PWY-7111: pyruvate fermentation to isobutanol (engineered)|g__Escherichia.s__Escherichia_fergusonii	5.0383257200
+PWY-5103: L-isoleucine biosynthesis III	1190.1539265409
+PWY-5103: L-isoleucine biosynthesis III|g__Klebsiella.s__Klebsiella_oxytoca	749.3457449122
+PWY-5103: L-isoleucine biosynthesis III|unclassified	126.2576960523
+PWY-5103: L-isoleucine biosynthesis III|g__Klebsiella.s__Klebsiella_pneumoniae	118.4476278557
+PWY-5103: L-isoleucine biosynthesis III|g__Bacteroides.s__Bacteroides_thetaiotaomicron	92.0136345469
+PWY-5103: L-isoleucine biosynthesis III|g__Escherichia.s__Escherichia_coli	64.2535166743
+PWY-5103: L-isoleucine biosynthesis III|g__Klebsiella.s__Klebsiella_aerogenes	12.3510235255
+PWY-5103: L-isoleucine biosynthesis III|g__Escherichia.s__Escherichia_fergusonii	2.5166310514
+VALSYN-PWY: L-valine biosynthesis	1175.6275145229
+VALSYN-PWY: L-valine biosynthesis|g__Klebsiella.s__Klebsiella_oxytoca	717.7936347433
+VALSYN-PWY: L-valine biosynthesis|g__Klebsiella.s__Klebsiella_pneumoniae	168.3689005041
+VALSYN-PWY: L-valine biosynthesis|unclassified	144.5739275893
+VALSYN-PWY: L-valine biosynthesis|g__Bacteroides.s__Bacteroides_thetaiotaomicron	100.6837787024
+VALSYN-PWY: L-valine biosynthesis|g__Escherichia.s__Escherichia_coli	54.7584608064
+VALSYN-PWY: L-valine biosynthesis|g__Klebsiella.s__Klebsiella_aerogenes	19.0765094376
+VALSYN-PWY: L-valine biosynthesis|g__Blautia.s__Blautia_sp_CAG_257	8.1526637661
+VALSYN-PWY: L-valine biosynthesis|g__Sellimonas.s__Sellimonas_intestinalis	7.9322278454
+VALSYN-PWY: L-valine biosynthesis|g__Escherichia.s__Escherichia_fergusonii	5.4352309064
+VALSYN-PWY: L-valine biosynthesis|g__Enterococcus.s__Enterococcus_saccharolyticus	2.0132046015
+VALSYN-PWY: L-valine biosynthesis|g__Enterococcus.s__Enterococcus_gallinarum	0.8587549471
+BRANCHED-CHAIN-AA-SYN-PWY: superpathway of branched chain amino acid biosynthesis	1169.1173935709
+BRANCHED-CHAIN-AA-SYN-PWY: superpathway of branched chain amino acid biosynthesis|g__Klebsiella.s__Klebsiella_oxytoca	712.3956402187
+BRANCHED-CHAIN-AA-SYN-PWY: superpathway of branched chain amino acid biosynthesis|g__Klebsiella.s__Klebsiella_pneumoniae	138.1923527752
+BRANCHED-CHAIN-AA-SYN-PWY: superpathway of branched chain amino acid biosynthesis|g__Bacteroides.s__Bacteroides_thetaiotaomicron	103.2574193979
+BRANCHED-CHAIN-AA-SYN-PWY: superpathway of branched chain amino acid biosynthesis|unclassified	25.3849865910
+BRANCHED-CHAIN-AA-SYN-PWY: superpathway of branched chain amino acid biosynthesis|g__Klebsiella.s__Klebsiella_aerogenes	6.0573170192
+PWY-5347: superpathway of L-methionine biosynthesis (transsulfuration)	1157.1268149275
+PWY-5347: superpathway of L-methionine biosynthesis (transsulfuration)|g__Klebsiella.s__Klebsiella_oxytoca	681.9270712429
+PWY-5347: superpathway of L-methionine biosynthesis (transsulfuration)|unclassified	153.0159426897
+PWY-5347: superpathway of L-methionine biosynthesis (transsulfuration)|g__Klebsiella.s__Klebsiella_pneumoniae	101.0615509337
+PWY-5347: superpathway of L-methionine biosynthesis (transsulfuration)|g__Escherichia.s__Escherichia_coli	22.9189060008
+ILEUSYN-PWY: L-isoleucine biosynthesis I (from threonine)	1155.6811638400
+ILEUSYN-PWY: L-isoleucine biosynthesis I (from threonine)|g__Klebsiella.s__Klebsiella_oxytoca	706.9657455693
+ILEUSYN-PWY: L-isoleucine biosynthesis I (from threonine)|g__Klebsiella.s__Klebsiella_pneumoniae	140.7568202375
+ILEUSYN-PWY: L-isoleucine biosynthesis I (from threonine)|g__Bacteroides.s__Bacteroides_thetaiotaomicron	97.5025146233
+ILEUSYN-PWY: L-isoleucine biosynthesis I (from threonine)|unclassified	18.1782455545
+ILEUSYN-PWY: L-isoleucine biosynthesis I (from threonine)|g__Klebsiella.s__Klebsiella_aerogenes	14.7254003583
+ILEUSYN-PWY: L-isoleucine biosynthesis I (from threonine)|g__Escherichia.s__Escherichia_coli	13.9291931481
+ILEUSYN-PWY: L-isoleucine biosynthesis I (from threonine)|g__Escherichia.s__Escherichia_fergusonii	3.3145973416
+ASPASN-PWY: superpathway of L-aspartate and L-asparagine biosynthesis	1153.3392065178
+ASPASN-PWY: superpathway of L-aspartate and L-asparagine biosynthesis|g__Klebsiella.s__Klebsiella_oxytoca	624.8154420545
+ASPASN-PWY: superpathway of L-aspartate and L-asparagine biosynthesis|unclassified	184.7117486771
+ASPASN-PWY: superpathway of L-aspartate and L-asparagine biosynthesis|g__Klebsiella.s__Klebsiella_pneumoniae	125.7961820217
+ASPASN-PWY: superpathway of L-aspartate and L-asparagine biosynthesis|g__Escherichia.s__Escherichia_coli	72.8119582586
+ASPASN-PWY: superpathway of L-aspartate and L-asparagine biosynthesis|g__Klebsiella.s__Klebsiella_aerogenes	18.5332863155
+ASPASN-PWY: superpathway of L-aspartate and L-asparagine biosynthesis|g__Escherichia.s__Escherichia_fergusonii	3.7046614971
+PWY-6609: adenine and adenosine salvage III	1149.2561744153
+PWY-6609: adenine and adenosine salvage III|g__Klebsiella.s__Klebsiella_oxytoca	589.8774507941
+PWY-6609: adenine and adenosine salvage III|g__Klebsiella.s__Klebsiella_pneumoniae	121.0732285905
+PWY-6609: adenine and adenosine salvage III|unclassified	108.3008244829
+PWY-6609: adenine and adenosine salvage III|g__Bacteroides.s__Bacteroides_thetaiotaomicron	104.5537639089
+PWY-6609: adenine and adenosine salvage III|g__Escherichia.s__Escherichia_coli	83.7395060121
+PWY-6609: adenine and adenosine salvage III|g__Klebsiella.s__Klebsiella_aerogenes	11.1205687592
+PWY-6609: adenine and adenosine salvage III|g__Sellimonas.s__Sellimonas_intestinalis	10.3559051078
+GALACTARDEG-PWY: D-galactarate degradation I	1146.5390210898
+GALACTARDEG-PWY: D-galactarate degradation I|g__Klebsiella.s__Klebsiella_oxytoca	814.5496588158
+GALACTARDEG-PWY: D-galactarate degradation I|g__Klebsiella.s__Klebsiella_pneumoniae	129.3721221157
+GALACTARDEG-PWY: D-galactarate degradation I|unclassified	113.2282975587
+GALACTARDEG-PWY: D-galactarate degradation I|g__Escherichia.s__Escherichia_coli	13.7655092317
+GALACTARDEG-PWY: D-galactarate degradation I|g__Flavonifractor.s__Flavonifractor_plautii	4.5974234051
+GALACTARDEG-PWY: D-galactarate degradation I|g__Klebsiella.s__Klebsiella_aerogenes	4.4572601523
+GLUCARGALACTSUPER-PWY: superpathway of D-glucarate and D-galactarate degradation	1146.5390210898
+GLUCARGALACTSUPER-PWY: superpathway of D-glucarate and D-galactarate degradation|g__Klebsiella.s__Klebsiella_oxytoca	814.5496588158
+GLUCARGALACTSUPER-PWY: superpathway of D-glucarate and D-galactarate degradation|g__Klebsiella.s__Klebsiella_pneumoniae	129.3721221157
+GLUCARGALACTSUPER-PWY: superpathway of D-glucarate and D-galactarate degradation|unclassified	113.2282975587
+GLUCARGALACTSUPER-PWY: superpathway of D-glucarate and D-galactarate degradation|g__Escherichia.s__Escherichia_coli	13.7655092317
+GLUCARGALACTSUPER-PWY: superpathway of D-glucarate and D-galactarate degradation|g__Flavonifractor.s__Flavonifractor_plautii	4.5974234051
+GLUCARGALACTSUPER-PWY: superpathway of D-glucarate and D-galactarate degradation|g__Klebsiella.s__Klebsiella_aerogenes	4.4572601523
+PWY-5941: glycogen degradation II	1139.8479144342
+PWY-5941: glycogen degradation II|g__Klebsiella.s__Klebsiella_oxytoca	607.9317950073
+PWY-5941: glycogen degradation II|unclassified	119.1118142459
+PWY-5941: glycogen degradation II|g__Escherichia.s__Escherichia_coli	96.0518131011
+PWY-5941: glycogen degradation II|g__Klebsiella.s__Klebsiella_pneumoniae	72.8480111862
+PWY-5941: glycogen degradation II|g__Klebsiella.s__Klebsiella_aerogenes	8.6720336874
+HISDEG-PWY: L-histidine degradation I	1132.8289024987
+HISDEG-PWY: L-histidine degradation I|g__Klebsiella.s__Klebsiella_aerogenes	438.2570909314
+HISDEG-PWY: L-histidine degradation I|g__Klebsiella.s__Klebsiella_oxytoca	316.1629906433
+HISDEG-PWY: L-histidine degradation I|g__Bacteroides.s__Bacteroides_thetaiotaomicron	86.2838716365
+HISDEG-PWY: L-histidine degradation I|unclassified	74.9089170754
+HISDEG-PWY: L-histidine degradation I|g__Klebsiella.s__Klebsiella_pneumoniae	70.4985688415
+HISDEG-PWY: L-histidine degradation I|g__Escherichia.s__Escherichia_coli	40.7189778889
+PWY-5989: stearate biosynthesis II (bacteria and plants)	1130.2769340690
+PWY-5989: stearate biosynthesis II (bacteria and plants)|g__Klebsiella.s__Klebsiella_oxytoca	679.8420531744
+PWY-5989: stearate biosynthesis II (bacteria and plants)|g__Klebsiella.s__Klebsiella_pneumoniae	123.3874090806
+PWY-5989: stearate biosynthesis II (bacteria and plants)|unclassified	76.1635307657
+PWY-5989: stearate biosynthesis II (bacteria and plants)|g__Klebsiella.s__Klebsiella_aerogenes	20.7978206619
+PWY-5989: stearate biosynthesis II (bacteria and plants)|g__Escherichia.s__Escherichia_coli	10.8842765090
+PWY0-1296: purine ribonucleosides degradation	1105.9271028053
+PWY0-1296: purine ribonucleosides degradation|g__Klebsiella.s__Klebsiella_oxytoca	659.4407076199
+PWY0-1296: purine ribonucleosides degradation|g__Escherichia.s__Escherichia_coli	120.3863367638
+PWY0-1296: purine ribonucleosides degradation|g__Klebsiella.s__Klebsiella_pneumoniae	117.8643554743
+PWY0-1296: purine ribonucleosides degradation|unclassified	89.7808623015
+PWY0-1296: purine ribonucleosides degradation|g__Escherichia.s__Escherichia_fergusonii	17.5533420093
+PWY0-1296: purine ribonucleosides degradation|g__Klebsiella.s__Klebsiella_aerogenes	12.9512799510
+PWY0-1296: purine ribonucleosides degradation|g__Sellimonas.s__Sellimonas_intestinalis	9.8294605282
+PWY-6519: 8-amino-7-oxononanoate biosynthesis I	1105.4912791664
+PWY-6519: 8-amino-7-oxononanoate biosynthesis I|g__Klebsiella.s__Klebsiella_oxytoca	718.8498623943
+PWY-6519: 8-amino-7-oxononanoate biosynthesis I|g__Escherichia.s__Escherichia_coli	89.4386570286
+PWY-6519: 8-amino-7-oxononanoate biosynthesis I|g__Klebsiella.s__Klebsiella_pneumoniae	61.0038088792
+PWY-6519: 8-amino-7-oxononanoate biosynthesis I|unclassified	58.1914660294
+PWY-6519: 8-amino-7-oxononanoate biosynthesis I|g__Klebsiella.s__Klebsiella_aerogenes	9.2387586783
+PWY-3001: superpathway of L-isoleucine biosynthesis I	1098.9077094576
+PWY-3001: superpathway of L-isoleucine biosynthesis I|g__Klebsiella.s__Klebsiella_oxytoca	701.3529352970
+PWY-3001: superpathway of L-isoleucine biosynthesis I|g__Klebsiella.s__Klebsiella_pneumoniae	102.2328961507
+PWY-3001: superpathway of L-isoleucine biosynthesis I|unclassified	38.4191500813
+PWY-3001: superpathway of L-isoleucine biosynthesis I|g__Escherichia.s__Escherichia_coli	2.0107308342
+METSYN-PWY: superpathway of L-homoserine and L-methionine biosynthesis	1095.2504539046
+METSYN-PWY: superpathway of L-homoserine and L-methionine biosynthesis|g__Klebsiella.s__Klebsiella_oxytoca	649.7801047095
+METSYN-PWY: superpathway of L-homoserine and L-methionine biosynthesis|unclassified	144.2915303007
+METSYN-PWY: superpathway of L-homoserine and L-methionine biosynthesis|g__Klebsiella.s__Klebsiella_pneumoniae	93.9976161933
+METSYN-PWY: superpathway of L-homoserine and L-methionine biosynthesis|g__Escherichia.s__Escherichia_coli	20.6988400164
+COMPLETE-ARO-PWY: superpathway of aromatic amino acid biosynthesis	1094.5284270383
+COMPLETE-ARO-PWY: superpathway of aromatic amino acid biosynthesis|g__Klebsiella.s__Klebsiella_oxytoca	581.4029700034
+COMPLETE-ARO-PWY: superpathway of aromatic amino acid biosynthesis|g__Klebsiella.s__Klebsiella_pneumoniae	87.3602739531
+COMPLETE-ARO-PWY: superpathway of aromatic amino acid biosynthesis|unclassified	60.3406516163
+COMPLETE-ARO-PWY: superpathway of aromatic amino acid biosynthesis|g__Escherichia.s__Escherichia_coli	37.6584416572
+COMPLETE-ARO-PWY: superpathway of aromatic amino acid biosynthesis|g__Blautia.s__Blautia_sp_CAG_257	11.8808951646
+COMPLETE-ARO-PWY: superpathway of aromatic amino acid biosynthesis|g__Sellimonas.s__Sellimonas_intestinalis	10.2228414212
+COMPLETE-ARO-PWY: superpathway of aromatic amino acid biosynthesis|g__Klebsiella.s__Klebsiella_aerogenes	0.3522353795
+GLYCOGENSYNTH-PWY: glycogen biosynthesis I (from ADP-D-Glucose)	1082.3138855153
+GLYCOGENSYNTH-PWY: glycogen biosynthesis I (from ADP-D-Glucose)|g__Klebsiella.s__Klebsiella_oxytoca	521.1146108396
+GLYCOGENSYNTH-PWY: glycogen biosynthesis I (from ADP-D-Glucose)|unclassified	181.7085912176
+GLYCOGENSYNTH-PWY: glycogen biosynthesis I (from ADP-D-Glucose)|g__Klebsiella.s__Klebsiella_pneumoniae	92.0025732809
+GLYCOGENSYNTH-PWY: glycogen biosynthesis I (from ADP-D-Glucose)|g__Bacteroides.s__Bacteroides_thetaiotaomicron	81.3799273669
+GLYCOGENSYNTH-PWY: glycogen biosynthesis I (from ADP-D-Glucose)|g__Escherichia.s__Escherichia_coli	53.3407525044
+GLYCOGENSYNTH-PWY: glycogen biosynthesis I (from ADP-D-Glucose)|g__Blautia.s__Blautia_sp_CAG_257	19.2527699622
+GLYCOGENSYNTH-PWY: glycogen biosynthesis I (from ADP-D-Glucose)|g__Sellimonas.s__Sellimonas_intestinalis	10.6128465511
+GLYCOGENSYNTH-PWY: glycogen biosynthesis I (from ADP-D-Glucose)|g__Klebsiella.s__Klebsiella_aerogenes	8.4635662080
+MET-SAM-PWY: superpathway of S-adenosyl-L-methionine biosynthesis	1076.0835517773
+MET-SAM-PWY: superpathway of S-adenosyl-L-methionine biosynthesis|g__Klebsiella.s__Klebsiella_oxytoca	601.5274163301
+MET-SAM-PWY: superpathway of S-adenosyl-L-methionine biosynthesis|g__Klebsiella.s__Klebsiella_pneumoniae	95.0787402478
+MET-SAM-PWY: superpathway of S-adenosyl-L-methionine biosynthesis|unclassified	66.6516026290
+MET-SAM-PWY: superpathway of S-adenosyl-L-methionine biosynthesis|g__Escherichia.s__Escherichia_coli	21.4795198528
+ANAGLYCOLYSIS-PWY: glycolysis III (from glucose)	1074.0308418532
+ANAGLYCOLYSIS-PWY: glycolysis III (from glucose)|g__Klebsiella.s__Klebsiella_oxytoca	583.9593603236
+ANAGLYCOLYSIS-PWY: glycolysis III (from glucose)|g__Klebsiella.s__Klebsiella_pneumoniae	140.8694579574
+ANAGLYCOLYSIS-PWY: glycolysis III (from glucose)|unclassified	52.6909776708
+ANAGLYCOLYSIS-PWY: glycolysis III (from glucose)|g__Escherichia.s__Escherichia_coli	17.3051803906
+ANAGLYCOLYSIS-PWY: glycolysis III (from glucose)|g__Klebsiella.s__Klebsiella_aerogenes	15.0501750617
+ANAGLYCOLYSIS-PWY: glycolysis III (from glucose)|g__Escherichia.s__Escherichia_fergusonii	1.5184973914
+PWY-7238: sucrose biosynthesis II	1072.3884492116
+PWY-7238: sucrose biosynthesis II|g__Klebsiella.s__Klebsiella_oxytoca	614.9079014841
+PWY-7238: sucrose biosynthesis II|unclassified	97.3699313337
+PWY-7238: sucrose biosynthesis II|g__Escherichia.s__Escherichia_coli	88.6535584415
+PWY-7238: sucrose biosynthesis II|g__Klebsiella.s__Klebsiella_pneumoniae	56.7911170288
+PWY-7238: sucrose biosynthesis II|g__Blautia.s__Blautia_sp_CAG_257	30.9543333148
+PWY-7238: sucrose biosynthesis II|g__Sellimonas.s__Sellimonas_intestinalis	15.5360051359
+PWY-7238: sucrose biosynthesis II|g__Klebsiella.s__Klebsiella_aerogenes	7.9404621726
+PWY-6901: superpathway of glucose and xylose degradation	1059.3230525977
+PWY-6901: superpathway of glucose and xylose degradation|g__Klebsiella.s__Klebsiella_oxytoca	591.8771284288
+PWY-6901: superpathway of glucose and xylose degradation|g__Klebsiella.s__Klebsiella_pneumoniae	92.5129936564
+PWY-6901: superpathway of glucose and xylose degradation|g__Escherichia.s__Escherichia_coli	29.9852290828
+PWY0-1297: superpathway of purine deoxyribonucleosides degradation	1056.7968445689
+PWY0-1297: superpathway of purine deoxyribonucleosides degradation|g__Klebsiella.s__Klebsiella_oxytoca	665.5660022120
+PWY0-1297: superpathway of purine deoxyribonucleosides degradation|g__Klebsiella.s__Klebsiella_pneumoniae	110.2613568064
+PWY0-1297: superpathway of purine deoxyribonucleosides degradation|g__Escherichia.s__Escherichia_coli	77.8769841255
+PWY0-1297: superpathway of purine deoxyribonucleosides degradation|unclassified	71.9482736808
+PWY0-1297: superpathway of purine deoxyribonucleosides degradation|g__Klebsiella.s__Klebsiella_aerogenes	12.7173637646
+PWY0-1297: superpathway of purine deoxyribonucleosides degradation|g__Escherichia.s__Escherichia_fergusonii	6.8083840539
+GLUCONEO-PWY: gluconeogenesis I	1047.2005357651
+GLUCONEO-PWY: gluconeogenesis I|g__Klebsiella.s__Klebsiella_oxytoca	639.8987521290
+GLUCONEO-PWY: gluconeogenesis I|g__Klebsiella.s__Klebsiella_pneumoniae	83.6047426026
+GLUCONEO-PWY: gluconeogenesis I|unclassified	47.8517230877
+GLUCONEO-PWY: gluconeogenesis I|g__Escherichia.s__Escherichia_coli	32.7658471403
+GLUCONEO-PWY: gluconeogenesis I|g__Klebsiella.s__Klebsiella_aerogenes	11.1135222794
+GLUCONEO-PWY: gluconeogenesis I|g__Escherichia.s__Escherichia_fergusonii	1.7734911076
+ARO-PWY: chorismate biosynthesis I	1046.5545349508
+ARO-PWY: chorismate biosynthesis I|g__Klebsiella.s__Klebsiella_oxytoca	565.5453007533
+ARO-PWY: chorismate biosynthesis I|g__Klebsiella.s__Klebsiella_pneumoniae	108.7089084419
+ARO-PWY: chorismate biosynthesis I|unclassified	90.6038075914
+ARO-PWY: chorismate biosynthesis I|g__Bacteroides.s__Bacteroides_thetaiotaomicron	90.3088774105
+ARO-PWY: chorismate biosynthesis I|g__Escherichia.s__Escherichia_coli	42.9285643519
+ARO-PWY: chorismate biosynthesis I|g__Blautia.s__Blautia_sp_CAG_257	11.4022574912
+ARO-PWY: chorismate biosynthesis I|g__Sellimonas.s__Sellimonas_intestinalis	10.0235881181
+ARO-PWY: chorismate biosynthesis I|g__Klebsiella.s__Klebsiella_aerogenes	3.2740380948
+FERMENTATION-PWY: mixed acid fermentation	1045.8536147800
+FERMENTATION-PWY: mixed acid fermentation|g__Klebsiella.s__Klebsiella_oxytoca	663.7522991140
+FERMENTATION-PWY: mixed acid fermentation|unclassified	145.6032988108
+FERMENTATION-PWY: mixed acid fermentation|g__Klebsiella.s__Klebsiella_pneumoniae	121.3781924380
+FERMENTATION-PWY: mixed acid fermentation|g__Escherichia.s__Escherichia_coli	68.5078627629
+PWY-7345: superpathway of anaerobic sucrose degradation	1042.4199824252
+PWY-7345: superpathway of anaerobic sucrose degradation|g__Klebsiella.s__Klebsiella_oxytoca	581.2629554600
+PWY-7345: superpathway of anaerobic sucrose degradation|g__Klebsiella.s__Klebsiella_pneumoniae	96.1237904802
+PWY-7345: superpathway of anaerobic sucrose degradation|g__Escherichia.s__Escherichia_coli	19.3184302160
+PWY-7345: superpathway of anaerobic sucrose degradation|g__Klebsiella.s__Klebsiella_aerogenes	9.5563050442
+PWY-621: sucrose degradation III (sucrose invertase)	1040.5635652311
+PWY-621: sucrose degradation III (sucrose invertase)|g__Klebsiella.s__Klebsiella_oxytoca	606.9391513774
+PWY-621: sucrose degradation III (sucrose invertase)|g__Klebsiella.s__Klebsiella_pneumoniae	114.2369730976
+PWY-621: sucrose degradation III (sucrose invertase)|g__Bacteroides.s__Bacteroides_thetaiotaomicron	87.2023088390
+PWY-621: sucrose degradation III (sucrose invertase)|unclassified	45.4225894258
+PWY-621: sucrose degradation III (sucrose invertase)|g__Klebsiella.s__Klebsiella_aerogenes	5.1748790798
+GLYCOLYSIS: glycolysis I (from glucose 6-phosphate)	1036.0073825798
+GLYCOLYSIS: glycolysis I (from glucose 6-phosphate)|g__Klebsiella.s__Klebsiella_oxytoca	574.1717201341
+GLYCOLYSIS: glycolysis I (from glucose 6-phosphate)|g__Klebsiella.s__Klebsiella_pneumoniae	117.1636418240
+GLYCOLYSIS: glycolysis I (from glucose 6-phosphate)|unclassified	53.3342899662
+GLYCOLYSIS: glycolysis I (from glucose 6-phosphate)|g__Escherichia.s__Escherichia_coli	26.3635057568
+GLYCOLYSIS: glycolysis I (from glucose 6-phosphate)|g__Klebsiella.s__Klebsiella_aerogenes	13.5885056899
+GLYCOLYSIS: glycolysis I (from glucose 6-phosphate)|g__Escherichia.s__Escherichia_fergusonii	1.7775299535
+PWY-5695: inosine 5'-phosphate degradation	1032.6487449279
+PWY-5695: inosine 5'-phosphate degradation|g__Klebsiella.s__Klebsiella_oxytoca	563.4329423645
+PWY-5695: inosine 5'-phosphate degradation|g__Escherichia.s__Escherichia_coli	164.0734374214
+PWY-5695: inosine 5'-phosphate degradation|g__Klebsiella.s__Klebsiella_pneumoniae	105.3346748353
+PWY-5695: inosine 5'-phosphate degradation|g__Bacteroides.s__Bacteroides_thetaiotaomicron	85.7838193900
+PWY-5695: inosine 5'-phosphate degradation|unclassified	34.7257191921
+PWY-5695: inosine 5'-phosphate degradation|g__Klebsiella.s__Klebsiella_aerogenes	2.9076911697
+GLUCOSE1PMETAB-PWY: glucose and glucose-1-phosphate degradation	1032.1494457528
+GLUCOSE1PMETAB-PWY: glucose and glucose-1-phosphate degradation|g__Klebsiella.s__Klebsiella_oxytoca	563.3008174419
+GLUCOSE1PMETAB-PWY: glucose and glucose-1-phosphate degradation|g__Escherichia.s__Escherichia_coli	226.6073838499
+GLUCOSE1PMETAB-PWY: glucose and glucose-1-phosphate degradation|unclassified	159.9931784919
+GLUCOSE1PMETAB-PWY: glucose and glucose-1-phosphate degradation|g__Klebsiella.s__Klebsiella_pneumoniae	112.4832965837
+GLUCOSE1PMETAB-PWY: glucose and glucose-1-phosphate degradation|g__Klebsiella.s__Klebsiella_aerogenes	11.5325828136
+GLUCOSE1PMETAB-PWY: glucose and glucose-1-phosphate degradation|g__Escherichia.s__Escherichia_fergusonii	2.3909343941
+PWY-5971: palmitate biosynthesis (type II fatty acid synthase)	1016.4931291493
+PWY-5971: palmitate biosynthesis (type II fatty acid synthase)|g__Klebsiella.s__Klebsiella_pneumoniae	121.6540460177
+PWY-5971: palmitate biosynthesis (type II fatty acid synthase)|unclassified	75.0214259288
+PWY-5971: palmitate biosynthesis (type II fatty acid synthase)|g__Escherichia.s__Escherichia_coli	71.3059614352
+PWY-7115: C4 photosynthetic carbon assimilation cycle, NAD-ME type	1003.4282482247
+PWY-7115: C4 photosynthetic carbon assimilation cycle, NAD-ME type|g__Klebsiella.s__Klebsiella_oxytoca	655.6736826243
+PWY-7115: C4 photosynthetic carbon assimilation cycle, NAD-ME type|g__Klebsiella.s__Klebsiella_pneumoniae	68.3213525211
+PWY-7115: C4 photosynthetic carbon assimilation cycle, NAD-ME type|unclassified	46.6425106422
+PWY-7115: C4 photosynthetic carbon assimilation cycle, NAD-ME type|g__Escherichia.s__Escherichia_coli	1.9840915300
+SO4ASSIM-PWY: assimilatory sulfate reduction I	1000.6627475874
+SO4ASSIM-PWY: assimilatory sulfate reduction I|g__Klebsiella.s__Klebsiella_oxytoca	703.2059530407
+SO4ASSIM-PWY: assimilatory sulfate reduction I|g__Klebsiella.s__Klebsiella_pneumoniae	129.9222956785
+SO4ASSIM-PWY: assimilatory sulfate reduction I|unclassified	96.4381612309
+SO4ASSIM-PWY: assimilatory sulfate reduction I|g__Escherichia.s__Escherichia_coli	46.4790191109
+SO4ASSIM-PWY: assimilatory sulfate reduction I|g__Klebsiella.s__Klebsiella_aerogenes	15.3016232061
+PWY-5154: L-arginine biosynthesis III (via N-acetyl-L-citrulline)	988.4062036570
+PWY-5154: L-arginine biosynthesis III (via N-acetyl-L-citrulline)|g__Klebsiella.s__Klebsiella_oxytoca	565.8768881490
+PWY-5154: L-arginine biosynthesis III (via N-acetyl-L-citrulline)|g__Klebsiella.s__Klebsiella_pneumoniae	116.5654465596
+PWY-5154: L-arginine biosynthesis III (via N-acetyl-L-citrulline)|unclassified	111.0885131019
+PWY-5154: L-arginine biosynthesis III (via N-acetyl-L-citrulline)|g__Escherichia.s__Escherichia_coli	5.2555451281
+PWY-5097: L-lysine biosynthesis VI	984.6095828755
+PWY-5097: L-lysine biosynthesis VI|g__Klebsiella.s__Klebsiella_oxytoca	540.4634489544
+PWY-5097: L-lysine biosynthesis VI|g__Klebsiella.s__Klebsiella_pneumoniae	121.2304216717
+PWY-5097: L-lysine biosynthesis VI|unclassified	107.2471487523
+PWY-5097: L-lysine biosynthesis VI|g__Bacteroides.s__Bacteroides_thetaiotaomicron	76.4309850234
+PWY-5097: L-lysine biosynthesis VI|g__Escherichia.s__Escherichia_coli	16.8057141051
+PWY-5138: fatty acid &beta;-oxidation IV (unsaturated, even number)	978.5709934904
+PWY-5138: fatty acid &beta;-oxidation IV (unsaturated, even number)|g__Klebsiella.s__Klebsiella_oxytoca	642.1237332625
+PWY-5138: fatty acid &beta;-oxidation IV (unsaturated, even number)|unclassified	71.7728900640
+PWY-5138: fatty acid &beta;-oxidation IV (unsaturated, even number)|g__Escherichia.s__Escherichia_coli	62.4421985559
+PWY-5138: fatty acid &beta;-oxidation IV (unsaturated, even number)|g__Klebsiella.s__Klebsiella_pneumoniae	42.6259241482
+PWY-5138: fatty acid &beta;-oxidation IV (unsaturated, even number)|g__Klebsiella.s__Klebsiella_aerogenes	12.6255762948
+PWY-5138: fatty acid &beta;-oxidation IV (unsaturated, even number)|g__Escherichia.s__Escherichia_fergusonii	4.2577790447
+PWY-5913: partial TCA cycle (obligate autotrophs)	977.2262941884
+PWY-5913: partial TCA cycle (obligate autotrophs)|g__Klebsiella.s__Klebsiella_oxytoca	572.6120038663
+PWY-5913: partial TCA cycle (obligate autotrophs)|unclassified	145.6032988108
+PWY-5913: partial TCA cycle (obligate autotrophs)|g__Klebsiella.s__Klebsiella_pneumoniae	99.9261158778
+PWY-5913: partial TCA cycle (obligate autotrophs)|g__Escherichia.s__Escherichia_coli	30.5731662149
+PWY-7858: (5Z)-dodecenoate biosynthesis II	975.1474516383
+PWY-7858: (5Z)-dodecenoate biosynthesis II|g__Klebsiella.s__Klebsiella_oxytoca	682.4296464168
+PWY-7858: (5Z)-dodecenoate biosynthesis II|g__Klebsiella.s__Klebsiella_pneumoniae	68.6943440138
+PWY-7858: (5Z)-dodecenoate biosynthesis II|g__Escherichia.s__Escherichia_coli	39.1412396030
+PWY-7858: (5Z)-dodecenoate biosynthesis II|unclassified	35.9514059834
+PWY-7858: (5Z)-dodecenoate biosynthesis II|g__Klebsiella.s__Klebsiella_aerogenes	17.9460304038
+PWY-6936: seleno-amino acid biosynthesis (plants)	973.7023724119
+PWY-6936: seleno-amino acid biosynthesis (plants)|g__Klebsiella.s__Klebsiella_oxytoca	545.6829201407
+PWY-6936: seleno-amino acid biosynthesis (plants)|unclassified	167.8211600240
+PWY-6936: seleno-amino acid biosynthesis (plants)|g__Klebsiella.s__Klebsiella_pneumoniae	133.5205253457
+PWY-6936: seleno-amino acid biosynthesis (plants)|g__Escherichia.s__Escherichia_coli	21.5152302569
+PWY-6936: seleno-amino acid biosynthesis (plants)|g__Klebsiella.s__Klebsiella_aerogenes	10.6643375126
+PWY-5484: glycolysis II (from fructose 6-phosphate)	970.8525604441
+PWY-5484: glycolysis II (from fructose 6-phosphate)|g__Klebsiella.s__Klebsiella_oxytoca	553.4216120704
+PWY-5484: glycolysis II (from fructose 6-phosphate)|g__Klebsiella.s__Klebsiella_pneumoniae	93.9142263646
+PWY-5484: glycolysis II (from fructose 6-phosphate)|unclassified	48.6517434164
+PWY-5484: glycolysis II (from fructose 6-phosphate)|g__Escherichia.s__Escherichia_coli	18.0571973156
+PWY-5484: glycolysis II (from fructose 6-phosphate)|g__Klebsiella.s__Klebsiella_aerogenes	14.2971906982
+PWY-5484: glycolysis II (from fructose 6-phosphate)|g__Escherichia.s__Escherichia_fergusonii	1.2432392245
+PWY-6163: chorismate biosynthesis from 3-dehydroquinate	969.2278087515
+PWY-6163: chorismate biosynthesis from 3-dehydroquinate|g__Klebsiella.s__Klebsiella_oxytoca	555.1180305007
+PWY-6163: chorismate biosynthesis from 3-dehydroquinate|g__Bacteroides.s__Bacteroides_thetaiotaomicron	102.1653448296
+PWY-6163: chorismate biosynthesis from 3-dehydroquinate|g__Klebsiella.s__Klebsiella_pneumoniae	95.2373661816
+PWY-6163: chorismate biosynthesis from 3-dehydroquinate|unclassified	74.9200788840
+PWY-6163: chorismate biosynthesis from 3-dehydroquinate|g__Escherichia.s__Escherichia_coli	35.8618597475
+PWY-6163: chorismate biosynthesis from 3-dehydroquinate|g__Blautia.s__Blautia_sp_CAG_257	12.2184746690
+PWY-6163: chorismate biosynthesis from 3-dehydroquinate|g__Sellimonas.s__Sellimonas_intestinalis	11.0434758379
+PWY-6163: chorismate biosynthesis from 3-dehydroquinate|g__Klebsiella.s__Klebsiella_aerogenes	9.8852328610
+DAPLYSINESYN-PWY: L-lysine biosynthesis I	967.8203025045
+DAPLYSINESYN-PWY: L-lysine biosynthesis I|g__Klebsiella.s__Klebsiella_oxytoca	596.4931261786
+DAPLYSINESYN-PWY: L-lysine biosynthesis I|g__Klebsiella.s__Klebsiella_pneumoniae	116.7705696108
+DAPLYSINESYN-PWY: L-lysine biosynthesis I|unclassified	101.6143704811
+DAPLYSINESYN-PWY: L-lysine biosynthesis I|g__Escherichia.s__Escherichia_coli	25.8632817688
+ARGSYNBSUB-PWY: L-arginine biosynthesis II (acetyl cycle)	957.4312624721
+ARGSYNBSUB-PWY: L-arginine biosynthesis II (acetyl cycle)|g__Klebsiella.s__Klebsiella_oxytoca	527.8906250965
+ARGSYNBSUB-PWY: L-arginine biosynthesis II (acetyl cycle)|unclassified	144.3822811298
+ARGSYNBSUB-PWY: L-arginine biosynthesis II (acetyl cycle)|g__Klebsiella.s__Klebsiella_pneumoniae	102.0714570692
+ARGSYNBSUB-PWY: L-arginine biosynthesis II (acetyl cycle)|g__Blautia.s__Blautia_sp_CAG_257	10.8372139950
+ARGSYNBSUB-PWY: L-arginine biosynthesis II (acetyl cycle)|g__Sellimonas.s__Sellimonas_intestinalis	10.8205914329
+ARGSYNBSUB-PWY: L-arginine biosynthesis II (acetyl cycle)|g__Escherichia.s__Escherichia_coli	9.9341597357
+DTDPRHAMSYN-PWY: dTDP-&beta;-L-rhamnose biosynthesis	957.0775925441
+DTDPRHAMSYN-PWY: dTDP-&beta;-L-rhamnose biosynthesis|g__Klebsiella.s__Klebsiella_oxytoca	473.0312680346
+DTDPRHAMSYN-PWY: dTDP-&beta;-L-rhamnose biosynthesis|g__Bacteroides.s__Bacteroides_thetaiotaomicron	183.2962771374
+DTDPRHAMSYN-PWY: dTDP-&beta;-L-rhamnose biosynthesis|unclassified	118.1816419367
+DTDPRHAMSYN-PWY: dTDP-&beta;-L-rhamnose biosynthesis|g__Klebsiella.s__Klebsiella_pneumoniae	78.2018124340
+DTDPRHAMSYN-PWY: dTDP-&beta;-L-rhamnose biosynthesis|g__Blautia.s__Blautia_sp_CAG_257	11.5904971768
+DTDPRHAMSYN-PWY: dTDP-&beta;-L-rhamnose biosynthesis|g__Sellimonas.s__Sellimonas_intestinalis	10.9954641549
+DTDPRHAMSYN-PWY: dTDP-&beta;-L-rhamnose biosynthesis|g__Lactococcus.s__Lactococcus_lactis	9.7056309589
+PWY-4041: &gamma;-glutamyl cycle	954.0250056511
+PWY-4041: &gamma;-glutamyl cycle|g__Klebsiella.s__Klebsiella_oxytoca	525.1910597503
+PWY-4041: &gamma;-glutamyl cycle|unclassified	173.9011660233
+PWY-4041: &gamma;-glutamyl cycle|g__Klebsiella.s__Klebsiella_pneumoniae	87.9946282273
+PWY-4041: &gamma;-glutamyl cycle|g__Escherichia.s__Escherichia_coli	58.0850134905
+PWY-4041: &gamma;-glutamyl cycle|g__Klebsiella.s__Klebsiella_aerogenes	7.7786297921
+PWY-4041: &gamma;-glutamyl cycle|g__Escherichia.s__Escherichia_fergusonii	7.4667945593
+BIOTIN-BIOSYNTHESIS-PWY: biotin biosynthesis I	949.6962811985
+BIOTIN-BIOSYNTHESIS-PWY: biotin biosynthesis I|g__Klebsiella.s__Klebsiella_oxytoca	552.4013545340
+BIOTIN-BIOSYNTHESIS-PWY: biotin biosynthesis I|g__Klebsiella.s__Klebsiella_pneumoniae	63.9089119181
+BIOTIN-BIOSYNTHESIS-PWY: biotin biosynthesis I|unclassified	61.6486420557
+BIOTIN-BIOSYNTHESIS-PWY: biotin biosynthesis I|g__Escherichia.s__Escherichia_coli	50.7855422277
+BIOTIN-BIOSYNTHESIS-PWY: biotin biosynthesis I|g__Klebsiella.s__Klebsiella_aerogenes	0.4305233974
+PWY-6151: S-adenosyl-L-methionine salvage I	948.5047728613
+PWY-6151: S-adenosyl-L-methionine salvage I|g__Klebsiella.s__Klebsiella_oxytoca	417.4299374009
+PWY-6151: S-adenosyl-L-methionine salvage I|g__Klebsiella.s__Klebsiella_pneumoniae	157.5372357525
+PWY-6151: S-adenosyl-L-methionine salvage I|unclassified	69.6770857029
+PWY-6151: S-adenosyl-L-methionine salvage I|g__Escherichia.s__Escherichia_coli	45.5758638776
+PWY-6151: S-adenosyl-L-methionine salvage I|g__Sellimonas.s__Sellimonas_intestinalis	16.1941294481
+PWY-6151: S-adenosyl-L-methionine salvage I|g__Klebsiella.s__Klebsiella_aerogenes	13.3207939402
+PWY-7228: superpathway of guanosine nucleotides de novo biosynthesis I	945.4545110519
+PWY-7228: superpathway of guanosine nucleotides de novo biosynthesis I|g__Klebsiella.s__Klebsiella_oxytoca	528.5443026907
+PWY-7228: superpathway of guanosine nucleotides de novo biosynthesis I|g__Bacteroides.s__Bacteroides_thetaiotaomicron	110.0584830750
+PWY-7228: superpathway of guanosine nucleotides de novo biosynthesis I|g__Klebsiella.s__Klebsiella_pneumoniae	100.5832394678
+PWY-7228: superpathway of guanosine nucleotides de novo biosynthesis I|g__Escherichia.s__Escherichia_coli	71.9412092731
+PWY-7228: superpathway of guanosine nucleotides de novo biosynthesis I|unclassified	47.7402259401
+PWY-7228: superpathway of guanosine nucleotides de novo biosynthesis I|g__Escherichia.s__Escherichia_fergusonii	2.3262744312
+GLUTORN-PWY: L-ornithine biosynthesis I	941.0544081885
+GLUTORN-PWY: L-ornithine biosynthesis I|g__Klebsiella.s__Klebsiella_oxytoca	600.4933409250
+GLUTORN-PWY: L-ornithine biosynthesis I|unclassified	134.2657072519
+GLUTORN-PWY: L-ornithine biosynthesis I|g__Klebsiella.s__Klebsiella_pneumoniae	97.1265931498
+GLUTORN-PWY: L-ornithine biosynthesis I|g__Escherichia.s__Escherichia_coli	12.7837194867
+GLUTORN-PWY: L-ornithine biosynthesis I|g__Sellimonas.s__Sellimonas_intestinalis	9.6817310618
+GLUTORN-PWY: L-ornithine biosynthesis I|g__Blautia.s__Blautia_sp_CAG_257	7.3752132835
+P441-PWY: superpathway of N-acetylneuraminate degradation	940.8625886691
+P441-PWY: superpathway of N-acetylneuraminate degradation|g__Klebsiella.s__Klebsiella_oxytoca	566.7294424381
+P441-PWY: superpathway of N-acetylneuraminate degradation|g__Klebsiella.s__Klebsiella_pneumoniae	69.0371138528
+P441-PWY: superpathway of N-acetylneuraminate degradation|g__Escherichia.s__Escherichia_coli	32.1431410505
+P441-PWY: superpathway of N-acetylneuraminate degradation|unclassified	24.3115224567
+PWY-7221: guanosine ribonucleotides de novo biosynthesis	936.4866711882
+PWY-7221: guanosine ribonucleotides de novo biosynthesis|g__Klebsiella.s__Klebsiella_oxytoca	506.6248601258
+PWY-7221: guanosine ribonucleotides de novo biosynthesis|g__Bacteroides.s__Bacteroides_thetaiotaomicron	128.2718037041
+PWY-7221: guanosine ribonucleotides de novo biosynthesis|g__Klebsiella.s__Klebsiella_pneumoniae	91.8497415857
+PWY-7221: guanosine ribonucleotides de novo biosynthesis|g__Escherichia.s__Escherichia_coli	69.1481907205
+PWY-7221: guanosine ribonucleotides de novo biosynthesis|unclassified	44.3216252530
+PWY-7221: guanosine ribonucleotides de novo biosynthesis|g__Blautia.s__Blautia_sp_CAG_257	15.4429980717
+PWY-7221: guanosine ribonucleotides de novo biosynthesis|g__Sellimonas.s__Sellimonas_intestinalis	11.1810639866
+PWY-7221: guanosine ribonucleotides de novo biosynthesis|g__Escherichia.s__Escherichia_fergusonii	2.2212696101
+PWY-3841: folate transformations II (plants)	929.4786509912
+PWY-3841: folate transformations II (plants)|g__Klebsiella.s__Klebsiella_oxytoca	450.5288263705
+PWY-3841: folate transformations II (plants)|g__Bacteroides.s__Bacteroides_thetaiotaomicron	100.7104605819
+PWY-3841: folate transformations II (plants)|g__Klebsiella.s__Klebsiella_pneumoniae	72.1553739587
+PWY-3841: folate transformations II (plants)|unclassified	38.5809606456
+PWY-3841: folate transformations II (plants)|g__Klebsiella.s__Klebsiella_aerogenes	17.0077636010
+PWY-3841: folate transformations II (plants)|g__Escherichia.s__Escherichia_coli	16.1723411074
+PWY-3841: folate transformations II (plants)|g__Blautia.s__Blautia_sp_CAG_257	13.0371625123
+PWY-3841: folate transformations II (plants)|g__Sellimonas.s__Sellimonas_intestinalis	11.9699370931
+ARGSYN-PWY: L-arginine biosynthesis I (via L-ornithine)	926.8643651978
+ARGSYN-PWY: L-arginine biosynthesis I (via L-ornithine)|g__Klebsiella.s__Klebsiella_oxytoca	512.9397940858
+ARGSYN-PWY: L-arginine biosynthesis I (via L-ornithine)|unclassified	153.3798264680
+ARGSYN-PWY: L-arginine biosynthesis I (via L-ornithine)|g__Klebsiella.s__Klebsiella_pneumoniae	106.9673257236
+ARGSYN-PWY: L-arginine biosynthesis I (via L-ornithine)|g__Sellimonas.s__Sellimonas_intestinalis	11.2622368727
+ARGSYN-PWY: L-arginine biosynthesis I (via L-ornithine)|g__Escherichia.s__Escherichia_coli	10.3256343422
+ARGSYN-PWY: L-arginine biosynthesis I (via L-ornithine)|g__Blautia.s__Blautia_sp_CAG_257	10.0006210677
+GOLPDLCAT-PWY: superpathway of glycerol degradation to 1,3-propanediol	926.6473018365
+GOLPDLCAT-PWY: superpathway of glycerol degradation to 1,3-propanediol|g__Klebsiella.s__Klebsiella_oxytoca	764.3478884508
+GOLPDLCAT-PWY: superpathway of glycerol degradation to 1,3-propanediol|g__Escherichia.s__Escherichia_coli	112.3451009451
+GOLPDLCAT-PWY: superpathway of glycerol degradation to 1,3-propanediol|g__Klebsiella.s__Klebsiella_pneumoniae	71.1014742714
+GOLPDLCAT-PWY: superpathway of glycerol degradation to 1,3-propanediol|unclassified	16.3156357375
+GOLPDLCAT-PWY: superpathway of glycerol degradation to 1,3-propanediol|g__Klebsiella.s__Klebsiella_aerogenes	9.0935665895
+1CMET2-PWY: folate transformations III (E. coli)	924.2044126085
+1CMET2-PWY: folate transformations III (E. coli)|g__Klebsiella.s__Klebsiella_oxytoca	486.2676109368
+1CMET2-PWY: folate transformations III (E. coli)|g__Bacteroides.s__Bacteroides_thetaiotaomicron	89.8569412529
+1CMET2-PWY: folate transformations III (E. coli)|g__Klebsiella.s__Klebsiella_pneumoniae	73.7895505931
+1CMET2-PWY: folate transformations III (E. coli)|unclassified	33.7034024414
+1CMET2-PWY: folate transformations III (E. coli)|g__Escherichia.s__Escherichia_coli	11.1540803492
+1CMET2-PWY: folate transformations III (E. coli)|g__Klebsiella.s__Klebsiella_aerogenes	6.4448118531
+PWY-7229: superpathway of adenosine nucleotides de novo biosynthesis I	923.5274887873
+PWY-7229: superpathway of adenosine nucleotides de novo biosynthesis I|g__Klebsiella.s__Klebsiella_oxytoca	476.4405744674
+PWY-7229: superpathway of adenosine nucleotides de novo biosynthesis I|g__Bacteroides.s__Bacteroides_thetaiotaomicron	98.8584444222
+PWY-7229: superpathway of adenosine nucleotides de novo biosynthesis I|g__Klebsiella.s__Klebsiella_pneumoniae	55.6843244379
+PWY-7229: superpathway of adenosine nucleotides de novo biosynthesis I|unclassified	12.7588585077
+PWY-7229: superpathway of adenosine nucleotides de novo biosynthesis I|g__Escherichia.s__Escherichia_coli	9.6081096350
+PWY-7229: superpathway of adenosine nucleotides de novo biosynthesis I|g__Klebsiella.s__Klebsiella_aerogenes	6.0504703578
+PWY-7229: superpathway of adenosine nucleotides de novo biosynthesis I|g__Escherichia.s__Escherichia_fergusonii	4.8128430859
+PWY-7118: chitin deacetylation	922.7425138171
+PWY-7118: chitin deacetylation|g__Klebsiella.s__Klebsiella_oxytoca	468.1594266615
+PWY-7118: chitin deacetylation|unclassified	203.9274827600
+PWY-7118: chitin deacetylation|g__Klebsiella.s__Klebsiella_pneumoniae	57.3398021045
+PWY-7118: chitin deacetylation|g__Escherichia.s__Escherichia_coli	16.5863209112
+SULFATE-CYS-PWY: superpathway of sulfate assimilation and cysteine biosynthesis	920.7987247086
+SULFATE-CYS-PWY: superpathway of sulfate assimilation and cysteine biosynthesis|g__Klebsiella.s__Klebsiella_oxytoca	565.7098627550
+SULFATE-CYS-PWY: superpathway of sulfate assimilation and cysteine biosynthesis|unclassified	114.3667793690
+SULFATE-CYS-PWY: superpathway of sulfate assimilation and cysteine biosynthesis|g__Klebsiella.s__Klebsiella_pneumoniae	108.8243709738
+SULFATE-CYS-PWY: superpathway of sulfate assimilation and cysteine biosynthesis|g__Escherichia.s__Escherichia_coli	45.1778900124
+PWY-7400: L-arginine biosynthesis IV (archaebacteria)	920.4624661587
+PWY-7400: L-arginine biosynthesis IV (archaebacteria)|g__Klebsiella.s__Klebsiella_oxytoca	494.8534763192
+PWY-7400: L-arginine biosynthesis IV (archaebacteria)|unclassified	144.2383528477
+PWY-7400: L-arginine biosynthesis IV (archaebacteria)|g__Klebsiella.s__Klebsiella_pneumoniae	98.3152521364
+PWY-7400: L-arginine biosynthesis IV (archaebacteria)|g__Escherichia.s__Escherichia_coli	10.0238108827
+RHAMCAT-PWY: L-rhamnose degradation I	904.9641545301
+RHAMCAT-PWY: L-rhamnose degradation I|g__Klebsiella.s__Klebsiella_oxytoca	443.8411172118
+RHAMCAT-PWY: L-rhamnose degradation I|g__Bacteroides.s__Bacteroides_thetaiotaomicron	136.9087556032
+RHAMCAT-PWY: L-rhamnose degradation I|g__Klebsiella.s__Klebsiella_pneumoniae	94.4329204886
+RHAMCAT-PWY: L-rhamnose degradation I|unclassified	43.8039957107
+RHAMCAT-PWY: L-rhamnose degradation I|g__Escherichia.s__Escherichia_coli	41.9634852738
+RHAMCAT-PWY: L-rhamnose degradation I|g__Klebsiella.s__Klebsiella_aerogenes	3.6082946747
+ANAEROFRUCAT-PWY: homolactic fermentation	896.5363976816
+ANAEROFRUCAT-PWY: homolactic fermentation|g__Klebsiella.s__Klebsiella_oxytoca	481.5513792430
+ANAEROFRUCAT-PWY: homolactic fermentation|g__Klebsiella.s__Klebsiella_pneumoniae	95.0171329511
+ANAEROFRUCAT-PWY: homolactic fermentation|g__Escherichia.s__Escherichia_coli	6.2597449701
+ANAEROFRUCAT-PWY: homolactic fermentation|g__Klebsiella.s__Klebsiella_aerogenes	6.1101655291
+PWY0-1061: superpathway of L-alanine biosynthesis	894.4667893720
+PWY0-1061: superpathway of L-alanine biosynthesis|g__Klebsiella.s__Klebsiella_oxytoca	618.9742377507
+PWY0-1061: superpathway of L-alanine biosynthesis|unclassified	84.2191708332
+PWY0-1061: superpathway of L-alanine biosynthesis|g__Klebsiella.s__Klebsiella_pneumoniae	63.8379447411
+PWY0-1061: superpathway of L-alanine biosynthesis|g__Klebsiella.s__Klebsiella_aerogenes	2.9741175459
+PWY0-1061: superpathway of L-alanine biosynthesis|g__Escherichia.s__Escherichia_fergusonii	1.8666789616
+PWY0-1061: superpathway of L-alanine biosynthesis|g__Escherichia.s__Escherichia_coli	1.7017124633
+PWY0-1298: superpathway of pyrimidine deoxyribonucleosides degradation	893.9659966047
+PWY0-1298: superpathway of pyrimidine deoxyribonucleosides degradation|g__Klebsiella.s__Klebsiella_oxytoca	562.6752113380
+PWY0-1298: superpathway of pyrimidine deoxyribonucleosides degradation|g__Klebsiella.s__Klebsiella_pneumoniae	93.0961201925
+PWY0-1298: superpathway of pyrimidine deoxyribonucleosides degradation|g__Escherichia.s__Escherichia_coli	84.8386397513
+PWY0-1298: superpathway of pyrimidine deoxyribonucleosides degradation|unclassified	41.5256882195
+PWY0-1298: superpathway of pyrimidine deoxyribonucleosides degradation|g__Klebsiella.s__Klebsiella_aerogenes	4.8556167864
+PWY-5686: UMP biosynthesis I	891.9646246801
+PWY-5686: UMP biosynthesis I|g__Klebsiella.s__Klebsiella_oxytoca	518.4546684690
+PWY-5686: UMP biosynthesis I|unclassified	117.9415574093
+PWY-5686: UMP biosynthesis I|g__Bacteroides.s__Bacteroides_thetaiotaomicron	88.8585326098
+PWY-5686: UMP biosynthesis I|g__Klebsiella.s__Klebsiella_pneumoniae	87.0287157041
+PWY-5686: UMP biosynthesis I|g__Blautia.s__Blautia_sp_CAG_257	11.5868179172
+PWY-5686: UMP biosynthesis I|g__Sellimonas.s__Sellimonas_intestinalis	10.4860862934
+PWY-5686: UMP biosynthesis I|g__Escherichia.s__Escherichia_coli	9.1186728715
+HOMOSER-METSYN-PWY: L-methionine biosynthesis I	890.2159377451
+HOMOSER-METSYN-PWY: L-methionine biosynthesis I|g__Klebsiella.s__Klebsiella_oxytoca	524.4865249487
+HOMOSER-METSYN-PWY: L-methionine biosynthesis I|unclassified	174.6472307842
+HOMOSER-METSYN-PWY: L-methionine biosynthesis I|g__Klebsiella.s__Klebsiella_pneumoniae	70.9848991480
+HOMOSER-METSYN-PWY: L-methionine biosynthesis I|g__Escherichia.s__Escherichia_coli	13.4683271806
+PWY-6629: superpathway of L-tryptophan biosynthesis	886.3645859625
+PWY-6629: superpathway of L-tryptophan biosynthesis|g__Klebsiella.s__Klebsiella_oxytoca	492.1415887835
+PWY-6629: superpathway of L-tryptophan biosynthesis|g__Klebsiella.s__Klebsiella_pneumoniae	48.4472245213
+PWY-6629: superpathway of L-tryptophan biosynthesis|unclassified	28.7143753112
+PWY-6629: superpathway of L-tryptophan biosynthesis|g__Escherichia.s__Escherichia_coli	18.0982346634
+PWY-6629: superpathway of L-tryptophan biosynthesis|g__Blautia.s__Blautia_sp_CAG_257	10.5774607832
+PWY-6629: superpathway of L-tryptophan biosynthesis|g__Klebsiella.s__Klebsiella_aerogenes	0.4875269698
+P4-PWY: superpathway of L-lysine, L-threonine and L-methionine biosynthesis I	885.3275605733
+P4-PWY: superpathway of L-lysine, L-threonine and L-methionine biosynthesis I|g__Klebsiella.s__Klebsiella_oxytoca	548.0532763863
+P4-PWY: superpathway of L-lysine, L-threonine and L-methionine biosynthesis I|unclassified	90.6166712060
+P4-PWY: superpathway of L-lysine, L-threonine and L-methionine biosynthesis I|g__Klebsiella.s__Klebsiella_pneumoniae	77.0937143192
+P4-PWY: superpathway of L-lysine, L-threonine and L-methionine biosynthesis I|g__Escherichia.s__Escherichia_coli	9.3955332905
+PWY-6385: peptidoglycan biosynthesis III (mycobacteria)	883.6626121725
+PWY-6385: peptidoglycan biosynthesis III (mycobacteria)|g__Klebsiella.s__Klebsiella_oxytoca	447.5058210398
+PWY-6385: peptidoglycan biosynthesis III (mycobacteria)|g__Bacteroides.s__Bacteroides_thetaiotaomicron	86.1350991422
+PWY-6385: peptidoglycan biosynthesis III (mycobacteria)|g__Klebsiella.s__Klebsiella_pneumoniae	69.4386659667
+PWY-6385: peptidoglycan biosynthesis III (mycobacteria)|unclassified	67.3229019110
+PWY-6385: peptidoglycan biosynthesis III (mycobacteria)|g__Escherichia.s__Escherichia_coli	24.0791035394
+PWY-6385: peptidoglycan biosynthesis III (mycobacteria)|g__Sellimonas.s__Sellimonas_intestinalis	8.4735929596
+PWY-6125: superpathway of guanosine nucleotides de novo biosynthesis II	882.8849588930
+PWY-6125: superpathway of guanosine nucleotides de novo biosynthesis II|g__Klebsiella.s__Klebsiella_oxytoca	494.5057824137
+PWY-6125: superpathway of guanosine nucleotides de novo biosynthesis II|g__Bacteroides.s__Bacteroides_thetaiotaomicron	101.6977239360
+PWY-6125: superpathway of guanosine nucleotides de novo biosynthesis II|g__Klebsiella.s__Klebsiella_pneumoniae	89.9598868648
+PWY-6125: superpathway of guanosine nucleotides de novo biosynthesis II|g__Escherichia.s__Escherichia_coli	36.7260737123
+PWY-6125: superpathway of guanosine nucleotides de novo biosynthesis II|unclassified	36.3617122632
+PWY-6125: superpathway of guanosine nucleotides de novo biosynthesis II|g__Escherichia.s__Escherichia_fergusonii	2.5943316361
+PWY-5028: L-histidine degradation II	882.8231908463
+PWY-5028: L-histidine degradation II|g__Klebsiella.s__Klebsiella_aerogenes	464.9696099767
+PWY-5028: L-histidine degradation II|g__Klebsiella.s__Klebsiella_pneumoniae	29.9778573476
+PWY-5028: L-histidine degradation II|g__Klebsiella.s__Klebsiella_oxytoca	3.8754239158
+PWY-5028: L-histidine degradation II|g__Escherichia.s__Escherichia_coli	3.1383975629
+GLYOXYLATE-BYPASS: glyoxylate cycle	878.7494433455
+GLYOXYLATE-BYPASS: glyoxylate cycle|g__Klebsiella.s__Klebsiella_oxytoca	516.3519137978
+GLYOXYLATE-BYPASS: glyoxylate cycle|unclassified	147.6461742933
+GLYOXYLATE-BYPASS: glyoxylate cycle|g__Klebsiella.s__Klebsiella_pneumoniae	139.1969379779
+GLYOXYLATE-BYPASS: glyoxylate cycle|g__Escherichia.s__Escherichia_coli	12.3803911168
+P185-PWY: formaldehyde assimilation III (dihydroxyacetone cycle)	877.5459205050
+P185-PWY: formaldehyde assimilation III (dihydroxyacetone cycle)|g__Klebsiella.s__Klebsiella_oxytoca	580.6872659905
+P185-PWY: formaldehyde assimilation III (dihydroxyacetone cycle)|g__Klebsiella.s__Klebsiella_pneumoniae	65.3256811357
+P185-PWY: formaldehyde assimilation III (dihydroxyacetone cycle)|g__Escherichia.s__Escherichia_coli	31.5627424893
+PWY-6126: superpathway of adenosine nucleotides de novo biosynthesis II	866.4194665108
+PWY-6126: superpathway of adenosine nucleotides de novo biosynthesis II|g__Klebsiella.s__Klebsiella_oxytoca	454.6340413622
+PWY-6126: superpathway of adenosine nucleotides de novo biosynthesis II|g__Bacteroides.s__Bacteroides_thetaiotaomicron	96.7396172553
+PWY-6126: superpathway of adenosine nucleotides de novo biosynthesis II|g__Klebsiella.s__Klebsiella_pneumoniae	58.3925618367
+PWY-6126: superpathway of adenosine nucleotides de novo biosynthesis II|unclassified	13.8912839734
+PWY-6126: superpathway of adenosine nucleotides de novo biosynthesis II|g__Escherichia.s__Escherichia_coli	10.8141056698
+PWY-6126: superpathway of adenosine nucleotides de novo biosynthesis II|g__Escherichia.s__Escherichia_fergusonii	4.0157790291
+PWY-6126: superpathway of adenosine nucleotides de novo biosynthesis II|g__Klebsiella.s__Klebsiella_aerogenes	3.8541005095
+PWY1ZNC-1: assimilatory sulfate reduction IV	863.9260713548
+PWY1ZNC-1: assimilatory sulfate reduction IV|g__Klebsiella.s__Klebsiella_oxytoca	536.1230347916
+PWY1ZNC-1: assimilatory sulfate reduction IV|g__Klebsiella.s__Klebsiella_pneumoniae	102.1802907369
+PWY1ZNC-1: assimilatory sulfate reduction IV|unclassified	46.7753050118
+PWY1ZNC-1: assimilatory sulfate reduction IV|g__Escherichia.s__Escherichia_coli	40.5714904991
+PHOSLIPSYN-PWY: superpathway of phospholipid biosynthesis I (bacteria)	863.5856313007
+PHOSLIPSYN-PWY: superpathway of phospholipid biosynthesis I (bacteria)|g__Klebsiella.s__Klebsiella_oxytoca	448.6655914193
+PHOSLIPSYN-PWY: superpathway of phospholipid biosynthesis I (bacteria)|unclassified	162.4028108485
+PHOSLIPSYN-PWY: superpathway of phospholipid biosynthesis I (bacteria)|g__Klebsiella.s__Klebsiella_pneumoniae	80.6431667548
+PHOSLIPSYN-PWY: superpathway of phospholipid biosynthesis I (bacteria)|g__Escherichia.s__Escherichia_coli	61.7220264699
+PWY-6386: UDP-N-acetylmuramoyl-pentapeptide biosynthesis II (lysine-containing)	861.9568150947
+PWY-6386: UDP-N-acetylmuramoyl-pentapeptide biosynthesis II (lysine-containing)|g__Klebsiella.s__Klebsiella_oxytoca	470.9535804731
+PWY-6386: UDP-N-acetylmuramoyl-pentapeptide biosynthesis II (lysine-containing)|g__Bacteroides.s__Bacteroides_thetaiotaomicron	82.1009816362
+PWY-6386: UDP-N-acetylmuramoyl-pentapeptide biosynthesis II (lysine-containing)|unclassified	49.1455643538
+PWY-6386: UDP-N-acetylmuramoyl-pentapeptide biosynthesis II (lysine-containing)|g__Klebsiella.s__Klebsiella_pneumoniae	46.0857447205
+PWY-6386: UDP-N-acetylmuramoyl-pentapeptide biosynthesis II (lysine-containing)|g__Escherichia.s__Escherichia_coli	19.1422075440
+PWY-6386: UDP-N-acetylmuramoyl-pentapeptide biosynthesis II (lysine-containing)|g__Sellimonas.s__Sellimonas_intestinalis	8.8316848826
+TRNA-CHARGING-PWY: tRNA charging	861.5117850796
+TRNA-CHARGING-PWY: tRNA charging|g__Klebsiella.s__Klebsiella_oxytoca	423.0015402544
+TRNA-CHARGING-PWY: tRNA charging|g__Klebsiella.s__Klebsiella_pneumoniae	133.6141946170
+TRNA-CHARGING-PWY: tRNA charging|g__Bacteroides.s__Bacteroides_thetaiotaomicron	78.1269131191
+TRNA-CHARGING-PWY: tRNA charging|unclassified	76.6288228605
+TRNA-CHARGING-PWY: tRNA charging|g__Escherichia.s__Escherichia_coli	25.5859302066
+TRNA-CHARGING-PWY: tRNA charging|g__Klebsiella.s__Klebsiella_aerogenes	2.9058429910
+TRNA-CHARGING-PWY: tRNA charging|g__Escherichia.s__Escherichia_fergusonii	1.1930496664
+PWY-7220: adenosine deoxyribonucleotides de novo biosynthesis II	858.6950891196
+PWY-7220: adenosine deoxyribonucleotides de novo biosynthesis II|g__Klebsiella.s__Klebsiella_oxytoca	485.0484874148
+PWY-7220: adenosine deoxyribonucleotides de novo biosynthesis II|g__Klebsiella.s__Klebsiella_pneumoniae	106.2671859679
+PWY-7220: adenosine deoxyribonucleotides de novo biosynthesis II|g__Bacteroides.s__Bacteroides_thetaiotaomicron	93.8325253278
+PWY-7220: adenosine deoxyribonucleotides de novo biosynthesis II|g__Escherichia.s__Escherichia_coli	62.0028144490
+PWY-7220: adenosine deoxyribonucleotides de novo biosynthesis II|unclassified	43.4264163719
+PWY-7220: adenosine deoxyribonucleotides de novo biosynthesis II|g__Klebsiella.s__Klebsiella_aerogenes	19.2196924184
+PWY-7220: adenosine deoxyribonucleotides de novo biosynthesis II|g__Escherichia.s__Escherichia_fergusonii	3.3429231483
+PWY-7222: guanosine deoxyribonucleotides de novo biosynthesis II	858.6950891196
+PWY-7222: guanosine deoxyribonucleotides de novo biosynthesis II|g__Klebsiella.s__Klebsiella_oxytoca	485.0484874148
+PWY-7222: guanosine deoxyribonucleotides de novo biosynthesis II|g__Klebsiella.s__Klebsiella_pneumoniae	106.2671859679
+PWY-7222: guanosine deoxyribonucleotides de novo biosynthesis II|g__Bacteroides.s__Bacteroides_thetaiotaomicron	93.8325253278
+PWY-7222: guanosine deoxyribonucleotides de novo biosynthesis II|g__Escherichia.s__Escherichia_coli	62.0028144490
+PWY-7222: guanosine deoxyribonucleotides de novo biosynthesis II|unclassified	43.4264163719
+PWY-7222: guanosine deoxyribonucleotides de novo biosynthesis II|g__Klebsiella.s__Klebsiella_aerogenes	19.2196924184
+PWY-7222: guanosine deoxyribonucleotides de novo biosynthesis II|g__Escherichia.s__Escherichia_fergusonii	3.3429231483
+PWY-724: superpathway of L-lysine, L-threonine and L-methionine biosynthesis II	855.3087195835
+PWY-724: superpathway of L-lysine, L-threonine and L-methionine biosynthesis II|g__Klebsiella.s__Klebsiella_oxytoca	519.7577688200
+PWY-724: superpathway of L-lysine, L-threonine and L-methionine biosynthesis II|unclassified	116.4921233593
+PWY-724: superpathway of L-lysine, L-threonine and L-methionine biosynthesis II|g__Klebsiella.s__Klebsiella_pneumoniae	86.8730789593
+PWY-724: superpathway of L-lysine, L-threonine and L-methionine biosynthesis II|g__Escherichia.s__Escherichia_coli	6.5776090921
+PWY-6387: UDP-N-acetylmuramoyl-pentapeptide biosynthesis I (meso-diaminopimelate containing)	853.1946291735
+PWY-6387: UDP-N-acetylmuramoyl-pentapeptide biosynthesis I (meso-diaminopimelate containing)|g__Klebsiella.s__Klebsiella_oxytoca	455.8135673282
+PWY-6387: UDP-N-acetylmuramoyl-pentapeptide biosynthesis I (meso-diaminopimelate containing)|g__Bacteroides.s__Bacteroides_thetaiotaomicron	83.1000997409
+PWY-6387: UDP-N-acetylmuramoyl-pentapeptide biosynthesis I (meso-diaminopimelate containing)|g__Klebsiella.s__Klebsiella_pneumoniae	58.9329197692
+PWY-6387: UDP-N-acetylmuramoyl-pentapeptide biosynthesis I (meso-diaminopimelate containing)|unclassified	58.8951783812
+PWY-6387: UDP-N-acetylmuramoyl-pentapeptide biosynthesis I (meso-diaminopimelate containing)|g__Escherichia.s__Escherichia_coli	25.9929458363
+PWY-6387: UDP-N-acetylmuramoyl-pentapeptide biosynthesis I (meso-diaminopimelate containing)|g__Blautia.s__Blautia_sp_CAG_257	10.5745414140
+PWY-6387: UDP-N-acetylmuramoyl-pentapeptide biosynthesis I (meso-diaminopimelate containing)|g__Sellimonas.s__Sellimonas_intestinalis	10.5595197752
+PEPTIDOGLYCANSYN-PWY: peptidoglycan biosynthesis I (meso-diaminopimelate containing)	852.2678120774
+PEPTIDOGLYCANSYN-PWY: peptidoglycan biosynthesis I (meso-diaminopimelate containing)|g__Klebsiella.s__Klebsiella_oxytoca	444.0004537517
+PEPTIDOGLYCANSYN-PWY: peptidoglycan biosynthesis I (meso-diaminopimelate containing)|g__Bacteroides.s__Bacteroides_thetaiotaomicron	80.3435728004
+PEPTIDOGLYCANSYN-PWY: peptidoglycan biosynthesis I (meso-diaminopimelate containing)|g__Klebsiella.s__Klebsiella_pneumoniae	67.7075718285
+PEPTIDOGLYCANSYN-PWY: peptidoglycan biosynthesis I (meso-diaminopimelate containing)|unclassified	58.2813248104
+PEPTIDOGLYCANSYN-PWY: peptidoglycan biosynthesis I (meso-diaminopimelate containing)|g__Escherichia.s__Escherichia_coli	23.6943487206
+PEPTIDOGLYCANSYN-PWY: peptidoglycan biosynthesis I (meso-diaminopimelate containing)|g__Blautia.s__Blautia_sp_CAG_257	10.9994967081
+PEPTIDOGLYCANSYN-PWY: peptidoglycan biosynthesis I (meso-diaminopimelate containing)|g__Sellimonas.s__Sellimonas_intestinalis	10.6081476939
+PWY0-1319: CDP-diacylglycerol biosynthesis II	846.6959861334
+PWY0-1319: CDP-diacylglycerol biosynthesis II|g__Klebsiella.s__Klebsiella_oxytoca	412.4422739605
+PWY0-1319: CDP-diacylglycerol biosynthesis II|unclassified	219.4202063999
+PWY0-1319: CDP-diacylglycerol biosynthesis II|g__Klebsiella.s__Klebsiella_pneumoniae	87.9087807348
+PWY0-1319: CDP-diacylglycerol biosynthesis II|g__Bacteroides.s__Bacteroides_thetaiotaomicron	65.5359377139
+PWY0-1319: CDP-diacylglycerol biosynthesis II|g__Escherichia.s__Escherichia_coli	60.3328269527
+PWY0-1319: CDP-diacylglycerol biosynthesis II|g__Sellimonas.s__Sellimonas_intestinalis	9.2492273291
+PWY-5667: CDP-diacylglycerol biosynthesis I	846.6959861334
+PWY-5667: CDP-diacylglycerol biosynthesis I|g__Klebsiella.s__Klebsiella_oxytoca	412.4422739605
+PWY-5667: CDP-diacylglycerol biosynthesis I|unclassified	219.4202063999
+PWY-5667: CDP-diacylglycerol biosynthesis I|g__Klebsiella.s__Klebsiella_pneumoniae	87.9087807348
+PWY-5667: CDP-diacylglycerol biosynthesis I|g__Bacteroides.s__Bacteroides_thetaiotaomicron	65.5359377139
+PWY-5667: CDP-diacylglycerol biosynthesis I|g__Escherichia.s__Escherichia_coli	60.3328269527
+PWY-5667: CDP-diacylglycerol biosynthesis I|g__Sellimonas.s__Sellimonas_intestinalis	9.2492273291
+PWY0-1479: tRNA processing	844.3128442465
+PWY0-1479: tRNA processing|g__Klebsiella.s__Klebsiella_oxytoca	429.9767873480
+PWY0-1479: tRNA processing|g__Klebsiella.s__Klebsiella_pneumoniae	131.2547542362
+PWY0-1479: tRNA processing|g__Escherichia.s__Escherichia_coli	41.5526302404
+PWY0-1479: tRNA processing|unclassified	8.0002083749
+PWY0-845: superpathway of pyridoxal 5'-phosphate biosynthesis and salvage	842.4888761938
+PWY0-845: superpathway of pyridoxal 5'-phosphate biosynthesis and salvage|g__Klebsiella.s__Klebsiella_oxytoca	479.8791233012
+PWY0-845: superpathway of pyridoxal 5'-phosphate biosynthesis and salvage|unclassified	139.1603843540
+PWY0-845: superpathway of pyridoxal 5'-phosphate biosynthesis and salvage|g__Bacteroides.s__Bacteroides_thetaiotaomicron	110.0766257076
+PWY0-845: superpathway of pyridoxal 5'-phosphate biosynthesis and salvage|g__Klebsiella.s__Klebsiella_pneumoniae	38.8881935582
+SER-GLYSYN-PWY: superpathway of L-serine and glycine biosynthesis I	840.9122236135
+SER-GLYSYN-PWY: superpathway of L-serine and glycine biosynthesis I|g__Klebsiella.s__Klebsiella_oxytoca	430.3608516412
+SER-GLYSYN-PWY: superpathway of L-serine and glycine biosynthesis I|g__Klebsiella.s__Klebsiella_pneumoniae	116.2403163297
+SER-GLYSYN-PWY: superpathway of L-serine and glycine biosynthesis I|unclassified	100.9967689529
+SER-GLYSYN-PWY: superpathway of L-serine and glycine biosynthesis I|g__Bacteroides.s__Bacteroides_thetaiotaomicron	76.5854721308
+SER-GLYSYN-PWY: superpathway of L-serine and glycine biosynthesis I|g__Escherichia.s__Escherichia_coli	43.1378088992
+SER-GLYSYN-PWY: superpathway of L-serine and glycine biosynthesis I|g__Escherichia.s__Escherichia_fergusonii	1.5425797695
+SER-GLYSYN-PWY: superpathway of L-serine and glycine biosynthesis I|g__Klebsiella.s__Klebsiella_aerogenes	0.1355782850
+UDPNAGSYN-PWY: UDP-N-acetyl-D-glucosamine biosynthesis I	835.1239812839
+UDPNAGSYN-PWY: UDP-N-acetyl-D-glucosamine biosynthesis I|g__Klebsiella.s__Klebsiella_oxytoca	544.4154987937
+UDPNAGSYN-PWY: UDP-N-acetyl-D-glucosamine biosynthesis I|unclassified	58.0350314544
+UDPNAGSYN-PWY: UDP-N-acetyl-D-glucosamine biosynthesis I|g__Klebsiella.s__Klebsiella_pneumoniae	55.7481302413
+UDPNAGSYN-PWY: UDP-N-acetyl-D-glucosamine biosynthesis I|g__Escherichia.s__Escherichia_coli	48.5769778173
+UDPNAGSYN-PWY: UDP-N-acetyl-D-glucosamine biosynthesis I|g__Klebsiella.s__Klebsiella_aerogenes	7.5035478898
+PWY4FS-7: phosphatidylglycerol biosynthesis I (plastidic)	831.4319393921
+PWY4FS-7: phosphatidylglycerol biosynthesis I (plastidic)|g__Klebsiella.s__Klebsiella_oxytoca	433.2134062612
+PWY4FS-7: phosphatidylglycerol biosynthesis I (plastidic)|unclassified	104.9238716646
+PWY4FS-7: phosphatidylglycerol biosynthesis I (plastidic)|g__Klebsiella.s__Klebsiella_pneumoniae	68.7488178823
+PWY4FS-7: phosphatidylglycerol biosynthesis I (plastidic)|g__Escherichia.s__Escherichia_coli	54.8589628721
+PWY4FS-8: phosphatidylglycerol biosynthesis II (non-plastidic)	831.4319393921
+PWY4FS-8: phosphatidylglycerol biosynthesis II (non-plastidic)|g__Klebsiella.s__Klebsiella_oxytoca	433.2134062612
+PWY4FS-8: phosphatidylglycerol biosynthesis II (non-plastidic)|unclassified	104.9238716646
+PWY4FS-8: phosphatidylglycerol biosynthesis II (non-plastidic)|g__Klebsiella.s__Klebsiella_pneumoniae	68.7488178823
+PWY4FS-8: phosphatidylglycerol biosynthesis II (non-plastidic)|g__Escherichia.s__Escherichia_coli	54.8589628721
+PWY-6892: thiazole component of thiamine diphosphate biosynthesis I	829.7069615524
+PWY-6892: thiazole component of thiamine diphosphate biosynthesis I|g__Klebsiella.s__Klebsiella_oxytoca	476.4796423317
+PWY-6892: thiazole component of thiamine diphosphate biosynthesis I|unclassified	125.2412257336
+PWY-6892: thiazole component of thiamine diphosphate biosynthesis I|g__Klebsiella.s__Klebsiella_pneumoniae	99.4199306178
+PWY-6892: thiazole component of thiamine diphosphate biosynthesis I|g__Bacteroides.s__Bacteroides_thetaiotaomicron	75.7088078712
+PWY-6892: thiazole component of thiamine diphosphate biosynthesis I|g__Escherichia.s__Escherichia_coli	25.6129764417
+OANTIGEN-PWY: O-antigen building blocks biosynthesis (E. coli)	825.9326767615
+OANTIGEN-PWY: O-antigen building blocks biosynthesis (E. coli)|g__Klebsiella.s__Klebsiella_pneumoniae	43.7114043040
+OANTIGEN-PWY: O-antigen building blocks biosynthesis (E. coli)|unclassified	27.1684599203
+OANTIGEN-PWY: O-antigen building blocks biosynthesis (E. coli)|g__Klebsiella.s__Klebsiella_oxytoca	20.7485496381
+PWY-6122: 5-aminoimidazole ribonucleotide biosynthesis II	814.8889426631
+PWY-6122: 5-aminoimidazole ribonucleotide biosynthesis II|g__Klebsiella.s__Klebsiella_oxytoca	419.2978275513
+PWY-6122: 5-aminoimidazole ribonucleotide biosynthesis II|unclassified	123.7879689998
+PWY-6122: 5-aminoimidazole ribonucleotide biosynthesis II|g__Klebsiella.s__Klebsiella_pneumoniae	92.9712051519
+PWY-6122: 5-aminoimidazole ribonucleotide biosynthesis II|g__Bacteroides.s__Bacteroides_thetaiotaomicron	70.5827671476
+PWY-6122: 5-aminoimidazole ribonucleotide biosynthesis II|g__Escherichia.s__Escherichia_coli	39.4855395690
+PWY-6122: 5-aminoimidazole ribonucleotide biosynthesis II|g__Sellimonas.s__Sellimonas_intestinalis	12.4411530035
+PWY-6122: 5-aminoimidazole ribonucleotide biosynthesis II|g__Klebsiella.s__Klebsiella_aerogenes	10.6089178976
+PWY-6122: 5-aminoimidazole ribonucleotide biosynthesis II|g__Blautia.s__Blautia_sp_CAG_257	3.6690955981
+PWY-6122: 5-aminoimidazole ribonucleotide biosynthesis II|g__Escherichia.s__Escherichia_fergusonii	2.8569120157
+PWY-6277: superpathway of 5-aminoimidazole ribonucleotide biosynthesis	814.8889426631
+PWY-6277: superpathway of 5-aminoimidazole ribonucleotide biosynthesis|g__Klebsiella.s__Klebsiella_oxytoca	419.2978275513
+PWY-6277: superpathway of 5-aminoimidazole ribonucleotide biosynthesis|unclassified	123.7879689998
+PWY-6277: superpathway of 5-aminoimidazole ribonucleotide biosynthesis|g__Klebsiella.s__Klebsiella_pneumoniae	92.9712051519
+PWY-6277: superpathway of 5-aminoimidazole ribonucleotide biosynthesis|g__Bacteroides.s__Bacteroides_thetaiotaomicron	70.5827671476
+PWY-6277: superpathway of 5-aminoimidazole ribonucleotide biosynthesis|g__Escherichia.s__Escherichia_coli	39.4855395690
+PWY-6277: superpathway of 5-aminoimidazole ribonucleotide biosynthesis|g__Sellimonas.s__Sellimonas_intestinalis	12.4411530035
+PWY-6277: superpathway of 5-aminoimidazole ribonucleotide biosynthesis|g__Klebsiella.s__Klebsiella_aerogenes	10.6089178976
+PWY-6277: superpathway of 5-aminoimidazole ribonucleotide biosynthesis|g__Blautia.s__Blautia_sp_CAG_257	3.6690955981
+PWY-6277: superpathway of 5-aminoimidazole ribonucleotide biosynthesis|g__Escherichia.s__Escherichia_fergusonii	2.8569120157
+PWY0-301: L-ascorbate degradation I (bacterial, anaerobic)	813.2923402403
+PWY0-301: L-ascorbate degradation I (bacterial, anaerobic)|g__Klebsiella.s__Klebsiella_oxytoca	637.9250288612
+PWY0-301: L-ascorbate degradation I (bacterial, anaerobic)|unclassified	127.9357060578
+PWY0-301: L-ascorbate degradation I (bacterial, anaerobic)|g__Klebsiella.s__Klebsiella_pneumoniae	27.1020744993
+PWY0-301: L-ascorbate degradation I (bacterial, anaerobic)|g__Escherichia.s__Escherichia_coli	9.8314110978
+PWY0-301: L-ascorbate degradation I (bacterial, anaerobic)|g__Klebsiella.s__Klebsiella_aerogenes	5.5335625688
+PWY0-301: L-ascorbate degradation I (bacterial, anaerobic)|g__Escherichia.s__Escherichia_fergusonii	1.2223975229
+PWY-841: superpathway of purine nucleotides de novo biosynthesis I	810.9491515660
+PWY-841: superpathway of purine nucleotides de novo biosynthesis I|g__Klebsiella.s__Klebsiella_oxytoca	429.6266960614
+PWY-841: superpathway of purine nucleotides de novo biosynthesis I|g__Klebsiella.s__Klebsiella_pneumoniae	68.8977002757
+PWY-841: superpathway of purine nucleotides de novo biosynthesis I|unclassified	32.8765461820
+PWY-841: superpathway of purine nucleotides de novo biosynthesis I|g__Escherichia.s__Escherichia_coli	20.8409461491
+PWY-6121: 5-aminoimidazole ribonucleotide biosynthesis I	809.2748189467
+PWY-6121: 5-aminoimidazole ribonucleotide biosynthesis I|g__Klebsiella.s__Klebsiella_oxytoca	408.3392918464
+PWY-6121: 5-aminoimidazole ribonucleotide biosynthesis I|g__Bacteroides.s__Bacteroides_thetaiotaomicron	81.7925744198
+PWY-6121: 5-aminoimidazole ribonucleotide biosynthesis I|unclassified	79.9638037530
+PWY-6121: 5-aminoimidazole ribonucleotide biosynthesis I|g__Klebsiella.s__Klebsiella_pneumoniae	77.0403572816
+PWY-6121: 5-aminoimidazole ribonucleotide biosynthesis I|g__Escherichia.s__Escherichia_coli	44.8517220904
+PWY-6121: 5-aminoimidazole ribonucleotide biosynthesis I|g__Sellimonas.s__Sellimonas_intestinalis	9.3901438823
+PWY-6121: 5-aminoimidazole ribonucleotide biosynthesis I|g__Klebsiella.s__Klebsiella_aerogenes	8.2475781138
+PWY-7790: UMP biosynthesis II	806.4676994681
+PWY-7790: UMP biosynthesis II|g__Klebsiella.s__Klebsiella_oxytoca	471.1773557123
+PWY-7790: UMP biosynthesis II|unclassified	95.7618309476
+PWY-7790: UMP biosynthesis II|g__Bacteroides.s__Bacteroides_thetaiotaomicron	90.8098822243
+PWY-7790: UMP biosynthesis II|g__Klebsiella.s__Klebsiella_pneumoniae	41.3310886644
+PWY-7790: UMP biosynthesis II|g__Blautia.s__Blautia_sp_CAG_257	11.5868179172
+PWY-7790: UMP biosynthesis II|g__Sellimonas.s__Sellimonas_intestinalis	10.4860862934
+PWY-7790: UMP biosynthesis II|g__Escherichia.s__Escherichia_coli	9.1186728715
+PWY-7791: UMP biosynthesis III	806.4676994681
+PWY-7791: UMP biosynthesis III|g__Klebsiella.s__Klebsiella_oxytoca	471.1773557123
+PWY-7791: UMP biosynthesis III|unclassified	95.7618309476
+PWY-7791: UMP biosynthesis III|g__Bacteroides.s__Bacteroides_thetaiotaomicron	87.1404011515
+PWY-7791: UMP biosynthesis III|g__Klebsiella.s__Klebsiella_pneumoniae	41.3310886644
+PWY-7791: UMP biosynthesis III|g__Blautia.s__Blautia_sp_CAG_257	11.5868179172
+PWY-7791: UMP biosynthesis III|g__Sellimonas.s__Sellimonas_intestinalis	10.4860862934
+PWY-7791: UMP biosynthesis III|g__Escherichia.s__Escherichia_coli	9.1186728715
+PWY-6803: phosphatidylcholine acyl editing	805.8696052132
+PWY-6803: phosphatidylcholine acyl editing|g__Klebsiella.s__Klebsiella_oxytoca	487.1268284369
+PWY-6803: phosphatidylcholine acyl editing|unclassified	145.0241771856
+PWY-6803: phosphatidylcholine acyl editing|g__Klebsiella.s__Klebsiella_pneumoniae	97.4776175442
+PWY-6803: phosphatidylcholine acyl editing|g__Escherichia.s__Escherichia_coli	19.5192463946
+PWY-561: superpathway of glyoxylate cycle and fatty acid degradation	799.7761805204
+PWY-561: superpathway of glyoxylate cycle and fatty acid degradation|g__Klebsiella.s__Klebsiella_oxytoca	304.7913889227
+PWY-561: superpathway of glyoxylate cycle and fatty acid degradation|unclassified	103.9648603149
+PWY-561: superpathway of glyoxylate cycle and fatty acid degradation|g__Klebsiella.s__Klebsiella_pneumoniae	102.1129273266
+PWY-561: superpathway of glyoxylate cycle and fatty acid degradation|g__Escherichia.s__Escherichia_coli	5.9689871509
+PWY-6305: superpathway of putrescine biosynthesis	790.2743803449
+PWY-6305: superpathway of putrescine biosynthesis|g__Klebsiella.s__Klebsiella_oxytoca	469.9149021346
+PWY-6305: superpathway of putrescine biosynthesis|g__Klebsiella.s__Klebsiella_pneumoniae	94.7890824486
+PWY-6305: superpathway of putrescine biosynthesis|unclassified	84.5703709186
+PWY-6305: superpathway of putrescine biosynthesis|g__Escherichia.s__Escherichia_coli	35.8220823800
+PWY0-162: superpathway of pyrimidine ribonucleotides de novo biosynthesis	788.0759617981
+PWY0-162: superpathway of pyrimidine ribonucleotides de novo biosynthesis|g__Klebsiella.s__Klebsiella_oxytoca	456.4418167944
+PWY0-162: superpathway of pyrimidine ribonucleotides de novo biosynthesis|g__Bacteroides.s__Bacteroides_thetaiotaomicron	80.6879835150
+PWY0-162: superpathway of pyrimidine ribonucleotides de novo biosynthesis|unclassified	58.6400259264
+PWY0-162: superpathway of pyrimidine ribonucleotides de novo biosynthesis|g__Klebsiella.s__Klebsiella_pneumoniae	50.7959943358
+PWY0-162: superpathway of pyrimidine ribonucleotides de novo biosynthesis|g__Escherichia.s__Escherichia_coli	4.1004990620
+PWY-7315: dTDP-N-acetylthomosamine biosynthesis	787.7760147726
+PWY-7315: dTDP-N-acetylthomosamine biosynthesis|g__Klebsiella.s__Klebsiella_oxytoca	532.2428466145
+PWY-7315: dTDP-N-acetylthomosamine biosynthesis|g__Escherichia.s__Escherichia_coli	85.6802671091
+PWY-7315: dTDP-N-acetylthomosamine biosynthesis|unclassified	61.1079209533
+PWY-7315: dTDP-N-acetylthomosamine biosynthesis|g__Klebsiella.s__Klebsiella_pneumoniae	43.6878808325
+PWY-7315: dTDP-N-acetylthomosamine biosynthesis|g__Klebsiella.s__Klebsiella_aerogenes	6.2804096871
+COA-PWY-1: superpathway of coenzyme A biosynthesis III (mammals)	785.3950564222
+COA-PWY-1: superpathway of coenzyme A biosynthesis III (mammals)|g__Klebsiella.s__Klebsiella_oxytoca	465.8137808030
+COA-PWY-1: superpathway of coenzyme A biosynthesis III (mammals)|g__Bacteroides.s__Bacteroides_thetaiotaomicron	92.2426628775
+COA-PWY-1: superpathway of coenzyme A biosynthesis III (mammals)|g__Klebsiella.s__Klebsiella_pneumoniae	42.7527349214
+COA-PWY-1: superpathway of coenzyme A biosynthesis III (mammals)|unclassified	41.8248370396
+COA-PWY-1: superpathway of coenzyme A biosynthesis III (mammals)|g__Escherichia.s__Escherichia_coli	12.8028207282
+COA-PWY-1: superpathway of coenzyme A biosynthesis III (mammals)|g__Sellimonas.s__Sellimonas_intestinalis	8.3153674817
+COA-PWY-1: superpathway of coenzyme A biosynthesis III (mammals)|g__Blautia.s__Blautia_sp_CAG_257	7.6035381084
+PWY0-781: aspartate superpathway	782.8110578938
+PWY0-781: aspartate superpathway|g__Klebsiella.s__Klebsiella_oxytoca	75.5124804839
+PWY0-781: aspartate superpathway|g__Klebsiella.s__Klebsiella_pneumoniae	7.8059493056
+PWY0-781: aspartate superpathway|g__Escherichia.s__Escherichia_coli	4.9218594151
+PWY-6147: 6-hydroxymethyl-dihydropterin diphosphate biosynthesis I	782.5469915633
+PWY-6147: 6-hydroxymethyl-dihydropterin diphosphate biosynthesis I|g__Klebsiella.s__Klebsiella_oxytoca	469.1639279226
+PWY-6147: 6-hydroxymethyl-dihydropterin diphosphate biosynthesis I|g__Bacteroides.s__Bacteroides_thetaiotaomicron	113.0035790120
+PWY-6147: 6-hydroxymethyl-dihydropterin diphosphate biosynthesis I|g__Klebsiella.s__Klebsiella_pneumoniae	77.9801707838
+PWY-6147: 6-hydroxymethyl-dihydropterin diphosphate biosynthesis I|unclassified	13.4744321853
+PWY-6147: 6-hydroxymethyl-dihydropterin diphosphate biosynthesis I|g__Klebsiella.s__Klebsiella_aerogenes	6.0947404632
+PWY0-1261: anhydromuropeptides recycling I	780.7283695717
+PWY0-1261: anhydromuropeptides recycling I|g__Klebsiella.s__Klebsiella_oxytoca	571.6056614660
+PWY0-1261: anhydromuropeptides recycling I|g__Klebsiella.s__Klebsiella_pneumoniae	28.8732152758
+PWY0-1261: anhydromuropeptides recycling I|g__Escherichia.s__Escherichia_coli	23.4881113899
+PWY0-1261: anhydromuropeptides recycling I|g__Klebsiella.s__Klebsiella_aerogenes	16.2142048212
+PWY0-1261: anhydromuropeptides recycling I|unclassified	14.6808835981
+ARG+POLYAMINE-SYN: superpathway of arginine and polyamine biosynthesis	765.2631284680
+ARG+POLYAMINE-SYN: superpathway of arginine and polyamine biosynthesis|g__Klebsiella.s__Klebsiella_oxytoca	490.3275393466
+ARG+POLYAMINE-SYN: superpathway of arginine and polyamine biosynthesis|g__Klebsiella.s__Klebsiella_pneumoniae	97.7967035985
+ARG+POLYAMINE-SYN: superpathway of arginine and polyamine biosynthesis|g__Escherichia.s__Escherichia_coli	5.8154421628
+POLYISOPRENSYN-PWY: polyisoprenoid biosynthesis (E. coli)	765.2551925666
+POLYISOPRENSYN-PWY: polyisoprenoid biosynthesis (E. coli)|g__Klebsiella.s__Klebsiella_oxytoca	507.1273668092
+POLYISOPRENSYN-PWY: polyisoprenoid biosynthesis (E. coli)|g__Klebsiella.s__Klebsiella_pneumoniae	42.7531548749
+POLYISOPRENSYN-PWY: polyisoprenoid biosynthesis (E. coli)|g__Escherichia.s__Escherichia_coli	16.9350543371
+POLYISOPRENSYN-PWY: polyisoprenoid biosynthesis (E. coli)|unclassified	10.8706555089
+PANTOSYN-PWY: superpathway of coenzyme A biosynthesis I (bacteria)	763.4567687483
+PANTOSYN-PWY: superpathway of coenzyme A biosynthesis I (bacteria)|g__Klebsiella.s__Klebsiella_oxytoca	461.4266580120
+PANTOSYN-PWY: superpathway of coenzyme A biosynthesis I (bacteria)|g__Bacteroides.s__Bacteroides_thetaiotaomicron	89.8132379685
+PANTOSYN-PWY: superpathway of coenzyme A biosynthesis I (bacteria)|unclassified	52.2711771696
+PANTOSYN-PWY: superpathway of coenzyme A biosynthesis I (bacteria)|g__Klebsiella.s__Klebsiella_pneumoniae	50.4807628066
+PANTOSYN-PWY: superpathway of coenzyme A biosynthesis I (bacteria)|g__Escherichia.s__Escherichia_coli	18.3342636583
+LIPASYN-PWY: phospholipases	761.6678837577
+LIPASYN-PWY: phospholipases|g__Klebsiella.s__Klebsiella_pneumoniae	86.7132706006
+GLUCARDEG-PWY: D-glucarate degradation I	759.8970192335
+GLUCARDEG-PWY: D-glucarate degradation I|g__Klebsiella.s__Klebsiella_oxytoca	526.4903097209
+GLUCARDEG-PWY: D-glucarate degradation I|unclassified	98.2862814229
+GLUCARDEG-PWY: D-glucarate degradation I|g__Klebsiella.s__Klebsiella_pneumoniae	86.4074170604
+GLUCARDEG-PWY: D-glucarate degradation I|g__Escherichia.s__Escherichia_coli	11.6328316701
+PWY66-409: superpathway of purine nucleotide salvage	759.2426917748
+PWY66-409: superpathway of purine nucleotide salvage|g__Klebsiella.s__Klebsiella_oxytoca	448.6736800746
+PWY66-409: superpathway of purine nucleotide salvage|unclassified	39.6730962839
+PWY66-409: superpathway of purine nucleotide salvage|g__Klebsiella.s__Klebsiella_pneumoniae	21.5993004128
+PWY66-409: superpathway of purine nucleotide salvage|g__Escherichia.s__Escherichia_coli	18.9667585082
+PANTO-PWY: phosphopantothenate biosynthesis I	759.1937236858
+PANTO-PWY: phosphopantothenate biosynthesis I|g__Klebsiella.s__Klebsiella_oxytoca	444.0060832420
+PANTO-PWY: phosphopantothenate biosynthesis I|g__Bacteroides.s__Bacteroides_thetaiotaomicron	89.9206505205
+PANTO-PWY: phosphopantothenate biosynthesis I|g__Klebsiella.s__Klebsiella_pneumoniae	89.6540666562
+PANTO-PWY: phosphopantothenate biosynthesis I|g__Escherichia.s__Escherichia_coli	67.7078617533
+PANTO-PWY: phosphopantothenate biosynthesis I|unclassified	53.3668143930
+PANTO-PWY: phosphopantothenate biosynthesis I|g__Klebsiella.s__Klebsiella_aerogenes	8.1508187557
+PWY-7953: UDP-N-acetylmuramoyl-pentapeptide biosynthesis III (meso-diaminopimelate containing)	755.8921993015
+PWY-7953: UDP-N-acetylmuramoyl-pentapeptide biosynthesis III (meso-diaminopimelate containing)|g__Klebsiella.s__Klebsiella_oxytoca	372.6542167819
+PWY-7953: UDP-N-acetylmuramoyl-pentapeptide biosynthesis III (meso-diaminopimelate containing)|g__Bacteroides.s__Bacteroides_thetaiotaomicron	82.3392242411
+PWY-7953: UDP-N-acetylmuramoyl-pentapeptide biosynthesis III (meso-diaminopimelate containing)|unclassified	53.7358945839
+PWY-7953: UDP-N-acetylmuramoyl-pentapeptide biosynthesis III (meso-diaminopimelate containing)|g__Klebsiella.s__Klebsiella_pneumoniae	40.2177842251
+PWY-7953: UDP-N-acetylmuramoyl-pentapeptide biosynthesis III (meso-diaminopimelate containing)|g__Escherichia.s__Escherichia_coli	17.0661259466
+PWY-7953: UDP-N-acetylmuramoyl-pentapeptide biosynthesis III (meso-diaminopimelate containing)|g__Sellimonas.s__Sellimonas_intestinalis	11.2333342086
+GLYCOLYSIS-E-D: superpathway of glycolysis and the Entner-Doudoroff pathway	753.6453409510
+GLYCOLYSIS-E-D: superpathway of glycolysis and the Entner-Doudoroff pathway|g__Klebsiella.s__Klebsiella_oxytoca	444.5945855063
+GLYCOLYSIS-E-D: superpathway of glycolysis and the Entner-Doudoroff pathway|g__Klebsiella.s__Klebsiella_pneumoniae	69.7156292903
+GLYCOLYSIS-E-D: superpathway of glycolysis and the Entner-Doudoroff pathway|unclassified	42.6923746742
+GLYCOLYSIS-E-D: superpathway of glycolysis and the Entner-Doudoroff pathway|g__Escherichia.s__Escherichia_coli	25.3446340744
+GLYCOLYSIS-E-D: superpathway of glycolysis and the Entner-Doudoroff pathway|g__Escherichia.s__Escherichia_fergusonii	1.3074498168
+GLYCOCAT-PWY: glycogen degradation I	751.7113220069
+GLYCOCAT-PWY: glycogen degradation I|g__Klebsiella.s__Klebsiella_oxytoca	493.2733824339
+GLYCOCAT-PWY: glycogen degradation I|g__Klebsiella.s__Klebsiella_pneumoniae	58.1050061873
+GLYCOCAT-PWY: glycogen degradation I|unclassified	12.5254911346
+GLYCOCAT-PWY: glycogen degradation I|g__Klebsiella.s__Klebsiella_aerogenes	4.6569806962
+PYRIDOXSYN-PWY: pyridoxal 5'-phosphate biosynthesis I	750.7291665478
+PYRIDOXSYN-PWY: pyridoxal 5'-phosphate biosynthesis I|g__Klebsiella.s__Klebsiella_oxytoca	425.7175183779
+PYRIDOXSYN-PWY: pyridoxal 5'-phosphate biosynthesis I|unclassified	116.5330304311
+PYRIDOXSYN-PWY: pyridoxal 5'-phosphate biosynthesis I|g__Bacteroides.s__Bacteroides_thetaiotaomicron	105.3748474167
+PYRIDOXSYN-PWY: pyridoxal 5'-phosphate biosynthesis I|g__Klebsiella.s__Klebsiella_pneumoniae	31.4934907903
+PYRIDOXSYN-PWY: pyridoxal 5'-phosphate biosynthesis I|g__Escherichia.s__Escherichia_coli	6.2308026014
+PWY-6703: preQ0 biosynthesis	748.6262964172
+PWY-6703: preQ0 biosynthesis|g__Klebsiella.s__Klebsiella_oxytoca	486.9962224579
+PWY-6703: preQ0 biosynthesis|g__Bacteroides.s__Bacteroides_thetaiotaomicron	101.7860651404
+PWY-6703: preQ0 biosynthesis|unclassified	57.1062021643
+PWY-6703: preQ0 biosynthesis|g__Klebsiella.s__Klebsiella_pneumoniae	41.4236143357
+FUC-RHAMCAT-PWY: superpathway of fucose and rhamnose degradation	745.3719574919
+FUC-RHAMCAT-PWY: superpathway of fucose and rhamnose degradation|g__Klebsiella.s__Klebsiella_oxytoca	408.8076795457
+FUC-RHAMCAT-PWY: superpathway of fucose and rhamnose degradation|g__Klebsiella.s__Klebsiella_pneumoniae	64.1840559197
+FUC-RHAMCAT-PWY: superpathway of fucose and rhamnose degradation|unclassified	44.3133737211
+FUC-RHAMCAT-PWY: superpathway of fucose and rhamnose degradation|g__Escherichia.s__Escherichia_coli	20.9612251892
+PWY-7184: pyrimidine deoxyribonucleotides de novo biosynthesis I	745.1297487511
+PWY-7184: pyrimidine deoxyribonucleotides de novo biosynthesis I|g__Klebsiella.s__Klebsiella_oxytoca	457.7876770551
+PWY-7184: pyrimidine deoxyribonucleotides de novo biosynthesis I|g__Klebsiella.s__Klebsiella_pneumoniae	67.5653947255
+PWY-7184: pyrimidine deoxyribonucleotides de novo biosynthesis I|unclassified	53.5484884652
+PWY-7184: pyrimidine deoxyribonucleotides de novo biosynthesis I|g__Escherichia.s__Escherichia_coli	9.2151160083
+PWY-6700: queuosine biosynthesis I (de novo)	742.2074323222
+PWY-6700: queuosine biosynthesis I (de novo)|g__Klebsiella.s__Klebsiella_oxytoca	462.9513060848
+PWY-6700: queuosine biosynthesis I (de novo)|g__Bacteroides.s__Bacteroides_thetaiotaomicron	98.7660223395
+PWY-6700: queuosine biosynthesis I (de novo)|g__Escherichia.s__Escherichia_coli	80.8728328012
+PWY-6700: queuosine biosynthesis I (de novo)|g__Klebsiella.s__Klebsiella_pneumoniae	57.0208532177
+PWY-6700: queuosine biosynthesis I (de novo)|unclassified	31.6317410743
+PWY-6700: queuosine biosynthesis I (de novo)|g__Sellimonas.s__Sellimonas_intestinalis	10.4269327293
+PWY-6700: queuosine biosynthesis I (de novo)|g__Blautia.s__Blautia_sp_CAG_257	9.3128316170
+PWY-I9: L-cysteine biosynthesis VI (from L-methionine)	741.4576191528
+PWY-I9: L-cysteine biosynthesis VI (from L-methionine)|g__Klebsiella.s__Klebsiella_oxytoca	381.3042361299
+PWY-I9: L-cysteine biosynthesis VI (from L-methionine)|g__Escherichia.s__Escherichia_coli	46.9337936084
+PWY-I9: L-cysteine biosynthesis VI (from L-methionine)|g__Klebsiella.s__Klebsiella_pneumoniae	45.6847535371
+PWY-I9: L-cysteine biosynthesis VI (from L-methionine)|unclassified	42.5757690161
+PWY-I9: L-cysteine biosynthesis VI (from L-methionine)|g__Klebsiella.s__Klebsiella_aerogenes	18.0412099407
+TRPSYN-PWY: L-tryptophan biosynthesis	736.4323000170
+TRPSYN-PWY: L-tryptophan biosynthesis|g__Klebsiella.s__Klebsiella_oxytoca	433.4361278605
+TRPSYN-PWY: L-tryptophan biosynthesis|g__Klebsiella.s__Klebsiella_pneumoniae	30.8307186426
+TRPSYN-PWY: L-tryptophan biosynthesis|unclassified	17.2881876124
+TRPSYN-PWY: L-tryptophan biosynthesis|g__Escherichia.s__Escherichia_coli	10.9574235396
+TRPSYN-PWY: L-tryptophan biosynthesis|g__Blautia.s__Blautia_sp_CAG_257	9.6461109893
+TRPSYN-PWY: L-tryptophan biosynthesis|g__Klebsiella.s__Klebsiella_aerogenes	2.3106787570
+COA-PWY: coenzyme A biosynthesis I (prokaryotic)	735.9700442219
+COA-PWY: coenzyme A biosynthesis I (prokaryotic)|g__Klebsiella.s__Klebsiella_oxytoca	448.8369851687
+COA-PWY: coenzyme A biosynthesis I (prokaryotic)|g__Bacteroides.s__Bacteroides_thetaiotaomicron	87.5476246151
+COA-PWY: coenzyme A biosynthesis I (prokaryotic)|unclassified	68.6467388914
+COA-PWY: coenzyme A biosynthesis I (prokaryotic)|g__Klebsiella.s__Klebsiella_pneumoniae	40.6519601470
+COA-PWY: coenzyme A biosynthesis I (prokaryotic)|g__Sellimonas.s__Sellimonas_intestinalis	13.2923380680
+COA-PWY: coenzyme A biosynthesis I (prokaryotic)|g__Escherichia.s__Escherichia_coli	10.6035183985
+COA-PWY: coenzyme A biosynthesis I (prokaryotic)|g__Blautia.s__Blautia_sp_CAG_257	9.0563007659
+COA-PWY: coenzyme A biosynthesis I (prokaryotic)|g__Lactococcus.s__Lactococcus_lactis	4.1723791361
+COA-PWY: coenzyme A biosynthesis I (prokaryotic)|g__Klebsiella.s__Klebsiella_aerogenes	0.2055315655
+PWY-7851: coenzyme A biosynthesis II (eukaryotic)	735.9700442219
+PWY-7851: coenzyme A biosynthesis II (eukaryotic)|g__Klebsiella.s__Klebsiella_oxytoca	448.8369851687
+PWY-7851: coenzyme A biosynthesis II (eukaryotic)|g__Bacteroides.s__Bacteroides_thetaiotaomicron	87.5476246151
+PWY-7851: coenzyme A biosynthesis II (eukaryotic)|g__Klebsiella.s__Klebsiella_pneumoniae	37.4023738558
+PWY-7851: coenzyme A biosynthesis II (eukaryotic)|unclassified	35.0957986201
+PWY-7851: coenzyme A biosynthesis II (eukaryotic)|g__Escherichia.s__Escherichia_coli	10.6035183985
+PWY-7851: coenzyme A biosynthesis II (eukaryotic)|g__Blautia.s__Blautia_sp_CAG_257	8.0150324144
+PWY-7851: coenzyme A biosynthesis II (eukaryotic)|g__Sellimonas.s__Sellimonas_intestinalis	7.5736768169
+PWY-1269: CMP-3-deoxy-D-manno-octulosonate biosynthesis	733.3453216902
+PWY-1269: CMP-3-deoxy-D-manno-octulosonate biosynthesis|g__Klebsiella.s__Klebsiella_oxytoca	467.0284107792
+PWY-1269: CMP-3-deoxy-D-manno-octulosonate biosynthesis|unclassified	136.6662490626
+PWY-1269: CMP-3-deoxy-D-manno-octulosonate biosynthesis|g__Bacteroides.s__Bacteroides_thetaiotaomicron	61.1244138234
+PWY-1269: CMP-3-deoxy-D-manno-octulosonate biosynthesis|g__Klebsiella.s__Klebsiella_pneumoniae	45.8041398241
+PWY-1269: CMP-3-deoxy-D-manno-octulosonate biosynthesis|g__Escherichia.s__Escherichia_coli	10.6434160295
+PWY-7199: pyrimidine deoxyribonucleosides salvage	725.7536234699
+PWY-7199: pyrimidine deoxyribonucleosides salvage|g__Klebsiella.s__Klebsiella_oxytoca	433.6835207008
+PWY-7199: pyrimidine deoxyribonucleosides salvage|g__Bacteroides.s__Bacteroides_thetaiotaomicron	101.9270083095
+PWY-7199: pyrimidine deoxyribonucleosides salvage|g__Escherichia.s__Escherichia_coli	76.9192381093
+PWY-7199: pyrimidine deoxyribonucleosides salvage|g__Klebsiella.s__Klebsiella_pneumoniae	39.3061288973
+PWY-7199: pyrimidine deoxyribonucleosides salvage|unclassified	14.7363348598
+PWY-6317: D-galactose degradation I (Leloir pathway)	724.1935087115
+PWY-6317: D-galactose degradation I (Leloir pathway)|g__Klebsiella.s__Klebsiella_oxytoca	405.4024568373
+PWY-6317: D-galactose degradation I (Leloir pathway)|unclassified	80.9604900335
+PWY-6317: D-galactose degradation I (Leloir pathway)|g__Klebsiella.s__Klebsiella_pneumoniae	40.7266609092
+PWY-6317: D-galactose degradation I (Leloir pathway)|g__Escherichia.s__Escherichia_coli	28.7772174370
+PWY-6317: D-galactose degradation I (Leloir pathway)|g__Klebsiella.s__Klebsiella_aerogenes	6.7794358324
+PWY-6317: D-galactose degradation I (Leloir pathway)|g__Streptococcus.s__Streptococcus_salivarius	3.0570846575
+PWY-5838: superpathway of menaquinol-8 biosynthesis I	723.5725410889
+PWY-5838: superpathway of menaquinol-8 biosynthesis I|g__Klebsiella.s__Klebsiella_oxytoca	444.2907398229
+PWY-5838: superpathway of menaquinol-8 biosynthesis I|unclassified	77.5474779199
+PWY-5838: superpathway of menaquinol-8 biosynthesis I|g__Klebsiella.s__Klebsiella_pneumoniae	35.1113412535
+PWY-5838: superpathway of menaquinol-8 biosynthesis I|g__Escherichia.s__Escherichia_coli	15.9411027548
+P122-PWY: heterolactic fermentation	721.0660456237
+P122-PWY: heterolactic fermentation|g__Klebsiella.s__Klebsiella_oxytoca	453.0546389763
+P122-PWY: heterolactic fermentation|g__Klebsiella.s__Klebsiella_pneumoniae	19.0093379210
+PWY-7208: superpathway of pyrimidine nucleobases salvage	719.2891443722
+PWY-7208: superpathway of pyrimidine nucleobases salvage|g__Klebsiella.s__Klebsiella_oxytoca	420.8729363473
+PWY-7208: superpathway of pyrimidine nucleobases salvage|g__Klebsiella.s__Klebsiella_pneumoniae	90.1904330577
+PWY-7208: superpathway of pyrimidine nucleobases salvage|g__Escherichia.s__Escherichia_coli	37.3553631682
+PWY-7208: superpathway of pyrimidine nucleobases salvage|unclassified	24.9760983227
+PWY-7208: superpathway of pyrimidine nucleobases salvage|g__Escherichia.s__Escherichia_fergusonii	5.7788791934
+PWY-5897: superpathway of menaquinol-11 biosynthesis	717.7378036720
+PWY-5897: superpathway of menaquinol-11 biosynthesis|g__Klebsiella.s__Klebsiella_oxytoca	435.8006450584
+PWY-5897: superpathway of menaquinol-11 biosynthesis|unclassified	94.5052779111
+PWY-5897: superpathway of menaquinol-11 biosynthesis|g__Klebsiella.s__Klebsiella_pneumoniae	33.6221225992
+PWY-5897: superpathway of menaquinol-11 biosynthesis|g__Escherichia.s__Escherichia_coli	17.6876251959
+PWY-5898: superpathway of menaquinol-12 biosynthesis	717.7378036720
+PWY-5898: superpathway of menaquinol-12 biosynthesis|g__Klebsiella.s__Klebsiella_oxytoca	435.8006450584
+PWY-5898: superpathway of menaquinol-12 biosynthesis|unclassified	94.5052779111
+PWY-5898: superpathway of menaquinol-12 biosynthesis|g__Klebsiella.s__Klebsiella_pneumoniae	33.6221225992
+PWY-5898: superpathway of menaquinol-12 biosynthesis|g__Escherichia.s__Escherichia_coli	17.6876251959
+PWY-5899: superpathway of menaquinol-13 biosynthesis	717.7378036720
+PWY-5899: superpathway of menaquinol-13 biosynthesis|g__Klebsiella.s__Klebsiella_oxytoca	435.8006450584
+PWY-5899: superpathway of menaquinol-13 biosynthesis|unclassified	94.5052779111
+PWY-5899: superpathway of menaquinol-13 biosynthesis|g__Klebsiella.s__Klebsiella_pneumoniae	33.6221225992
+PWY-5899: superpathway of menaquinol-13 biosynthesis|g__Escherichia.s__Escherichia_coli	17.6876251959
+HEMESYN2-PWY: heme b biosynthesis II (oxygen-independent)	716.6934094825
+HEMESYN2-PWY: heme b biosynthesis II (oxygen-independent)|g__Klebsiella.s__Klebsiella_oxytoca	463.2278611697
+HEMESYN2-PWY: heme b biosynthesis II (oxygen-independent)|g__Klebsiella.s__Klebsiella_pneumoniae	85.4637530244
+HEMESYN2-PWY: heme b biosynthesis II (oxygen-independent)|unclassified	65.8127731560
+HEMESYN2-PWY: heme b biosynthesis II (oxygen-independent)|g__Escherichia.s__Escherichia_coli	57.3325071955
+HEMESYN2-PWY: heme b biosynthesis II (oxygen-independent)|g__Klebsiella.s__Klebsiella_aerogenes	4.5819164798
+PWY-7282: 4-amino-2-methyl-5-diphosphomethylpyrimidine biosynthesis II	715.0248314356
+PWY-7282: 4-amino-2-methyl-5-diphosphomethylpyrimidine biosynthesis II|g__Klebsiella.s__Klebsiella_oxytoca	426.3364810845
+PWY-7282: 4-amino-2-methyl-5-diphosphomethylpyrimidine biosynthesis II|unclassified	109.4560417948
+PWY-7282: 4-amino-2-methyl-5-diphosphomethylpyrimidine biosynthesis II|g__Klebsiella.s__Klebsiella_pneumoniae	14.9426033242
+PWY-7282: 4-amino-2-methyl-5-diphosphomethylpyrimidine biosynthesis II|g__Klebsiella.s__Klebsiella_aerogenes	6.9380311396
+TCA-GLYOX-BYPASS: superpathway of glyoxylate bypass and TCA	713.9437546927
+TCA-GLYOX-BYPASS: superpathway of glyoxylate bypass and TCA|g__Klebsiella.s__Klebsiella_oxytoca	266.5061171540
+TCA-GLYOX-BYPASS: superpathway of glyoxylate bypass and TCA|g__Klebsiella.s__Klebsiella_pneumoniae	92.3530222262
+TCA-GLYOX-BYPASS: superpathway of glyoxylate bypass and TCA|unclassified	45.7066025255
+TCA-GLYOX-BYPASS: superpathway of glyoxylate bypass and TCA|g__Escherichia.s__Escherichia_coli	5.0791487256
+PWY-5981: CDP-diacylglycerol biosynthesis III	713.8930357235
+PWY-5981: CDP-diacylglycerol biosynthesis III|g__Klebsiella.s__Klebsiella_oxytoca	410.3497221123
+PWY-5981: CDP-diacylglycerol biosynthesis III|g__Klebsiella.s__Klebsiella_pneumoniae	27.5379644608
+PWY-5981: CDP-diacylglycerol biosynthesis III|g__Escherichia.s__Escherichia_coli	27.2500174124
+PWY-5981: CDP-diacylglycerol biosynthesis III|unclassified	11.0080315423
+DENOVOPURINE2-PWY: superpathway of purine nucleotides de novo biosynthesis II	708.8777531031
+DENOVOPURINE2-PWY: superpathway of purine nucleotides de novo biosynthesis II|g__Klebsiella.s__Klebsiella_oxytoca	414.6714636068
+DENOVOPURINE2-PWY: superpathway of purine nucleotides de novo biosynthesis II|g__Klebsiella.s__Klebsiella_pneumoniae	56.7857201357
+DENOVOPURINE2-PWY: superpathway of purine nucleotides de novo biosynthesis II|unclassified	18.0891648575
+DENOVOPURINE2-PWY: superpathway of purine nucleotides de novo biosynthesis II|g__Escherichia.s__Escherichia_coli	14.3219031992
+PWY-5840: superpathway of menaquinol-7 biosynthesis	708.3080571108
+PWY-5840: superpathway of menaquinol-7 biosynthesis|g__Klebsiella.s__Klebsiella_oxytoca	431.7293315674
+PWY-5840: superpathway of menaquinol-7 biosynthesis|unclassified	77.5474779199
+PWY-5840: superpathway of menaquinol-7 biosynthesis|g__Klebsiella.s__Klebsiella_pneumoniae	30.9963539757
+PWY-5840: superpathway of menaquinol-7 biosynthesis|g__Escherichia.s__Escherichia_coli	15.9411027548
+PWY-5845: superpathway of menaquinol-9 biosynthesis	708.3080571108
+PWY-5845: superpathway of menaquinol-9 biosynthesis|g__Klebsiella.s__Klebsiella_oxytoca	431.7293315674
+PWY-5845: superpathway of menaquinol-9 biosynthesis|unclassified	77.5474779199
+PWY-5845: superpathway of menaquinol-9 biosynthesis|g__Klebsiella.s__Klebsiella_pneumoniae	30.9963539757
+PWY-5845: superpathway of menaquinol-9 biosynthesis|g__Escherichia.s__Escherichia_coli	15.9411027548
+PWY-5850: superpathway of menaquinol-6 biosynthesis	708.3080571108
+PWY-5850: superpathway of menaquinol-6 biosynthesis|g__Klebsiella.s__Klebsiella_oxytoca	431.7293315674
+PWY-5850: superpathway of menaquinol-6 biosynthesis|unclassified	77.5474779199
+PWY-5850: superpathway of menaquinol-6 biosynthesis|g__Klebsiella.s__Klebsiella_pneumoniae	30.9963539757
+PWY-5850: superpathway of menaquinol-6 biosynthesis|g__Escherichia.s__Escherichia_coli	15.9411027548
+PWY-5896: superpathway of menaquinol-10 biosynthesis	708.3080571108
+PWY-5896: superpathway of menaquinol-10 biosynthesis|g__Klebsiella.s__Klebsiella_oxytoca	431.7293315674
+PWY-5896: superpathway of menaquinol-10 biosynthesis|unclassified	77.5474779199
+PWY-5896: superpathway of menaquinol-10 biosynthesis|g__Klebsiella.s__Klebsiella_pneumoniae	30.9963539757
+PWY-5896: superpathway of menaquinol-10 biosynthesis|g__Escherichia.s__Escherichia_coli	15.9411027548
+COBALSYN-PWY: superpathway of adenosylcobalamin salvage from cobinamide I	704.6079206479
+COBALSYN-PWY: superpathway of adenosylcobalamin salvage from cobinamide I|g__Klebsiella.s__Klebsiella_oxytoca	344.7543117156
+COBALSYN-PWY: superpathway of adenosylcobalamin salvage from cobinamide I|g__Klebsiella.s__Klebsiella_pneumoniae	78.9026683241
+COBALSYN-PWY: superpathway of adenosylcobalamin salvage from cobinamide I|g__Escherichia.s__Escherichia_coli	54.4164013221
+COBALSYN-PWY: superpathway of adenosylcobalamin salvage from cobinamide I|unclassified	35.7822341073
+COBALSYN-PWY: superpathway of adenosylcobalamin salvage from cobinamide I|g__Klebsiella.s__Klebsiella_aerogenes	15.5503359624
+NONMEVIPP-PWY: methylerythritol phosphate pathway I	704.2450165733
+NONMEVIPP-PWY: methylerythritol phosphate pathway I|g__Klebsiella.s__Klebsiella_oxytoca	431.5065521020
+NONMEVIPP-PWY: methylerythritol phosphate pathway I|g__Bacteroides.s__Bacteroides_thetaiotaomicron	106.8550896534
+NONMEVIPP-PWY: methylerythritol phosphate pathway I|g__Escherichia.s__Escherichia_coli	54.1851335052
+NONMEVIPP-PWY: methylerythritol phosphate pathway I|g__Klebsiella.s__Klebsiella_pneumoniae	41.7395439808
+NONMEVIPP-PWY: methylerythritol phosphate pathway I|unclassified	25.1819106372
+NONMEVIPP-PWY: methylerythritol phosphate pathway I|g__Sellimonas.s__Sellimonas_intestinalis	9.8939123911
+PWY-7560: methylerythritol phosphate pathway II	704.2450165733
+PWY-7560: methylerythritol phosphate pathway II|g__Klebsiella.s__Klebsiella_oxytoca	397.5665733447
+PWY-7560: methylerythritol phosphate pathway II|g__Bacteroides.s__Bacteroides_thetaiotaomicron	98.9732284193
+PWY-7560: methylerythritol phosphate pathway II|unclassified	59.4444901589
+PWY-7560: methylerythritol phosphate pathway II|g__Escherichia.s__Escherichia_coli	54.1851335052
+PWY-7560: methylerythritol phosphate pathway II|g__Klebsiella.s__Klebsiella_pneumoniae	32.9527129004
+PRPP-PWY: superpathway of histidine, purine, and pyrimidine biosynthesis	699.3210664003
+PRPP-PWY: superpathway of histidine, purine, and pyrimidine biosynthesis|g__Klebsiella.s__Klebsiella_oxytoca	370.3181033346
+PRPP-PWY: superpathway of histidine, purine, and pyrimidine biosynthesis|g__Klebsiella.s__Klebsiella_pneumoniae	40.7837169086
+PRPP-PWY: superpathway of histidine, purine, and pyrimidine biosynthesis|unclassified	19.0767761614
+PWY-6969: TCA cycle V (2-oxoglutarate synthase)	698.4901645328
+PWY-6969: TCA cycle V (2-oxoglutarate synthase)|g__Klebsiella.s__Klebsiella_oxytoca	234.5356604108
+PWY-6969: TCA cycle V (2-oxoglutarate synthase)|g__Klebsiella.s__Klebsiella_pneumoniae	87.9847540510
+PWY-6969: TCA cycle V (2-oxoglutarate synthase)|unclassified	39.7714504228
+PWY-6969: TCA cycle V (2-oxoglutarate synthase)|g__Escherichia.s__Escherichia_coli	4.5924414719
+TCA: TCA cycle I (prokaryotic)	698.4901645328
+TCA: TCA cycle I (prokaryotic)|g__Klebsiella.s__Klebsiella_oxytoca	239.1350257245
+TCA: TCA cycle I (prokaryotic)|g__Klebsiella.s__Klebsiella_pneumoniae	85.8980891118
+TCA: TCA cycle I (prokaryotic)|unclassified	39.7714504228
+TCA: TCA cycle I (prokaryotic)|g__Escherichia.s__Escherichia_coli	4.5986627676
+PWY0-166: superpathway of pyrimidine deoxyribonucleotides de novo biosynthesis (E. coli)	698.1152645720
+PWY0-166: superpathway of pyrimidine deoxyribonucleotides de novo biosynthesis (E. coli)|g__Klebsiella.s__Klebsiella_oxytoca	437.1979811941
+PWY0-166: superpathway of pyrimidine deoxyribonucleotides de novo biosynthesis (E. coli)|unclassified	62.2160150454
+PWY0-166: superpathway of pyrimidine deoxyribonucleotides de novo biosynthesis (E. coli)|g__Klebsiella.s__Klebsiella_pneumoniae	60.9785054009
+PWY0-166: superpathway of pyrimidine deoxyribonucleotides de novo biosynthesis (E. coli)|g__Escherichia.s__Escherichia_coli	9.5801343046
+THISYN-PWY: superpathway of thiamine diphosphate biosynthesis I	696.4860645087
+THISYN-PWY: superpathway of thiamine diphosphate biosynthesis I|g__Klebsiella.s__Klebsiella_oxytoca	404.3813459565
+THISYN-PWY: superpathway of thiamine diphosphate biosynthesis I|g__Escherichia.s__Escherichia_coli	37.0137227103
+THISYN-PWY: superpathway of thiamine diphosphate biosynthesis I|unclassified	36.3259408242
+THISYN-PWY: superpathway of thiamine diphosphate biosynthesis I|g__Klebsiella.s__Klebsiella_pneumoniae	27.7204643091
+NAGLIPASYN-PWY: lipid IVA biosynthesis (E. coli)	691.7574764724
+NAGLIPASYN-PWY: lipid IVA biosynthesis (E. coli)|g__Klebsiella.s__Klebsiella_oxytoca	391.1295167613
+NAGLIPASYN-PWY: lipid IVA biosynthesis (E. coli)|g__Escherichia.s__Escherichia_coli	80.9216216999
+NAGLIPASYN-PWY: lipid IVA biosynthesis (E. coli)|g__Klebsiella.s__Klebsiella_pneumoniae	73.7725090009
+NAGLIPASYN-PWY: lipid IVA biosynthesis (E. coli)|unclassified	41.9167033154
+PWY-8073: lipid IVA biosynthesis (P. putida)	691.7574764724
+PWY-8073: lipid IVA biosynthesis (P. putida)|g__Klebsiella.s__Klebsiella_oxytoca	391.1295167613
+PWY-8073: lipid IVA biosynthesis (P. putida)|g__Escherichia.s__Escherichia_coli	80.9216216999
+PWY-8073: lipid IVA biosynthesis (P. putida)|g__Klebsiella.s__Klebsiella_pneumoniae	73.7725090009
+PWY-8073: lipid IVA biosynthesis (P. putida)|unclassified	41.9167033154
+PWY-702: L-methionine biosynthesis II	691.4906968606
+PWY-702: L-methionine biosynthesis II|g__Klebsiella.s__Klebsiella_oxytoca	434.3137111832
+PWY-702: L-methionine biosynthesis II|unclassified	150.5931248845
+PWY-702: L-methionine biosynthesis II|g__Klebsiella.s__Klebsiella_pneumoniae	69.8076928233
+PWY-702: L-methionine biosynthesis II|g__Escherichia.s__Escherichia_coli	8.8812704967
+PWY-6123: inosine-5'-phosphate biosynthesis I	686.3820802135
+PWY-6123: inosine-5'-phosphate biosynthesis I|g__Klebsiella.s__Klebsiella_oxytoca	360.5767056258
+PWY-6123: inosine-5'-phosphate biosynthesis I|g__Bacteroides.s__Bacteroides_thetaiotaomicron	95.6074529714
+PWY-6123: inosine-5'-phosphate biosynthesis I|g__Klebsiella.s__Klebsiella_pneumoniae	54.0701943158
+PWY-6123: inosine-5'-phosphate biosynthesis I|g__Escherichia.s__Escherichia_coli	49.3774593377
+PWY-6123: inosine-5'-phosphate biosynthesis I|unclassified	18.0369563064
+PWY-6123: inosine-5'-phosphate biosynthesis I|g__Klebsiella.s__Klebsiella_aerogenes	2.4929553427
+PWY-8004: Entner-Doudoroff pathway I	683.0177726324
+PWY-8004: Entner-Doudoroff pathway I|g__Klebsiella.s__Klebsiella_oxytoca	413.4506639965
+PWY-8004: Entner-Doudoroff pathway I|g__Klebsiella.s__Klebsiella_pneumoniae	63.9218062404
+PWY-8004: Entner-Doudoroff pathway I|unclassified	35.4358033450
+PWY-8004: Entner-Doudoroff pathway I|g__Escherichia.s__Escherichia_coli	17.9809719698
+PWY-7211: superpathway of pyrimidine deoxyribonucleotides de novo biosynthesis	682.6021069016
+PWY-7211: superpathway of pyrimidine deoxyribonucleotides de novo biosynthesis|g__Klebsiella.s__Klebsiella_oxytoca	437.5189236459
+PWY-7211: superpathway of pyrimidine deoxyribonucleotides de novo biosynthesis|g__Klebsiella.s__Klebsiella_pneumoniae	53.4522922726
+PWY-7211: superpathway of pyrimidine deoxyribonucleotides de novo biosynthesis|unclassified	50.7847255790
+HISTSYN-PWY: L-histidine biosynthesis	681.4728043661
+HISTSYN-PWY: L-histidine biosynthesis|g__Klebsiella.s__Klebsiella_oxytoca	267.5441729925
+HISTSYN-PWY: L-histidine biosynthesis|g__Bacteroides.s__Bacteroides_thetaiotaomicron	100.2019469371
+HISTSYN-PWY: L-histidine biosynthesis|g__Escherichia.s__Escherichia_coli	41.2537116162
+HISTSYN-PWY: L-histidine biosynthesis|unclassified	35.0880931782
+HISTSYN-PWY: L-histidine biosynthesis|g__Klebsiella.s__Klebsiella_pneumoniae	26.6603045001
+PWY-6124: inosine-5'-phosphate biosynthesis II	678.8233961131
+PWY-6124: inosine-5'-phosphate biosynthesis II|g__Klebsiella.s__Klebsiella_oxytoca	355.4970990041
+PWY-6124: inosine-5'-phosphate biosynthesis II|g__Bacteroides.s__Bacteroides_thetaiotaomicron	92.5282255971
+PWY-6124: inosine-5'-phosphate biosynthesis II|g__Escherichia.s__Escherichia_coli	48.9831394939
+PWY-6124: inosine-5'-phosphate biosynthesis II|g__Klebsiella.s__Klebsiella_pneumoniae	44.0082602628
+PWY-6124: inosine-5'-phosphate biosynthesis II|unclassified	15.0543314541
+PWY-6270: isoprene biosynthesis I	677.5994482204
+PWY-6270: isoprene biosynthesis I|g__Klebsiella.s__Klebsiella_oxytoca	394.5159618417
+PWY-6270: isoprene biosynthesis I|g__Bacteroides.s__Bacteroides_thetaiotaomicron	98.0091292657
+PWY-6270: isoprene biosynthesis I|g__Klebsiella.s__Klebsiella_pneumoniae	33.2557215481
+PWY-6270: isoprene biosynthesis I|unclassified	12.4484738340
+PWY-6270: isoprene biosynthesis I|g__Escherichia.s__Escherichia_coli	11.7917217184
+FUCCAT-PWY: fucose degradation	672.4311128938
+FUCCAT-PWY: fucose degradation|g__Klebsiella.s__Klebsiella_oxytoca	423.7257782212
+FUCCAT-PWY: fucose degradation|g__Klebsiella.s__Klebsiella_pneumoniae	52.0071549472
+FUCCAT-PWY: fucose degradation|unclassified	38.1444513625
+FUCCAT-PWY: fucose degradation|g__Escherichia.s__Escherichia_coli	20.0990924205
+FUCCAT-PWY: fucose degradation|g__Klebsiella.s__Klebsiella_aerogenes	5.8434730420
+PWY-5861: superpathway of demethylmenaquinol-8 biosynthesis I	670.5515289076
+PWY-5861: superpathway of demethylmenaquinol-8 biosynthesis I|g__Klebsiella.s__Klebsiella_oxytoca	431.3372147844
+PWY-5861: superpathway of demethylmenaquinol-8 biosynthesis I|unclassified	59.6066222188
+PWY-5861: superpathway of demethylmenaquinol-8 biosynthesis I|g__Klebsiella.s__Klebsiella_pneumoniae	27.8995355933
+PWY-5861: superpathway of demethylmenaquinol-8 biosynthesis I|g__Escherichia.s__Escherichia_coli	15.0620036004
+PWY-5188: tetrapyrrole biosynthesis I (from glutamate)	668.6685269068
+PWY-5188: tetrapyrrole biosynthesis I (from glutamate)|g__Klebsiella.s__Klebsiella_oxytoca	375.0590260312
+PWY-5188: tetrapyrrole biosynthesis I (from glutamate)|unclassified	87.2254244151
+PWY-5188: tetrapyrrole biosynthesis I (from glutamate)|g__Klebsiella.s__Klebsiella_pneumoniae	53.9500498649
+PWY-5188: tetrapyrrole biosynthesis I (from glutamate)|g__Escherichia.s__Escherichia_coli	10.6117858430
+PWY-5188: tetrapyrrole biosynthesis I (from glutamate)|g__Blautia.s__Blautia_sp_CAG_257	6.5990240640
+PWY0-1415: superpathway of heme b biosynthesis from uroporphyrinogen-III	666.9626507135
+PWY0-1415: superpathway of heme b biosynthesis from uroporphyrinogen-III|g__Klebsiella.s__Klebsiella_oxytoca	374.6488370440
+PWY0-1415: superpathway of heme b biosynthesis from uroporphyrinogen-III|g__Klebsiella.s__Klebsiella_pneumoniae	68.6582931354
+PWY0-1415: superpathway of heme b biosynthesis from uroporphyrinogen-III|g__Escherichia.s__Escherichia_coli	58.5013292815
+PWY0-1415: superpathway of heme b biosynthesis from uroporphyrinogen-III|unclassified	43.3067871797
+PWY0-1415: superpathway of heme b biosynthesis from uroporphyrinogen-III|g__Klebsiella.s__Klebsiella_aerogenes	4.7899454453
+GLCMANNANAUT-PWY: superpathway of N-acetylglucosamine, N-acetylmannosamine and N-acetylneuraminate degradation	662.2349210852
+GLCMANNANAUT-PWY: superpathway of N-acetylglucosamine, N-acetylmannosamine and N-acetylneuraminate degradation|g__Klebsiella.s__Klebsiella_oxytoca	426.5340951092
+GLCMANNANAUT-PWY: superpathway of N-acetylglucosamine, N-acetylmannosamine and N-acetylneuraminate degradation|g__Escherichia.s__Escherichia_coli	48.6188395217
+GLCMANNANAUT-PWY: superpathway of N-acetylglucosamine, N-acetylmannosamine and N-acetylneuraminate degradation|g__Klebsiella.s__Klebsiella_pneumoniae	34.8022788252
+GLCMANNANAUT-PWY: superpathway of N-acetylglucosamine, N-acetylmannosamine and N-acetylneuraminate degradation|unclassified	28.3987181739
+PPGPPMET-PWY: ppGpp metabolism	660.2776044303
+PPGPPMET-PWY: ppGpp metabolism|g__Klebsiella.s__Klebsiella_oxytoca	473.3830042833
+PPGPPMET-PWY: ppGpp metabolism|g__Klebsiella.s__Klebsiella_pneumoniae	59.5779161849
+PPGPPMET-PWY: ppGpp metabolism|unclassified	51.4146009149
+PPGPPMET-PWY: ppGpp metabolism|g__Escherichia.s__Escherichia_fergusonii	3.9660688749
+PPGPPMET-PWY: ppGpp metabolism|g__Escherichia.s__Escherichia_coli	3.2969328157
+HEME-BIOSYNTHESIS-II-1: heme b biosynthesis V (aerobic)	653.2490793629
+HEME-BIOSYNTHESIS-II-1: heme b biosynthesis V (aerobic)|g__Klebsiella.s__Klebsiella_oxytoca	433.6583594766
+HEME-BIOSYNTHESIS-II-1: heme b biosynthesis V (aerobic)|g__Klebsiella.s__Klebsiella_pneumoniae	64.9173062474
+HEME-BIOSYNTHESIS-II-1: heme b biosynthesis V (aerobic)|g__Escherichia.s__Escherichia_coli	57.3325071955
+HEME-BIOSYNTHESIS-II-1: heme b biosynthesis V (aerobic)|unclassified	56.5610753080
+HEME-BIOSYNTHESIS-II-1: heme b biosynthesis V (aerobic)|g__Klebsiella.s__Klebsiella_aerogenes	5.2312447586
+POLYAMSYN-PWY: superpathway of polyamine biosynthesis I	652.0157053353
+POLYAMSYN-PWY: superpathway of polyamine biosynthesis I|g__Klebsiella.s__Klebsiella_oxytoca	482.2106847210
+POLYAMSYN-PWY: superpathway of polyamine biosynthesis I|g__Klebsiella.s__Klebsiella_pneumoniae	96.2795061102
+POLYAMSYN-PWY: superpathway of polyamine biosynthesis I|g__Escherichia.s__Escherichia_coli	4.0918862172
+PWY-5860: superpathway of demethylmenaquinol-6 biosynthesis I	651.0479522624
+PWY-5860: superpathway of demethylmenaquinol-6 biosynthesis I|g__Klebsiella.s__Klebsiella_oxytoca	413.8039677026
+PWY-5860: superpathway of demethylmenaquinol-6 biosynthesis I|unclassified	59.6066222188
+PWY-5860: superpathway of demethylmenaquinol-6 biosynthesis I|g__Klebsiella.s__Klebsiella_pneumoniae	24.0880040825
+PWY-5860: superpathway of demethylmenaquinol-6 biosynthesis I|g__Escherichia.s__Escherichia_coli	15.0620036004
+PWY-5862: superpathway of demethylmenaquinol-9 biosynthesis	651.0479522624
+PWY-5862: superpathway of demethylmenaquinol-9 biosynthesis|g__Klebsiella.s__Klebsiella_oxytoca	413.8039677026
+PWY-5862: superpathway of demethylmenaquinol-9 biosynthesis|unclassified	59.6066222188
+PWY-5862: superpathway of demethylmenaquinol-9 biosynthesis|g__Klebsiella.s__Klebsiella_pneumoniae	24.0880040825
+PWY-5862: superpathway of demethylmenaquinol-9 biosynthesis|g__Escherichia.s__Escherichia_coli	15.0620036004
+ORNDEG-PWY: superpathway of ornithine degradation	650.1202091645
+ORNDEG-PWY: superpathway of ornithine degradation|g__Klebsiella.s__Klebsiella_oxytoca	387.4501969863
+ORNDEG-PWY: superpathway of ornithine degradation|g__Escherichia.s__Escherichia_coli	120.8153103367
+ORNDEG-PWY: superpathway of ornithine degradation|g__Klebsiella.s__Klebsiella_pneumoniae	74.8436084307
+ORNDEG-PWY: superpathway of ornithine degradation|unclassified	63.1247855997
+PWY-6527: stachyose degradation	647.2252028440
+PWY-6527: stachyose degradation|g__Klebsiella.s__Klebsiella_oxytoca	296.1756313118
+PWY-6527: stachyose degradation|g__Klebsiella.s__Klebsiella_pneumoniae	48.9448639163
+PWY-6527: stachyose degradation|unclassified	21.2340145703
+PWY-6527: stachyose degradation|g__Escherichia.s__Escherichia_coli	10.9978880730
+PWY-6527: stachyose degradation|g__Sellimonas.s__Sellimonas_intestinalis	9.7249085766
+PWY-6895: superpathway of thiamine diphosphate biosynthesis II	641.3119606578
+PWY-6895: superpathway of thiamine diphosphate biosynthesis II|g__Klebsiella.s__Klebsiella_oxytoca	393.1726605012
+PWY-6895: superpathway of thiamine diphosphate biosynthesis II|g__Escherichia.s__Escherichia_coli	34.1904938618
+PWY-6895: superpathway of thiamine diphosphate biosynthesis II|unclassified	31.0648339398
+PWY-6895: superpathway of thiamine diphosphate biosynthesis II|g__Klebsiella.s__Klebsiella_pneumoniae	16.3927351720
+PWY-7185: UTP and CTP dephosphorylation I	639.9092557639
+PWY-7185: UTP and CTP dephosphorylation I|g__Klebsiella.s__Klebsiella_oxytoca	490.6688081461
+PWY-7185: UTP and CTP dephosphorylation I|g__Klebsiella.s__Klebsiella_pneumoniae	44.8278601417
+PWY-7185: UTP and CTP dephosphorylation I|unclassified	36.4534226276
+PWY-7185: UTP and CTP dephosphorylation I|g__Klebsiella.s__Klebsiella_aerogenes	3.4652064141
+HEME-BIOSYNTHESIS-II: heme b biosynthesis I (aerobic)	638.4068219632
+HEME-BIOSYNTHESIS-II: heme b biosynthesis I (aerobic)|g__Klebsiella.s__Klebsiella_oxytoca	433.6583594766
+HEME-BIOSYNTHESIS-II: heme b biosynthesis I (aerobic)|g__Escherichia.s__Escherichia_coli	57.0009192786
+HEME-BIOSYNTHESIS-II: heme b biosynthesis I (aerobic)|unclassified	56.5610753080
+HEME-BIOSYNTHESIS-II: heme b biosynthesis I (aerobic)|g__Klebsiella.s__Klebsiella_pneumoniae	48.2753321786
+HEME-BIOSYNTHESIS-II: heme b biosynthesis I (aerobic)|g__Klebsiella.s__Klebsiella_aerogenes	5.2312447586
+PWY-5918: superpathway of heme b biosynthesis from glutamate	636.7964134525
+PWY-5918: superpathway of heme b biosynthesis from glutamate|g__Klebsiella.s__Klebsiella_oxytoca	362.8375838843
+PWY-5918: superpathway of heme b biosynthesis from glutamate|g__Klebsiella.s__Klebsiella_pneumoniae	27.5762657162
+PWY-5918: superpathway of heme b biosynthesis from glutamate|unclassified	20.3014597952
+PWY-5918: superpathway of heme b biosynthesis from glutamate|g__Escherichia.s__Escherichia_coli	15.6969889163
+P41-PWY: pyruvate fermentation to acetate and (S)-lactate I	631.4287173552
+P41-PWY: pyruvate fermentation to acetate and (S)-lactate I|g__Klebsiella.s__Klebsiella_oxytoca	443.5432795199
+P41-PWY: pyruvate fermentation to acetate and (S)-lactate I|g__Klebsiella.s__Klebsiella_pneumoniae	100.9003458404
+P41-PWY: pyruvate fermentation to acetate and (S)-lactate I|g__Klebsiella.s__Klebsiella_aerogenes	14.3566015002
+P41-PWY: pyruvate fermentation to acetate and (S)-lactate I|g__Escherichia.s__Escherichia_coli	2.8006497049
+P41-PWY: pyruvate fermentation to acetate and (S)-lactate I|unclassified	1.9221044502
+P41-PWY: pyruvate fermentation to acetate and (S)-lactate I|g__Escherichia.s__Escherichia_fergusonii	1.4943548814
+PWY-5100: pyruvate fermentation to acetate and lactate II	631.4287173552
+PWY-5100: pyruvate fermentation to acetate and lactate II|g__Klebsiella.s__Klebsiella_oxytoca	443.5432795199
+PWY-5100: pyruvate fermentation to acetate and lactate II|g__Klebsiella.s__Klebsiella_pneumoniae	100.9003458404
+PWY-5100: pyruvate fermentation to acetate and lactate II|unclassified	93.8872014020
+PWY-5100: pyruvate fermentation to acetate and lactate II|g__Escherichia.s__Escherichia_coli	2.8006497049
+PWY-6608: guanosine nucleotides degradation III	625.9895525513
+PWY-6608: guanosine nucleotides degradation III|g__Klebsiella.s__Klebsiella_oxytoca	488.9300306648
+PWY-6608: guanosine nucleotides degradation III|g__Escherichia.s__Escherichia_coli	88.2872636109
+PWY-6608: guanosine nucleotides degradation III|unclassified	53.0797164802
+PWY-6608: guanosine nucleotides degradation III|g__Klebsiella.s__Klebsiella_pneumoniae	42.1477562505
+PWY-6608: guanosine nucleotides degradation III|g__Klebsiella.s__Klebsiella_aerogenes	2.8795113845
+PWY0-1337: oleate &beta;-oxidation	624.8104734836
+PWY0-1337: oleate &beta;-oxidation|g__Klebsiella.s__Klebsiella_oxytoca	480.5755664373
+PWY0-1337: oleate &beta;-oxidation|g__Klebsiella.s__Klebsiella_pneumoniae	23.6380334034
+PWY0-1337: oleate &beta;-oxidation|unclassified	20.3398011984
+PWY0-1337: oleate &beta;-oxidation|g__Escherichia.s__Escherichia_coli	9.8106265415
+PWY0-1337: oleate &beta;-oxidation|g__Klebsiella.s__Klebsiella_aerogenes	3.7890522074
+PWY-6897: thiamine diphosphate salvage II	624.2046393557
+PWY-6897: thiamine diphosphate salvage II|g__Klebsiella.s__Klebsiella_oxytoca	369.6705083400
+PWY-6897: thiamine diphosphate salvage II|unclassified	36.6185891722
+PWY-6897: thiamine diphosphate salvage II|g__Klebsiella.s__Klebsiella_pneumoniae	24.9448052656
+PWY-6897: thiamine diphosphate salvage II|g__Escherichia.s__Escherichia_coli	21.4422311256
+PWY-6897: thiamine diphosphate salvage II|g__Klebsiella.s__Klebsiella_aerogenes	0.1442949140
+PWY-7357: thiamine phosphate formation from pyrithiamine and oxythiamine (yeast)	623.6189040577
+PWY-7357: thiamine phosphate formation from pyrithiamine and oxythiamine (yeast)|g__Klebsiella.s__Klebsiella_oxytoca	376.8794010245
+PWY-7357: thiamine phosphate formation from pyrithiamine and oxythiamine (yeast)|unclassified	79.8827587794
+PWY-7357: thiamine phosphate formation from pyrithiamine and oxythiamine (yeast)|g__Klebsiella.s__Klebsiella_pneumoniae	42.2510442356
+PWY-7357: thiamine phosphate formation from pyrithiamine and oxythiamine (yeast)|g__Escherichia.s__Escherichia_coli	15.9815337569
+PWY-7357: thiamine phosphate formation from pyrithiamine and oxythiamine (yeast)|g__Klebsiella.s__Klebsiella_aerogenes	4.5928265369
+ECASYN-PWY: enterobacterial common antigen biosynthesis	621.2967558509
+ECASYN-PWY: enterobacterial common antigen biosynthesis|g__Klebsiella.s__Klebsiella_oxytoca	423.6976679164
+ECASYN-PWY: enterobacterial common antigen biosynthesis|g__Escherichia.s__Escherichia_coli	24.3465987351
+ECASYN-PWY: enterobacterial common antigen biosynthesis|unclassified	22.5097160571
+ECASYN-PWY: enterobacterial common antigen biosynthesis|g__Klebsiella.s__Klebsiella_pneumoniae	20.2570021684
+PWY-5189: tetrapyrrole biosynthesis II (from glycine)	620.9920271713
+PWY-5189: tetrapyrrole biosynthesis II (from glycine)|g__Klebsiella.s__Klebsiella_oxytoca	320.8324701469
+PWY-5189: tetrapyrrole biosynthesis II (from glycine)|g__Klebsiella.s__Klebsiella_pneumoniae	14.9978789470
+PWY-5189: tetrapyrrole biosynthesis II (from glycine)|g__Escherichia.s__Escherichia_coli	6.5234093272
+PWY-5189: tetrapyrrole biosynthesis II (from glycine)|unclassified	1.5815710251
+RIBOSYN2-PWY: flavin biosynthesis I (bacteria and plants)	617.1983529651
+RIBOSYN2-PWY: flavin biosynthesis I (bacteria and plants)|g__Klebsiella.s__Klebsiella_oxytoca	375.5220541394
+RIBOSYN2-PWY: flavin biosynthesis I (bacteria and plants)|g__Bacteroides.s__Bacteroides_thetaiotaomicron	98.1917501527
+RIBOSYN2-PWY: flavin biosynthesis I (bacteria and plants)|g__Klebsiella.s__Klebsiella_pneumoniae	21.4985061149
+RIBOSYN2-PWY: flavin biosynthesis I (bacteria and plants)|unclassified	21.0735097789
+RIBOSYN2-PWY: flavin biosynthesis I (bacteria and plants)|g__Escherichia.s__Escherichia_coli	1.2413474410
+PWY-7234: inosine-5'-phosphate biosynthesis III	605.8627096283
+PWY-7234: inosine-5'-phosphate biosynthesis III|g__Klebsiella.s__Klebsiella_oxytoca	337.8878643589
+PWY-7234: inosine-5'-phosphate biosynthesis III|g__Klebsiella.s__Klebsiella_pneumoniae	45.8854236475
+PWY-7234: inosine-5'-phosphate biosynthesis III|g__Escherichia.s__Escherichia_coli	36.9607866578
+PWY-7234: inosine-5'-phosphate biosynthesis III|unclassified	7.8229217267
+PWY-5659: GDP-mannose biosynthesis	604.9381431408
+PWY-5659: GDP-mannose biosynthesis|g__Klebsiella.s__Klebsiella_oxytoca	394.9611015381
+PWY-5659: GDP-mannose biosynthesis|unclassified	54.2959013661
+PWY-5659: GDP-mannose biosynthesis|g__Escherichia.s__Escherichia_coli	8.3642744846
+PWY-7204: pyridoxal 5'-phosphate salvage II (plants)	594.7613396464
+PWY-7204: pyridoxal 5'-phosphate salvage II (plants)|g__Klebsiella.s__Klebsiella_oxytoca	448.5539095566
+PWY-7204: pyridoxal 5'-phosphate salvage II (plants)|unclassified	14.6385504497
+PWY-7094: fatty acid salvage	594.5088863714
+PWY-7094: fatty acid salvage|g__Klebsiella.s__Klebsiella_oxytoca	462.4933226302
+PWY-7094: fatty acid salvage|g__Klebsiella.s__Klebsiella_pneumoniae	21.8763461584
+PWY-7094: fatty acid salvage|unclassified	17.5003398251
+PWY-7094: fatty acid salvage|g__Escherichia.s__Escherichia_coli	7.3876493369
+PWY-7094: fatty acid salvage|g__Klebsiella.s__Klebsiella_aerogenes	3.5143641331
+PWY-5675: nitrate reduction V (assimilatory)	590.6417808267
+PWY-5675: nitrate reduction V (assimilatory)|g__Klebsiella.s__Klebsiella_oxytoca	197.6380118193
+PWY-5675: nitrate reduction V (assimilatory)|g__Escherichia.s__Escherichia_coli	91.0530897422
+PWY-5675: nitrate reduction V (assimilatory)|unclassified	80.8732014915
+PWY-5675: nitrate reduction V (assimilatory)|g__Klebsiella.s__Klebsiella_pneumoniae	12.5951987365
+PWY-5675: nitrate reduction V (assimilatory)|g__Klebsiella.s__Klebsiella_aerogenes	6.4538107963
+PWY0-1241: ADP-L-glycero-&beta;-D-manno-heptose biosynthesis	587.8579056325
+PWY0-1241: ADP-L-glycero-&beta;-D-manno-heptose biosynthesis|g__Klebsiella.s__Klebsiella_oxytoca	461.2157496411
+PWY0-1241: ADP-L-glycero-&beta;-D-manno-heptose biosynthesis|unclassified	46.1997285988
+PWY0-1241: ADP-L-glycero-&beta;-D-manno-heptose biosynthesis|g__Klebsiella.s__Klebsiella_pneumoniae	36.1254818499
+PWY0-1241: ADP-L-glycero-&beta;-D-manno-heptose biosynthesis|g__Escherichia.s__Escherichia_coli	4.3688065308
+PWY0-1241: ADP-L-glycero-&beta;-D-manno-heptose biosynthesis|g__Escherichia.s__Escherichia_fergusonii	1.4977369311
+P105-PWY: TCA cycle IV (2-oxoglutarate decarboxylase)	587.2287584582
+P105-PWY: TCA cycle IV (2-oxoglutarate decarboxylase)|g__Klebsiella.s__Klebsiella_oxytoca	216.5692598283
+P105-PWY: TCA cycle IV (2-oxoglutarate decarboxylase)|g__Klebsiella.s__Klebsiella_pneumoniae	78.8843507805
+P105-PWY: TCA cycle IV (2-oxoglutarate decarboxylase)|unclassified	62.0949995014
+P105-PWY: TCA cycle IV (2-oxoglutarate decarboxylase)|g__Escherichia.s__Escherichia_coli	4.2191401725
+PWY-6545: pyrimidine deoxyribonucleotides de novo biosynthesis III	577.0739975959
+PWY-6545: pyrimidine deoxyribonucleotides de novo biosynthesis III|g__Klebsiella.s__Klebsiella_oxytoca	393.1966319962
+PWY-6545: pyrimidine deoxyribonucleotides de novo biosynthesis III|g__Klebsiella.s__Klebsiella_pneumoniae	48.7032266421
+PWY-6545: pyrimidine deoxyribonucleotides de novo biosynthesis III|unclassified	40.2967411922
+PWY-5855: ubiquinol-7 biosynthesis (early decarboxylation)	575.2093358715
+PWY-5855: ubiquinol-7 biosynthesis (early decarboxylation)|g__Klebsiella.s__Klebsiella_oxytoca	501.0914768110
+PWY-5855: ubiquinol-7 biosynthesis (early decarboxylation)|unclassified	21.4678850735
+PWY-5855: ubiquinol-7 biosynthesis (early decarboxylation)|g__Klebsiella.s__Klebsiella_pneumoniae	8.1966912458
+PWY0-1277: 3-phenylpropanoate and 3-(3-hydroxyphenyl)propanoate degradation	573.1507678059
+PWY0-1277: 3-phenylpropanoate and 3-(3-hydroxyphenyl)propanoate degradation|g__Klebsiella.s__Klebsiella_oxytoca	374.5531973193
+PWY0-1277: 3-phenylpropanoate and 3-(3-hydroxyphenyl)propanoate degradation|g__Klebsiella.s__Klebsiella_pneumoniae	35.4994988992
+PWY0-1277: 3-phenylpropanoate and 3-(3-hydroxyphenyl)propanoate degradation|unclassified	34.3697820061
+PWY0-1277: 3-phenylpropanoate and 3-(3-hydroxyphenyl)propanoate degradation|g__Escherichia.s__Escherichia_coli	33.7567713324
+PWY0-1277: 3-phenylpropanoate and 3-(3-hydroxyphenyl)propanoate degradation|g__Klebsiella.s__Klebsiella_aerogenes	3.8643141946
+PWY-7187: pyrimidine deoxyribonucleotides de novo biosynthesis II	562.3558885721
+PWY-7187: pyrimidine deoxyribonucleotides de novo biosynthesis II|g__Klebsiella.s__Klebsiella_oxytoca	363.1001945354
+PWY-7187: pyrimidine deoxyribonucleotides de novo biosynthesis II|g__Klebsiella.s__Klebsiella_pneumoniae	48.6219604213
+PWY-7187: pyrimidine deoxyribonucleotides de novo biosynthesis II|unclassified	28.8277462409
+PWY-7187: pyrimidine deoxyribonucleotides de novo biosynthesis II|g__Escherichia.s__Escherichia_coli	6.8278901966
+PWY-7210: pyrimidine deoxyribonucleotides biosynthesis from CTP	560.9672226513
+PWY-7210: pyrimidine deoxyribonucleotides biosynthesis from CTP|g__Klebsiella.s__Klebsiella_oxytoca	372.2079381148
+PWY-7210: pyrimidine deoxyribonucleotides biosynthesis from CTP|g__Klebsiella.s__Klebsiella_pneumoniae	49.5276764349
+PWY-7210: pyrimidine deoxyribonucleotides biosynthesis from CTP|unclassified	38.3532253953
+PWY-7883: anhydromuropeptides recycling II	557.8529498242
+PWY-7883: anhydromuropeptides recycling II|g__Klebsiella.s__Klebsiella_oxytoca	462.8782379008
+PWY-7883: anhydromuropeptides recycling II|g__Escherichia.s__Escherichia_coli	20.7659166187
+PWY-7883: anhydromuropeptides recycling II|g__Klebsiella.s__Klebsiella_pneumoniae	19.4441410755
+PWY-7883: anhydromuropeptides recycling II|g__Klebsiella.s__Klebsiella_aerogenes	16.2142048212
+COLANSYN-PWY: colanic acid building blocks biosynthesis	554.6318132495
+COLANSYN-PWY: colanic acid building blocks biosynthesis|g__Klebsiella.s__Klebsiella_oxytoca	264.1400817989
+COLANSYN-PWY: colanic acid building blocks biosynthesis|unclassified	84.8272734227
+PWY-7197: pyrimidine deoxyribonucleotide phosphorylation	550.6942581027
+PWY-7197: pyrimidine deoxyribonucleotide phosphorylation|g__Klebsiella.s__Klebsiella_oxytoca	335.8571232197
+PWY-7197: pyrimidine deoxyribonucleotide phosphorylation|g__Klebsiella.s__Klebsiella_pneumoniae	61.1123650051
+PWY-7197: pyrimidine deoxyribonucleotide phosphorylation|unclassified	35.6682068084
+PWY-7197: pyrimidine deoxyribonucleotide phosphorylation|g__Escherichia.s__Escherichia_coli	30.8206604314
+PWY-7942: 5-oxo-L-proline metabolism	542.1852277567
+PWY-7942: 5-oxo-L-proline metabolism|g__Klebsiella.s__Klebsiella_oxytoca	383.8326275051
+PWY-7942: 5-oxo-L-proline metabolism|g__Escherichia.s__Escherichia_coli	88.3173218744
+PWY-7942: 5-oxo-L-proline metabolism|g__Klebsiella.s__Klebsiella_pneumoniae	35.3290803506
+PWY-7942: 5-oxo-L-proline metabolism|unclassified	20.2016952990
+PROTOCATECHUATE-ORTHO-CLEAVAGE-PWY: protocatechuate degradation II (ortho-cleavage pathway)	542.0851412263
+PROTOCATECHUATE-ORTHO-CLEAVAGE-PWY: protocatechuate degradation II (ortho-cleavage pathway)|g__Klebsiella.s__Klebsiella_oxytoca	372.7504758856
+PROTOCATECHUATE-ORTHO-CLEAVAGE-PWY: protocatechuate degradation II (ortho-cleavage pathway)|g__Klebsiella.s__Klebsiella_pneumoniae	32.5394440874
+PROTOCATECHUATE-ORTHO-CLEAVAGE-PWY: protocatechuate degradation II (ortho-cleavage pathway)|g__Escherichia.s__Escherichia_coli	17.0806227640
+PROTOCATECHUATE-ORTHO-CLEAVAGE-PWY: protocatechuate degradation II (ortho-cleavage pathway)|g__Klebsiella.s__Klebsiella_aerogenes	3.9600959960
+PROTOCATECHUATE-ORTHO-CLEAVAGE-PWY: protocatechuate degradation II (ortho-cleavage pathway)|unclassified	1.9788630005
+PWY-5022: 4-aminobutanoate degradation V	536.0444824455
+PWY0-1338: polymyxin resistance	532.3094409537
+PWY0-1338: polymyxin resistance|g__Klebsiella.s__Klebsiella_oxytoca	366.3994789898
+PWY0-1338: polymyxin resistance|g__Escherichia.s__Escherichia_coli	75.2689490226
+PWY0-1338: polymyxin resistance|unclassified	24.2957701571
+PWY0-1338: polymyxin resistance|g__Klebsiella.s__Klebsiella_pneumoniae	11.4604498767
+PWY-5837: 2-carboxy-1,4-naphthoquinol biosynthesis	529.9692287903
+PWY-5837: 2-carboxy-1,4-naphthoquinol biosynthesis|g__Klebsiella.s__Klebsiella_oxytoca	340.5028828526
+PWY-5837: 2-carboxy-1,4-naphthoquinol biosynthesis|unclassified	46.5023551633
+PWY-5837: 2-carboxy-1,4-naphthoquinol biosynthesis|g__Klebsiella.s__Klebsiella_pneumoniae	23.3037361545
+PWY-5837: 2-carboxy-1,4-naphthoquinol biosynthesis|g__Escherichia.s__Escherichia_coli	21.7952685285
+PWY-6823: molybdopterin biosynthesis	527.0673911600
+PWY-6823: molybdopterin biosynthesis|g__Klebsiella.s__Klebsiella_oxytoca	379.9039558455
+PWY-6823: molybdopterin biosynthesis|g__Klebsiella.s__Klebsiella_pneumoniae	74.8922371987
+PWY-6823: molybdopterin biosynthesis|unclassified	62.5636674960
+PWY-6823: molybdopterin biosynthesis|g__Sellimonas.s__Sellimonas_intestinalis	15.3792002045
+PWY-6823: molybdopterin biosynthesis|g__Blautia.s__Blautia_sp_CAG_257	15.1014714755
+PWY-6823: molybdopterin biosynthesis|g__Escherichia.s__Escherichia_coli	9.0208935548
+PWY-7198: pyrimidine deoxyribonucleotides de novo biosynthesis IV	520.1878098059
+PWY-7198: pyrimidine deoxyribonucleotides de novo biosynthesis IV|g__Klebsiella.s__Klebsiella_oxytoca	361.8727132218
+PWY-7198: pyrimidine deoxyribonucleotides de novo biosynthesis IV|g__Klebsiella.s__Klebsiella_pneumoniae	39.0171754684
+PWY-7198: pyrimidine deoxyribonucleotides de novo biosynthesis IV|unclassified	36.5098731297
+PWY-6168: flavin biosynthesis III (fungi)	518.0067053423
+PWY-6168: flavin biosynthesis III (fungi)|unclassified	17.5658874473
+PWY-6168: flavin biosynthesis III (fungi)|g__Klebsiella.s__Klebsiella_pneumoniae	10.0211731279
+GALACTUROCAT-PWY: D-galacturonate degradation I	508.6557923474
+GALACTUROCAT-PWY: D-galacturonate degradation I|g__Klebsiella.s__Klebsiella_oxytoca	372.2241507861
+GALACTUROCAT-PWY: D-galacturonate degradation I|unclassified	54.6342061904
+GALACTUROCAT-PWY: D-galacturonate degradation I|g__Escherichia.s__Escherichia_coli	39.2038349194
+GALACTUROCAT-PWY: D-galacturonate degradation I|g__Klebsiella.s__Klebsiella_pneumoniae	39.0021502836
+HCAMHPDEG-PWY: 3-phenylpropanoate and 3-(3-hydroxyphenyl)propanoate degradation to 2-hydroxypentadienoate	494.0747453649
+HCAMHPDEG-PWY: 3-phenylpropanoate and 3-(3-hydroxyphenyl)propanoate degradation to 2-hydroxypentadienoate|g__Klebsiella.s__Klebsiella_oxytoca	279.7408371201
+HCAMHPDEG-PWY: 3-phenylpropanoate and 3-(3-hydroxyphenyl)propanoate degradation to 2-hydroxypentadienoate|g__Escherichia.s__Escherichia_coli	116.3591699083
+HCAMHPDEG-PWY: 3-phenylpropanoate and 3-(3-hydroxyphenyl)propanoate degradation to 2-hydroxypentadienoate|unclassified	31.6522316457
+HCAMHPDEG-PWY: 3-phenylpropanoate and 3-(3-hydroxyphenyl)propanoate degradation to 2-hydroxypentadienoate|g__Klebsiella.s__Klebsiella_pneumoniae	13.4392908581
+HCAMHPDEG-PWY: 3-phenylpropanoate and 3-(3-hydroxyphenyl)propanoate degradation to 2-hydroxypentadienoate|g__Klebsiella.s__Klebsiella_aerogenes	2.4603991496
+PWY-6690: cinnamate and 3-hydroxycinnamate degradation to 2-hydroxypentadienoate	494.0747453649
+PWY-6690: cinnamate and 3-hydroxycinnamate degradation to 2-hydroxypentadienoate|g__Klebsiella.s__Klebsiella_oxytoca	279.7408371201
+PWY-6690: cinnamate and 3-hydroxycinnamate degradation to 2-hydroxypentadienoate|g__Escherichia.s__Escherichia_coli	116.3591699083
+PWY-6690: cinnamate and 3-hydroxycinnamate degradation to 2-hydroxypentadienoate|unclassified	31.6522316457
+PWY-6690: cinnamate and 3-hydroxycinnamate degradation to 2-hydroxypentadienoate|g__Klebsiella.s__Klebsiella_pneumoniae	13.4392908581
+PWY-6690: cinnamate and 3-hydroxycinnamate degradation to 2-hydroxypentadienoate|g__Klebsiella.s__Klebsiella_aerogenes	2.4603991496
+PWY66-389: phytol degradation	492.8205331566
+PWY66-389: phytol degradation|g__Klebsiella.s__Klebsiella_oxytoca	166.7118619445
+PWY66-389: phytol degradation|g__Klebsiella.s__Klebsiella_pneumoniae	120.5874441223
+PWY66-389: phytol degradation|unclassified	24.4874457428
+PWY66-389: phytol degradation|g__Escherichia.s__Escherichia_coli	7.3057723682
+NAD-BIOSYNTHESIS-II: NAD salvage pathway III (to nicotinamide riboside)	487.8536346433
+NAD-BIOSYNTHESIS-II: NAD salvage pathway III (to nicotinamide riboside)|g__Klebsiella.s__Klebsiella_oxytoca	418.8846699006
+NAD-BIOSYNTHESIS-II: NAD salvage pathway III (to nicotinamide riboside)|g__Klebsiella.s__Klebsiella_pneumoniae	22.4534014578
+NAD-BIOSYNTHESIS-II: NAD salvage pathway III (to nicotinamide riboside)|unclassified	17.1513118058
+NAD-BIOSYNTHESIS-II: NAD salvage pathway III (to nicotinamide riboside)|g__Escherichia.s__Escherichia_coli	5.8242797704
+NAD-BIOSYNTHESIS-II: NAD salvage pathway III (to nicotinamide riboside)|g__Klebsiella.s__Klebsiella_aerogenes	1.0519671786
+PYRIDNUCSYN-PWY: NAD de novo biosynthesis I (from aspartate)	477.3483845032
+PYRIDNUCSYN-PWY: NAD de novo biosynthesis I (from aspartate)|g__Klebsiella.s__Klebsiella_oxytoca	274.6166270272
+PYRIDNUCSYN-PWY: NAD de novo biosynthesis I (from aspartate)|g__Bacteroides.s__Bacteroides_thetaiotaomicron	83.0884440566
+PYRIDNUCSYN-PWY: NAD de novo biosynthesis I (from aspartate)|g__Klebsiella.s__Klebsiella_pneumoniae	38.2462963507
+PYRIDNUCSYN-PWY: NAD de novo biosynthesis I (from aspartate)|unclassified	18.9031852166
+PYRIDNUCSYN-PWY: NAD de novo biosynthesis I (from aspartate)|g__Escherichia.s__Escherichia_coli	12.2600804592
+PWY-6185: 4-methylcatechol degradation (ortho cleavage)	456.2957286034
+PWY-6185: 4-methylcatechol degradation (ortho cleavage)|g__Klebsiella.s__Klebsiella_oxytoca	396.3112669168
+PWY-6185: 4-methylcatechol degradation (ortho cleavage)|g__Escherichia.s__Escherichia_coli	12.2831809808
+PWY-5920: superpathway of heme b biosynthesis from glycine	444.7072660994
+PWY-5920: superpathway of heme b biosynthesis from glycine|g__Klebsiella.s__Klebsiella_oxytoca	48.9271511555
+PWY-5920: superpathway of heme b biosynthesis from glycine|g__Klebsiella.s__Klebsiella_pneumoniae	18.5015009897
+PWY-5920: superpathway of heme b biosynthesis from glycine|g__Escherichia.s__Escherichia_coli	11.6816956752
+PWY-5920: superpathway of heme b biosynthesis from glycine|unclassified	2.8841645471
+PWY-6507: 4-deoxy-L-threo-hex-4-enopyranuronate degradation	433.5313672413
+PWY-6507: 4-deoxy-L-threo-hex-4-enopyranuronate degradation|g__Klebsiella.s__Klebsiella_oxytoca	92.4213738124
+PWY-6507: 4-deoxy-L-threo-hex-4-enopyranuronate degradation|unclassified	53.3199526065
+PWY-6507: 4-deoxy-L-threo-hex-4-enopyranuronate degradation|g__Escherichia.s__Escherichia_coli	15.2270444414
+PWY-5417: catechol degradation III (ortho-cleavage pathway)	432.1456512595
+PWY-5417: catechol degradation III (ortho-cleavage pathway)|g__Klebsiella.s__Klebsiella_oxytoca	378.5690715399
+PWY-5417: catechol degradation III (ortho-cleavage pathway)|g__Escherichia.s__Escherichia_coli	12.7909023238
+PWY-5417: catechol degradation III (ortho-cleavage pathway)|g__Klebsiella.s__Klebsiella_pneumoniae	12.0748939281
+PWY-5417: catechol degradation III (ortho-cleavage pathway)|unclassified	2.4432892306
+PWY-5431: aromatic compounds degradation via &beta;-ketoadipate	432.1456512595
+PWY-5431: aromatic compounds degradation via &beta;-ketoadipate|g__Klebsiella.s__Klebsiella_oxytoca	378.5690715399
+PWY-5431: aromatic compounds degradation via &beta;-ketoadipate|g__Escherichia.s__Escherichia_coli	12.7909023238
+PWY-5431: aromatic compounds degradation via &beta;-ketoadipate|g__Klebsiella.s__Klebsiella_pneumoniae	12.0748939281
+PWY-5431: aromatic compounds degradation via &beta;-ketoadipate|unclassified	2.4432892306
+KETOGLUCONMET-PWY: ketogluconate metabolism	431.5221117890
+KETOGLUCONMET-PWY: ketogluconate metabolism|unclassified	33.2444226329
+KETOGLUCONMET-PWY: ketogluconate metabolism|g__Klebsiella.s__Klebsiella_pneumoniae	9.5391305356
+KETOGLUCONMET-PWY: ketogluconate metabolism|g__Escherichia.s__Escherichia_coli	1.4336923241
+PWY-2942: L-lysine biosynthesis III	423.0532611877
+PWY4LZ-257: superpathway of fermentation (Chlamydomonas reinhardtii)	417.6671557804
+PWY4LZ-257: superpathway of fermentation (Chlamydomonas reinhardtii)|unclassified	68.8449648422
+PWY4LZ-257: superpathway of fermentation (Chlamydomonas reinhardtii)|g__Klebsiella.s__Klebsiella_pneumoniae	49.1325147632
+PWY4LZ-257: superpathway of fermentation (Chlamydomonas reinhardtii)|g__Escherichia.s__Escherichia_coli	3.4713550351
+AST-PWY: L-arginine degradation II (AST pathway)	414.0034485512
+AST-PWY: L-arginine degradation II (AST pathway)|g__Klebsiella.s__Klebsiella_oxytoca	262.4903115463
+AST-PWY: L-arginine degradation II (AST pathway)|unclassified	68.5996004617
+AST-PWY: L-arginine degradation II (AST pathway)|g__Escherichia.s__Escherichia_coli	41.3577908326
+AST-PWY: L-arginine degradation II (AST pathway)|g__Klebsiella.s__Klebsiella_pneumoniae	31.5325117511
+AST-PWY: L-arginine degradation II (AST pathway)|g__Klebsiella.s__Klebsiella_aerogenes	2.6934222873
+GLYCOLYSIS-TCA-GLYOX-BYPASS: superpathway of glycolysis, pyruvate dehydrogenase, TCA, and glyoxylate bypass	412.3287509472
+GLYCOLYSIS-TCA-GLYOX-BYPASS: superpathway of glycolysis, pyruvate dehydrogenase, TCA, and glyoxylate bypass|g__Klebsiella.s__Klebsiella_oxytoca	247.7056912781
+GLYCOLYSIS-TCA-GLYOX-BYPASS: superpathway of glycolysis, pyruvate dehydrogenase, TCA, and glyoxylate bypass|g__Klebsiella.s__Klebsiella_pneumoniae	37.3019554013
+GLYCOLYSIS-TCA-GLYOX-BYPASS: superpathway of glycolysis, pyruvate dehydrogenase, TCA, and glyoxylate bypass|g__Escherichia.s__Escherichia_coli	2.4655542823
+PWY-7323: superpathway of GDP-mannose-derived O-antigen building blocks biosynthesis	410.6707064848
+PWY-7323: superpathway of GDP-mannose-derived O-antigen building blocks biosynthesis|unclassified	56.8701400203
+REDCITCYC: TCA cycle VI (Helicobacter)	404.9432898675
+REDCITCYC: TCA cycle VI (Helicobacter)|g__Klebsiella.s__Klebsiella_oxytoca	72.9248138580
+REDCITCYC: TCA cycle VI (Helicobacter)|g__Klebsiella.s__Klebsiella_pneumoniae	30.6386917692
+REDCITCYC: TCA cycle VI (Helicobacter)|g__Escherichia.s__Escherichia_coli	4.4021584179
+PWY-5345: superpathway of L-methionine biosynthesis (by sulfhydrylation)	402.2518311530
+PWY-7356: thiamine diphosphate salvage IV (yeast)	402.2499521445
+PWY-7356: thiamine diphosphate salvage IV (yeast)|g__Klebsiella.s__Klebsiella_oxytoca	309.5935770365
+PWY-7356: thiamine diphosphate salvage IV (yeast)|g__Klebsiella.s__Klebsiella_pneumoniae	11.1608242218
+PWY-7356: thiamine diphosphate salvage IV (yeast)|g__Klebsiella.s__Klebsiella_aerogenes	10.2065607715
+PWY-7356: thiamine diphosphate salvage IV (yeast)|g__Escherichia.s__Escherichia_coli	9.8117375753
+PWY-7356: thiamine diphosphate salvage IV (yeast)|unclassified	3.9341983272
+PWY-7269: mitochondrial NADPH production (yeast)	394.8106405538
+PWY-7269: mitochondrial NADPH production (yeast)|g__Klebsiella.s__Klebsiella_oxytoca	185.6433276170
+PWY-7269: mitochondrial NADPH production (yeast)|g__Klebsiella.s__Klebsiella_pneumoniae	46.7911416470
+PWY-7269: mitochondrial NADPH production (yeast)|unclassified	23.3021326117
+PWY-7269: mitochondrial NADPH production (yeast)|g__Escherichia.s__Escherichia_coli	3.6131014482
+PWY-8131: 5'-deoxyadenosine degradation II	391.8919152930
+PWY-8131: 5'-deoxyadenosine degradation II|g__Klebsiella.s__Klebsiella_oxytoca	300.8221442284
+PWY-8131: 5'-deoxyadenosine degradation II|g__Klebsiella.s__Klebsiella_pneumoniae	22.0138874523
+PWY-8131: 5'-deoxyadenosine degradation II|g__Escherichia.s__Escherichia_coli	2.3079352668
+THREOCAT-PWY: superpathway of L-threonine metabolism	369.2388611222
+THREOCAT-PWY: superpathway of L-threonine metabolism|g__Klebsiella.s__Klebsiella_pneumoniae	19.6923132994
+THREOCAT-PWY: superpathway of L-threonine metabolism|g__Klebsiella.s__Klebsiella_oxytoca	14.9539204954
+PWY-6628: superpathway of L-phenylalanine biosynthesis	355.3848576759
+PWY-6628: superpathway of L-phenylalanine biosynthesis|g__Klebsiella.s__Klebsiella_oxytoca	81.9787778824
+PWY-6628: superpathway of L-phenylalanine biosynthesis|g__Klebsiella.s__Klebsiella_pneumoniae	49.9290322767
+PWY-6628: superpathway of L-phenylalanine biosynthesis|unclassified	42.8334486429
+PWY-6628: superpathway of L-phenylalanine biosynthesis|g__Escherichia.s__Escherichia_coli	2.9524434107
+PWY-2941: L-lysine biosynthesis II	347.0426078584
+PWY-2941: L-lysine biosynthesis II|unclassified	18.5422548425
+PWY-2941: L-lysine biosynthesis II|g__Klebsiella.s__Klebsiella_pneumoniae	16.9228100254
+CATECHOL-ORTHO-CLEAVAGE-PWY: catechol degradation to &beta;-ketoadipate	346.6151169832
+CATECHOL-ORTHO-CLEAVAGE-PWY: catechol degradation to &beta;-ketoadipate|g__Klebsiella.s__Klebsiella_oxytoca	309.0518184604
+CATECHOL-ORTHO-CLEAVAGE-PWY: catechol degradation to &beta;-ketoadipate|g__Escherichia.s__Escherichia_coli	14.1988124453
+CATECHOL-ORTHO-CLEAVAGE-PWY: catechol degradation to &beta;-ketoadipate|g__Klebsiella.s__Klebsiella_pneumoniae	8.3082010184
+CATECHOL-ORTHO-CLEAVAGE-PWY: catechol degradation to &beta;-ketoadipate|g__Klebsiella.s__Klebsiella_aerogenes	6.8073282051
+CATECHOL-ORTHO-CLEAVAGE-PWY: catechol degradation to &beta;-ketoadipate|unclassified	1.9094999815
+PWY-1861: formaldehyde assimilation II (assimilatory RuMP Cycle)	334.1901399377
+PWY-1861: formaldehyde assimilation II (assimilatory RuMP Cycle)|g__Klebsiella.s__Klebsiella_oxytoca	312.5027056675
+PWY-1861: formaldehyde assimilation II (assimilatory RuMP Cycle)|g__Klebsiella.s__Klebsiella_pneumoniae	10.0010782288
+PWY-6961: L-ascorbate degradation II (bacterial, aerobic)	327.9034633437
+PWY-6961: L-ascorbate degradation II (bacterial, aerobic)|unclassified	113.8347828575
+PWY-6961: L-ascorbate degradation II (bacterial, aerobic)|g__Klebsiella.s__Klebsiella_oxytoca	29.3584104134
+PWY-6961: L-ascorbate degradation II (bacterial, aerobic)|g__Klebsiella.s__Klebsiella_pneumoniae	28.1839658925
+PWY-6961: L-ascorbate degradation II (bacterial, aerobic)|g__Escherichia.s__Escherichia_coli	11.3396065562
+METHGLYUT-PWY: superpathway of methylglyoxal degradation	309.9175715969
+METHGLYUT-PWY: superpathway of methylglyoxal degradation|g__Klebsiella.s__Klebsiella_oxytoca	109.0528146971
+METHGLYUT-PWY: superpathway of methylglyoxal degradation|unclassified	18.6142972220
+METHGLYUT-PWY: superpathway of methylglyoxal degradation|g__Escherichia.s__Escherichia_coli	17.9963229435
+METHGLYUT-PWY: superpathway of methylglyoxal degradation|g__Klebsiella.s__Klebsiella_pneumoniae	16.9771408087
+PWY-5705: allantoin degradation to glyoxylate III	299.6862602370
+PWY-5705: allantoin degradation to glyoxylate III|g__Klebsiella.s__Klebsiella_oxytoca	291.1127314697
+PWY-7761: NAD salvage pathway II (PNC IV cycle)	293.8370521105
+PWY-7761: NAD salvage pathway II (PNC IV cycle)|unclassified	47.4526142674
+PWY-7761: NAD salvage pathway II (PNC IV cycle)|g__Klebsiella.s__Klebsiella_oxytoca	11.6629233676
+PWY-7761: NAD salvage pathway II (PNC IV cycle)|g__Escherichia.s__Escherichia_coli	7.4965912657
+PWY-6285: superpathway of fatty acids biosynthesis (E. coli)	291.6771597235
+PWY-6285: superpathway of fatty acids biosynthesis (E. coli)|g__Klebsiella.s__Klebsiella_pneumoniae	54.2997330539
+PWY-6285: superpathway of fatty acids biosynthesis (E. coli)|unclassified	50.2680167828
+PWY-6285: superpathway of fatty acids biosynthesis (E. coli)|g__Escherichia.s__Escherichia_coli	24.7026643928
+PWY-6531: mannitol cycle	286.0915774768
+PWY-6531: mannitol cycle|g__Klebsiella.s__Klebsiella_pneumoniae	79.1497080418
+PWY-6531: mannitol cycle|g__Escherichia.s__Escherichia_coli	42.4614017964
+PWY-6531: mannitol cycle|unclassified	25.3533625438
+PWY-6353: purine nucleotides degradation II (aerobic)	272.8328753186
+PWY-6353: purine nucleotides degradation II (aerobic)|g__Escherichia.s__Escherichia_coli	100.6868263752
+PWY-6353: purine nucleotides degradation II (aerobic)|unclassified	31.7246133505
+PWY-8187: L-arginine degradation XIII (reductive Stickland reaction)	258.0786773141
+PWY-8187: L-arginine degradation XIII (reductive Stickland reaction)|unclassified	140.9454363449
+PWY-8187: L-arginine degradation XIII (reductive Stickland reaction)|g__Klebsiella.s__Klebsiella_pneumoniae	34.0584970199
+PWY-8187: L-arginine degradation XIII (reductive Stickland reaction)|g__Escherichia.s__Escherichia_coli	15.8179922646
+PWY-8187: L-arginine degradation XIII (reductive Stickland reaction)|g__Klebsiella.s__Klebsiella_oxytoca	0.9868511947
+PWY-5030: L-histidine degradation III	229.4994604736
+PWY-5030: L-histidine degradation III|g__Bacteroides.s__Bacteroides_thetaiotaomicron	95.2607087744
+PWY-6630: superpathway of L-tyrosine biosynthesis	222.0317876304
+PWY-6630: superpathway of L-tyrosine biosynthesis|g__Klebsiella.s__Klebsiella_pneumoniae	45.3963682204
+PWY-6630: superpathway of L-tyrosine biosynthesis|unclassified	40.5637096917
+PWY-6630: superpathway of L-tyrosine biosynthesis|g__Escherichia.s__Escherichia_coli	2.0140551975
+PWY-6630: superpathway of L-tyrosine biosynthesis|g__Klebsiella.s__Klebsiella_aerogenes	0.2170245863
+ARGDEG-PWY: superpathway of L-arginine, putrescine, and 4-aminobutanoate degradation	219.1869369167
+ARGDEG-PWY: superpathway of L-arginine, putrescine, and 4-aminobutanoate degradation|unclassified	41.1325193286
+ARGDEG-PWY: superpathway of L-arginine, putrescine, and 4-aminobutanoate degradation|g__Klebsiella.s__Klebsiella_pneumoniae	36.2791701465
+ORNARGDEG-PWY: superpathway of L-arginine and L-ornithine degradation	219.1869369167
+ORNARGDEG-PWY: superpathway of L-arginine and L-ornithine degradation|unclassified	41.1325193286
+ORNARGDEG-PWY: superpathway of L-arginine and L-ornithine degradation|g__Klebsiella.s__Klebsiella_pneumoniae	36.2791701465
+GALACT-GLUCUROCAT-PWY: superpathway of hexuronide and hexuronate degradation	216.0210167539
+GALACT-GLUCUROCAT-PWY: superpathway of hexuronide and hexuronate degradation|unclassified	21.8967695641
+GALACT-GLUCUROCAT-PWY: superpathway of hexuronide and hexuronate degradation|g__Klebsiella.s__Klebsiella_oxytoca	5.4079161400
+CITRULBIO-PWY: L-citrulline biosynthesis	208.8697707533
+CITRULBIO-PWY: L-citrulline biosynthesis|unclassified	89.9823070922
+CITRULBIO-PWY: L-citrulline biosynthesis|g__Klebsiella.s__Klebsiella_pneumoniae	37.3790376164
+CITRULBIO-PWY: L-citrulline biosynthesis|g__Escherichia.s__Escherichia_coli	20.7936198489
+CITRULBIO-PWY: L-citrulline biosynthesis|g__Klebsiella.s__Klebsiella_oxytoca	1.4782646719
+GLUCUROCAT-PWY: superpathway of &beta;-D-glucuronosides degradation	205.2280740828
+GLUCUROCAT-PWY: superpathway of &beta;-D-glucuronosides degradation|unclassified	28.2716661038
+GLUCUROCAT-PWY: superpathway of &beta;-D-glucuronosides degradation|g__Klebsiella.s__Klebsiella_oxytoca	10.9398353445
+GLUCUROCAT-PWY: superpathway of &beta;-D-glucuronosides degradation|g__Escherichia.s__Escherichia_coli	9.6901138417
+PWY-241: C4 photosynthetic carbon assimilation cycle, NADP-ME type	193.4806595096
+PWY-241: C4 photosynthetic carbon assimilation cycle, NADP-ME type|g__Klebsiella.s__Klebsiella_oxytoca	1.2981276244
+URSIN-PWY: ureide biosynthesis	192.3357078619
+URSIN-PWY: ureide biosynthesis|unclassified	6.2539419900
+PWY-6182: superpathway of salicylate degradation	185.6977289107
+PWY-6182: superpathway of salicylate degradation|g__Klebsiella.s__Klebsiella_oxytoca	63.1454045277
+PWY-6182: superpathway of salicylate degradation|g__Escherichia.s__Escherichia_coli	10.5252110870
+PWY-6182: superpathway of salicylate degradation|g__Klebsiella.s__Klebsiella_pneumoniae	9.4735038923
+ARGININE-SYN4-PWY: L-ornithine biosynthesis II	177.0151674734
+ARGININE-SYN4-PWY: L-ornithine biosynthesis II|g__Bacteroides.s__Bacteroides_thetaiotaomicron	83.8276880407
+ARGININE-SYN4-PWY: L-ornithine biosynthesis II|unclassified	64.3964246462
+ARGININE-SYN4-PWY: L-ornithine biosynthesis II|g__Klebsiella.s__Klebsiella_pneumoniae	31.7510557492
+ARGININE-SYN4-PWY: L-ornithine biosynthesis II|g__Escherichia.s__Escherichia_coli	14.7389020090
+ARGININE-SYN4-PWY: L-ornithine biosynthesis II|g__Klebsiella.s__Klebsiella_oxytoca	0.9864424764
+PWY-7328: superpathway of UDP-glucose-derived O-antigen building blocks biosynthesis	173.7801525919
+PWY-7328: superpathway of UDP-glucose-derived O-antigen building blocks biosynthesis|g__Klebsiella.s__Klebsiella_pneumoniae	35.2487439498
+PWY-7328: superpathway of UDP-glucose-derived O-antigen building blocks biosynthesis|g__Klebsiella.s__Klebsiella_oxytoca	16.7017373987
+PWY-7242: D-fructuronate degradation	173.6358521161
+PWY-7242: D-fructuronate degradation|unclassified	53.0402308524
+PWY-7242: D-fructuronate degradation|g__Klebsiella.s__Klebsiella_pneumoniae	19.9046960230
+PWY-7242: D-fructuronate degradation|g__Escherichia.s__Escherichia_coli	17.3772150736
+PWY-7242: D-fructuronate degradation|g__Klebsiella.s__Klebsiella_oxytoca	7.7704045444
+PWY-7242: D-fructuronate degradation|g__Escherichia.s__Escherichia_fergusonii	0.6713726015
+PWY0-42: 2-methylcitrate cycle I	166.3230177419
+PWY0-42: 2-methylcitrate cycle I|unclassified	92.6383077373
+PWY0-42: 2-methylcitrate cycle I|g__Klebsiella.s__Klebsiella_oxytoca	7.2181559224
+PWY0-42: 2-methylcitrate cycle I|g__Escherichia.s__Escherichia_coli	4.1614408891
+PWY0-42: 2-methylcitrate cycle I|g__Klebsiella.s__Klebsiella_pneumoniae	3.5044504734
+PWY-6284: superpathway of unsaturated fatty acids biosynthesis (E. coli)	164.7477899031
+PWY-6284: superpathway of unsaturated fatty acids biosynthesis (E. coli)|unclassified	37.4931695946
+PWY-6284: superpathway of unsaturated fatty acids biosynthesis (E. coli)|g__Klebsiella.s__Klebsiella_pneumoniae	35.3349268679
+PWY-6284: superpathway of unsaturated fatty acids biosynthesis (E. coli)|g__Escherichia.s__Escherichia_coli	26.8004023153
+P108-PWY: pyruvate fermentation to propanoate I	164.7111388560
+P108-PWY: pyruvate fermentation to propanoate I|g__Klebsiella.s__Klebsiella_oxytoca	90.6920634513
+P221-PWY: octane oxidation	148.0237931198
+P221-PWY: octane oxidation|g__Klebsiella.s__Klebsiella_pneumoniae	53.8598724101
+P221-PWY: octane oxidation|g__Klebsiella.s__Klebsiella_oxytoca	39.4762337603
+P221-PWY: octane oxidation|unclassified	20.2725886766
+P221-PWY: octane oxidation|g__Escherichia.s__Escherichia_coli	4.1959368674
+SALVADEHYPOX-PWY: adenosine nucleotides degradation II	146.4125219685
+SALVADEHYPOX-PWY: adenosine nucleotides degradation II|g__Escherichia.s__Escherichia_coli	78.3354525720
+SALVADEHYPOX-PWY: adenosine nucleotides degradation II|unclassified	21.1189881544
+HSERMETANA-PWY: L-methionine biosynthesis III	143.8110040347
+HSERMETANA-PWY: L-methionine biosynthesis III|g__Flavonifractor.s__Flavonifractor_plautii	4.5378594911
+FOLSYN-PWY: superpathway of tetrahydrofolate biosynthesis and salvage	141.5545561192
+FOLSYN-PWY: superpathway of tetrahydrofolate biosynthesis and salvage|unclassified	32.4577071713
+PWY-7385: 1,3-propanediol biosynthesis (engineered)	138.6103249504
+PWY-7385: 1,3-propanediol biosynthesis (engineered)|unclassified	44.1575497447
+PWY-7388: octanoyl-[acyl-carrier protein] biosynthesis (mitochondria, yeast)	137.9713364418
+PWY-7388: octanoyl-[acyl-carrier protein] biosynthesis (mitochondria, yeast)|g__Klebsiella.s__Klebsiella_pneumoniae	80.4693389118
+PWY-7388: octanoyl-[acyl-carrier protein] biosynthesis (mitochondria, yeast)|unclassified	19.0858824286
+PWY66-430: myristate biosynthesis (mitochondria)	133.7114695644
+PWY66-430: myristate biosynthesis (mitochondria)|g__Klebsiella.s__Klebsiella_pneumoniae	70.8650107706
+PWY66-430: myristate biosynthesis (mitochondria)|unclassified	19.2986236524
+PWY-5747: 2-methylcitrate cycle II	130.9009429201
+PWY-5747: 2-methylcitrate cycle II|unclassified	40.3372054548
+GLUDEG-I-PWY: GABA shunt	128.9743484399
+GLUDEG-I-PWY: GABA shunt|g__Klebsiella.s__Klebsiella_pneumoniae	13.1171312942
+GLUDEG-I-PWY: GABA shunt|unclassified	5.7982093061
+PWY-7165: L-ascorbate biosynthesis VIII (engineered pathway)	127.0663260488
+PWY-7165: L-ascorbate biosynthesis VIII (engineered pathway)|g__Klebsiella.s__Klebsiella_pneumoniae	16.5126731359
+PWY-7165: L-ascorbate biosynthesis VIII (engineered pathway)|g__Escherichia.s__Escherichia_coli	2.7032356715
+PYRIDNUCSAL-PWY: NAD salvage pathway I (PNC VI cycle)	126.6452331277
+PYRIDNUCSAL-PWY: NAD salvage pathway I (PNC VI cycle)|g__Klebsiella.s__Klebsiella_oxytoca	8.4441329894
+PWY-6606: guanosine nucleotides degradation II	122.3654009866
+PWY-6606: guanosine nucleotides degradation II|unclassified	21.8427920970
+PWY-6606: guanosine nucleotides degradation II|g__Escherichia.s__Escherichia_coli	0.0777233970
+PWY-5497: purine nucleobases degradation II (anaerobic)	122.3448834075
+PWY-5497: purine nucleobases degradation II (anaerobic)|g__Escherichia.s__Escherichia_coli	0.0775222102
+3-HYDROXYPHENYLACETATE-DEGRADATION-PWY: 4-hydroxyphenylacetate degradation	113.7355677171
+3-HYDROXYPHENYLACETATE-DEGRADATION-PWY: 4-hydroxyphenylacetate degradation|g__Klebsiella.s__Klebsiella_oxytoca	22.5925271085
+3-HYDROXYPHENYLACETATE-DEGRADATION-PWY: 4-hydroxyphenylacetate degradation|g__Klebsiella.s__Klebsiella_pneumoniae	13.5747648404
+3-HYDROXYPHENYLACETATE-DEGRADATION-PWY: 4-hydroxyphenylacetate degradation|unclassified	3.7670957006
+PWY-6292: superpathway of L-cysteine biosynthesis (mammalian)	110.1683030725
+PWY-6292: superpathway of L-cysteine biosynthesis (mammalian)|g__Klebsiella.s__Klebsiella_pneumoniae	32.1167771344
+PWY-6292: superpathway of L-cysteine biosynthesis (mammalian)|g__Klebsiella.s__Klebsiella_oxytoca	25.3717663801
+PWY-6292: superpathway of L-cysteine biosynthesis (mammalian)|g__Escherichia.s__Escherichia_coli	9.3102744252
+PWY-7446: sulfoquinovose degradation I	104.2585674927
+PWY-7446: sulfoquinovose degradation I|g__Escherichia.s__Escherichia_coli	74.6942811983
+PWY-7446: sulfoquinovose degradation I|unclassified	3.2076190898
+PWY-7446: sulfoquinovose degradation I|g__Klebsiella.s__Klebsiella_oxytoca	0.5978167020
+PWY-5121: superpathway of geranylgeranyl diphosphate biosynthesis II (via MEP)	102.9668536587
+PWY-5121: superpathway of geranylgeranyl diphosphate biosynthesis II (via MEP)|g__Klebsiella.s__Klebsiella_pneumoniae	27.0999392972
+PWY-5121: superpathway of geranylgeranyl diphosphate biosynthesis II (via MEP)|g__Escherichia.s__Escherichia_coli	12.1139479873
+PWY-5121: superpathway of geranylgeranyl diphosphate biosynthesis II (via MEP)|unclassified	8.0640084481
+PWY-6612: superpathway of tetrahydrofolate biosynthesis	100.1569079853
+PWY-6612: superpathway of tetrahydrofolate biosynthesis|unclassified	26.7018436025
+CRNFORCAT-PWY: creatinine degradation I	99.5851514449
+CRNFORCAT-PWY: creatinine degradation I|g__Klebsiella.s__Klebsiella_oxytoca	29.5897974813
+CRNFORCAT-PWY: creatinine degradation I|g__Klebsiella.s__Klebsiella_pneumoniae	18.4784130519
+CRNFORCAT-PWY: creatinine degradation I|g__Klebsiella.s__Klebsiella_aerogenes	5.8280505498
+LACTOSECAT-PWY: lactose and galactose degradation I	96.4603493832
+LACTOSECAT-PWY: lactose and galactose degradation I|g__Lactococcus.s__Lactococcus_lactis	10.2089818551
+LACTOSECAT-PWY: lactose and galactose degradation I|g__Enterococcus.s__Enterococcus_gallinarum	0.8462971746
+P42-PWY: incomplete reductive TCA cycle	96.2134364529
+PWY3O-4107: NAD salvage pathway V (PNC V cycle)	95.4782859521
+PWY3O-4107: NAD salvage pathway V (PNC V cycle)|g__Klebsiella.s__Klebsiella_oxytoca	6.0631270033
+PWY-6763: salicortin biosynthesis	89.5444903828
+PWY-6763: salicortin biosynthesis|g__Klebsiella.s__Klebsiella_pneumoniae	27.1951748019
+PWY-6763: salicortin biosynthesis|g__Klebsiella.s__Klebsiella_oxytoca	11.7215334505
+PWY-6763: salicortin biosynthesis|unclassified	6.5471055498
+PWY-6763: salicortin biosynthesis|g__Escherichia.s__Escherichia_coli	2.1476021988
+PWY-6572: chondroitin sulfate degradation I (bacterial)	88.0438942114
+PWY-6572: chondroitin sulfate degradation I (bacterial)|g__Bacteroides.s__Bacteroides_thetaiotaomicron	77.6252261431
+PWY-5676: acetyl-CoA fermentation to butanoate II	81.7635107315
+PWY-3801: sucrose degradation II (sucrose synthase)	75.6277536901
+PWY-3801: sucrose degradation II (sucrose synthase)|g__Klebsiella.s__Klebsiella_pneumoniae	46.2178199066
+CARNMET-PWY: L-carnitine degradation I	74.0512524457
+CARNMET-PWY: L-carnitine degradation I|unclassified	14.3285622592
+CARNMET-PWY: L-carnitine degradation I|g__Klebsiella.s__Klebsiella_oxytoca	2.3144572748
+PWY-6731: starch degradation III	49.8322554814
+PWY-6731: starch degradation III|unclassified	26.5743428644
+PWY-6731: starch degradation III|g__Klebsiella.s__Klebsiella_pneumoniae	7.2237411919
+PWY-7392: taxadiene biosynthesis (engineered)	45.2766916129
+PWY-7392: taxadiene biosynthesis (engineered)|g__Klebsiella.s__Klebsiella_pneumoniae	20.2125980466
+PWY-7392: taxadiene biosynthesis (engineered)|unclassified	6.7962340741
+PWY-6859: all-trans-farnesol biosynthesis	41.2927204670
+PWY-6859: all-trans-farnesol biosynthesis|g__Klebsiella.s__Klebsiella_pneumoniae	18.0736708132
+PWY-6859: all-trans-farnesol biosynthesis|g__Escherichia.s__Escherichia_coli	9.5367462332
+PWY-6859: all-trans-farnesol biosynthesis|unclassified	4.0375087145
+PWY-6588: pyruvate fermentation to acetone	40.2703070379
+PWY-6588: pyruvate fermentation to acetone|unclassified	15.6862409151
+PWY-6588: pyruvate fermentation to acetone|g__Escherichia.s__Escherichia_coli	1.3811129689
+PWY-5367: petroselinate biosynthesis	36.8383918245
+PWY-5367: petroselinate biosynthesis|unclassified	14.9048289029
+PWY-5367: petroselinate biosynthesis|g__Klebsiella.s__Klebsiella_pneumoniae	9.4861288236
+PWY-5367: petroselinate biosynthesis|g__Escherichia.s__Escherichia_coli	7.6455483274
+PWY-5367: petroselinate biosynthesis|g__Escherichia.s__Escherichia_fergusonii	3.3032884689
+P125-PWY: superpathway of (R,R)-butanediol biosynthesis	35.7553800894
+P125-PWY: superpathway of (R,R)-butanediol biosynthesis|g__Enterococcus.s__Enterococcus_saccharolyticus	3.4319358622
+PWY-6549: L-glutamine biosynthesis III	30.2399762741
+KDO-NAGLIPASYN-PWY: superpathway of (Kdo)2-lipid A biosynthesis	27.5023479432
+KDO-NAGLIPASYN-PWY: superpathway of (Kdo)2-lipid A biosynthesis|unclassified	13.6460896796
+KDO-NAGLIPASYN-PWY: superpathway of (Kdo)2-lipid A biosynthesis|g__Klebsiella.s__Klebsiella_pneumoniae	6.2581157828
+KDO-NAGLIPASYN-PWY: superpathway of (Kdo)2-lipid A biosynthesis|g__Escherichia.s__Escherichia_coli	2.2406259195
+KDO-NAGLIPASYN-PWY: superpathway of (Kdo)2-lipid A biosynthesis|g__Klebsiella.s__Klebsiella_oxytoca	1.2391255265
+PWY-7396: butanol and isobutanol biosynthesis (engineered)	26.9788721528
+PWY-7396: butanol and isobutanol biosynthesis (engineered)|g__Klebsiella.s__Klebsiella_pneumoniae	14.0181765378
+PWY-5656: mannosylglycerate biosynthesis I	25.3453937535
+PWY-5656: mannosylglycerate biosynthesis I|unclassified	9.8731088069
+PWY-801: homocysteine and cysteine interconversion	24.2431959634
+PWY-801: homocysteine and cysteine interconversion|g__Klebsiella.s__Klebsiella_pneumoniae	15.2959110014
+PWY-801: homocysteine and cysteine interconversion|g__Escherichia.s__Escherichia_coli	5.6694094133
+PWY-821: superpathway of sulfur amino acid biosynthesis (Saccharomyces cerevisiae)	23.3148065232
+PWY-7616: methanol oxidation to carbon dioxide	22.3676095506
+PWY-7616: methanol oxidation to carbon dioxide|unclassified	8.4792752550
+METH-ACETATE-PWY: methanogenesis from acetate	22.3135480895
+METH-ACETATE-PWY: methanogenesis from acetate|g__Blautia.s__Blautia_sp_CAG_257	11.0181560005
+PWY-5690: TCA cycle II (plants and fungi)	18.5204715791
+GLYCOL-GLYOXDEG-PWY: superpathway of glycol metabolism and degradation	17.1988905091
+GLYCOL-GLYOXDEG-PWY: superpathway of glycol metabolism and degradation|unclassified	16.2748063306
+DARABCATK12-PWY: D-arabinose degradation I	17.1427255288
+DARABCATK12-PWY: D-arabinose degradation I|unclassified	13.1244633415
+PWY66-399: gluconeogenesis III	13.9233192479
+PWY-7209: superpathway of pyrimidine ribonucleosides degradation	12.1883555393
+PWY-7209: superpathway of pyrimidine ribonucleosides degradation|unclassified	3.5652549517
+PWY-5654: 2-amino-3-carboxymuconate semialdehyde degradation to 2-hydroxypentadienoate	11.4320149619
+PWY-5654: 2-amino-3-carboxymuconate semialdehyde degradation to 2-hydroxypentadienoate|g__Klebsiella.s__Klebsiella_pneumoniae	10.5715792571
+PWY-6210: 2-aminophenol degradation	11.4320149619
+PWY-6210: 2-aminophenol degradation|g__Klebsiella.s__Klebsiella_pneumoniae	10.5715792571
+PWY-6396: superpathway of 2,3-butanediol biosynthesis	11.4279229736
+PWY0-41: allantoin degradation IV (anaerobic)	9.8396805599
+PWY-7383: anaerobic energy metabolism (invertebrates, cytosol)	9.2236271373
+PWY-3781: aerobic respiration I (cytochrome c)	8.4908422494
+PWY-3781: aerobic respiration I (cytochrome c)|unclassified	3.6853775636
+PWY-7279: aerobic respiration II (cytochrome c) (yeast)	8.4572690339
+PWY-7279: aerobic respiration II (cytochrome c) (yeast)|unclassified	6.6662835281
+PWY-6293: superpathway of L-cysteine biosynthesis (fungi)	8.3594632359
+PWY0-1221: putrescine degradation II	7.7036636182
+PWY0-1221: putrescine degradation II|unclassified	6.2540545761
+PWY-5415: catechol degradation I (meta-cleavage pathway)	5.4699329241
+PWY-6318: L-phenylalanine degradation IV (mammalian, via side chain)	5.0038209239
+PWY-6318: L-phenylalanine degradation IV (mammalian, via side chain)|unclassified	4.4092902155
+DHGLUCONATE-PYR-CAT-PWY: glucose degradation (oxidative)	3.4322534612
+PWY-5464: superpathway of cytosolic glycolysis (plants), pyruvate dehydrogenase and TCA cycle	3.1579566411
