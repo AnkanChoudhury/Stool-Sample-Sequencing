@@ -310,7 +310,7 @@ qiime moshpit classify-kaiju \
 	--verbose
 ```
  
-The output from Kaiju is a BIOM formated feature table (.biom) and a taxonmy file.
+The output from Kaiju is a BIOM formated feature table (.biom) and a taxonomy file.
 
 Feature Table from Kaiju:
 
@@ -329,7 +329,7 @@ head(kaijutaxonomy)
 
 ## **7. Taxonomic Classification using Metaphlan**
 
-MetaPhlAn 4 relies on unique clade-specific marker genes identified from ~1M microbial genomes for taxonomic assignment of metgenome sequence reads. Metaphlan 4.1.1 was used as a standalone installation as a miniconda environment, whose installation information can be gathered from here (https://github.com/biobakery/MetaPhlAn/wiki/MetaPhlAn-4.1). Metaphlan automatically downloads its latest database "ChocoPhlan" when you use it for the first time, but you can also do it manually with this ```$ metaphlan --install --index <latest database index> --bowtie2db <database folder>```. The latest database indices can be found here (http://cmprod1.cibio.unitn.it/biobakery4/metaphlan_databases/). Once everything is installed, the following code was used to perform classification using Metaphlan for our datasets.
+MetaPhlAn 4 relies on unique clade-specific marker genes identified from ~1M microbial genomes for taxonomic assignment of metgenome sequence reads. Metaphlan 4.1.1 was used as a standalone installation as a miniconda environment, whose installation information can be gathered from <a href="https://github.com/biobakery/MetaPhlAn/wiki/MetaPhlAn-4.1">here</a>. Metaphlan automatically downloads its latest database "ChocoPhlan" when you use it for the first time, but you can also do it manually with this ```$ metaphlan --install --index <latest database index> --bowtie2db <database folder>```. The latest database indices can be found <a href="http://cmprod1.cibio.unitn.it/biobakery4/metaphlan_databases/">here</a>. Once everything is installed, the following code was used to perform classification using Metaphlan for our datasets.
 
 ```{bash,eval=FALSE,echo=TRUE}
 
@@ -386,7 +386,7 @@ More specifically, [5] includes four headers to be familiar with:
 
 ## **8. Functional annotation using Humann 3.9**
 
-HUMAnN is a pipeline for efficiently and accurately profiling the presence/absence and abundance of microbial pathways in a community from metagenomic or metatranscriptomic sequencing data (typically millions of short DNA/RNA reads). This process, referred to as functional profiling, aims to describe the metabolic potential of a microbial community and its members. You can install Humann 3.9 as a stand-alone through here (https://github.com/biobakery/humann). Once installed, it automatically downloads the ChocoPhlan database (if not already installed) to do taxonomic analysis using Metaphlan on its first run, but you will have to download the translated search database for anotation. You can do it using this code ```humann_databases --download uniref uniref90_diamond $INSTALL_LOCATION```, which will download the full UniRef90 database used in our analysis. After that, run this code to annotate the sequences using HUMAnN. (P.S: Unlike MetaPhlan, HUMAnN cannpot parse paired read sequences, so we will have to first concatenate both reads from each sample into a single .fastq file and then send it off for functional annotation)
+HUMAnN is a pipeline for efficiently and accurately profiling the presence/absence and abundance of microbial pathways in a community from metagenomic or metatranscriptomic sequencing data (typically millions of short DNA/RNA reads). This process, referred to as functional profiling, aims to describe the metabolic potential of a microbial community and its members. You can install Humann 3.9 as a stand-alone through <a href="https://github.com/biobakery/humann">here</s>. Once installed, it automatically downloads the ChocoPhlan database (if not already installed) to do taxonomic analysis using Metaphlan on its first run, but you will have to download the translated search database for anotation. You can do it using this code ```humann_databases --download uniref uniref90_diamond $INSTALL_LOCATION```, which will download the full UniRef90 database used in our analysis. After that, run this code to annotate the sequences using HUMAnN. (P.S: Unlike MetaPhlan, HUMAnN cannpot parse paired read sequences, so we will have to first concatenate both reads from each sample into a single .fastq file and then send it off for functional annotation)
 
 ```{bash,eval=FALSE,echo=TRUE}
 name="trimmed-filtered"       #Dataset name
