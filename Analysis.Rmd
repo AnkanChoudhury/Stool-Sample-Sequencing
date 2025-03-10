@@ -3,9 +3,9 @@ title: "Processing Stool Sample Whole Genome Sequencing Data"
 author: "Ankan Choudhury"
 date: "2025-03-05"
 output:
-  pdf_document: default
   html_document:
     df_print: paged
+  pdf_document: default
 header-includes:
 - \usepackage{times}
 - \usepackage{listings}
@@ -31,17 +31,17 @@ library(ape)
 library(taxize)
 ```
 
-# **Introduction**
+## **Introduction**
 
 This code includes the bash code for performing Whole-genome Sequence analysis on the Stool samples using Trimmomatic, Bowtie, Kraken, Bracken, Kaiju, Metaphlan, and Humann.The paired sequences ("raw") were first trimmed using Trimmomatic v0.39, which trimmed the sequences and separated out into paired ("trimmed") and unpaired, sequences who do not have a matching read pairing with it. The trimmed sequences were then filtered for host reads (*Homo sapiens*) using Bowtie2 resultant sequences ("trimmed-filtered") were used for taxonomic classification. Taxonomic classification was done at all three levels of sequence refinement were done using Kraken2, Kaiju, and Metaphlan. Kraken2 classification used standard Kraken database and was normalized by Bracken using standard Bracken database. Kaiju classification was done using the Kaiju RefSeq database. Metaphlan 4.1.1 used its own ChocoPhlan database (updated October 2024). The trimmed-filtered sequences were also assembled into contigs using Megahit, and the assembled sequences ("trimmed-filtered-contigs") were also classified using Kraken2-Bracken algorithm. The raw, trimmed, trimmed-filtered sequences were also functionally annotated using Humann 3.9. The resultant taxonomic classification data and functional annotation data were transformed and compiled into phyloseq objects in R.
 
 ## **Prerequisites**
 
- 1. Install qiime2-metagenome-2024.10
- 2. Install Trimmomatic 0.39
- 3. Install Metaphlan 4.4.1
- 4. Install Humann 3.9
- 5. Install R 4.3.1 or higher
+1.  Install qiime2-metagenome-2024.10
+2.  Install Trimmomatic 0.39
+3.  Install Metaphlan 4.4.1
+4.  Install Humann 3.9
+5.  Install R 4.3.1 or higher
 
 ## **1. Getting the sequences**
 
@@ -138,6 +138,7 @@ qiime quality-control filter-reads \
 ## **4. Assembling the sequences into contigs using Megahit**
 
 The assemble contigs can be used for taxonomic classification using Kraken2 and functional annotation using eggNOG.
+
 ```{bash,eval=FALSE,echo=TRUE}
 mkdir -p contigs 
 
@@ -154,7 +155,7 @@ qiime assembly assemble-megahit \
 
 ## **5. Taxonomic classification using Kraken2**
 
-We can use Kraken2 to classify both sequences and contigs using the same basic script. Kraken2 is a taxonomic classification system using exact k-mer matches to achieve high accuracy and fast classification speeds. This classifier matches each k-mer within a query sequence to the lowest common ancestor (LCA) of all genomes containing the given k-mer. You can install Kraken2 as a stand-alone, but here we have used kraken2 through the qiime2 metagenome platform's moshpit distribution package. Before that we will have to build databses for Kraken2 and Bracken using this script. We will be storing the database in the qiime cache. A cache will store the "data" of a dataset in a separate data folder with a random generated name, which is stored in a separate "key" file named after the dataset in  the keys folder. In a qiime artifact (.qza), they are all bundled up together into one thing that has to zipped and unzipped everytime you use it.
+We can use Kraken2 to classify both sequences and contigs using the same basic script. Kraken2 is a taxonomic classification system using exact k-mer matches to achieve high accuracy and fast classification speeds. This classifier matches each k-mer within a query sequence to the lowest common ancestor (LCA) of all genomes containing the given k-mer. You can install Kraken2 as a stand-alone, but here we have used kraken2 through the qiime2 metagenome platform's moshpit distribution package. Before that we will have to build databses for Kraken2 and Bracken using this script. We will be storing the database in the qiime cache. A cache will store the "data" of a dataset in a separate data folder with a random generated name, which is stored in a separate "key" file named after the dataset in the keys folder. In a qiime artifact (.qza), they are all bundled up together into one thing that has to zipped and unzipped everytime you use it.
 
 ```{bash,eval=FALSE,echo=TRUE}
 source activate qiime2-metagenome-2024.10
@@ -195,6 +196,7 @@ kraken<-readLines("Kraken Outputs/New/kraken_reports-trimmed-filtered/1-MDcol002
 writeLines(kraken[1:25])
 
 ```
+
 ### **Renormalization with Bracken**
 
 Bracken (Bayesian Reestimation of Abundance with KrakEN) is a highly accurate statistical method that computes the abundance of species in DNA sequences from a metagenomics sample. Bracken is a companion program to Kraken 2. While Kraken classifies reads to multiple levels in the taxonomic tree, Bracken allows estimation of abundance at a single level using those classifications (e.g. Bracken can estimate abundance of species within a sample). Bracken uses a Bracken database, the length of your reads and the kraken reports to give you a feature frequency table that renormalizes the data by dropping the unclassified reads and according to the Bayesian probability of the kraken hits being correct.
@@ -218,6 +220,7 @@ qiime moshpit estimate-bracken \
 ```
 
 The Bracken reports are very similar to Kraken2 reports except for having no unclassified reads
+
 ```{r BrackenTaxonomy, echo=FALSE}
 bracken<-readLines("BrackenOutputs/bracken-reports-trimmed-filtered/1-MDcol002-5-2.report.txt")
 writeLines(bracken[1:20])
@@ -239,9 +242,10 @@ brackentable<-as.data.frame(as.matrix(biomformat::biom_data(read_biom("BrackenOu
 head(brackentable)
 
 ```
+
 ### **Creating phylogenetic trees from the bracken data**
 
-We can generate phylogenetic trees from the brcaken data using a package called gracken, which can be installed by ```pip install gracken``` or from this link (https://github.com/jonasoh/gracken). But gracken uses scientific names as phylogenetic tree tip labels whereas here the feature table contains the NCBI taxa IDs, so you can replace the executable python file for gracken in the miniconda path "miniconda/lib/python3.9/site-packages/gracken/" with this file <a href="data:application/octet-stream;base64,aW1wb3J0IG9zCmltcG9ydCBzeXMKaW1wb3J0IGdsb2IKaW1wb3J0IGFyZ3BhcnNlCmltcG9ydCBwYW5kYXMgYXMgcGQKZnJvbSAuIGltcG9ydCBfX3ZlcnNpb25fXwpmcm9tIGV0ZTMgaW1wb3J0IE5DQklUYXhhCmZyb20gLnZhcnMgaW1wb3J0IHRheF9jb2xzCmZyb20gZXRlMyBpbXBvcnQgVHJlZSBhcyBUcmVlMwpmcm9tIC4gaW1wb3J0IG5jYmlfdXRpbHMgYXMgbmMKZnJvbSAuIGltcG9ydCBndGRiX3V0aWxzIGFzIGd0CmZyb20gLmRhdGFfbG9hZGVycyBpbXBvcnQgcmVhZF9icmFja2VuX3JlcG9ydCwgcmVhZF9rcmFrZW4yX3JlcG9ydAoKcGQub3B0aW9ucy5tb2RlLmNvcHlfb25fd3JpdGUgPSBUcnVlCgoKZGVmIHBhcnNlX2FyZ3MoKToKICAgIHBhcnNlciA9IGFyZ3BhcnNlLkFyZ3VtZW50UGFyc2VyKAogICAgICAgIGRlc2NyaXB0aW9uPSJDcmVhdGVzIGEgcGh5bG9nZW5ldGljIHRyZWUgYW5kIE9UVSB0YWJsZSBmcm9tIEJyYWNrZW4vS3Jha2VuMiByZXBvcnRzIGJ5IHBydW5pbmcgR1REQi9OQ0JJIHRyZWVzIgogICAgKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgKICAgICAgICAiLS12ZXJzaW9uIiwKICAgICAgICAiLXYiLAogICAgICAgIGFjdGlvbj0idmVyc2lvbiIsCiAgICAgICAgdmVyc2lvbj1fX3ZlcnNpb25fXywKICAgICAgICBoZWxwPSJzaG93IHByb2dyYW0gdmVyc2lvbiBhbmQgZXhpdCIsCiAgICApCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KAogICAgICAgICItLWlucHV0X2RpciIsCiAgICAgICAgIi1pIiwKICAgICAgICByZXF1aXJlZD1UcnVlLAogICAgICAgIGhlbHA9ImRpcmVjdG9yeSBjb250YWluaW5nIEJyYWNrZW4vS3Jha2VuMiByZXBvcnQgZmlsZXMiLAogICAgKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgKICAgICAgICAiLS1iYWNfdGF4b25vbXkiLAogICAgICAgIGhlbHA9InBhdGggdG8gR1REQiBiYWN0ZXJpYWwgdGF4b25vbXkgZmlsZSIsCiAgICApCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KAogICAgICAgICItLWFyX3RheG9ub215IiwKICAgICAgICBoZWxwPSJwYXRoIHRvIEdUREIgYXJjaGFlYWwgdGF4b25vbXkgZmlsZSIsCiAgICApCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KAogICAgICAgICItLWJhY190cmVlIiwKICAgICAgICBoZWxwPSJwYXRoIHRvIEdUREIgYmFjdGVyaWFsIHRyZWUgZmlsZSIsCiAgICApCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KAogICAgICAgICItLWFyX3RyZWUiLAogICAgICAgIGhlbHA9InBhdGggdG8gR1REQiBhcmNoYWVhbCB0cmVlIGZpbGUiLAogICAgKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgKICAgICAgICAiLS1vdXRfcHJlZml4IiwKICAgICAgICAiLW8iLAogICAgICAgIGRlZmF1bHQ9Im91dHB1dCIsCiAgICAgICAgaGVscD0icHJlZml4IGZvciBvdXRwdXQgZmlsZXMgKGRlZmF1bHQ6IG91dHB1dCkuIENyZWF0ZXMgPHByZWZpeD4udHJlZSBhbmQgPHByZWZpeD4ub3R1LmNzdiIsCiAgICApCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KAogICAgICAgICItLW1vZGUiLAogICAgICAgICItbSIsCiAgICAgICAgY2hvaWNlcz1bImJyYWNrZW4iLCAia3Jha2VuMiJdLAogICAgICAgIGRlZmF1bHQ9ImJyYWNrZW4iLAogICAgICAgIGhlbHA9ImlucHV0IGZpbGUgZm9ybWF0IChkZWZhdWx0OiBicmFja2VuKSIsCiAgICApCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KAogICAgICAgICItLWtlZXAtc3BhY2VzIiwKICAgICAgICBhY3Rpb249InN0b3JlX3RydWUiLAogICAgICAgIGRlZmF1bHQ9RmFsc2UsCiAgICAgICAgaGVscD0ia2VlcCBzcGFjZXMgaW4gc3BlY2llcyBuYW1lcyAoZGVmYXVsdDogRmFsc2UpIiwKICAgICkKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoCiAgICAgICAgIi0tdGF4b25vbXkiLAogICAgICAgICItdCIsCiAgICAgICAgY2hvaWNlcz1bImd0ZGIiLCAibmNiaSJdLAogICAgICAgIGRlZmF1bHQ9Im5jYmkiLAogICAgICAgIGhlbHA9InRheG9ub215IHNvdXJjZSB0byB1c2UgKGRlZmF1bHQ6IG5jYmkpLiIsCiAgICApCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KAogICAgICAgICItLWZ1bGwtdGF4b25vbXkiLAogICAgICAgICItZiIsCiAgICAgICAgYWN0aW9uPSJzdG9yZV90cnVlIiwKICAgICAgICBkZWZhdWx0PUZhbHNlLAogICAgICAgIGhlbHA9ImluY2x1ZGUgZnVsbCB0YXhvbm9teSBpbmZvIGluIE9UVSB0YWJsZSAoZGVmYXVsdDogRmFsc2UpIiwKICAgICkKICAgIGFyZ3MgPSBwYXJzZXIucGFyc2VfYXJncygpCiAgICBpZiBhcmdzLnRheG9ub215ID09ICJndGRiIjoKICAgICAgICBtaXNzaW5nX2FyZ3MgPSBbXQogICAgICAgIGlmIG5vdCBhcmdzLmJhY190YXhvbm9teToKICAgICAgICAgICAgbWlzc2luZ19hcmdzLmFwcGVuZCgiLS1iYWNfdGF4b25vbXkiKQogICAgICAgIGlmIG5vdCBhcmdzLmFyX3RheG9ub215OgogICAgICAgICAgICBtaXNzaW5nX2FyZ3MuYXBwZW5kKCItLWFyX3RheG9ub215IikKICAgICAgICBpZiBub3QgYXJncy5iYWNfdHJlZToKICAgICAgICAgICAgbWlzc2luZ19hcmdzLmFwcGVuZCgiLS1iYWNfdHJlZSIpCiAgICAgICAgaWYgbm90IGFyZ3MuYXJfdHJlZToKICAgICAgICAgICAgbWlzc2luZ19hcmdzLmFwcGVuZCgiLS1hcl90cmVlIikKICAgICAgICBpZiBtaXNzaW5nX2FyZ3M6CiAgICAgICAgICAgIHBhcnNlci5lcnJvcigKICAgICAgICAgICAgICAgICJGb3IgR1REQiB0YXhvbm9teSwgdGhlIGZvbGxvd2luZyBhcmd1bWVudHMgYXJlIHJlcXVpcmVkOiAiCiAgICAgICAgICAgICAgICArICIsICIuam9pbihtaXNzaW5nX2FyZ3MpCiAgICAgICAgICAgICkKICAgIHJldHVybiBhcmdzCgoKZGVmIG1haW4oKToKICAgIGFyZ3MgPSBwYXJzZV9hcmdzKCkKCiAgICAjIGxvYWQgZGF0YSBhbmQgY3JlYXRlIE9UVSB0YWJsZQogICAgb3R1X3RhYmxlID0gcGQuRGF0YUZyYW1lKCkKICAgIGZpbGVfcGF0dGVybiA9ICIqLnJlcG9ydC50eHQiCgogICAgbWF0Y2hpbmdfZmlsZXMgPSBnbG9iLmdsb2Iob3MucGF0aC5qb2luKGFyZ3MuaW5wdXRfZGlyLCBmaWxlX3BhdHRlcm4pKQogICAgaWYgbm90IG1hdGNoaW5nX2ZpbGVzOgogICAgICAgIHByaW50KGYiRXJyb3I6IE5vIHthcmdzLm1vZGV9IGZpbGVzIGZvdW5kIGluIHthcmdzLmlucHV0X2Rpcn0iLCBmaWxlPXN5cy5zdGRlcnIpCiAgICAgICAgc3lzLmV4aXQoMSkKCiAgICBmb3IgZiBpbiBtYXRjaGluZ19maWxlczoKICAgICAgICBuYW1lID0gb3MucGF0aC5zcGxpdGV4dChvcy5wYXRoLmJhc2VuYW1lKGYpKVswXQogICAgICAgIGlmIGFyZ3MubW9kZSA9PSAiYnJhY2tlbiI6CiAgICAgICAgICAgIHNhbXBsZV9vdHUgPSByZWFkX2JyYWNrZW5fcmVwb3J0KGYpCiAgICAgICAgZWxzZToKICAgICAgICAgICAgc2FtcGxlX290dSA9IHJlYWRfa3Jha2VuMl9yZXBvcnQoZikKCiAgICAgICAgIyBDaGVjayBpZiBzYW1wbGVfb3R1IGlzIGVtcHR5IG9yIGRvZXNuJ3QgaGF2ZSB0aGUgcmVxdWlyZWQgY29sdW1ucwogICAgICAgIGlmIHNhbXBsZV9vdHUuZW1wdHkgb3Igbm90IGFsbCgKICAgICAgICAgICAgY29sIGluIHNhbXBsZV9vdHUuY29sdW1ucwogICAgICAgICAgICBmb3IgY29sIGluICgKICAgICAgICAgICAgICAgIFsidGF4aWQiLCAiYWJ1bmRhbmNlIl0KICAgICAgICAgICAgICAgIGlmIGFyZ3MudGF4b25vbXkgPT0gIm5jYmkiCiAgICAgICAgICAgICAgICBlbHNlIFsic3BlY2llcyIsICJhYnVuZGFuY2UiXQogICAgICAgICAgICApCiAgICAgICAgKToKICAgICAgICAgICAgcHJpbnQoCiAgICAgICAgICAgICAgICBmIldhcm5pbmc6IFNraXBwaW5nIHtmfSBiZWNhdXNlIGl0J3MgZW1wdHkgb3IgbWFsZm9ybWVkLiIsCiAgICAgICAgICAgICAgICBmaWxlPXN5cy5zdGRlcnIsCiAgICAgICAgICAgICkKICAgICAgICAgICAgY29udGludWUKCiAgICAgICAgc2FtcGxlX290dVsic2FtcGxlIl0gPSBuYW1lCiAgICAgICAgb3R1X3RhYmxlID0gcGQuY29uY2F0KFtvdHVfdGFibGUsIHNhbXBsZV9vdHVdLCBpZ25vcmVfaW5kZXg9VHJ1ZSkKCiAgICBkZWYgZ2V0X3NhbXBsZV9jb2xzKGNvbHMpOgogICAgICAgIHJldHVybiBbYyBmb3IgYyBpbiBjb2xzIGlmIGMgbm90IGluIHRheF9jb2xzXQoKICAgIGlmIGFyZ3MudGF4b25vbXkgPT0gIm5jYmkiOgogICAgICAgIG5jYmkgPSBOQ0JJVGF4YSgpCgogICAgICAgICMgR2V0IHVuaXF1ZSB0YXhpZHMgYW5kIHRyYW5zbGF0ZSB0byBzcGVjaWVzIG5hbWVzCiAgICAgICAgdGF4aWRfbGlzdCA9IGxpc3Qob3R1X3RhYmxlWyJ0YXhpZCJdLnVuaXF1ZSgpKQogICAgICAgIHRyYW5zbGF0b3IgPSBuY2JpLmdldF90YXhpZF90cmFuc2xhdG9yKHRheGlkX2xpc3QpCiAgICAgICAgb3R1X3RhYmxlWyJzcGVjaWVzIl0gPSBvdHVfdGFibGVbInRheGlkIl0ubWFwKAogICAgICAgICAgICBsYW1iZGEgdGlkOiB0cmFuc2xhdG9yLmdldChpbnQodGlkKSwgc3RyKHRpZCkpCiAgICAgICAgKQoKICAgICAgICBpZiBub3QgYXJncy5rZWVwX3NwYWNlczoKICAgICAgICAgICAgb3R1X3RhYmxlWyJzcGVjaWVzIl0gPSBvdHVfdGFibGVbInNwZWNpZXMiXS5zdHIucmVwbGFjZSgiICIsICJfIikKCiAgICAgICAgd2lkZV9vdHVfdGFibGUgPSBvdHVfdGFibGUucGl2b3RfdGFibGUoCiAgICAgICAgICAgIGluZGV4PSJzcGVjaWVzIiwgY29sdW1ucz0ic2FtcGxlIiwgdmFsdWVzPSJhYnVuZGFuY2UiCiAgICAgICAgKS5yZXNldF9pbmRleCgpCgogICAgICAgIGlmIGFyZ3MuZnVsbF90YXhvbm9teToKICAgICAgICAgICAgbWFwcGluZyA9IG5jLmJ1aWxkX2xpbmVhZ2VfbWFwcGluZyhuY2JpLCBvdHVfdGFibGUpCiAgICAgICAgICAgIGZvciBjb2wgaW4gdGF4X2NvbHNbOi0xXTogICMgZXhjbHVkZSBzcGVjaWVzCiAgICAgICAgICAgICAgICB3aWRlX290dV90YWJsZVtjb2xdID0gd2lkZV9vdHVfdGFibGVbInNwZWNpZXMiXS5tYXAoCiAgICAgICAgICAgICAgICAgICAgbGFtYmRhIHNwOiBtYXBwaW5nLmdldChzcCwge30pLmdldChjb2wsICIiKQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICBzYW1wbGVfY29scyA9IGdldF9zYW1wbGVfY29scyh3aWRlX290dV90YWJsZS5jb2x1bW5zKQogICAgICAgICAgICB3aWRlX290dV90YWJsZSA9IHdpZGVfb3R1X3RhYmxlW3RheF9jb2xzICsgc2FtcGxlX2NvbHNdCgogICAgICAgICMgQnVpbGQgdHJlZSB1c2luZyBOQ0JJIHRheG9ub215IGFuZCB1cGRhdGUgbGVhZiBuYW1lcwogICAgICAgIHRyZWUgPSBuY2JpLmdldF90b3BvbG9neSh0YXhpZF9saXN0KQogICAgICAgICNmb3IgbGVhZiBpbiB0cmVlLmdldF9sZWF2ZXMoKToKICAgICAgICAgICAgI2xlYWYubmFtZSA9IHRyYW5zbGF0b3IuZ2V0KGludChsZWFmLm5hbWUpLCBsZWFmLm5hbWUpCiAgICAgICAgICAgICNpZiBub3QgYXJncy5rZWVwX3NwYWNlczoKICAgICAgICAgICAgICAgICNsZWFmLm5hbWUgPSBsZWFmLm5hbWUucmVwbGFjZSgiICIsICJfIikKCiAgICAjIEdUREIgdGF4b25vbXkKICAgIGVsc2U6CiAgICAgICAgd2lkZV9vdHVfdGFibGUgPSBvdHVfdGFibGUucGl2b3RfdGFibGUoCiAgICAgICAgICAgIGluZGV4PSJzcGVjaWVzIiwgY29sdW1ucz0ic2FtcGxlIiwgdmFsdWVzPSJhYnVuZGFuY2UiCiAgICAgICAgKS5yZXNldF9pbmRleCgpCgogICAgICAgICMgd2UgZHJvcCB0aGUgc3BlY2llcyBwcmVmaXggaGVyZSBzaW5jZSBzb21lIGRhdGFiYXNlcyBoYXZlIGl0IGFuZCBvdGhlcnMgZG9uJ3QKICAgICAgICB3aWRlX290dV90YWJsZVsic3BlY2llcyJdID0gd2lkZV9vdHVfdGFibGVbInNwZWNpZXMiXS5zdHIucmVwbGFjZSgKICAgICAgICAgICAgciJec19fIiwgIiIsIHJlZ2V4PVRydWUKICAgICAgICApCgogICAgICAgIGlmIG5vdCBhcmdzLmtlZXBfc3BhY2VzOgogICAgICAgICAgICB3aWRlX290dV90YWJsZVsic3BlY2llcyJdID0gd2lkZV9vdHVfdGFibGVbInNwZWNpZXMiXS5zdHIucmVwbGFjZSgiICIsICJfIikKCiAgICAgICAgaWYgYXJncy5mdWxsX3RheG9ub215OgogICAgICAgICAgICBtYXBwaW5nID0gZ3QuYnVpbGRfdGF4b25vbXlfbWFwcGluZygKICAgICAgICAgICAgICAgIFthcmdzLmJhY190YXhvbm9teSwgYXJncy5hcl90YXhvbm9teV0sIGFyZ3Mua2VlcF9zcGFjZXMKICAgICAgICAgICAgKQogICAgICAgICAgICBmb3IgY29sIGluIHRheF9jb2xzWzotMV06ICAjIGV4Y2x1ZGUgc3BlY2llcwogICAgICAgICAgICAgICAgd2lkZV9vdHVfdGFibGVbY29sXSA9IHdpZGVfb3R1X3RhYmxlWyJzcGVjaWVzIl0ubWFwKAogICAgICAgICAgICAgICAgICAgIGxhbWJkYSBzcDogbWFwcGluZy5nZXQoc3AsIHt9KS5nZXQoY29sLCAiIikKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgc2FtcGxlX2NvbHMgPSBnZXRfc2FtcGxlX2NvbHMod2lkZV9vdHVfdGFibGUuY29sdW1ucykKCiAgICAgICAgICAgIHdpZGVfb3R1X3RhYmxlID0gd2lkZV9vdHVfdGFibGVbdGF4X2NvbHMgKyBzYW1wbGVfY29sc10KCiAgICAgICAgIyB1bmlxdWUgc3BlY2llcwogICAgICAgIHNwZWNpZXNfc2V0ID0gc2V0KG90dV90YWJsZVsic3BlY2llcyJdKQoKICAgICAgICAjIGxvYWQgdGF4b25vbWllcwogICAgICAgIGJhY19zcGVjaWVzX3RvX2dlbm9tZXMsIGJhY19nZW5vbWVfdG9fc3BlY2llcyA9IGd0LnByb2Nlc3NfdGF4b25vbXkoCiAgICAgICAgICAgIGFyZ3MuYmFjX3RheG9ub215CiAgICAgICAgKQogICAgICAgIGFyX3NwZWNpZXNfdG9fZ2Vub21lcywgYXJfZ2Vub21lX3RvX3NwZWNpZXMgPSBndC5wcm9jZXNzX3RheG9ub215KAogICAgICAgICAgICBhcmdzLmFyX3RheG9ub215CiAgICAgICAgKQoKICAgICAgICAjIGFkZCBiYWNrIHNwZWNpZXMgcHJlZml4IGZvciBzZWFyY2hpbmcgaW4gR1REQiB0YXhvbm9teSBmaWxlCiAgICAgICAgbXlfc3BlY2llcyA9IHsic19fIiArIHggaWYgbm90IHguc3RhcnRzd2l0aCgic19fIikgZWxzZSB4IGZvciB4IGluIHNwZWNpZXNfc2V0fQoKICAgICAgICBiYWNfZm91bmQsIF8gPSBndC5maW5kX21hdGNoaW5nX3NwZWNpZXMobXlfc3BlY2llcywgYmFjX3NwZWNpZXNfdG9fZ2Vub21lcykKICAgICAgICBhcl9mb3VuZCwgXyA9IGd0LmZpbmRfbWF0Y2hpbmdfc3BlY2llcyhteV9zcGVjaWVzLCBhcl9zcGVjaWVzX3RvX2dlbm9tZXMpCgogICAgICAgIGJhY190cmVlID0gZ3QucHJvY2Vzc190cmVlKGFyZ3MuYmFjX3RyZWUsIGJhY19nZW5vbWVfdG9fc3BlY2llcywgYmFjX2ZvdW5kKQogICAgICAgIGFyX3RyZWUgPSBndC5wcm9jZXNzX3RyZWUoYXJncy5hcl90cmVlLCBhcl9nZW5vbWVfdG9fc3BlY2llcywgYXJfZm91bmQpCgogICAgICAgIHRyZWUgPSBUcmVlMygpCiAgICAgICAgdHJlZS5uYW1lID0gInJvb3QiCiAgICAgICAgdHJlZS5hZGRfY2hpbGQoYmFjX3RyZWUpCiAgICAgICAgdHJlZS5hZGRfY2hpbGQoYXJfdHJlZSkKCiAgICB3aWRlX290dV90YWJsZS50b19jc3YoZiJ7YXJncy5vdXRfcHJlZml4fS5vdHUuY3N2Iiwgc2VwPSIsIiwgaW5kZXg9RmFsc2UpCiAgICB0cmVlLndyaXRlKG91dGZpbGU9ZiJ7YXJncy5vdXRfcHJlZml4fS50cmVlIiwgZm9ybWF0PTEsIHF1b3RlZF9ub2RlX25hbWVzPUZhbHNlKQoKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICBtYWluKCkK" download="gracken.py">gracken.py</a>, which contains an updated code. Once you have it installed, this code will create the phylogentic tree for each dataset ("raw", "trimmed","filtered"...etc) and an OTU table , but we can ignore that.
+We can generate phylogenetic trees from the brcaken data using a package called gracken, which can be installed by `pip install gracken` or from this link (<https://github.com/jonasoh/gracken>). But gracken uses scientific names as phylogenetic tree tip labels whereas here the feature table contains the NCBI taxa IDs, so you can replace the executable python file for gracken in the miniconda path "miniconda/lib/python3.9/site-packages/gracken/" with this file <a href="data:application/octet-stream;base64,aW1wb3J0IG9zCmltcG9ydCBzeXMKaW1wb3J0IGdsb2IKaW1wb3J0IGFyZ3BhcnNlCmltcG9ydCBwYW5kYXMgYXMgcGQKZnJvbSAuIGltcG9ydCBfX3ZlcnNpb25fXwpmcm9tIGV0ZTMgaW1wb3J0IE5DQklUYXhhCmZyb20gLnZhcnMgaW1wb3J0IHRheF9jb2xzCmZyb20gZXRlMyBpbXBvcnQgVHJlZSBhcyBUcmVlMwpmcm9tIC4gaW1wb3J0IG5jYmlfdXRpbHMgYXMgbmMKZnJvbSAuIGltcG9ydCBndGRiX3V0aWxzIGFzIGd0CmZyb20gLmRhdGFfbG9hZGVycyBpbXBvcnQgcmVhZF9icmFja2VuX3JlcG9ydCwgcmVhZF9rcmFrZW4yX3JlcG9ydAoKcGQub3B0aW9ucy5tb2RlLmNvcHlfb25fd3JpdGUgPSBUcnVlCgoKZGVmIHBhcnNlX2FyZ3MoKToKICAgIHBhcnNlciA9IGFyZ3BhcnNlLkFyZ3VtZW50UGFyc2VyKAogICAgICAgIGRlc2NyaXB0aW9uPSJDcmVhdGVzIGEgcGh5bG9nZW5ldGljIHRyZWUgYW5kIE9UVSB0YWJsZSBmcm9tIEJyYWNrZW4vS3Jha2VuMiByZXBvcnRzIGJ5IHBydW5pbmcgR1REQi9OQ0JJIHRyZWVzIgogICAgKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgKICAgICAgICAiLS12ZXJzaW9uIiwKICAgICAgICAiLXYiLAogICAgICAgIGFjdGlvbj0idmVyc2lvbiIsCiAgICAgICAgdmVyc2lvbj1fX3ZlcnNpb25fXywKICAgICAgICBoZWxwPSJzaG93IHByb2dyYW0gdmVyc2lvbiBhbmQgZXhpdCIsCiAgICApCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KAogICAgICAgICItLWlucHV0X2RpciIsCiAgICAgICAgIi1pIiwKICAgICAgICByZXF1aXJlZD1UcnVlLAogICAgICAgIGhlbHA9ImRpcmVjdG9yeSBjb250YWluaW5nIEJyYWNrZW4vS3Jha2VuMiByZXBvcnQgZmlsZXMiLAogICAgKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgKICAgICAgICAiLS1iYWNfdGF4b25vbXkiLAogICAgICAgIGhlbHA9InBhdGggdG8gR1REQiBiYWN0ZXJpYWwgdGF4b25vbXkgZmlsZSIsCiAgICApCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KAogICAgICAgICItLWFyX3RheG9ub215IiwKICAgICAgICBoZWxwPSJwYXRoIHRvIEdUREIgYXJjaGFlYWwgdGF4b25vbXkgZmlsZSIsCiAgICApCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KAogICAgICAgICItLWJhY190cmVlIiwKICAgICAgICBoZWxwPSJwYXRoIHRvIEdUREIgYmFjdGVyaWFsIHRyZWUgZmlsZSIsCiAgICApCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KAogICAgICAgICItLWFyX3RyZWUiLAogICAgICAgIGhlbHA9InBhdGggdG8gR1REQiBhcmNoYWVhbCB0cmVlIGZpbGUiLAogICAgKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgKICAgICAgICAiLS1vdXRfcHJlZml4IiwKICAgICAgICAiLW8iLAogICAgICAgIGRlZmF1bHQ9Im91dHB1dCIsCiAgICAgICAgaGVscD0icHJlZml4IGZvciBvdXRwdXQgZmlsZXMgKGRlZmF1bHQ6IG91dHB1dCkuIENyZWF0ZXMgPHByZWZpeD4udHJlZSBhbmQgPHByZWZpeD4ub3R1LmNzdiIsCiAgICApCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KAogICAgICAgICItLW1vZGUiLAogICAgICAgICItbSIsCiAgICAgICAgY2hvaWNlcz1bImJyYWNrZW4iLCAia3Jha2VuMiJdLAogICAgICAgIGRlZmF1bHQ9ImJyYWNrZW4iLAogICAgICAgIGhlbHA9ImlucHV0IGZpbGUgZm9ybWF0IChkZWZhdWx0OiBicmFja2VuKSIsCiAgICApCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KAogICAgICAgICItLWtlZXAtc3BhY2VzIiwKICAgICAgICBhY3Rpb249InN0b3JlX3RydWUiLAogICAgICAgIGRlZmF1bHQ9RmFsc2UsCiAgICAgICAgaGVscD0ia2VlcCBzcGFjZXMgaW4gc3BlY2llcyBuYW1lcyAoZGVmYXVsdDogRmFsc2UpIiwKICAgICkKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoCiAgICAgICAgIi0tdGF4b25vbXkiLAogICAgICAgICItdCIsCiAgICAgICAgY2hvaWNlcz1bImd0ZGIiLCAibmNiaSJdLAogICAgICAgIGRlZmF1bHQ9Im5jYmkiLAogICAgICAgIGhlbHA9InRheG9ub215IHNvdXJjZSB0byB1c2UgKGRlZmF1bHQ6IG5jYmkpLiIsCiAgICApCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KAogICAgICAgICItLWZ1bGwtdGF4b25vbXkiLAogICAgICAgICItZiIsCiAgICAgICAgYWN0aW9uPSJzdG9yZV90cnVlIiwKICAgICAgICBkZWZhdWx0PUZhbHNlLAogICAgICAgIGhlbHA9ImluY2x1ZGUgZnVsbCB0YXhvbm9teSBpbmZvIGluIE9UVSB0YWJsZSAoZGVmYXVsdDogRmFsc2UpIiwKICAgICkKICAgIGFyZ3MgPSBwYXJzZXIucGFyc2VfYXJncygpCiAgICBpZiBhcmdzLnRheG9ub215ID09ICJndGRiIjoKICAgICAgICBtaXNzaW5nX2FyZ3MgPSBbXQogICAgICAgIGlmIG5vdCBhcmdzLmJhY190YXhvbm9teToKICAgICAgICAgICAgbWlzc2luZ19hcmdzLmFwcGVuZCgiLS1iYWNfdGF4b25vbXkiKQogICAgICAgIGlmIG5vdCBhcmdzLmFyX3RheG9ub215OgogICAgICAgICAgICBtaXNzaW5nX2FyZ3MuYXBwZW5kKCItLWFyX3RheG9ub215IikKICAgICAgICBpZiBub3QgYXJncy5iYWNfdHJlZToKICAgICAgICAgICAgbWlzc2luZ19hcmdzLmFwcGVuZCgiLS1iYWNfdHJlZSIpCiAgICAgICAgaWYgbm90IGFyZ3MuYXJfdHJlZToKICAgICAgICAgICAgbWlzc2luZ19hcmdzLmFwcGVuZCgiLS1hcl90cmVlIikKICAgICAgICBpZiBtaXNzaW5nX2FyZ3M6CiAgICAgICAgICAgIHBhcnNlci5lcnJvcigKICAgICAgICAgICAgICAgICJGb3IgR1REQiB0YXhvbm9teSwgdGhlIGZvbGxvd2luZyBhcmd1bWVudHMgYXJlIHJlcXVpcmVkOiAiCiAgICAgICAgICAgICAgICArICIsICIuam9pbihtaXNzaW5nX2FyZ3MpCiAgICAgICAgICAgICkKICAgIHJldHVybiBhcmdzCgoKZGVmIG1haW4oKToKICAgIGFyZ3MgPSBwYXJzZV9hcmdzKCkKCiAgICAjIGxvYWQgZGF0YSBhbmQgY3JlYXRlIE9UVSB0YWJsZQogICAgb3R1X3RhYmxlID0gcGQuRGF0YUZyYW1lKCkKICAgIGZpbGVfcGF0dGVybiA9ICIqLnJlcG9ydC50eHQiCgogICAgbWF0Y2hpbmdfZmlsZXMgPSBnbG9iLmdsb2Iob3MucGF0aC5qb2luKGFyZ3MuaW5wdXRfZGlyLCBmaWxlX3BhdHRlcm4pKQogICAgaWYgbm90IG1hdGNoaW5nX2ZpbGVzOgogICAgICAgIHByaW50KGYiRXJyb3I6IE5vIHthcmdzLm1vZGV9IGZpbGVzIGZvdW5kIGluIHthcmdzLmlucHV0X2Rpcn0iLCBmaWxlPXN5cy5zdGRlcnIpCiAgICAgICAgc3lzLmV4aXQoMSkKCiAgICBmb3IgZiBpbiBtYXRjaGluZ19maWxlczoKICAgICAgICBuYW1lID0gb3MucGF0aC5zcGxpdGV4dChvcy5wYXRoLmJhc2VuYW1lKGYpKVswXQogICAgICAgIGlmIGFyZ3MubW9kZSA9PSAiYnJhY2tlbiI6CiAgICAgICAgICAgIHNhbXBsZV9vdHUgPSByZWFkX2JyYWNrZW5fcmVwb3J0KGYpCiAgICAgICAgZWxzZToKICAgICAgICAgICAgc2FtcGxlX290dSA9IHJlYWRfa3Jha2VuMl9yZXBvcnQoZikKCiAgICAgICAgIyBDaGVjayBpZiBzYW1wbGVfb3R1IGlzIGVtcHR5IG9yIGRvZXNuJ3QgaGF2ZSB0aGUgcmVxdWlyZWQgY29sdW1ucwogICAgICAgIGlmIHNhbXBsZV9vdHUuZW1wdHkgb3Igbm90IGFsbCgKICAgICAgICAgICAgY29sIGluIHNhbXBsZV9vdHUuY29sdW1ucwogICAgICAgICAgICBmb3IgY29sIGluICgKICAgICAgICAgICAgICAgIFsidGF4aWQiLCAiYWJ1bmRhbmNlIl0KICAgICAgICAgICAgICAgIGlmIGFyZ3MudGF4b25vbXkgPT0gIm5jYmkiCiAgICAgICAgICAgICAgICBlbHNlIFsic3BlY2llcyIsICJhYnVuZGFuY2UiXQogICAgICAgICAgICApCiAgICAgICAgKToKICAgICAgICAgICAgcHJpbnQoCiAgICAgICAgICAgICAgICBmIldhcm5pbmc6IFNraXBwaW5nIHtmfSBiZWNhdXNlIGl0J3MgZW1wdHkgb3IgbWFsZm9ybWVkLiIsCiAgICAgICAgICAgICAgICBmaWxlPXN5cy5zdGRlcnIsCiAgICAgICAgICAgICkKICAgICAgICAgICAgY29udGludWUKCiAgICAgICAgc2FtcGxlX290dVsic2FtcGxlIl0gPSBuYW1lCiAgICAgICAgb3R1X3RhYmxlID0gcGQuY29uY2F0KFtvdHVfdGFibGUsIHNhbXBsZV9vdHVdLCBpZ25vcmVfaW5kZXg9VHJ1ZSkKCiAgICBkZWYgZ2V0X3NhbXBsZV9jb2xzKGNvbHMpOgogICAgICAgIHJldHVybiBbYyBmb3IgYyBpbiBjb2xzIGlmIGMgbm90IGluIHRheF9jb2xzXQoKICAgIGlmIGFyZ3MudGF4b25vbXkgPT0gIm5jYmkiOgogICAgICAgIG5jYmkgPSBOQ0JJVGF4YSgpCgogICAgICAgICMgR2V0IHVuaXF1ZSB0YXhpZHMgYW5kIHRyYW5zbGF0ZSB0byBzcGVjaWVzIG5hbWVzCiAgICAgICAgdGF4aWRfbGlzdCA9IGxpc3Qob3R1X3RhYmxlWyJ0YXhpZCJdLnVuaXF1ZSgpKQogICAgICAgIHRyYW5zbGF0b3IgPSBuY2JpLmdldF90YXhpZF90cmFuc2xhdG9yKHRheGlkX2xpc3QpCiAgICAgICAgb3R1X3RhYmxlWyJzcGVjaWVzIl0gPSBvdHVfdGFibGVbInRheGlkIl0ubWFwKAogICAgICAgICAgICBsYW1iZGEgdGlkOiB0cmFuc2xhdG9yLmdldChpbnQodGlkKSwgc3RyKHRpZCkpCiAgICAgICAgKQoKICAgICAgICBpZiBub3QgYXJncy5rZWVwX3NwYWNlczoKICAgICAgICAgICAgb3R1X3RhYmxlWyJzcGVjaWVzIl0gPSBvdHVfdGFibGVbInNwZWNpZXMiXS5zdHIucmVwbGFjZSgiICIsICJfIikKCiAgICAgICAgd2lkZV9vdHVfdGFibGUgPSBvdHVfdGFibGUucGl2b3RfdGFibGUoCiAgICAgICAgICAgIGluZGV4PSJzcGVjaWVzIiwgY29sdW1ucz0ic2FtcGxlIiwgdmFsdWVzPSJhYnVuZGFuY2UiCiAgICAgICAgKS5yZXNldF9pbmRleCgpCgogICAgICAgIGlmIGFyZ3MuZnVsbF90YXhvbm9teToKICAgICAgICAgICAgbWFwcGluZyA9IG5jLmJ1aWxkX2xpbmVhZ2VfbWFwcGluZyhuY2JpLCBvdHVfdGFibGUpCiAgICAgICAgICAgIGZvciBjb2wgaW4gdGF4X2NvbHNbOi0xXTogICMgZXhjbHVkZSBzcGVjaWVzCiAgICAgICAgICAgICAgICB3aWRlX290dV90YWJsZVtjb2xdID0gd2lkZV9vdHVfdGFibGVbInNwZWNpZXMiXS5tYXAoCiAgICAgICAgICAgICAgICAgICAgbGFtYmRhIHNwOiBtYXBwaW5nLmdldChzcCwge30pLmdldChjb2wsICIiKQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICBzYW1wbGVfY29scyA9IGdldF9zYW1wbGVfY29scyh3aWRlX290dV90YWJsZS5jb2x1bW5zKQogICAgICAgICAgICB3aWRlX290dV90YWJsZSA9IHdpZGVfb3R1X3RhYmxlW3RheF9jb2xzICsgc2FtcGxlX2NvbHNdCgogICAgICAgICMgQnVpbGQgdHJlZSB1c2luZyBOQ0JJIHRheG9ub215IGFuZCB1cGRhdGUgbGVhZiBuYW1lcwogICAgICAgIHRyZWUgPSBuY2JpLmdldF90b3BvbG9neSh0YXhpZF9saXN0KQogICAgICAgICNmb3IgbGVhZiBpbiB0cmVlLmdldF9sZWF2ZXMoKToKICAgICAgICAgICAgI2xlYWYubmFtZSA9IHRyYW5zbGF0b3IuZ2V0KGludChsZWFmLm5hbWUpLCBsZWFmLm5hbWUpCiAgICAgICAgICAgICNpZiBub3QgYXJncy5rZWVwX3NwYWNlczoKICAgICAgICAgICAgICAgICNsZWFmLm5hbWUgPSBsZWFmLm5hbWUucmVwbGFjZSgiICIsICJfIikKCiAgICAjIEdUREIgdGF4b25vbXkKICAgIGVsc2U6CiAgICAgICAgd2lkZV9vdHVfdGFibGUgPSBvdHVfdGFibGUucGl2b3RfdGFibGUoCiAgICAgICAgICAgIGluZGV4PSJzcGVjaWVzIiwgY29sdW1ucz0ic2FtcGxlIiwgdmFsdWVzPSJhYnVuZGFuY2UiCiAgICAgICAgKS5yZXNldF9pbmRleCgpCgogICAgICAgICMgd2UgZHJvcCB0aGUgc3BlY2llcyBwcmVmaXggaGVyZSBzaW5jZSBzb21lIGRhdGFiYXNlcyBoYXZlIGl0IGFuZCBvdGhlcnMgZG9uJ3QKICAgICAgICB3aWRlX290dV90YWJsZVsic3BlY2llcyJdID0gd2lkZV9vdHVfdGFibGVbInNwZWNpZXMiXS5zdHIucmVwbGFjZSgKICAgICAgICAgICAgciJec19fIiwgIiIsIHJlZ2V4PVRydWUKICAgICAgICApCgogICAgICAgIGlmIG5vdCBhcmdzLmtlZXBfc3BhY2VzOgogICAgICAgICAgICB3aWRlX290dV90YWJsZVsic3BlY2llcyJdID0gd2lkZV9vdHVfdGFibGVbInNwZWNpZXMiXS5zdHIucmVwbGFjZSgiICIsICJfIikKCiAgICAgICAgaWYgYXJncy5mdWxsX3RheG9ub215OgogICAgICAgICAgICBtYXBwaW5nID0gZ3QuYnVpbGRfdGF4b25vbXlfbWFwcGluZygKICAgICAgICAgICAgICAgIFthcmdzLmJhY190YXhvbm9teSwgYXJncy5hcl90YXhvbm9teV0sIGFyZ3Mua2VlcF9zcGFjZXMKICAgICAgICAgICAgKQogICAgICAgICAgICBmb3IgY29sIGluIHRheF9jb2xzWzotMV06ICAjIGV4Y2x1ZGUgc3BlY2llcwogICAgICAgICAgICAgICAgd2lkZV9vdHVfdGFibGVbY29sXSA9IHdpZGVfb3R1X3RhYmxlWyJzcGVjaWVzIl0ubWFwKAogICAgICAgICAgICAgICAgICAgIGxhbWJkYSBzcDogbWFwcGluZy5nZXQoc3AsIHt9KS5nZXQoY29sLCAiIikKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgc2FtcGxlX2NvbHMgPSBnZXRfc2FtcGxlX2NvbHMod2lkZV9vdHVfdGFibGUuY29sdW1ucykKCiAgICAgICAgICAgIHdpZGVfb3R1X3RhYmxlID0gd2lkZV9vdHVfdGFibGVbdGF4X2NvbHMgKyBzYW1wbGVfY29sc10KCiAgICAgICAgIyB1bmlxdWUgc3BlY2llcwogICAgICAgIHNwZWNpZXNfc2V0ID0gc2V0KG90dV90YWJsZVsic3BlY2llcyJdKQoKICAgICAgICAjIGxvYWQgdGF4b25vbWllcwogICAgICAgIGJhY19zcGVjaWVzX3RvX2dlbm9tZXMsIGJhY19nZW5vbWVfdG9fc3BlY2llcyA9IGd0LnByb2Nlc3NfdGF4b25vbXkoCiAgICAgICAgICAgIGFyZ3MuYmFjX3RheG9ub215CiAgICAgICAgKQogICAgICAgIGFyX3NwZWNpZXNfdG9fZ2Vub21lcywgYXJfZ2Vub21lX3RvX3NwZWNpZXMgPSBndC5wcm9jZXNzX3RheG9ub215KAogICAgICAgICAgICBhcmdzLmFyX3RheG9ub215CiAgICAgICAgKQoKICAgICAgICAjIGFkZCBiYWNrIHNwZWNpZXMgcHJlZml4IGZvciBzZWFyY2hpbmcgaW4gR1REQiB0YXhvbm9teSBmaWxlCiAgICAgICAgbXlfc3BlY2llcyA9IHsic19fIiArIHggaWYgbm90IHguc3RhcnRzd2l0aCgic19fIikgZWxzZSB4IGZvciB4IGluIHNwZWNpZXNfc2V0fQoKICAgICAgICBiYWNfZm91bmQsIF8gPSBndC5maW5kX21hdGNoaW5nX3NwZWNpZXMobXlfc3BlY2llcywgYmFjX3NwZWNpZXNfdG9fZ2Vub21lcykKICAgICAgICBhcl9mb3VuZCwgXyA9IGd0LmZpbmRfbWF0Y2hpbmdfc3BlY2llcyhteV9zcGVjaWVzLCBhcl9zcGVjaWVzX3RvX2dlbm9tZXMpCgogICAgICAgIGJhY190cmVlID0gZ3QucHJvY2Vzc190cmVlKGFyZ3MuYmFjX3RyZWUsIGJhY19nZW5vbWVfdG9fc3BlY2llcywgYmFjX2ZvdW5kKQogICAgICAgIGFyX3RyZWUgPSBndC5wcm9jZXNzX3RyZWUoYXJncy5hcl90cmVlLCBhcl9nZW5vbWVfdG9fc3BlY2llcywgYXJfZm91bmQpCgogICAgICAgIHRyZWUgPSBUcmVlMygpCiAgICAgICAgdHJlZS5uYW1lID0gInJvb3QiCiAgICAgICAgdHJlZS5hZGRfY2hpbGQoYmFjX3RyZWUpCiAgICAgICAgdHJlZS5hZGRfY2hpbGQoYXJfdHJlZSkKCiAgICB3aWRlX290dV90YWJsZS50b19jc3YoZiJ7YXJncy5vdXRfcHJlZml4fS5vdHUuY3N2Iiwgc2VwPSIsIiwgaW5kZXg9RmFsc2UpCiAgICB0cmVlLndyaXRlKG91dGZpbGU9ZiJ7YXJncy5vdXRfcHJlZml4fS50cmVlIiwgZm9ybWF0PTEsIHF1b3RlZF9ub2RlX25hbWVzPUZhbHNlKQoKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICBtYWluKCkK" download="gracken.py">gracken.py</a>, which contains an updated code. Once you have it installed, this code will create the phylogentic tree for each dataset ("raw", "trimmed","filtered"...etc) and an OTU table , but we can ignore that.
 
 ```{bash,eval=FALSE,echo=TRUE}
 mkdir -p bracken-outputs
@@ -309,7 +313,7 @@ qiime moshpit classify-kaiju \
 	--use-cache cache \
 	--verbose
 ```
- 
+
 The output from Kaiju is a BIOM formated feature table (.biom) and a taxonomy file.
 
 Feature Table from Kaiju:
@@ -319,6 +323,7 @@ kaijutable<-as.data.frame(as.matrix(biomformat::biom_data(read_biom("Kaiju Taxon
 head(kaijutable)
 
 ```
+
 Taxonomy from Kaiju:
 
 ```{r KaijuTaxonomy, echo=FALSE}
@@ -329,7 +334,7 @@ head(kaijutaxonomy)
 
 ## **7. Taxonomic Classification using Metaphlan**
 
-MetaPhlAn 4 relies on unique clade-specific marker genes identified from ~1M microbial genomes for taxonomic assignment of metgenome sequence reads. Metaphlan 4.1.1 was used as a standalone installation as a miniconda environment, whose installation information can be gathered from <a href="https://github.com/biobakery/MetaPhlAn/wiki/MetaPhlAn-4.1">here</a>. Metaphlan automatically downloads its latest database "ChocoPhlan" when you use it for the first time, but you can also do it manually with this ```$ metaphlan --install --index <latest database index> --bowtie2db <database folder>```. The latest database indices can be found <a href="http://cmprod1.cibio.unitn.it/biobakery4/metaphlan_databases/">here</a>. Once everything is installed, the following code was used to perform classification using Metaphlan for our datasets.
+MetaPhlAn 4 relies on unique clade-specific marker genes identified from \~1M microbial genomes for taxonomic assignment of metgenome sequence reads. Metaphlan 4.1.1 was used as a standalone installation as a miniconda environment, whose installation information can be gathered from <a href="https://github.com/biobakery/MetaPhlAn/wiki/MetaPhlAn-4.1">here</a>. Metaphlan automatically downloads its latest database "ChocoPhlan" when you use it for the first time, but you can also do it manually with this `$ metaphlan --install --index <latest database index> --bowtie2db <database folder>`. The latest database indices can be found <a href="http://cmprod1.cibio.unitn.it/biobakery4/metaphlan_databases/">here</a>. Once everything is installed, the following code was used to perform classification using Metaphlan for our datasets.
 
 ```{bash,eval=FALSE,echo=TRUE}
 
@@ -367,16 +372,16 @@ content<-readLines("MetaphlanOutput/trimmed-filtered/1-MDcol002-5-2.output.txt")
 numbered_lines <- paste("[",seq_along(content), "]  ",content, sep = "")
 writeLines(numbered_lines[1:20])
 ```
-The file has a five line header (lines beginning with #). We've added [i]s (line numbers) to the header text above to help call out their roles more clearly.
 
-  1. Indicates the version of the marker gene database that MetaPhlAn used in this run. There are currently ~1.1M unique clade-specific marker genes identified from ~100k reference genomes (~99,500 bacterial and archaeal and ~500 eukaryotic) included in the database.
-  2. Provides a copy of the command that was run to produce this profile. This includes the path to the MetaPhlAn executable, the input file that was analyzed, and any custom parameters that were configured.
-  3. Indicates the number of sample reads processed.
-  4. Lists your sample name.
-  5. Provides column headers from the profile data that follows.
-More specifically, [5] includes four headers to be familiar with:
+The file has a five line header (lines beginning with \#). We've added [i]s (line numbers) to the header text above to help call out their roles more clearly.
 
-**clade_name**: The taxonomic lineage of the taxon reported on this line, ranging from Kingdom (e.g. Bacteria/Archaea) to species genome bin (SGB). Taxon names are prefixed to help indicate their rank: Kingdom: k__, Phylum: p__, Class: c__, Order: o__, Family: f__, Genus: g__, Species: s__, and SGB: t__.
+1.  Indicates the version of the marker gene database that MetaPhlAn used in this run. There are currently \~1.1M unique clade-specific marker genes identified from \~100k reference genomes (\~99,500 bacterial and archaeal and \~500 eukaryotic) included in the database.
+2.  Provides a copy of the command that was run to produce this profile. This includes the path to the MetaPhlAn executable, the input file that was analyzed, and any custom parameters that were configured.
+3.  Indicates the number of sample reads processed.
+4.  Lists your sample name.
+5.  Provides column headers from the profile data that follows. More specifically, [5] includes four headers to be familiar with:
+
+**clade_name**: The taxonomic lineage of the taxon reported on this line, ranging from Kingdom (e.g. Bacteria/Archaea) to species genome bin (SGB). Taxon names are prefixed to help indicate their rank: Kingdom: k\_\_, Phylum: p**, Class: c**, Order: o**, Family: f**, Genus: g**, Species: s**, and SGB: t\_\_.
 
 **NCBI_tax_id**: The NCBI-equivalent taxon IDs of the named taxa from clade_name.
 
@@ -386,7 +391,7 @@ More specifically, [5] includes four headers to be familiar with:
 
 ## **8. Functional annotation using Humann 3.9**
 
-HUMAnN is a pipeline for efficiently and accurately profiling the presence/absence and abundance of microbial pathways in a community from metagenomic or metatranscriptomic sequencing data (typically millions of short DNA/RNA reads). This process, referred to as functional profiling, aims to describe the metabolic potential of a microbial community and its members. You can install Humann 3.9 as a stand-alone through <a href="https://github.com/biobakery/humann">here</s>. Once installed, it automatically downloads the ChocoPhlan database (if not already installed) to do taxonomic analysis using Metaphlan on its first run, but you will have to download the translated search database for anotation. You can do it using this code ```humann_databases --download uniref uniref90_diamond $INSTALL_LOCATION```, which will download the full UniRef90 database used in our analysis. After that, run this code to annotate the sequences using HUMAnN. (P.S: Unlike MetaPhlan, HUMAnN cannpot parse paired read sequences, so we will have to first concatenate both reads from each sample into a single .fastq file and then send it off for functional annotation)
+HUMAnN is a pipeline for efficiently and accurately profiling the presence/absence and abundance of microbial pathways in a community from metagenomic or metatranscriptomic sequencing data (typically millions of short DNA/RNA reads). This process, referred to as functional profiling, aims to describe the metabolic potential of a microbial community and its members. You can install Humann 3.9 as a stand-alone through <a href="https://github.com/biobakery/humann">here</a>. Once installed, it automatically downloads the ChocoPhlan database (if not already installed) to do taxonomic analysis using Metaphlan on its first run, but you will have to download the translated search database for anotation. You can do it using this code `humann_databases --download uniref uniref90_diamond $INSTALL_LOCATION`, which will download the full UniRef90 database used in our analysis. After that, run this code to annotate the sequences using HUMAnN. (P.S: Unlike MetaPhlan, HUMAnN cannpot parse paired read sequences, so we will have to first concatenate both reads from each sample into a single .fastq file and then send it off for functional annotation)
 
 ```{bash,eval=FALSE,echo=TRUE}
 name="trimmed-filtered"       #Dataset name
@@ -417,7 +422,7 @@ done
 rm -rf concatenated       #deleting the folder storing the conactenated reads
 ```
 
-HUMAnN output consists of three files: Gene families file (```$SAMPLENAME_genefamilies.tsv```), Path Coverage file (```$SAMPLENAME_pathcoverage.tsv```), and Path Abundance file (```$SAMPLENAME_pathabundance.tsv```).
+HUMAnN output consists of three files: Gene families file (`$SAMPLENAME_genefamilies.tsv`), Path Coverage file (`$SAMPLENAME_pathcoverage.tsv`), and Path Abundance file (`$SAMPLENAME_pathabundance.tsv`).
 
 The **gene families file** contains the the abundance of each gene family in the community. Gene families are groups of evolutionarily-related protein-coding sequences that often perform similar functions. Gene family abundance at the community level is stratified to show the contributions from known and unknown species. Individual species' abundance contributions sum to the community total abundance. Gene family abundance is reported in RPK (reads per kilobase) units to normalize for gene length; RPK units reflect relative gene (or transcript) copy number in the community.
 
@@ -430,7 +435,6 @@ df<-colnames(humanngenfamily)%>%
 colnames(humanngenfamily)<-df
 head(humanngenfamily)
 ```
-
 
 The **path coverage file** provides information on the completeness of metabolic pathways in a given sample. It contains two main columns: Pathway, which lists metabolic pathway identifiers, and Coverage, which represents the proportion of the pathway detected in the sample as a value between 0 and 1. A coverage value of 0.00 indicates that the pathway is absent, 0.50 suggests that half of its reactions are present, and 1.00 means the pathway is fully reconstructed. These pathway identifiers are derived from the MetaCyc database.
 
@@ -505,16 +509,19 @@ for (biom in Kaijubioms){
 ```
 
 Sample Kaiju feature table
+
 ```{r, echo=FALSE}
 head(OTUtable)
 ```
 
 Sample Kaiju taxonomy file
+
 ```{r, echo=FALSE}
 head(taxatable)
 ```
 
 Sample Kaiju combined abundance table
+
 ```{r, echo=FALSE}
 head(Abundance)
 ```
@@ -523,10 +530,10 @@ head(Abundance)
 
 The following code packages the feature table and the taxonomy file into a single phyloseq object for the datasets ("raw", "trimmed-filtered" etc). A Phyloseq object usually contains,
 
-  - a **sample metadata**, which contains the sample IDs and metadata pertaining to it.
-  - a **feature table**, which is a matrix where the rows are the taxa/feature and columns are the sample IDs with read count for each taxa/feature.
-  - a **taxonomy file**, which is a matrix where the rows are the taxa/feature and columns are the taxonomy path for each taxa/feature.
-  - a **phylogenetic tree**, a  phylogenetic tree with the taxa/feature as the tip labels.
+-   a **sample metadata**, which contains the sample IDs and metadata pertaining to it.
+-   a **feature table**, which is a matrix where the rows are the taxa/feature and columns are the sample IDs with read count for each taxa/feature.
+-   a **taxonomy file**, which is a matrix where the rows are the taxa/feature and columns are the taxonomy path for each taxa/feature.
+-   a **phylogenetic tree**, a phylogenetic tree with the taxa/feature as the tip labels.
 
 The phyloseq object can be made with one or more of these data file.
 
@@ -558,10 +565,12 @@ for (biom in Kaijubioms){
 ```
 
 Summary of the sample phyloseq object
+
 ```{r, echo=FALSE}
 summary(physeq)
 physeq
 ```
+
 ## **10. Transforming Kraken2-Bracken Data**
 
 The following code is to read the Bracken feature table (.biom) and Bracken taxonomy, merge them together to create an abundance table that has both the taxonomy and the reads in each sample for each taxa.
@@ -591,6 +600,7 @@ for(each in brackentables){
   }
 }
 ```
+
 Sample Bracken feature table, taxonomy and combined abundance table
 
 ```{r, echo=FALSE}
@@ -598,9 +608,10 @@ head(table)
 head(taxonomy)
 head(taxatable)
 ```
+
 ### **Creating Phyloseq Objects for the Kraken2-Bracken data**
 
-The following code packages the feature table, taxonomy file, and the phylogeentic tree (obtained from gracken, see Step 5) into a single phyloseq object for the datasets ("raw", "trimmed-filtered" etc). 
+The following code packages the feature table, taxonomy file, and the phylogeentic tree (obtained from gracken, see Step 5) into a single phyloseq object for the datasets ("raw", "trimmed-filtered" etc).
 
 ```{r Creating Bracken Phyloseq}
 
@@ -699,6 +710,7 @@ content<-readLines("MetaphlanOutput/trimmed-filtered/1-MDcol002-5-2.output.txt")
 numbered_lines <- paste("[",seq_along(content), "]  ",content, sep = "")
 writeLines(numbered_lines[1:20])
 ```
+
 Sample taxonomy and feature table extracted from the MetaPhlan outputs
 
 ```{r, echo=FALSE}
@@ -793,28 +805,38 @@ for (folder in HumannOutput){
 ```
 
 Sample pathway abundance file
+
 ```{r, echo=FALSE}
 head(abundance)
 ```
+
 Combined pathway abundances of all samples in a dataset
+
 ```{r, echo=FALSE}
 head(as.data.frame(AllAbundance))
 ```
+
 Sample pathway coverage file
+
 ```{r, echo=FALSE}
 head(coverage)
 ```
+
 Combined pathway coverage of all samples in a dataset
+
 ```{r, echo=FALSE}
 head(as.data.frame(AllCoverage))
 ```
+
 Sample gene family abundance file
+
 ```{r, echo=FALSE}
 head(RPK)
 ```
+
 Combined gene family abundances of all samples in a dataset
+
 ```{r, echo=FALSE}
 head(as.data.frame(AllRPK))
 rm(AllRPK)
 ```
-

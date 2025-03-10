@@ -1629,8 +1629,8 @@ Sequencing Data</h1>
 </div>
 
 
-<div id="introduction" class="section level1">
-<h1><strong>Introduction</strong></h1>
+<div id="introduction" class="section level2">
+<h2><strong>Introduction</strong></h2>
 <p>This code includes the bash code for performing Whole-genome Sequence
 analysis on the Stool samples using Trimmomatic, Bowtie, Kraken,
 Bracken, Kaiju, Metaphlan, and Humann.The paired sequences (“raw”) were
@@ -1651,6 +1651,7 @@ algorithm. The raw, trimmed, trimmed-filtered sequences were also
 functionally annotated using Humann 3.9. The resultant taxonomic
 classification data and functional annotation data were transformed and
 compiled into phyloseq objects in R.</p>
+</div>
 <div id="prerequisites" class="section level2">
 <h2><strong>Prerequisites</strong></h2>
 <ol style="list-style-type: decimal">
@@ -2014,7 +2015,7 @@ qiime moshpit classify-kaiju \
     --use-cache cache \
     --verbose</code></pre>
 <p>The output from Kaiju is a BIOM formated feature table (.biom) and a
-taxonmy file.</p>
+taxonomy file.</p>
 <p>Feature Table from Kaiju:</p>
 <div data-pagedtable="false">
 <script data-pagedtable-source type="application/json">
@@ -2034,11 +2035,13 @@ taxonmy file.</p>
 from ~1M microbial genomes for taxonomic assignment of metgenome
 sequence reads. Metaphlan 4.1.1 was used as a standalone installation as
 a miniconda environment, whose installation information can be gathered
-from here (<a href="https://github.com/biobakery/MetaPhlAn/wiki/MetaPhlAn-4.1" class="uri">https://github.com/biobakery/MetaPhlAn/wiki/MetaPhlAn-4.1</a>).
+from
+<a href="https://github.com/biobakery/MetaPhlAn/wiki/MetaPhlAn-4.1">here</a>.
 Metaphlan automatically downloads its latest database “ChocoPhlan” when
 you use it for the first time, but you can also do it manually with this
 <code>$ metaphlan --install --index &lt;latest database index&gt; --bowtie2db &lt;database folder&gt;</code>.
-The latest database indices can be found here (<a href="http://cmprod1.cibio.unitn.it/biobakery4/metaphlan_databases/" class="uri">http://cmprod1.cibio.unitn.it/biobakery4/metaphlan_databases/</a>).
+The latest database indices can be found
+<a href="http://cmprod1.cibio.unitn.it/biobakery4/metaphlan_databases/">here</a>.
 Once everything is installed, the following code was used to perform
 classification using Metaphlan for our datasets.</p>
 <pre class="bash"><code>
@@ -2130,9 +2133,9 @@ presence/absence and abundance of microbial pathways in a community from
 metagenomic or metatranscriptomic sequencing data (typically millions of
 short DNA/RNA reads). This process, referred to as functional profiling,
 aims to describe the metabolic potential of a microbial community and
-its members. You can install Humann 3.9 as a stand-alone through here
-(<a href="https://github.com/biobakery/humann" class="uri">https://github.com/biobakery/humann</a>). Once installed, it
-automatically downloads the ChocoPhlan database (if not already
+its members. You can install Humann 3.9 as a stand-alone through
+<a href="https://github.com/biobakery/humann">here</s>. Once installed,
+it automatically downloads the ChocoPhlan database (if not already
 installed) to do taxonomic analysis using Metaphlan on its first run,
 but you will have to download the translated search database for
 anotation. You can do it using this code
@@ -2260,19 +2263,19 @@ for (biom in Kaijubioms){
     write_xlsx(Abundance,paste(&quot;Kaiju Taxonomy Abundance/kaiju_abun-&quot;,name,&quot;.xlsx&quot;,sep=&quot;&quot;))   #Writing the table as an excel file
   }
 }</code></pre>
-Sample Kaiju feature table
+<p>Sample Kaiju feature table</p>
 <div data-pagedtable="false">
 <script data-pagedtable-source type="application/json">
 {"columns":[{"label":[""],"name":["_rn_"],"type":[""],"align":["left"]},{"label":["Feature.ID"],"name":[1],"type":["chr"],"align":["left"]},{"label":["1-MDcol002-5-2"],"name":[2],"type":["dbl"],"align":["right"]},{"label":["11-MDCol002-label-12-on-bottle"],"name":[3],"type":["dbl"],"align":["right"]},{"label":["14-MDCOL003-Stool-1B-Baseline-BSB-2-4-1-4"],"name":[4],"type":["dbl"],"align":["right"]},{"label":["15-MDcol004-3-1-pretreat"],"name":[5],"type":["dbl"],"align":["right"]},{"label":["17-MDCOL006-3-1A"],"name":[6],"type":["dbl"],"align":["right"]},{"label":["19-MDCOL006-3-2A"],"name":[7],"type":["dbl"],"align":["right"]},{"label":["21-MDCOL006-2-pre-chemo-A"],"name":[8],"type":["dbl"],"align":["right"]},{"label":["23-MDcol033-1A"],"name":[9],"type":["dbl"],"align":["right"]},{"label":["25-MDcol036-1A"],"name":[10],"type":["dbl"],"align":["right"]},{"label":["27-MDcol025-1B"],"name":[11],"type":["dbl"],"align":["right"]},{"label":["28-7A-1-1"],"name":[12],"type":["dbl"],"align":["right"]},{"label":["29-7A"],"name":[13],"type":["dbl"],"align":["right"]},{"label":["3-MDcol002-5-1"],"name":[14],"type":["dbl"],"align":["right"]},{"label":["30-8B"],"name":[15],"type":["dbl"],"align":["right"]},{"label":["31-8B"],"name":[16],"type":["dbl"],"align":["right"]},{"label":["33-6-2"],"name":[17],"type":["dbl"],"align":["right"]},{"label":["36-40-1B"],"name":[18],"type":["dbl"],"align":["right"]},{"label":["38-S-Swanson"],"name":[19],"type":["dbl"],"align":["right"]},{"label":["40-MDCol002-7-43"],"name":[20],"type":["dbl"],"align":["right"]},{"label":["42-51-1B"],"name":[21],"type":["dbl"],"align":["right"]},{"label":["45-MDCOL005-1B"],"name":[22],"type":["dbl"],"align":["right"]},{"label":["46-MDCOL015-1a"],"name":[23],"type":["dbl"],"align":["right"]},{"label":["48-MDCOL039-1a"],"name":[24],"type":["dbl"],"align":["right"]},{"label":["5-MDCOL055-Stool-1A-Baseline-BSB-2-4-1-2"],"name":[25],"type":["dbl"],"align":["right"]},{"label":["50-MDCOL027-1a"],"name":[26],"type":["dbl"],"align":["right"]},{"label":["52-MDCOL021-1b"],"name":[27],"type":["dbl"],"align":["right"]},{"label":["54-MDCOL028-1b"],"name":[28],"type":["dbl"],"align":["right"]},{"label":["60-MDcol006-4-1A"],"name":[29],"type":["dbl"],"align":["right"]},{"label":["63-MDcol003-3-2"],"name":[30],"type":["dbl"],"align":["right"]},{"label":["65-MDCOL003-Post-Chemo-Collection-Cycle-1-A"],"name":[31],"type":["dbl"],"align":["right"]},{"label":["66-MDCOL004-1A"],"name":[32],"type":["dbl"],"align":["right"]},{"label":["68-MDCOL003-3-1-Before-Chemo-2-3A"],"name":[33],"type":["dbl"],"align":["right"]},{"label":["7-MDCOL058-Stool-1A-Baseline-BSB-2-4-1-3"],"name":[34],"type":["dbl"],"align":["right"]},{"label":["70-MDCOL004-3-2-Post-Chemo-A"],"name":[35],"type":["dbl"],"align":["right"]},{"label":["72-MDCOL003-4-1-4A-Before-Chemo-6"],"name":[36],"type":["dbl"],"align":["right"]},{"label":["75-MDCOL053-1-1-1-Unknown"],"name":[37],"type":["dbl"],"align":["right"]},{"label":["9-MDCOL062-Stool-1A-Baseline-BSB-2-4-1-3"],"name":[38],"type":["dbl"],"align":["right"]}],"data":[{"1":"0","2":"107567","3":"128946","4":"92867","5":"164303","6":"66642","7":"70074","8":"166933","9":"74818","10":"104008","11":"117792","12":"118937","13":"78699","14":"154777","15":"42339","16":"129679","17":"103400","18":"171450","19":"235039","20":"189626","21":"115278","22":"118226","23":"134994","24":"135414","25":"60250","26":"164912","27":"56900","28":"86452","29":"101341","30":"37508","31":"77198","32":"33754","33":"63548","34":"47689","35":"13449","36":"48576","37":"88590","38":"110828","_rn_":"1"},{"1":"100886","2":"1063","3":"1096","4":"568","5":"856","6":"0","7":"0","8":"1157","9":"0","10":"872","11":"844","12":"710","13":"478","14":"828","15":"294","16":"983","17":"635","18":"1406","19":"2095","20":"1769","21":"600","22":"0","23":"572","24":"867","25":"449","26":"7133","27":"466","28":"0","29":"0","30":"0","31":"807","32":"0","33":"425","34":"331","35":"0","36":"377","37":"847","38":"999","_rn_":"2"},{"1":"102148","2":"0","3":"0","4":"0","5":"734","6":"0","7":"0","8":"0","9":"0","10":"0","11":"0","12":"0","13":"0","14":"0","15":"0","16":"546","17":"395","18":"0","19":"0","20":"0","21":"0","22":"0","23":"853","24":"0","25":"0","26":"794","27":"1650","28":"810","29":"0","30":"0","31":"0","32":"0","33":"0","34":"0","35":"0","36":"0","37":"0","38":"0","_rn_":"3"},{"1":"10239","2":"297","3":"344","4":"2207","5":"84670","6":"204","7":"383","8":"520","9":"34634","10":"515","11":"17373","12":"791","13":"737","14":"612","15":"448","16":"572","17":"261","18":"513","19":"2850","20":"388","21":"818","22":"8271","23":"319","24":"4953","25":"215","26":"5663","27":"58791","28":"1695","29":"331","30":"13311","31":"1801","32":"5560","33":"3058","34":"152","35":"3811","36":"416","37":"1170","38":"768","_rn_":"4"},{"1":"1042156","2":"754","3":"1061","4":"2083","5":"2220","6":"0","7":"0","8":"0","9":"622","10":"1147","11":"1995","12":"903","13":"487","14":"1068","15":"396","16":"1662","17":"1231","18":"1234","19":"3699","20":"1598","21":"828","22":"1787","23":"1931","24":"2704","25":"462","26":"2632","27":"1061","28":"0","29":"1153","30":"0","31":"2536","32":"0","33":"1490","34":"397","35":"0","36":"737","37":"1560","38":"2020","_rn_":"5"},{"1":"105841","2":"837","3":"1093","4":"1655","5":"938","6":"455","7":"861","8":"3895","9":"3628","10":"6639","11":"1165","12":"908","13":"504","14":"1193","15":"387","16":"1983","17":"1360","18":"1506","19":"2764","20":"1913","21":"1098","22":"2961","23":"6302","24":"1430","25":"438","26":"1403","27":"21548","28":"1187","29":"5279","30":"0","31":"1480","32":"0","33":"1099","34":"385","35":"0","36":"865","37":"747","38":"1068","_rn_":"6"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
   </script>
 </div>
-Sample Kaiju taxonomy file
+<p>Sample Kaiju taxonomy file</p>
 <div data-pagedtable="false">
 <script data-pagedtable-source type="application/json">
 {"columns":[{"label":[""],"name":["_rn_"],"type":[""],"align":["left"]},{"label":["Feature.ID"],"name":[1],"type":["chr"],"align":["left"]},{"label":["Taxon"],"name":[2],"type":["chr"],"align":["left"]}],"data":[{"1":"0","2":"d__belong to a (non-viral) species with less than 0.01% of all reads","_rn_":"1"},{"1":"100886","2":"d__Bacteria;p__Bacillota;c__Erysipelotrichia;o__Erysipelotrichales;f__Coprobacillaceae;g__Catenibacterium;s__Catenibacterium mitsuokai","_rn_":"2"},{"1":"102148","2":"d__Bacteria;p__Bacillota;c__Erysipelotrichia;o__Erysipelotrichales;f__Erysipelotrichaceae;g__Solobacterium;s__Solobacterium moorei","_rn_":"3"},{"1":"10239","2":"d__Viruses","_rn_":"4"},{"1":"1042156","2":"d__Bacteria;p__Bacillota;c__Clostridia;o__Eubacteriales;f__Clostridiaceae;g__Clostridium;s__Clostridium sp. SY8519","_rn_":"5"},{"1":"105841","2":"d__Bacteria;p__Bacillota;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Anaerostipes;s__Anaerostipes caccae","_rn_":"6"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
   </script>
 </div>
-Sample Kaiju combined abundance table
+<p>Sample Kaiju combined abundance table</p>
 <div data-pagedtable="false">
 <script data-pagedtable-source type="application/json">
 {"columns":[{"label":[""],"name":["_rn_"],"type":[""],"align":["left"]},{"label":["Domain"],"name":[1],"type":["chr"],"align":["left"]},{"label":["Phylum"],"name":[2],"type":["chr"],"align":["left"]},{"label":["Class"],"name":[3],"type":["chr"],"align":["left"]},{"label":["Order"],"name":[4],"type":["chr"],"align":["left"]},{"label":["Family"],"name":[5],"type":["chr"],"align":["left"]},{"label":["Genus"],"name":[6],"type":["chr"],"align":["left"]},{"label":["Species"],"name":[7],"type":["chr"],"align":["left"]},{"label":["1-MDcol002-5-2"],"name":[8],"type":["dbl"],"align":["right"]},{"label":["11-MDCol002-label-12-on-bottle"],"name":[9],"type":["dbl"],"align":["right"]},{"label":["14-MDCOL003-Stool-1B-Baseline-BSB-2-4-1-4"],"name":[10],"type":["dbl"],"align":["right"]},{"label":["15-MDcol004-3-1-pretreat"],"name":[11],"type":["dbl"],"align":["right"]},{"label":["17-MDCOL006-3-1A"],"name":[12],"type":["dbl"],"align":["right"]},{"label":["19-MDCOL006-3-2A"],"name":[13],"type":["dbl"],"align":["right"]},{"label":["21-MDCOL006-2-pre-chemo-A"],"name":[14],"type":["dbl"],"align":["right"]},{"label":["23-MDcol033-1A"],"name":[15],"type":["dbl"],"align":["right"]},{"label":["25-MDcol036-1A"],"name":[16],"type":["dbl"],"align":["right"]},{"label":["27-MDcol025-1B"],"name":[17],"type":["dbl"],"align":["right"]},{"label":["28-7A-1-1"],"name":[18],"type":["dbl"],"align":["right"]},{"label":["29-7A"],"name":[19],"type":["dbl"],"align":["right"]},{"label":["3-MDcol002-5-1"],"name":[20],"type":["dbl"],"align":["right"]},{"label":["30-8B"],"name":[21],"type":["dbl"],"align":["right"]},{"label":["31-8B"],"name":[22],"type":["dbl"],"align":["right"]},{"label":["33-6-2"],"name":[23],"type":["dbl"],"align":["right"]},{"label":["36-40-1B"],"name":[24],"type":["dbl"],"align":["right"]},{"label":["38-S-Swanson"],"name":[25],"type":["dbl"],"align":["right"]},{"label":["40-MDCol002-7-43"],"name":[26],"type":["dbl"],"align":["right"]},{"label":["42-51-1B"],"name":[27],"type":["dbl"],"align":["right"]},{"label":["45-MDCOL005-1B"],"name":[28],"type":["dbl"],"align":["right"]},{"label":["46-MDCOL015-1a"],"name":[29],"type":["dbl"],"align":["right"]},{"label":["48-MDCOL039-1a"],"name":[30],"type":["dbl"],"align":["right"]},{"label":["5-MDCOL055-Stool-1A-Baseline-BSB-2-4-1-2"],"name":[31],"type":["dbl"],"align":["right"]},{"label":["50-MDCOL027-1a"],"name":[32],"type":["dbl"],"align":["right"]},{"label":["52-MDCOL021-1b"],"name":[33],"type":["dbl"],"align":["right"]},{"label":["54-MDCOL028-1b"],"name":[34],"type":["dbl"],"align":["right"]},{"label":["60-MDcol006-4-1A"],"name":[35],"type":["dbl"],"align":["right"]},{"label":["63-MDcol003-3-2"],"name":[36],"type":["dbl"],"align":["right"]},{"label":["65-MDCOL003-Post-Chemo-Collection-Cycle-1-A"],"name":[37],"type":["dbl"],"align":["right"]},{"label":["66-MDCOL004-1A"],"name":[38],"type":["dbl"],"align":["right"]},{"label":["68-MDCOL003-3-1-Before-Chemo-2-3A"],"name":[39],"type":["dbl"],"align":["right"]},{"label":["7-MDCOL058-Stool-1A-Baseline-BSB-2-4-1-3"],"name":[40],"type":["dbl"],"align":["right"]},{"label":["70-MDCOL004-3-2-Post-Chemo-A"],"name":[41],"type":["dbl"],"align":["right"]},{"label":["72-MDCOL003-4-1-4A-Before-Chemo-6"],"name":[42],"type":["dbl"],"align":["right"]},{"label":["75-MDCOL053-1-1-1-Unknown"],"name":[43],"type":["dbl"],"align":["right"]},{"label":["9-MDCOL062-Stool-1A-Baseline-BSB-2-4-1-3"],"name":[44],"type":["dbl"],"align":["right"]}],"data":[{"1":"belong to a (non-viral) species with less than 0.01% of all reads","2":"belong to a (non-viral) species with less than 0.01% of all reads","3":"belong to a (non-viral) species with less than 0.01% of all reads","4":"belong to a (non-viral) species with less than 0.01% of all reads","5":"belong to a (non-viral) species with less than 0.01% of all reads","6":"belong to a (non-viral) species with less than 0.01% of all reads","7":"belong to a (non-viral) species with less than 0.01% of all reads","8":"107567","9":"128946","10":"92867","11":"164303","12":"66642","13":"70074","14":"166933","15":"74818","16":"104008","17":"117792","18":"118937","19":"78699","20":"154777","21":"42339","22":"129679","23":"103400","24":"171450","25":"235039","26":"189626","27":"115278","28":"118226","29":"134994","30":"135414","31":"60250","32":"164912","33":"56900","34":"86452","35":"101341","36":"37508","37":"77198","38":"33754","39":"63548","40":"47689","41":"13449","42":"48576","43":"88590","44":"110828","_rn_":"1"},{"1":"Bacteria","2":"Bacillota","3":"Erysipelotrichia","4":"Erysipelotrichales","5":"Coprobacillaceae","6":"Catenibacterium","7":"Catenibacterium mitsuokai","8":"1063","9":"1096","10":"568","11":"856","12":"0","13":"0","14":"1157","15":"0","16":"872","17":"844","18":"710","19":"478","20":"828","21":"294","22":"983","23":"635","24":"1406","25":"2095","26":"1769","27":"600","28":"0","29":"572","30":"867","31":"449","32":"7133","33":"466","34":"0","35":"0","36":"0","37":"807","38":"0","39":"425","40":"331","41":"0","42":"377","43":"847","44":"999","_rn_":"2"},{"1":"Bacteria","2":"Bacillota","3":"Erysipelotrichia","4":"Erysipelotrichales","5":"Erysipelotrichaceae","6":"Solobacterium","7":"Solobacterium moorei","8":"0","9":"0","10":"0","11":"734","12":"0","13":"0","14":"0","15":"0","16":"0","17":"0","18":"0","19":"0","20":"0","21":"0","22":"546","23":"395","24":"0","25":"0","26":"0","27":"0","28":"0","29":"853","30":"0","31":"0","32":"794","33":"1650","34":"810","35":"0","36":"0","37":"0","38":"0","39":"0","40":"0","41":"0","42":"0","43":"0","44":"0","_rn_":"3"},{"1":"Viruses","2":"Viruses","3":"Viruses","4":"Viruses","5":"Viruses","6":"Viruses","7":"Viruses","8":"297","9":"344","10":"2207","11":"84670","12":"204","13":"383","14":"520","15":"34634","16":"515","17":"17373","18":"791","19":"737","20":"612","21":"448","22":"572","23":"261","24":"513","25":"2850","26":"388","27":"818","28":"8271","29":"319","30":"4953","31":"215","32":"5663","33":"58791","34":"1695","35":"331","36":"13311","37":"1801","38":"5560","39":"3058","40":"152","41":"3811","42":"416","43":"1170","44":"768","_rn_":"4"},{"1":"Bacteria","2":"Bacillota","3":"Clostridia","4":"Eubacteriales","5":"Clostridiaceae","6":"Clostridium","7":"Clostridium sp. SY8519","8":"754","9":"1061","10":"2083","11":"2220","12":"0","13":"0","14":"0","15":"622","16":"1147","17":"1995","18":"903","19":"487","20":"1068","21":"396","22":"1662","23":"1231","24":"1234","25":"3699","26":"1598","27":"828","28":"1787","29":"1931","30":"2704","31":"462","32":"2632","33":"1061","34":"0","35":"1153","36":"0","37":"2536","38":"0","39":"1490","40":"397","41":"0","42":"737","43":"1560","44":"2020","_rn_":"5"},{"1":"Bacteria","2":"Bacillota","3":"Clostridia","4":"Lachnospirales","5":"Lachnospiraceae","6":"Anaerostipes","7":"Anaerostipes caccae","8":"837","9":"1093","10":"1655","11":"938","12":"455","13":"861","14":"3895","15":"3628","16":"6639","17":"1165","18":"908","19":"504","20":"1193","21":"387","22":"1983","23":"1360","24":"1506","25":"2764","26":"1913","27":"1098","28":"2961","29":"6302","30":"1430","31":"438","32":"1403","33":"21548","34":"1187","35":"5279","36":"0","37":"1480","38":"0","39":"1099","40":"385","41":"0","42":"865","43":"747","44":"1068","_rn_":"6"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
@@ -2514,113 +2517,139 @@ data</strong></h2>
 <p>The following code parses the genefemilies.tv, pathcoverage.tsv, and
 pathabundance.tv files and combines them from individual sample files
 into three phyloseq objects for each dataset.</p>
-<pre class="r"><code>HumannOutput&lt;-dir(&quot;HumannOutput&quot;)     #Folder containing all the HUMAnN outputs
+<pre class="r"><code>HumannOutput &lt;- dir(&quot;HumannOutput&quot;)  #Folder containing all the HUMAnN outputs
 dir.create(&quot;PhyloseqOutputs/HumannPhyloseq&quot;)
-for (folder in HumannOutput){
-  AllCoverage&lt;-data.frame()
-  AllAbundance&lt;-data.frame()
-  counter=1
-  for(file in list.files(paste(&quot;HumannOutput&quot;,folder,sep=&quot;/&quot;),pattern=&quot;*_pathabundance.tsv&quot;)){
-    id&lt;-substring(basename(file),1,nchar(basename(file))-18)    #Parsing the Sample ID
-    abundance&lt;-read.delim(paste(&quot;HumannOutput&quot;,folder,file,sep=&quot;/&quot;),sep=&#39;\t&#39;,header = TRUE,comment.char = &quot;&quot;)   #Reading the pathway abundance file for a sample
-    df&lt;-colnames(abundance)%&gt;%
-      str_replace_all(&quot;X\\.\\.&quot;,&quot;&quot;)%&gt;%
-      str_replace_all(&quot;X&quot;,&quot;&quot;)%&gt;%
-      str_replace_all(&quot;\\.&quot;,&quot;_&quot;)%&gt;%
-      str_replace_all(&quot;_Abundance&quot;,&quot;&quot;)
-    colnames(abundance)&lt;-df
-    coverage&lt;-read.delim(paste(&quot;HumannOutput/&quot;,folder,&quot;/&quot;,id,&quot;_pathcoverage.tsv&quot;,sep=&quot;&quot;),sep=&#39;\t&#39;,header = TRUE,comment.char = &quot;&quot;)   #Reading the pathway coverage file for a sample
-    df&lt;-colnames(coverage)%&gt;%
-  str_replace_all(&quot;X\\.\\.&quot;,&quot;&quot;)%&gt;%
-  str_replace_all(&quot;X&quot;,&quot;&quot;)%&gt;%
-  str_replace_all(&quot;\\.&quot;,&quot;-&quot;)%&gt;%
-  str_replace_all(&quot;_Coverage&quot;,&quot;&quot;)
-    colnames(coverage)&lt;-df
-    
-    #Combining the pathway abundances and pathway coverage data with those from the previous samples
-    if (counter==1){
-      AllAbundance&lt;-abundance}
-    else{AllAbundance&lt;-left_join(AllAbundance,abundance)}
-    if(counter==1){
-    AllCoverage&lt;-coverage}
-    else{AllCoverage&lt;-left_join(AllCoverage,coverage)}
-    counter=counter+1
-  }
+for (folder in HumannOutput) {
+    AllCoverage &lt;- data.frame()
+    AllAbundance &lt;- data.frame()
+    counter = 1
+    for (file in list.files(paste(&quot;HumannOutput&quot;, folder,
+        sep = &quot;/&quot;), pattern = &quot;*_pathabundance.tsv&quot;)) {
+        id &lt;- substring(basename(file), 1, nchar(basename(file)) -
+            18)  #Parsing the Sample ID
+        abundance &lt;- read.delim(paste(&quot;HumannOutput&quot;,
+            folder, file, sep = &quot;/&quot;), sep = &quot;\t&quot;, header = TRUE,
+            comment.char = &quot;&quot;)  #Reading the pathway abundance file for a sample
+        df &lt;- colnames(abundance) %&gt;%
+            str_replace_all(&quot;X\\.\\.&quot;, &quot;&quot;) %&gt;%
+            str_replace_all(&quot;X&quot;, &quot;&quot;) %&gt;%
+            str_replace_all(&quot;\\.&quot;, &quot;_&quot;) %&gt;%
+            str_replace_all(&quot;_Abundance&quot;, &quot;&quot;)
+        colnames(abundance) &lt;- df
+        coverage &lt;- read.delim(paste(&quot;HumannOutput/&quot;,
+            folder, &quot;/&quot;, id, &quot;_pathcoverage.tsv&quot;, sep = &quot;&quot;),
+            sep = &quot;\t&quot;, header = TRUE, comment.char = &quot;&quot;)  #Reading the pathway coverage file for a sample
+        df &lt;- colnames(coverage) %&gt;%
+            str_replace_all(&quot;X\\.\\.&quot;, &quot;&quot;) %&gt;%
+            str_replace_all(&quot;X&quot;, &quot;&quot;) %&gt;%
+            str_replace_all(&quot;\\.&quot;, &quot;-&quot;) %&gt;%
+            str_replace_all(&quot;_Coverage&quot;, &quot;&quot;)
+        colnames(coverage) &lt;- df
 
-  AllAbundance&lt;-AllAbundance%&gt;%
-    column_to_rownames(&quot;Pathway&quot;)%&gt;%
-    as.matrix()
-  AllCoverage&lt;-AllCoverage%&gt;%
-    column_to_rownames(&quot;Pathway&quot;)%&gt;%
-    as.matrix()
-  physeqcoverage&lt;-phyloseq(otu_table(AllCoverage,taxa_are_rows=TRUE))     #Creating phyloseq object for the pathway abundance data
-  physeqabundance&lt;-phyloseq(otu_table(AllAbundance,taxa_are_rows=TRUE))     #Creating phyloseq object for the pathway coverage data
-  saveRDS(physeqabundance,paste(&quot;PhyloseqOutputs/HumannPhyloseq/phyloseq_humann-&quot;,folder,&quot;_pathwayabundance.rds&quot;,sep=&quot;&quot;))
-  saveRDS(physeqcoverage,paste(&quot;PhyloseqOutputs/HumannPhyloseq/phyloseq_humann-&quot;,folder,&quot;_pathwaycoverage.rds&quot;,sep=&quot;&quot;))
-}
-
-for (folder in HumannOutput){
-  AllRPK&lt;-data.frame()
-  counter=1
-  for(file in list.files(paste(&quot;HumannOutput&quot;,folder,sep=&quot;/&quot;),pattern=&quot;*_genefamilies.tsv&quot;)){
-    id&lt;-substring(basename(file),1,nchar(basename(file))-17)
-    #Reading the gene family abundance for a sample
-    RPK&lt;-read.delim(paste(&quot;HumannOutput&quot;,folder,file,sep=&quot;/&quot;),sep=&#39;\t&#39;,header = TRUE,comment.char = &quot;&quot;)
-    df&lt;-colnames(RPK)%&gt;%
-      str_replace_all(&quot;X\\.\\.&quot;,&quot;&quot;)%&gt;%
-      str_replace_all(&quot;X&quot;,&quot;&quot;)%&gt;%
-      str_replace_all(&quot;\\.&quot;,&quot;-&quot;)%&gt;%
-      str_replace_all(&quot;_Abundance-RPKs&quot;,&quot;&quot;)
-    colnames(RPK)&lt;-df
-    #Joining the gene family abundance data of the current sample to the rest of the samples
-    if (counter==1){
-      AllRPK&lt;-RPK}
-    else{AllRPK&lt;-left_join(AllRPK,RPK)}
-    counter=counter+1
+        # Combining the pathway abundances and
+        # pathway coverage data with those from
+        # the previous samples
+        if (counter == 1) {
+            AllAbundance &lt;- abundance
+        } else {
+            AllAbundance &lt;- left_join(AllAbundance,
+                abundance)
+        }
+        if (counter == 1) {
+            AllCoverage &lt;- coverage
+        } else {
+            AllCoverage &lt;- left_join(AllCoverage, coverage)
+        }
+        counter = counter + 1
     }
 
-  AllRPK&lt;-AllRPK%&gt;%
-    column_to_rownames(&quot;Gene-Family&quot;)%&gt;%
-    as.matrix()
-  physeqRPK&lt;-phyloseq(otu_table(AllRPK,taxa_are_rows=TRUE))     #Creating phyloseq object for the gene family abundance data
-  saveRDS(physeqRPK,paste(&quot;PhyloseqOutputs/HumannPhyloseq/phyloseq_humann-&quot;,folder,&quot;_genefamilies.rds&quot;,sep=&quot;&quot;))
+    AllAbundance &lt;- AllAbundance %&gt;%
+        column_to_rownames(&quot;Pathway&quot;) %&gt;%
+        as.matrix()
+    AllCoverage &lt;- AllCoverage %&gt;%
+        column_to_rownames(&quot;Pathway&quot;) %&gt;%
+        as.matrix()
+    physeqcoverage &lt;- phyloseq(otu_table(AllCoverage,
+        taxa_are_rows = TRUE))  #Creating phyloseq object for the pathway abundance data
+    physeqabundance &lt;- phyloseq(otu_table(AllAbundance,
+        taxa_are_rows = TRUE))  #Creating phyloseq object for the pathway coverage data
+    saveRDS(physeqabundance, paste(&quot;PhyloseqOutputs/HumannPhyloseq/phyloseq_humann-&quot;,
+        folder, &quot;_pathwayabundance.rds&quot;, sep = &quot;&quot;))
+    saveRDS(physeqcoverage, paste(&quot;PhyloseqOutputs/HumannPhyloseq/phyloseq_humann-&quot;,
+        folder, &quot;_pathwaycoverage.rds&quot;, sep = &quot;&quot;))
+}
+
+for (folder in HumannOutput) {
+    AllRPK &lt;- data.frame()
+    counter = 1
+    for (file in list.files(paste(&quot;HumannOutput&quot;, folder,
+        sep = &quot;/&quot;), pattern = &quot;*_genefamilies.tsv&quot;)) {
+        id &lt;- substring(basename(file), 1, nchar(basename(file)) -
+            17)
+        # Reading the gene family abundance for a
+        # sample
+        RPK &lt;- read.delim(paste(&quot;HumannOutput&quot;, folder,
+            file, sep = &quot;/&quot;), sep = &quot;\t&quot;, header = TRUE,
+            comment.char = &quot;&quot;)
+        df &lt;- colnames(RPK) %&gt;%
+            str_replace_all(&quot;X\\.\\.&quot;, &quot;&quot;) %&gt;%
+            str_replace_all(&quot;X&quot;, &quot;&quot;) %&gt;%
+            str_replace_all(&quot;\\.&quot;, &quot;-&quot;) %&gt;%
+            str_replace_all(&quot;_Abundance-RPKs&quot;, &quot;&quot;)
+        colnames(RPK) &lt;- df
+        # Joining the gene family abundance data
+        # of the current sample to the rest of
+        # the samples
+        if (counter == 1) {
+            AllRPK &lt;- RPK
+        } else {
+            AllRPK &lt;- left_join(AllRPK, RPK)
+        }
+        counter = counter + 1
+    }
+
+    AllRPK &lt;- AllRPK %&gt;%
+        column_to_rownames(&quot;Gene-Family&quot;) %&gt;%
+        as.matrix()
+    physeqRPK &lt;- phyloseq(otu_table(AllRPK, taxa_are_rows = TRUE))  #Creating phyloseq object for the gene family abundance data
+    saveRDS(physeqRPK, paste(&quot;PhyloseqOutputs/HumannPhyloseq/phyloseq_humann-&quot;,
+        folder, &quot;_genefamilies.rds&quot;, sep = &quot;&quot;))
 }</code></pre>
-Sample pathway abundance file
+<p>Sample pathway abundance file</p>
 <div data-pagedtable="false">
 <script data-pagedtable-source type="application/json">
 {"columns":[{"label":[""],"name":["_rn_"],"type":[""],"align":["left"]},{"label":["Pathway"],"name":[1],"type":["chr"],"align":["left"]},{"label":["9_MDCOL062_Stool_1A_Baseline_BSB_2_4_1_3"],"name":[2],"type":["dbl"],"align":["right"]}],"data":[{"1":"UNMAPPED","2":"706374.82","_rn_":"1"},{"1":"UNINTEGRATED","2":"1990573.07","_rn_":"2"},{"1":"UNINTEGRATED|g__Prevotella.s__Prevotella_copri","2":"280605.01","_rn_":"3"},{"1":"UNINTEGRATED|unclassified","2":"211052.96","_rn_":"4"},{"1":"UNINTEGRATED|g__Alistipes.s__Alistipes_finegoldii","2":"161814.73","_rn_":"5"},{"1":"UNINTEGRATED|g__Blautia.s__Blautia_obeum","2":"77940.21","_rn_":"6"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
   </script>
 </div>
-Combined pathway abundances of all samples in a dataset
+<p>Combined pathway abundances of all samples in a dataset</p>
 <div data-pagedtable="false">
 <script data-pagedtable-source type="application/json">
 {"columns":[{"label":[""],"name":["_rn_"],"type":[""],"align":["left"]},{"label":["1_MDcol002_5_2"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["11_MDCol002_label_12_on_bottle"],"name":[2],"type":["dbl"],"align":["right"]},{"label":["14_MDCOL003_Stool_1B_Baseline_BSB_2_4_1_4"],"name":[3],"type":["dbl"],"align":["right"]},{"label":["15_MDcol004_3_1_pretreat"],"name":[4],"type":["dbl"],"align":["right"]},{"label":["17_MDCOL006_3_1A"],"name":[5],"type":["dbl"],"align":["right"]},{"label":["19_MDCOL006_3_2A"],"name":[6],"type":["dbl"],"align":["right"]},{"label":["21_MDCOL006_2_pre_chemo_A"],"name":[7],"type":["dbl"],"align":["right"]},{"label":["23_MDcol033_1A"],"name":[8],"type":["dbl"],"align":["right"]},{"label":["25_MDcol036_1A"],"name":[9],"type":["dbl"],"align":["right"]},{"label":["27_MDcol025_1B"],"name":[10],"type":["dbl"],"align":["right"]},{"label":["28_7A_1_1"],"name":[11],"type":["dbl"],"align":["right"]},{"label":["29_7A"],"name":[12],"type":["dbl"],"align":["right"]},{"label":["3_MDcol002_5_1"],"name":[13],"type":["dbl"],"align":["right"]},{"label":["30_8B"],"name":[14],"type":["dbl"],"align":["right"]},{"label":["31_8B"],"name":[15],"type":["dbl"],"align":["right"]},{"label":["33_6_2"],"name":[16],"type":["dbl"],"align":["right"]},{"label":["36_40_1B"],"name":[17],"type":["dbl"],"align":["right"]},{"label":["38_S_Swanson"],"name":[18],"type":["dbl"],"align":["right"]},{"label":["40_MDCol002_7_43"],"name":[19],"type":["dbl"],"align":["right"]},{"label":["42_51_1B"],"name":[20],"type":["dbl"],"align":["right"]},{"label":["45_MDCOL005_1B"],"name":[21],"type":["dbl"],"align":["right"]},{"label":["46_MDCOL015_1a"],"name":[22],"type":["dbl"],"align":["right"]},{"label":["48_MDCOL039_1a"],"name":[23],"type":["dbl"],"align":["right"]},{"label":["5_MDCOL055_Stool_1A_Baseline_BSB_2_4_1_2"],"name":[24],"type":["dbl"],"align":["right"]},{"label":["50_MDCOL027_1a"],"name":[25],"type":["dbl"],"align":["right"]},{"label":["52_MDCOL021_1b"],"name":[26],"type":["dbl"],"align":["right"]},{"label":["54_MDCOL028_1b"],"name":[27],"type":["dbl"],"align":["right"]},{"label":["60_MDcol006_4_1A"],"name":[28],"type":["dbl"],"align":["right"]},{"label":["63_MDcol003_3_2"],"name":[29],"type":["dbl"],"align":["right"]},{"label":["65_MDCOL003_Post_Chemo_Collection_Cycle_1_A"],"name":[30],"type":["dbl"],"align":["right"]},{"label":["66_MDCOL004_1A"],"name":[31],"type":["dbl"],"align":["right"]},{"label":["68_MDCOL003_3_1_Before_Chemo_2_3A"],"name":[32],"type":["dbl"],"align":["right"]},{"label":["7_MDCOL058_Stool_1A_Baseline_BSB_2_4_1_3"],"name":[33],"type":["dbl"],"align":["right"]},{"label":["70_MDCOL004_3_2_Post_Chemo_A"],"name":[34],"type":["dbl"],"align":["right"]},{"label":["72_MDCOL003_4_1_4A_Before_Chemo_6"],"name":[35],"type":["dbl"],"align":["right"]},{"label":["75_MDCOL053_1_1_1_Unknown"],"name":[36],"type":["dbl"],"align":["right"]},{"label":["9_MDCOL062_Stool_1A_Baseline_BSB_2_4_1_3"],"name":[37],"type":["dbl"],"align":["right"]}],"data":[{"1":"778748.2","2":"812515.6","3":"721273.4","4":"853278.4","5":"640092.1","6":"728047.75","7":"1170228.6","8":"691496.1","9":"1068527.81","10":"945989.87","11":"902644.2","12":"630687.3","13":"1054449.8","14":"364662.41","15":"860531.46","16":"683345.04","17":"1168856.3","18":"1317047.4","19":"1234938.85","20":"795759.2","21":"1246331.44","22":"911520.5","23":"994944.84","24":"433428.31","25":"904651.65","26":"608032.696","27":"940612.29","28":"709619.7","29":"552487.6","30":"539365.5","31":"102994.388","32":"575372.3","33":"328855.12","34":"34068.790","35":"461003.24","36":"595072.92","37":"706374.82","_rn_":"UNMAPPED"},{"1":"2481983.1","2":"2338562.7","3":"3179209.0","4":"2607555.3","5":"2365706.0","6":"2412350.76","7":"4808488.1","8":"2425535.6","9":"4715990.30","10":"3843549.24","11":"2664917.9","12":"2027313.2","13":"2771711.1","14":"1176143.90","15":"1898317.92","16":"1265336.05","17":"3293921.9","18":"2714109.3","19":"3188195.55","20":"2269103.2","21":"6680423.14","22":"2033420.0","23":"3228306.39","24":"1478104.24","25":"2385396.13","26":"2086633.441","27":"5641354.19","28":"2663982.1","29":"3076573.7","30":"1877445.1","31":"211972.628","32":"2622809.6","33":"689446.48","34":"39832.621","35":"1808251.90","36":"1816052.92","37":"1990573.07","_rn_":"UNINTEGRATED"},{"1":"917463.5","2":"740989.9","3":"NA","4":"187785.6","5":"NA","6":"NA","7":"NA","8":"NA","9":"665352.47","10":"313605.33","11":"665346.6","12":"617776.9","13":"502390.7","14":"265896.80","15":"62848.75","16":"50452.27","17":"896384.5","18":"125167.7","19":"1000793.98","20":"961751.5","21":"597264.54","22":"NA","23":"305187.68","24":"357041.25","25":"40831.38","26":"6378.159","27":"NA","28":"NA","29":"NA","30":"NA","31":"24242.876","32":"NA","33":"146842.97","34":"6643.549","35":"NA","36":"49070.33","37":"51928.72","_rn_":"UNINTEGRATED|g__Bacteroides.s__Bacteroides_vulgatus"},{"1":"464620.0","2":"205282.2","3":"NA","4":"193568.8","5":"255956.6","6":"84115.85","7":"240857.1","8":"159044.4","9":"NA","10":"271299.80","11":"716802.5","12":"642820.4","13":"658787.2","14":"357642.20","15":"259350.24","16":"136902.02","17":"369106.3","18":"NA","19":"NA","20":"331637.7","21":"68584.03","22":"NA","23":"405561.98","24":"295326.47","25":"26875.49","26":"6021.116","27":"NA","28":"1151220.5","29":"NA","30":"NA","31":"18036.559","32":"NA","33":"47990.67","34":"NA","35":"186720.43","36":"11643.02","37":"28131.53","_rn_":"UNINTEGRATED|g__Bacteroides.s__Bacteroides_uniformis"},{"1":"354114.6","2":"248232.9","3":"NA","4":"27733.6","5":"486901.1","6":"78634.97","7":"828564.4","8":"178257.6","9":"85896.49","10":"59771.61","11":"354245.5","12":"274152.5","13":"399946.3","14":"154126.96","15":"113944.27","16":"64743.90","17":"644273.4","18":"NA","19":"77151.05","20":"257447.8","21":"NA","22":"NA","23":"56772.45","24":"432811.06","25":"12807.89","26":"14722.860","27":"NA","28":"371673.6","29":"NA","30":"NA","31":"6011.369","32":"NA","33":"110295.99","34":"4221.045","35":"26477.84","36":"26855.97","37":"22019.15","_rn_":"UNINTEGRATED|g__Bacteroides.s__Bacteroides_ovatus"},{"1":"147854.1","2":"229298.6","3":"304960.8","4":"406532.7","5":"176732.7","6":"178803.49","7":"532576.9","8":"141054.7","9":"245014.75","10":"191873.16","11":"216273.1","12":"150555.6","13":"308745.2","14":"65569.98","15":"186109.70","16":"150448.35","17":"296277.0","18":"524893.7","19":"336153.66","20":"229043.3","21":"243317.20","22":"300806.1","23":"243334.71","24":"81080.19","25":"324132.36","26":"173575.249","27":"96868.25","28":"208778.9","29":"199483.9","30":"341451.4","31":"31441.128","32":"221928.5","33":"91211.97","34":"8543.140","35":"104787.82","36":"223668.29","37":"211052.96","_rn_":"UNINTEGRATED|unclassified"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
   </script>
 </div>
-Sample pathway coverage file
+<p>Sample pathway coverage file</p>
 <div data-pagedtable="false">
 <script data-pagedtable-source type="application/json">
 {"columns":[{"label":[""],"name":["_rn_"],"type":[""],"align":["left"]},{"label":["Pathway"],"name":[1],"type":["chr"],"align":["left"]},{"label":["9-MDCOL062-Stool-1A-Baseline-BSB-2-4-1-3"],"name":[2],"type":["dbl"],"align":["right"]}],"data":[{"1":"UNMAPPED","2":"1","_rn_":"1"},{"1":"UNINTEGRATED","2":"1","_rn_":"2"},{"1":"UNINTEGRATED|g__Agathobaculum.s__Agathobaculum_butyriciproducens","2":"1","_rn_":"3"},{"1":"UNINTEGRATED|g__Akkermansia.s__Akkermansia_muciniphila","2":"1","_rn_":"4"},{"1":"UNINTEGRATED|g__Alistipes.s__Alistipes_finegoldii","2":"1","_rn_":"5"},{"1":"UNINTEGRATED|g__Alistipes.s__Alistipes_onderdonkii","2":"1","_rn_":"6"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
   </script>
 </div>
-Combined pathway coverage of all samples in a dataset
+<p>Combined pathway coverage of all samples in a dataset</p>
 <div data-pagedtable="false">
 <script data-pagedtable-source type="application/json">
 {"columns":[{"label":[""],"name":["_rn_"],"type":[""],"align":["left"]},{"label":["1-MDcol002-5-2"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["11-MDCol002-label-12-on-bottle"],"name":[2],"type":["dbl"],"align":["right"]},{"label":["14-MDCOL003-Stool-1B-Baseline-BSB-2-4-1-4"],"name":[3],"type":["dbl"],"align":["right"]},{"label":["15-MDcol004-3-1-pretreat"],"name":[4],"type":["dbl"],"align":["right"]},{"label":["17-MDCOL006-3-1A"],"name":[5],"type":["dbl"],"align":["right"]},{"label":["19-MDCOL006-3-2A"],"name":[6],"type":["dbl"],"align":["right"]},{"label":["21-MDCOL006-2-pre-chemo-A"],"name":[7],"type":["dbl"],"align":["right"]},{"label":["23-MDcol033-1A"],"name":[8],"type":["dbl"],"align":["right"]},{"label":["25-MDcol036-1A"],"name":[9],"type":["dbl"],"align":["right"]},{"label":["27-MDcol025-1B"],"name":[10],"type":["dbl"],"align":["right"]},{"label":["28-7A-1-1"],"name":[11],"type":["dbl"],"align":["right"]},{"label":["29-7A"],"name":[12],"type":["dbl"],"align":["right"]},{"label":["3-MDcol002-5-1"],"name":[13],"type":["dbl"],"align":["right"]},{"label":["30-8B"],"name":[14],"type":["dbl"],"align":["right"]},{"label":["31-8B"],"name":[15],"type":["dbl"],"align":["right"]},{"label":["33-6-2"],"name":[16],"type":["dbl"],"align":["right"]},{"label":["36-40-1B"],"name":[17],"type":["dbl"],"align":["right"]},{"label":["38-S-Swanson"],"name":[18],"type":["dbl"],"align":["right"]},{"label":["40-MDCol002-7-43"],"name":[19],"type":["dbl"],"align":["right"]},{"label":["42-51-1B"],"name":[20],"type":["dbl"],"align":["right"]},{"label":["45-MDCOL005-1B"],"name":[21],"type":["dbl"],"align":["right"]},{"label":["46-MDCOL015-1a"],"name":[22],"type":["dbl"],"align":["right"]},{"label":["48-MDCOL039-1a"],"name":[23],"type":["dbl"],"align":["right"]},{"label":["5-MDCOL055-Stool-1A-Baseline-BSB-2-4-1-2"],"name":[24],"type":["dbl"],"align":["right"]},{"label":["50-MDCOL027-1a"],"name":[25],"type":["dbl"],"align":["right"]},{"label":["52-MDCOL021-1b"],"name":[26],"type":["dbl"],"align":["right"]},{"label":["54-MDCOL028-1b"],"name":[27],"type":["dbl"],"align":["right"]},{"label":["60-MDcol006-4-1A"],"name":[28],"type":["dbl"],"align":["right"]},{"label":["63-MDcol003-3-2"],"name":[29],"type":["dbl"],"align":["right"]},{"label":["65-MDCOL003-Post-Chemo-Collection-Cycle-1-A"],"name":[30],"type":["dbl"],"align":["right"]},{"label":["66-MDCOL004-1A"],"name":[31],"type":["dbl"],"align":["right"]},{"label":["68-MDCOL003-3-1-Before-Chemo-2-3A"],"name":[32],"type":["dbl"],"align":["right"]},{"label":["7-MDCOL058-Stool-1A-Baseline-BSB-2-4-1-3"],"name":[33],"type":["dbl"],"align":["right"]},{"label":["70-MDCOL004-3-2-Post-Chemo-A"],"name":[34],"type":["dbl"],"align":["right"]},{"label":["72-MDCOL003-4-1-4A-Before-Chemo-6"],"name":[35],"type":["dbl"],"align":["right"]},{"label":["75-MDCOL053-1-1-1-Unknown"],"name":[36],"type":["dbl"],"align":["right"]},{"label":["9-MDCOL062-Stool-1A-Baseline-BSB-2-4-1-3"],"name":[37],"type":["dbl"],"align":["right"]}],"data":[{"1":"1","2":"1","3":"1","4":"1","5":"1","6":"1","7":"1","8":"1","9":"1","10":"1","11":"1","12":"1","13":"1","14":"1","15":"1","16":"1","17":"1","18":"1","19":"1","20":"1","21":"1","22":"1","23":"1","24":"1","25":"1","26":"1","27":"1","28":"1","29":"1","30":"1","31":"1","32":"1","33":"1","34":"1","35":"1","36":"1","37":"1","_rn_":"UNMAPPED"},{"1":"1","2":"1","3":"1","4":"1","5":"1","6":"1","7":"1","8":"1","9":"1","10":"1","11":"1","12":"1","13":"1","14":"1","15":"1","16":"1","17":"1","18":"1","19":"1","20":"1","21":"1","22":"1","23":"1","24":"1","25":"1","26":"1","27":"1","28":"1","29":"1","30":"1","31":"1","32":"1","33":"1","34":"1","35":"1","36":"1","37":"1","_rn_":"UNINTEGRATED"},{"1":"1","2":"1","3":"NA","4":"1","5":"1","6":"1","7":"1","8":"NA","9":"NA","10":"1","11":"1","12":"1","13":"1","14":"1","15":"1","16":"1","17":"1","18":"1","19":"1","20":"NA","21":"1","22":"NA","23":"1","24":"1","25":"1","26":"NA","27":"NA","28":"1","29":"NA","30":"NA","31":"NA","32":"NA","33":"1","34":"NA","35":"NA","36":"NA","37":"NA","_rn_":"UNINTEGRATED|g__Adlercreutzia.s__Adlercreutzia_equolifaciens"},{"1":"1","2":"1","3":"NA","4":"1","5":"NA","6":"NA","7":"NA","8":"NA","9":"NA","10":"1","11":"1","12":"1","13":"1","14":"1","15":"1","16":"1","17":"1","18":"1","19":"1","20":"NA","21":"NA","22":"1","23":"1","24":"1","25":"1","26":"NA","27":"NA","28":"1","29":"NA","30":"NA","31":"NA","32":"NA","33":"NA","34":"NA","35":"NA","36":"1","37":"1","_rn_":"UNINTEGRATED|g__Anaerostipes.s__Anaerostipes_hadrus"},{"1":"1","2":"1","3":"NA","4":"1","5":"1","6":"1","7":"1","8":"NA","9":"NA","10":"1","11":"1","12":"1","13":"1","14":"1","15":"1","16":"1","17":"1","18":"1","19":"1","20":"NA","21":"1","22":"NA","23":"1","24":"1","25":"1","26":"NA","27":"NA","28":"1","29":"NA","30":"NA","31":"NA","32":"NA","33":"1","34":"NA","35":"NA","36":"NA","37":"NA","_rn_":"UNINTEGRATED|g__Asaccharobacter.s__Asaccharobacter_celatus"},{"1":"1","2":"1","3":"NA","4":"1","5":"1","6":"1","7":"1","8":"1","9":"1","10":"1","11":"1","12":"1","13":"1","14":"1","15":"1","16":"1","17":"1","18":"NA","19":"1","20":"1","21":"NA","22":"NA","23":"1","24":"1","25":"1","26":"1","27":"NA","28":"1","29":"NA","30":"NA","31":"1","32":"NA","33":"1","34":"1","35":"1","36":"1","37":"1","_rn_":"UNINTEGRATED|g__Bacteroides.s__Bacteroides_ovatus"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
   </script>
 </div>
-Sample gene family abundance file
+<p>Sample gene family abundance file</p>
 <div data-pagedtable="false">
 <script data-pagedtable-source type="application/json">
 {"columns":[{"label":[""],"name":["_rn_"],"type":[""],"align":["left"]},{"label":["Gene-Family"],"name":[1],"type":["chr"],"align":["left"]},{"label":["9-MDCOL062-Stool-1A-Baseline-BSB-2-4-1-3"],"name":[2],"type":["dbl"],"align":["right"]}],"data":[{"1":"UNMAPPED","2":"1987609.00","_rn_":"1"},{"1":"UniRef90_A5ZYV3","2":"19139.59","_rn_":"2"},{"1":"UniRef90_A5ZYV3|g__Blautia.s__Blautia_obeum","2":"19139.59","_rn_":"3"},{"1":"UniRef90_U3JBQ2","2":"15087.70","_rn_":"4"},{"1":"UniRef90_U3JBQ2|g__Eggerthella.s__Eggerthella_lenta","2":"15087.70","_rn_":"5"},{"1":"UniRef90_A0A174PA28","2":"13552.05","_rn_":"6"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
   </script>
 </div>
-Combined gene family abundances of all samples in a dataset
+<p>Combined gene family abundances of all samples in a dataset</p>
 <div data-pagedtable="false">
 <script data-pagedtable-source type="application/json">
 {"columns":[{"label":[""],"name":["_rn_"],"type":[""],"align":["left"]},{"label":["1-MDcol002-5-2"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["11-MDCol002-label-12-on-bottle"],"name":[2],"type":["dbl"],"align":["right"]},{"label":["14-MDCOL003-Stool-1B-Baseline-BSB-2-4-1-4"],"name":[3],"type":["dbl"],"align":["right"]},{"label":["15-MDcol004-3-1-pretreat"],"name":[4],"type":["dbl"],"align":["right"]},{"label":["17-MDCOL006-3-1A"],"name":[5],"type":["dbl"],"align":["right"]},{"label":["19-MDCOL006-3-2A"],"name":[6],"type":["dbl"],"align":["right"]},{"label":["21-MDCOL006-2-pre-chemo-A"],"name":[7],"type":["dbl"],"align":["right"]},{"label":["23-MDcol033-1A"],"name":[8],"type":["dbl"],"align":["right"]},{"label":["25-MDcol036-1A"],"name":[9],"type":["dbl"],"align":["right"]},{"label":["27-MDcol025-1B"],"name":[10],"type":["dbl"],"align":["right"]},{"label":["28-7A-1-1"],"name":[11],"type":["dbl"],"align":["right"]},{"label":["29-7A"],"name":[12],"type":["dbl"],"align":["right"]},{"label":["3-MDcol002-5-1"],"name":[13],"type":["dbl"],"align":["right"]},{"label":["30-8B"],"name":[14],"type":["dbl"],"align":["right"]},{"label":["31-8B"],"name":[15],"type":["dbl"],"align":["right"]},{"label":["33-6-2"],"name":[16],"type":["dbl"],"align":["right"]},{"label":["36-40-1B"],"name":[17],"type":["dbl"],"align":["right"]},{"label":["38-S-Swanson"],"name":[18],"type":["dbl"],"align":["right"]},{"label":["40-MDCol002-7-43"],"name":[19],"type":["dbl"],"align":["right"]},{"label":["42-51-1B"],"name":[20],"type":["dbl"],"align":["right"]},{"label":["45-MDCOL005-1B"],"name":[21],"type":["dbl"],"align":["right"]},{"label":["46-MDCOL015-1a"],"name":[22],"type":["dbl"],"align":["right"]},{"label":["48-MDCOL039-1a"],"name":[23],"type":["dbl"],"align":["right"]},{"label":["5-MDCOL055-Stool-1A-Baseline-BSB-2-4-1-2"],"name":[24],"type":["dbl"],"align":["right"]},{"label":["50-MDCOL027-1a"],"name":[25],"type":["dbl"],"align":["right"]},{"label":["52-MDCOL021-1b"],"name":[26],"type":["dbl"],"align":["right"]},{"label":["54-MDCOL028-1b"],"name":[27],"type":["dbl"],"align":["right"]},{"label":["60-MDcol006-4-1A"],"name":[28],"type":["dbl"],"align":["right"]},{"label":["63-MDcol003-3-2"],"name":[29],"type":["dbl"],"align":["right"]},{"label":["65-MDCOL003-Post-Chemo-Collection-Cycle-1-A"],"name":[30],"type":["dbl"],"align":["right"]},{"label":["66-MDCOL004-1A"],"name":[31],"type":["dbl"],"align":["right"]},{"label":["68-MDCOL003-3-1-Before-Chemo-2-3A"],"name":[32],"type":["dbl"],"align":["right"]},{"label":["7-MDCOL058-Stool-1A-Baseline-BSB-2-4-1-3"],"name":[33],"type":["dbl"],"align":["right"]},{"label":["70-MDCOL004-3-2-Post-Chemo-A"],"name":[34],"type":["dbl"],"align":["right"]},{"label":["72-MDCOL003-4-1-4A-Before-Chemo-6"],"name":[35],"type":["dbl"],"align":["right"]},{"label":["75-MDCOL053-1-1-1-Unknown"],"name":[36],"type":["dbl"],"align":["right"]},{"label":["9-MDCOL062-Stool-1A-Baseline-BSB-2-4-1-3"],"name":[37],"type":["dbl"],"align":["right"]}],"data":[{"1":"2364890.000","2":"2374486.000","3":"1.685473e+06","4":"2462301.0000","5":"1570111.000","6":"1791726.000","7":"2.798869e+06","8":"1.816065e+06","9":"2.876898e+06","10":"2.535351e+06","11":"2736361.000","12":"1980954.000","13":"3126697.000","14":"1105105.000","15":"2514157.000","16":"1998210.000","17":"3434720.00","18":"3.951244e+06","19":"3609851.0000","20":"2458377.000","21":"2.619226e+06","22":"2508626","23":"2.862189e+06","24":"1285450.000","25":"2.569471e+06","26":"1332322.0000","27":"1.875517e+06","28":"2136531.000","29":"1172962.000","30":"1440999","31":"274343.0000","32":"1264276","33":"972296.000","34":"97034.00000","35":"1170687.000","36":"1578382.0000","37":"1987609.0000","_rn_":"UNMAPPED"},{"1":"55247.258","2":"43582.089","3":"NA","4":"12391.8543","5":"NA","6":"NA","7":"NA","8":"1.139728e+01","9":"3.411955e+02","10":"9.803922e+00","11":"74789.702","12":"46810.359","13":"60087.977","14":"25387.917","15":"21054.698","16":"14323.268","17":"78682.87","18":"4.437334e+01","19":"478.7466","20":"39347.805","21":"NA","22":"NA","23":"1.139754e+00","24":"33282.631","25":"NA","26":"NA","27":"NA","28":"NA","29":"NA","30":"NA","31":"2498.5665","32":"NA","33":"18282.472","34":"1436.54015","35":"1885.541","36":"1906.2450","37":"NA","_rn_":"UniRef90_A0A174NA57"},{"1":"55247.258","2":"43582.089","3":"NA","4":"12391.8543","5":"NA","6":"NA","7":"NA","8":"NA","9":"NA","10":"NA","11":"74789.702","12":"46810.359","13":"60087.977","14":"25387.917","15":"21054.698","16":"14323.268","17":"78682.87","18":"NA","19":"NA","20":"39347.805","21":"NA","22":"NA","23":"NA","24":"33282.631","25":"NA","26":"NA","27":"NA","28":"NA","29":"NA","30":"NA","31":"2498.5665","32":"NA","33":"18282.472","34":"1436.54015","35":"1885.541","36":"1906.2450","37":"NA","_rn_":"UniRef90_A0A174NA57|g__Bacteroides.s__Bacteroides_uniformis"},{"1":"49394.382","2":"31559.493","3":"1.546558e+01","4":"6052.5065","5":"5697.658","6":"629.729","7":"1.730327e+04","8":"1.754432e+04","9":"1.683431e+04","10":"6.165756e+03","11":"34024.889","12":"29657.473","13":"38175.660","14":"21139.826","15":"14503.126","16":"6942.182","17":"56618.00","18":"3.114029e+03","19":"41862.4500","20":"45337.774","21":"1.742780e+04","22":"NA","23":"2.077782e+03","24":"30051.222","25":"8.392341e+02","26":"811.9280","27":"1.006431e+01","28":"7466.442","29":"1801.322","30":"NA","31":"1859.1191","32":"NA","33":"10674.200","34":"225.24666","35":"4092.577","36":"1064.6096","37":"1216.1845","_rn_":"UniRef90_A0A395VRV3"},{"1":"25032.358","2":"7825.126","3":"NA","4":"2456.2799","5":"NA","6":"NA","7":"7.697973e+00","8":"8.162051e+03","9":"1.683046e+04","10":"6.164478e+03","11":"17735.630","12":"15926.570","13":"9597.700","14":"10124.156","15":"6558.171","16":"3888.373","17":"13359.20","18":"NA","19":"22803.9210","20":"24467.937","21":"NA","22":"NA","23":"1.541726e+03","24":"13688.100","25":"8.490451e+01","26":"NA","27":"NA","28":"NA","29":"NA","30":"NA","31":"909.3233","32":"NA","33":"4420.353","34":"102.72230","35":"NA","36":"171.7574","37":"199.1944","_rn_":"UniRef90_A0A395VRV3|g__Bacteroides.s__Bacteroides_ovatus"},{"1":"8720.539","2":"5414.094","3":"NA","4":"823.7582","5":"NA","6":"NA","7":"NA","8":"NA","9":"4.744231e-01","10":"6.428122e-01","11":"5423.871","12":"4748.206","13":"6431.994","14":"2733.621","15":"2147.991","16":"1008.496","17":"10429.88","18":"1.426303e+03","19":"9008.1536","20":"6390.123","21":"1.037072e+01","22":"NA","23":"1.107623e+02","24":"5555.746","25":"1.747656e+02","26":"259.6574","27":"NA","28":"NA","29":"NA","30":"NA","31":"236.6618","32":"NA","33":"2055.383","34":"49.84632","35":"NA","36":"255.1828","37":"208.3316","_rn_":"UniRef90_A0A395VRV3|g__Bacteroides.s__Bacteroides_vulgatus"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
   </script>
-</div>
 </div>
 </div>
 
